@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+  
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>collation_Balzac</title>
+        <author>Clara GROMETTO</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+            Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
+            <p>Copyright 2013 TEI Consortium.</p>
+            <p>All rights reserved.</p>
+            <p>Redistribution and use in source and binary forms, with or without modification, are
+              permitted provided that the following conditions are met:</p>
+            <list>
+              <item>Redistributions of source code must retain the above copyright notice, this list
+                of conditions and the following disclaimer.</item>
+              <item>Redistributions in binary form must reproduce the above copyright notice, this
+                list of conditions and the following disclaimer in the documentation and/or other
+                materials provided with the distribution.</item>
+            </list>
+            <p>This software is provided by the copyright holders and contributors "as is" and any
+              express or implied warranties, including, but not limited to, the implied warranties
+              of merchantability and fitness for a particular purpose are disclaimed. In no event
+              shall the copyright holder or contributors be liable for any direct, indirect,
+              incidental, special, exemplary, or consequential damages (including, but not limited
+              to, procurement of substitute goods or services; loss of use, data, or profits; or
+              business interruption) however caused and on any theory of liability, whether in
+              contract, strict liability, or tort (including negligence or otherwise) arising in any
+              way out of the use of this software, even if advised of the possibility of such
+              damage.</p>
+          </licence>
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the <ref target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created from scratch by James Cummings, but looking at previous tei_minimal and tei_bare
+          exemplars by SPQR and LR.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="RomaJS" version="1.0.0" when="2024-02-05T20:15:18.685Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+      <appInfo>
+        <application ident="RomaJS" version="1.0.0" when="2024-02-06T08:22:16.676Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+    <appInfo><application ident="RomaJS" version="1.0.0" when="2024-02-06T09:34:03.366Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>A Minimal TEI Customization</head>
+
+      <p>This TEI ODD defines a TEI customization that is as minimal as possible and the schema
+        generated from it will validate a document that is minimally valid against the TEI scheme.
+        It includes only the ten required elements: <list rend="numbered">
+          <item><gi>teiHeader</gi> from the header module to store required metadata</item>
+          <item><gi>fileDesc</gi> from the header module to record information about this
+            file</item>
+          <item><gi>titleStmt</gi> from the header module to record information about the
+            title</item>
+          <item><gi>publicationStmt</gi> from the header module to detail how it is published</item>
+          <item><gi>sourceDesc</gi> from the header module to record where it is from</item>
+          <item><gi>p</gi> from the core module for use in the header and the body</item>
+          <item><gi>title</gi> from the core module for use in the titleStmt</item>
+          <item><gi>TEI</gi> from the textstructure module because what is a TEI file without
+            that?</item>
+          <item><gi>text</gi> from the textstructure module to hold some text</item>
+          <item><gi>body</gi> from the textstructure module as a place to put that text</item>
+        </list>
+      </p>
+      <schemaSpec ident="Balzac_custom" start="TEI" prefix="tei_" targetLang="en" docLang="en">
+
+        <!-- required minimal header elements -->
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc biblFull edition editionStmt idno revisionDesc segmentation principal encodingDesc profileDesc editorialDecl availability projectDesc creation abstract"/>
+
+        <!-- required core elements (p and title for use in titleStmt) -->
+        <moduleRef key="core" include="p title author bibl biblScope biblStruct editor head hi imprint list milestone monogr name note orig pb ptr publisher pubPlace resp respStmt ref date item analytic lb"/>
+
+        <!-- required textstructure elements (TEI, text, and body) -->
+        <moduleRef key="textstructure" include="TEI text body"/>
+
+        <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
+        <moduleRef key="tei"/>
+
+
+        <moduleRef key="linking" include="ab"/>
+        <moduleRef key="namesdates" include="addName country forename genName geogName listPerson listPlace listRelation occupation org orgName persName person personGrp place placeName region relation settlement surname nameLink"/>
+        <moduleRef key="textcrit" include="app lem listWit rdg witDetail witness witEnd witStart variantEncoding"/>
+        <moduleRef key="transcr" include="facsimile"/>
+        <moduleRef key="msdescription" include="msPart msName msItemStruct msItem msIdentifier msFrag msDesc msContents origDate origPlace"/>
+        <moduleRef key="corpus" include="particDesc settingDesc"/>
+
+        <elementSpec ident="body" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+        </elementSpec>
+
+        <elementSpec ident="milestone" mode="change"> 
+          <constraintSpec scheme="schematron" ident="milestoneToLb" mode="add"> 
+            <constraint>
+              <s:rule context="tei:TEI//tei:body//tei:*[./tei:milestone]">
+                <s:assert test="./tei:milestone/following-sibling::tei:lb">
+                  Un élément &lt;milestone&gt; doit être suivi par un &lt;lb/&gt;</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="unit" mode="change">
+              <desc>L'unité signifiante utilisée pour décrire le changement / le type de changement ayant lieu</desc>
+              <valList mode="replace" type="closed">
+                <valItem ident="tei:p">
+                  <desc>Cette valeur sert à indiquer un changement de paragraphe. On aura privilégié son utilisation à celle de &lt;p&gt;, qui complique l'alignement des témoins.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="title" mode="change">
+          <classes mode="change">
+            <memberOf key="att.canonical" mode="delete"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="ab" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"/>
+            <memberOf key="att.fragmentable" mode="delete"/>
+            <memberOf key="att.written" mode="delete"/>
+          </classes>
+              <constraintSpec scheme="schematron" ident="abN" mode="add">
+                    <constraint>
+                          <s:rule context="tei:TEI//tei:body//tei:ab">
+                                <s:assert test="@n and matches(@n, '^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')">
+                                      L'élément &lt;ab&gt; doit avoir un attribut @n
+                                      qui est un chiffre romain</s:assert>
+                          </s:rule>
+                    </constraint>
+              </constraintSpec>
+              <constraintSpec scheme="schematron" ident="abCorresp" mode="add">
+                    <constraint>
+                          <s:pattern>
+                                <s:rule context="tei:TEI//tei:body//tei:ab/@corresp">
+                                      <s:let name="corresp" value="@corresp"/>
+                                      <s:let name="corresps" value="for $c in tokenize(., '\s+') return substring-after($c, '#')"/>
+                                      <s:assert test="every $corresp in $corresps satisfies $corresp = //tei:TEI//tei:listWit//@xml:id">
+                                            Chaque référence dans l'attribut @corresp doit correspondre à l'identifiant d'un &lt;witness&gt; dans le &lt;sourceDesc&gt;.
+                                      </s:assert>
+                                </s:rule>
+                          </s:pattern>
+                    </constraint>
+              </constraintSpec>
+          <attList>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="type" mode="change">
+              <desc>Description de l'unité encodée</desc>
+              <valList mode="change" type="closed">
+                <valItem ident="collation2to2">
+                  <desc>Chaque unité est un texte romanesque comparé à son antécédent médiatique</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="corresp" mode="change"> 
+              <desc xml:lang="fr"> L'attribut @corresp contient les références aux @xml:id des témoins encodés</desc> 
+              <datatype minOccurs="1" maxOccurs="2">
+                <dataRef key="teidata.pointer"/> 
+              </datatype>
+            </attDef>
+          </attList>
+          
+        </elementSpec>
+        
+        <elementSpec ident="addName" mode="change">
+          <desc>sert à encoder un composant de nom
+            additionnel, tel qu'un surnom, un épithète, ou un alias, ou toute autre expression
+            descriptive utilisée dans un nom.</desc>
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.personal" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="type" mode="change">
+              <desc>Caractérise le composant
+                additionnel.</desc>
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="honorific">
+                  <desc>Ajout de marque(s) formelle(s) de
+                    respect.</desc>
+                </valItem>
+                <valItem mode="add" ident="occupation">
+                  <desc>Ajout de la mention de l'occupation
+                    de la personne.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="app" mode="change">
+              <classes mode="change">
+                    <memberOf key="att.global" mode="delete"/>
+                    <memberOf key="att.typed" mode="delete"/>
+              </classes>
+          <content>
+            <sequence>
+              <elementRef key="lem" minOccurs="0" maxOccurs="1"/>
+              <elementRef key="rdg" minOccurs="0"
+                maxOccurs="1"/>
+            </sequence>
+          </content>
+          
+          <attList>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="loc" mode="delete"/>
+            <attDef ident="corresp" usage="req">
+              <desc>Caractérise la variation entre les deux témoins dans les deux blocs de texte
+                parallèles encodés dans l'élément &lt;app&gt;.</desc>
+              <datatype minOccurs="1" maxOccurs="unbounded">
+                <dataRef name="string"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="#orth">
+                  <desc>différence orthographique</desc>
+                </valItem>
+                <valItem ident="#sentence-order">
+                  <desc>différence dans l'ordre des mots dans un bloc de texte, ou déplacement de
+                    termes dans la phrase</desc>
+                </valItem>
+                <valItem ident="#punct">
+                  <desc>différences orthographiques</desc>
+                </valItem>
+                <valItem ident="#word-diff">
+                  <desc>des mots différents sont utilisés dans un même bloc de texte dans les deux
+                    témoins</desc>
+                </valItem>
+                <valItem ident="#add-words">
+                  <desc>un témoin présente un ou plusieurs mots qui ne se trouvent pas dans
+                    l'autre</desc>
+                </valItem>
+                <valItem ident="#text-segmentation">
+                  <desc>la séparation du texte en paragraphes et pages est différente d'un témoin à
+                    l'autre</desc>
+                </valItem>
+                <valItem ident="#attenuation">
+                  <desc>a différence va dans le sens de l'atténuation, de la version antérieure à la
+                    version postérieure.</desc>
+                </valItem>
+                <valItem ident="#expressif">
+                  <desc>la différence va dans le sens de l'emphase, de la version antérieure à la
+                    version postérieure</desc>
+                </valItem>
+                <valItem ident="#general">
+                  <desc>la différence va vers la généralisation, de la version antérieure à la
+                    version postérieure</desc>
+                </valItem>
+                <valItem ident="#particulier">
+                  <desc>la différence va vers la particularisation, de la version antérieure à la
+                    version postérieure</desc>
+                </valItem>
+                <valItem ident="#syntax">
+                  <desc>la différence est d'ordre syntaxique (conjugaison, passage de la seconde à
+                    la troisième personne...)</desc>
+                </valItem>
+                <valItem ident="#parole">
+                  <desc>différence dans la prise de parole des personnages (notamment rajout de
+                    verbe de parole)</desc>
+                </valItem>
+                <valItem ident="#rend">
+                  <desc>différence typographique significative</desc>
+                </valItem>
+                <valItem ident="#place-diff">
+                  <desc>changement dans la dénomination d'un lieu.</desc>
+                </valItem>
+                <valItem ident="#persname-diff">
+                  <desc>changement dans la dénomination d'une personne.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="author" mode="change">
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="lem" mode="change">
+              <classes mode="change">
+                    <memberOf key="att.global" mode="delete"/>
+                    <memberOf key="att.textCritical" mode="delete"/>
+              </classes>
+          <constraintSpec scheme="schematron" ident="lemWit" mode="add">
+            <constraint>
+              <s:pattern>
+                <s:rule context="tei:TEI//tei:body//tei:lem">
+                  <s:let name="temoin" value="substring-after(@wit, '#')"/>
+                  <s:assert test="@wit and $temoin = //tei:TEI//tei:sourceDesc//tei:witness[1]/@xml:id">
+                    L'attribut @wit de l'élément &lt;lem&gt; doit référencer le @xml:id du premier &lt;witness&gt; du &lt;sourceDesc&gt;
+                </s:assert>
+              </s:rule>
+              </s:pattern>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="wit" mode="change" usage="req">
+              <desc>fait référence à l'identifiant du lem
+                défini dans le &lt;sourceDesc&gt; du &lt;teiHeader&gt;.</desc>
+            </attDef>
+            <attDef ident="hand" mode="delete"/>
+          </attList>
+          
+        </elementSpec>
+        
+        <elementSpec ident="witness" mode="change">
+        <constraintSpec ident="witnessId" scheme="schematron" mode="add"> 
+          <constraint> 
+            <s:pattern> 
+              <s:rule context="tei:TEI//tei:sourceDesc/tei:listWit/tei:witness">
+                <s:assert test="./@xml:id"> l'élément &lt;wit&gt; doit avoir un @xml:id </s:assert> 
+              <s:assert test="matches(@xml:id, '^[A-Z0-9]{1,5}$')"> L'attribut @xml:id est une suite de majuscules et de nombres, 5 maximum et en tout. </s:assert> 
+              </s:rule>
+            </s:pattern> 
+          </constraint> 
+        </constraintSpec>
+        </elementSpec>
+        
+        <elementSpec ident="persName" mode="change">
+              <classes mode="change">
+                    <memberOf key="att.global.responsibility"/>
+                    <memberOf key="att.datable" mode="delete"/>
+                    <memberOf key="att.global" mode="delete"/>
+                    <!--<memberOf key="att.global.responsibility"/>-->
+                    <memberOf key="att.datable" mode="delete"/>
+                    <memberOf key="att.editLike" mode="delete"/>
+              </classes>
+              <constraintSpec ident="placeNameRef" scheme="schematron" mode="add"> 
+                    <constraint>
+                          <s:pattern>
+                                <s:rule context="tei:TEI//tei:body//tei:persName">
+                                      <s:let name="ref" value="substring-after(@ref, '#')"/>
+                                      <s:assert test="@ref and $ref = //tei:TEI//tei:particDesc//tei:listPerson//*/@xml:id">
+                                            la valeur @ref du &lt;persName&gt; doit être renseignée (dans le &lt;body&gt; seulement)
+                                            et correspondre à un @xml:id d'un élément &lt;person&gt; déclaré dans le &lt;particDesc&gt;
+                                      </s:assert>
+                                </s:rule>
+                          </s:pattern>
+                    </constraint>
+              </constraintSpec>
+          <attList>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            
+            <attDef ident="cert" mode="change">
+              <desc>Estimation du degré de certitude pour l'identification de la personne ou du
+                personnage à une dénomination.</desc>
+            </attDef>
+            <attDef ident="resp" mode="change">
+              <desc>Responsabilité de l'identification de l'entité réelle ou fictive à une
+                dénomination, notamment de l'alignement des dénominations textuelle et
+                contemporaine.</desc>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <desc>Indique le type de dénomination, il peut y avoir plusieurs dénominations en parallèle dans un même élément &lt;person&gt;.</desc>
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="text-name">
+                  <desc>La dénomination encodée dans l'élément &lt;persName&gt; est celle utilisée
+                    dans le texte</desc>
+                </valItem>
+                <valItem mode="add" ident="contemporary-name">
+                  <desc>La dénomination encodée dans l'élément &lt;persName&gt; est celle permettant une identification de l'entité à l'heure actuelle.</desc>
+                </valItem>
+                <valItem mode="add" ident="occupation-name">
+                  <desc>Le personnage ou la personne est désigné par son occupation</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="ref" mode="change">
+              <desc>Renvoie à l'identifiant de la notice du
+                pesonnage.</desc>
+            </attDef>
+            <attDef ident="xml:id" usage="opt">
+              <datatype>
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
+          
+        </elementSpec>
+        
+        <elementSpec ident="person" mode="change">
+          <attList>
+            <attDef ident="role" mode="change">
+              <desc>Spécifie s'il s'agit d'une personne réelle ou d'un personnage</desc>
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="real">
+                  <desc>La notice concerne une personne réelle</desc>
+                </valItem>
+                <valItem mode="add" ident="fictional">
+                  <desc>La notice concerne un personnage de fiction</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="xml:id" mode="change" usage="req">
+              <desc>L'attribut @xml:id donne à la personne ou au personnage concerné par la notice un identifiant unique</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="personGrp" mode="change">
+          <attList>
+            <attDef ident="role" mode="change">
+              <valList mode="add" type="open">
+                <valItem ident="convive"/>
+              </valList>
+            </attDef>
+            <attDef ident="age" mode="delete"/>
+            <attDef ident="size" mode="delete"/>
+            <attDef ident="xml:id" mode="change" usage="req"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="place" mode="change">
+          <classes mode="change">
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="xml:id" mode="change" usage="req">
+              <desc>Il fournit un identifiant unique au lieu dont il est question</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="placeName" mode="change">
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.global.responsibility"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+              <constraintSpec ident="refPlaceName" scheme="schematron" mode="add"> 
+                    <constraint>
+                          <s:pattern>
+                                <s:rule context="tei:TEI//tei:body//tei:placeName">
+                                      <s:let name="ref" value="substring-after(@ref, '#')"/>
+                                      <s:assert test="@ref and $ref = //tei:TEI//tei:settingDesc//tei:place/@xml:id">
+                                            la valeur @ref du &lt;placeName&gt; doit être renseignée
+                                            et correspondre à l'@xml:id d'un élément &lt;place&gt; déclaré dans le &lt;settingDesc&gt;
+                                      </s:assert>
+                                </s:rule>
+                          </s:pattern>
+                    </constraint>
+              </constraintSpec>
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="ref" mode="change">
+              <desc>Renvoie à l'identifiant de la notice du lieu.</desc>
+            </attDef>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="cert" mode="change">
+              <desc>Indique le degré de certitude de
+                l'association du lieu cité à une autre dénomination.</desc>
+            </attDef>
+            <attDef ident="resp" mode="change">
+              <desc>mention de responsablité de l'alignement
+                du lieu cité avec une dénomination qui n'est pas celle employée dans le
+                texte.</desc>
+            </attDef>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="type" mode="change" usage="rec">
+              <desc>Permet un alignement entre la dénomination textuelle et la dénomination contemporaine du lieu.</desc>
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="text-name">
+                  <desc>La dénomination encodée dans l'élément &lt;placeName&gt; est celle employée
+                    dans le texte.</desc>
+                </valItem>
+                <valItem mode="add" ident="contemporary-name">
+                  <desc>La dénomination encodée dans l'élément &lt;placeName&gt; est celle employée
+                    aujourd'hui.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+          
+        </elementSpec>
+        
+        <elementSpec ident="rdg" mode="change">
+          <constraintSpec scheme="schematron" ident="rdgWit" mode="add"> <!-- règle contraignant l'usage d'un attribut et ses valeurs -->
+            <constraint>
+              <s:rule context="tei:TEI//tei:rdg">
+                <s:let name="temoin" value="substring-after(@wit, '#')"/>
+                <s:assert test="./@wit and ./@wit[not(contains(., '#F'))] and $temoin = //tei:TEI//tei:sourceDesc//tei:witness/@xml:id">
+                  L'élément &lt;rdg&gt; doit contenir un @wit.
+                  La valeur de cet attribut ne peut pas contenir '#F'
+                  La valeur de cet attribut doit renvoyer au @xml:id d'un &lt;witness&gt; du &lt;sourceDesc&gt;</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="wit" mode="change" usage="req">
+              <desc>Contient un identifiant qui renvoie au témoin auquel correspond le texte encodé dans les balises
+                &lt;rdg&gt;</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="settlement" mode="change">
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.global.linking"/>
+<!--            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>-->
+          </classes>
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="ref" mode="change">
+              <desc>fait référence à la valeur du @xml:id d'un élément &lt;place&gt;</desc>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList mode="add" type="closed">
+                <valItem ident="town"/>
+                <valItem ident="region"/>
+                <valItem ident="dpt"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="relation" mode="change">
+          <classes mode="change">
+            <memberOf key="att.canonical" mode="delete"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.editLike" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.sortable" mode="delete"/>
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+              <constraintSpec scheme="schematron" ident="relationMutual" mode="add">
+                    <constraint>
+                          <s:pattern>
+                                <s:rule context="@mutual">
+                                      <s:let name="mutual" value="@mutual"/>
+                                      <s:let name="partics" value="for $p in tokenize(., '\s+') return substring-after($p, '#')"/>
+                                      <s:assert test="every $mutual in $partics satisfies $mutual = //tei:TEI//tei:particDesc/tei:listPerson/tei:person/@xml:id">
+                                            Chaque référence dans l'attribut @mutual doit correspondre à l'identifiant d'une &lt;person&gt; dans le &lt;listPerson&gt; du &lt;particDesc&gt;
+                                      </s:assert>
+                                </s:rule>
+                          </s:pattern>
+                    </constraint>
+              </constraintSpec>
+          <attList>
+            <attDef ident="name" mode="change">
+              <desc>Caractérisation de la relation entre deux
+                instances, ici des personnes ou personnages.</desc>
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="married">
+                  <desc>deux personnages sont mariés</desc>
+                </valItem>
+                <valItem mode="add" ident="friend">
+                  <desc>deux personnages sont amis</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="mutual" mode="change">
+              <desc>Renvoie à l'identifiant des participants à
+                une relation mutuelle.</desc>
+              <datatype minOccurs="1" maxOccurs="unbounded">
+                <dataRef key="teidata.pointer"/> 
+              </datatype>
+            </attDef>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+          </attList>
+          
+        </elementSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
