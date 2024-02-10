@@ -741,7 +741,7 @@
         </elementSpec>
         
         <elementSpec ident="rdg" mode="change">
-          <constraintSpec scheme="schematron" ident="rdgWit" mode="add"> <!-- règle contraignant l'usage d'un attribut et ses valeurs -->
+          <constraintSpec scheme="schematron" ident="rdgWit" mode="add"> 
             <constraint>
               <s:rule context="tei:TEI//tei:rdg">
                 <s:let name="temoin" value="substring-after(@wit, '#')"/>
