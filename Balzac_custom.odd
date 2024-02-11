@@ -898,10 +898,12 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="wit" mode="change" usage="req">
               <desc>fait référence à l'identifiant du lem
                 défini dans le &lt;sourceDesc&gt; du &lt;teiHeader&gt;.</desc>
+                <datatype minOccurs="1" maxOccurs="1">
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
             </attDef>
             <attDef ident="hand" mode="delete"/>
           </attList>
-
         </elementSpec>
 
         <elementSpec ident="witness" mode="change">
@@ -1042,7 +1044,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
         <elementSpec ident="personGrp" mode="change">
           <attList>
             <attDef ident="role" mode="change">
-              <valList mode="add" type="open">
+              <valList mode="add" type="semi">
                 <valItem ident="convive"/>
               </valList>
             </attDef>
