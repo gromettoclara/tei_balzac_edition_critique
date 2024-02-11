@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
 
-
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>collation_Balzac</title>
-        <author>Clara GROMETTO</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>TEI Consortium</publisher>
-        <availability status="free">
-          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
-            Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
-          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
-            <p>Copyright 2013 TEI Consortium.</p>
-            <p>All rights reserved.</p>
-            <p>Redistribution and use in source and binary forms, with or without modification, are
-              permitted provided that the following conditions are met:</p>
-            <list>
-              <item>Redistributions of source code must retain the above copyright notice, this list
-                of conditions and the following disclaimer.</item>
-              <item>Redistributions in binary form must reproduce the above copyright notice, this
-                list of conditions and the following disclaimer in the documentation and/or other
-                materials provided with the distribution.</item>
-            </list>
-            <p>This software is provided by the copyright holders and contributors "as is" and any
-              express or implied warranties, including, but not limited to, the implied warranties
-              of merchantability and fitness for a particular purpose are disclaimed. In no event
-              shall the copyright holder or contributors be liable for any direct, indirect,
-              incidental, special, exemplary, or consequential damages (including, but not limited
-              to, procurement of substitute goods or services; loss of use, data, or profits; or
-              business interruption) however caused and on any theory of liability, whether in
-              contract, strict liability, or tort (including negligence or otherwise) arising in any
-              way out of the use of this software, even if advised of the possibility of such
-              damage.</p>
-          </licence>
-          <p>TEI material can be licensed differently depending on the use you intend to make of it.
-            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
-            generally appropriate for usages which treat TEI content as data or documentation. The
-            BSD-2 licence is generally appropriate for usage of TEI content in a software
-            environment. For further information or clarification, please contact the <ref target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Created from scratch by James Cummings, but looking at previous tei_minimal and tei_bare
-          exemplars by SPQR and LR.</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <appInfo>
-        <application ident="RomaJS" version="1.0.0" when="2024-02-05T20:15:18.685Z">
-          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
-        </application>
-      </appInfo>
-      <appInfo>
-        <application ident="RomaJS" version="1.0.0" when="2024-02-06T08:22:16.676Z">
-          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
-        </application>
-      </appInfo>
-    <appInfo><application ident="RomaJS" version="1.0.0" when="2024-02-06T09:34:03.366Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
-  </teiHeader>
   <teiHeader>
      <fileDesc>
         <titleStmt>
@@ -76,9 +16,14 @@
            <date when-iso="2024-02-29" type="date-de-rendu">29 février 2024</date>
         </publicationStmt>
         <sourceDesc>
-           <p>Schéma créé avec Roma.</p>
+           <p>Schéma créé avec Roma, et par ajout en partant d'un schéma TEI minimal.</p>
         </sourceDesc>
      </fileDesc>
+     <encodingDesc>
+       <appInfo>
+         <application ident="RomaJS" version="1.0.0" when="2024-02-05T20:15:18.685Z">
+           <desc>Fichier édité avec <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+         </application>
   </teiHeader>
   <text>
      <body>
@@ -585,6 +530,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
               </p>
            </div2>
         </div1>
+        <div1>
       <schemaSpec ident="Balzac_custom" start="TEI" prefix="tei_" targetLang="en" docLang="en">
 
         <!-- required minimal header elements -->
@@ -1041,6 +987,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="ref" mode="change">
               <desc>Renvoie à l'identifiant de la notice du
                 pesonnage.</desc>
+                <datatype minOccurs="0" maxOccurs="1">
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
             </attDef>
             <attDef ident="xml:id" usage="opt">
               <datatype>
@@ -1181,6 +1130,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="key" mode="delete"/>
             <attDef ident="ref" mode="change">
               <desc>Renvoie à l'identifiant de la notice du lieu.</desc>
+              <datatype minOccurs="1" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
             </attDef>
             <attDef ident="role" mode="delete"/>
             <attDef ident="nymRef" mode="delete"/>
@@ -1204,6 +1156,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
               <desc>mention de responsablité de l'alignement
                 du lieu cité avec une dénomination qui n'est pas celle employée dans le
                 texte.</desc>
+                <datatype minOccurs="1" maxOccurs="unbounded">
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
             </attDef>
             <attDef ident="rend" mode="delete"/>
             <attDef ident="style" mode="delete"/>
@@ -1259,6 +1214,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="wit" mode="change" usage="req">
               <desc>Contient un identifiant qui renvoie au témoin auquel correspond le texte encodé dans les balises
                 &lt;rdg&gt;</desc>
+                <datatype minOccurs="1" maxOccurs="unbounded">
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
             </attDef>
           </attList>
         </elementSpec>
@@ -1275,6 +1233,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="nymRef" mode="delete"/>
             <attDef ident="ref" mode="change">
               <desc>fait référence à la valeur du @xml:id d'un élément &lt;place&gt;</desc>
+              <datatype minOccurs="1" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
             </attDef>
             <attDef ident="type" mode="change">
               <valList mode="add" type="closed">
@@ -1310,7 +1271,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
               </constraintSpec>
           <attList>
             <attDef ident="name" mode="change">
-              <desc>Caractérisation de la relation entre deux
+              <desc>Caractérise la relation entre deux
                 instances, ici des personnes ou personnages.</desc>
               <valList type="closed" mode="change">
                 <valItem mode="add" ident="married">
@@ -1367,6 +1328,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
         </elementSpec>
 
       </schemaSpec>
+    </div1>
     </body>
   </text>
 </TEI>
