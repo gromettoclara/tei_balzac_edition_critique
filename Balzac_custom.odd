@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI [
+<!ENTITY caro "Caroline">
+<!ENTITY susp "...">
+<!ENTITY fe "femme">
+<!ENTITY ho "homme">
+<!ENTITY doc "docteur">
+<!ENTITY tiret "-">]>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
 
   <teiHeader>
@@ -13,7 +22,7 @@
               <note>ODD réalisée à partir de Roma, éditeur d'ODD en ligne développé par le TEI Consortium.</note>
            </publisher>
            <pubPlace>Paris, France</pubPlace>
-           <date when-iso="2024-02-29" type="date-de-rendu">29 février 2024</date>
+           <date when="2024-02-29" type="date-de-rendu">29 février 2024</date>
         </publicationStmt>
         <sourceDesc>
            <p>Schéma créé avec Roma, et par ajout en partant d'un schéma TEI minimal.</p>
@@ -24,6 +33,8 @@
          <application ident="RomaJS" version="1.0.0" when="2024-02-05T20:15:18.685Z">
            <desc>Fichier édité avec <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
          </application>
+         </appInfo>
+       </encodingDesc>
   </teiHeader>
   <text>
      <body>
@@ -32,7 +43,7 @@
               trois passages issus de la dernière version vérifiée par l'auteur comparée à leurs antécédents publiés dans la presse.</head>
            <div2>
               <head>Présentation du projet</head>
-              <p>Ce projet est une proposition d'encodage numérique d'extraits de la <hi rend="italic">Comédie Humaine</hi> de Balzac à l'aide de la <hi rend="italic"><orgName><ref target="https://www.tei-c.org">Text Encoding Initiative</ref></orgName></hi>.
+              <p>Ce projet est une proposition d'encodage numérique d'extraits de la <hi rend="italic">Comédie Humaine</hi> de Balzac à l'aide de la <hi rend="italic"><orgName><ref target="https://www.tei-c.org">Text Encoding Initiative</ref></orgName></hi>.</p>
               <p>Cette documentation a pour but d'expliquer comment a été encodée en XML-TEI cette édition critique génétique, ainsi que les objectifs de ce schéma. Cette ODD présente des principes d'encodage dans le but de produire un document exploitable scientifiquement.</p>
               <p>La comparaison de textes consiste à identifier les différences entre deux textes ou plus, en les comparant directement les uns aux autres. Cette technique est utilisée dans un large éventail de disciplines scientifiques où le texte est impliqué : en informatique pour suivre les modifications dans le code ; en jurisprudence pour identifier les modifications pertinentes des lois ou contrats ; même en bioinformatique pour aligner des séquences d'ADN (bien que l'ADN ne soit pas littéralement du texte) - pour donner quelques exemples. La collation de textes est ainsi une technique utilisée en critique textuelle, visant dans ce cadre à retracer la genèse et l'histoire des textes. En tant que sous-discipline, l'étude de la genèse textuelle se concentre sur le processus de création d'une œuvre textuelle.</p>
               <p>Cet encodage propose une étude édition critique et génétique des extraits choisis des textes de Balzac, mis en parallèle avec leurs ébauches publiées en revue. Cet encodage vise à offrir une vision analytique de l'influence de la production journalistique balzacienne sur l'œuvre romanesque. Cet encodage sera exploitable sur un plan littéraire : la typification des variante pourra permettre une évaluation quantitative des variations entre l'œuvre littéraire fragmentaire et feuilletonnante, et l'œuvre littéraire parachevée.</p>
@@ -42,19 +53,19 @@
                     <item>trois extraits de la dernière version des romans de la Comédie Humaine qui soit vérifiée par l'auteur, encodée en XML-TEI par le projet eBalzac et issue d'une rétroconversion.</item>
                     <item> trois témoins qui se présentent comme des ébauches de ses passages, issus des journaux <hi rend="italic">Le Constitutionnel</hi> et <hi rend="italic">La Revue des deux Mondes</hi>.</item></list></p>
               <p>Les trois couples de témoins sont encodés en segmentation parrallèle (<gloss>collation des différentes version d'un textes faite en les mettant en parrallèle dans le corps du document ; toutes les variantes en tout point du texte sont exprimées comme des variantes les unes des autres</gloss>). L'apparat est présenté en négatif (<gloss></gloss>). </p><!-- ici ?????????????? -->
-              <p>Grâce à l'encodage déjà réalisé et à la présente ODD qui documente le projet et la méthode à suivre pour la collation, il est possible de compléter l'encodage par l'ajout d'autres extraits de l'œuvre balzacienne dont on aurait trouvé des antécédents dans des textes non littéraires du XIXe siècle. On identifie notamment des traité de médecine comme source et inspiration de Balzac. Œuvre monde qui multiplie les connections et les liens (en son sein et vers son extérieur), la Comédie Humaine se présente comme un texte privilégié pour l'édition numérique et comme un hypertexte avant la lettre. Cette édition, et celles qui pourront suivre éventuellement, ont pour objectif d'articuler le monde médiatique, le monde scientifique et le monde littéraire, matérialisant l'intertextualité foisonnate inhérente au texte.</p>
+              <p>Grâce à l'encodage déjà réalisé et à la présente ODD qui documente le projet et la méthode à suivre pour la collation, il est possible de compléter l'encodage par l'ajout d'autres extraits de l'œuvre balzacienne dont on aurait trouvé des antécédents dans des textes non littéraires du XIXe siècle. On identifie notamment des traité de médecine comme source et inspiration de Balzac. Œuvre monde qui multiplie les connections et les liens (en son sein et vers son extérieur), la Comédie Humaine se présente comme un texte privilégié pour l'édition numérique et comme un hypertexte avant la lettre. Cette édition, et celles qui pourront suivre éventuellement, ont pour objectif d'articuler le monde médiatique, le monde scientifique et le monde littéraire, matérialisant l'intertextualité foisonnate inhérente au texte.</p></div2>
               <div2>
                  <head>Présentation du corpus</head>
 <div3>
                     <head>Les extraits de la <hi rend="italic">Comédie Humaine</hi></head>
-                    <p>mettre des persName, des dates et éventuellement des ref targer presentation :
-                    <list type="index">
+                    
+                    <list>
                        <item>Physiologie du <persName>Petit Mercier</persName>, préambule de l'histoire de <bibl xml:id="fyo"><hi rend="italic">La Fille aux yeux d’or</hi></bibl>, troisième et dernier épisode de <bibl><hi rend="italic">l’Histoire des Treize</hi></bibl>.</item>
                        <item>Un extrait de la première partie ("Le Talisman") de <bibl xml:id="pdc"><hi rend="italic">La Peau de chagrin</hi></bibl> : Raphaël et Émile se rendent chez <persName>Talleyrand</persName>, le banquier qui finance leur journal. Cynique, Balzac décrit cette petite société dépourvue de repères moraux.</item>
                        <item><bibl xml:id="pmv"><hi rend="italic">Petites Misères de la vie conjugales</hi></bibl> se compose d'une série de sketches burlesques centrés autour des deux figures types d'un jeune ménage bourgeois, <persName>Adolphe</persName> et <persName>Caroline</persName>. Les fragments donnés comme un ensemble conservent les marques de leur passage par des journaux et des recueils en vogue. On utilisera le passage de la consultation chez le médecin.</item>
                     </list>
-                    </p>
-                 <p>Le texte des trois témoins du Furne Corrigé ont été établis et encodés en XML-TEI par <orgName> <ref target="https://www.ebalzac.com/">eBalzac</ref></orgName>. Ce
+
+                 <p>Le texte des trois témoins du Furne Corrigé ont été établis et encodés en XML-TEI par <ref target="https://www.ebalzac.com/">eBalzac</ref>. Ce
                     site est issu d'un projet inter-universitaire dirigé par <persName>Jean-Gabriel Ganascia</persName>, <persName>Andrea Del Lungo</persName> et <persName>Pierre Glaudes</persName>.</p>
                     <p>eBalzac propose une nouvelle édition de La Comédie humaine dans la version du « Furne corrigé ». Conforme à l’orthographe d’époque, respectueuse du dernier classement des œuvres voulu par Balzac, cette édition électronique corrige plusieurs erreurs des éditions « papier » du xxe siècle. Elle a pour ambition d’être aussi fidèle que possible au fac-similé de l’exemplaire de Balzac.</p>
                  <p>Pour ce projet, <ref target="https://github.com/ebalzac/FC">l'édition XML-TEI établie par <orgName>eBalzac</orgName></ref> a été rétroconvertie en .txt grâce à un <ref target="https://github.com/anisrfd/Convert-XML-to-PandasDataFrame-CSV-TextFile/blob/master/XMLtoTXT.ipynb">script Python</ref> puis convertis en UTF-8 en ligne de commade.</p>
@@ -97,14 +108,14 @@
                          <item><gi>titleStmt</gi></item>
                          <item><gi>publicationStmt</gi></item>
                          <item><gi>sourceDesc</gi></item>
-                      </list>
+                      </list></p>
                    <div5>
                       <head>Les éléments <hi rend="italic">titleStmt</hi> et <hi rend="italic">publicationStmt</hi></head>
                       <p><gi>titleStmt</gi> donne :
                       <list><item>le titre  la présente édition</item>
                       <item>des renseignements sur les documents sur lesquels se basent cette édition (c'est-à-dire des extraits de la Comédie Humaine de Balzac)</item>
                       <item>des renseignements sur la présente édition numérique : titre et nature (édition critique et génétique, extraits choisis) le contexte éditorial, ses responsables ainsi que les institutions partenaires, au sein de plusieurs <gi>respStmt</gi>.
-                      <eg>
+                        <eg xmlns="http://www.tei-c.org/ns/Examples">
                          <respStmt>
                             <resp>Sélection, alignement des témoins et édition en ligne par</resp>
                             <persName xml:id="cg">
@@ -126,7 +137,7 @@
                           Les témoins sont de nature diverses et doivent donc être décrits de manières différentes, selon qu'ils sont extraits d'un objet littéraire édité ou d'un objet autre (en l'occurence, médiatique).</p>
                        <p>La déclaration d'un identifiant, grâce à l'attribut <att>xml:id</att> de l'élément <gi>witness</gi>, permet de se référer aux témoins encodés en couples.</p>
                        <p>Le premier élément <gi>biblFull</gi> contient les informations relatives à l'édition de la Comédie Humaine de eBalzac rétroconvertie dans ce travail.</p>
-                       L'intérêt du <gi>biblFull</gi> est d'autoriser la description d'une référence bibliographique à l'aide de tous les composants du fichier TEI (<gi>editionStmt</gi> <gi>extent</gi> <gi>fileDesc</gi> <gi>notesStmt</gi> <gi>profileDesc</gi> <gi>publicationStmt</gi> <gi>seriesStmt</gi> <gi>sourceDesc</gi> <gi>titleStmt</gi>), description qui sera de fait très complète. En son sein, on peut donc insérer des <gi>bibl</gi>. Les éléments relatifs aux sources de eBalzac sont donc contenues dans ces <gi>bibl</gi>. On ne prélèvera que celles dont sont issues nos extraits choisis dans la Comédie Humaine.</p>
+                       <p>L'intérêt du <gi>biblFull</gi> est d'autoriser la description d'une référence bibliographique à l'aide de tous les composants du fichier TEI (<gi>editionStmt</gi> <gi>extent</gi> <gi>fileDesc</gi> <gi>notesStmt</gi> <gi>profileDesc</gi> <gi>publicationStmt</gi> <gi>seriesStmt</gi> <gi>sourceDesc</gi> <gi>titleStmt</gi>), description qui sera de fait très complète. En son sein, on peut donc insérer des <gi>bibl</gi>. Les éléments relatifs aux sources de eBalzac sont donc contenues dans ces <gi>bibl</gi>. On ne prélèvera que celles dont sont issues nos extraits choisis dans la Comédie Humaine.</p>
                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                              <bibl>
                                 <title type="main">La Comédie Humaine</title>
@@ -160,7 +171,7 @@
                        </egXML>
                        <p>Dans l'exemple ci-dessus, la balise <gi>author</gi> indique en valeur d'attribut <att>corresp</att> un identifiant renvoyant à Balzac, afin de retranscrire le nom du signataire de manière diplomatique tout en faisant le lien entre l'auteur et ses alias.</p>
                        <p>L'élément <gi>monogr</gi> contient des données bibliographiques décrivant un objet (ici la revue) publié comme un élément indépendant (matériellement séparé).</p>
-                       <egXML xmlns="http://www.tei-c.org/ns/Examples"><biblStruct>
+                       <egXML xmlns="http://www.tei-c.org/ns/Examples">
                        <monogr>
                           <title level="j">La Caricature morale, politique et littéraire</title>
                           <imprint>
@@ -172,7 +183,7 @@
                        </monogr>
                        </egXML>
 
-                   </div5>
+                   </div5></div4>
                    <div4> <head> Les références extérieures</head>
                    <p>Une attention particulière aura été portée aux liens vers des notices d'autorité extérieures et vers la numériation des documents sources. </p>
 <p>Dans un souci de précision, il a été choisi de différencier la source physique du document et sa numérisation. Comme l'encodage est réalisé à partir d'une numérisation en ligne, il sera alors nécessaire d'indiquer où se trouve cette numérisation. La balise <gi>note</gi> contient des informations sur la numérisation qui a été consultée. Les éléments <gi>ref</gi>, grâce aux attribut <att>facs</att> et <att>targets</att>, donnent accès aux institutions responsables de la numérisation des images et à l'interface de visualisation des documents. Cela permet de mettre en relation l'encodage avec la source dans l'état où elle a été étudiée, et d'aller le consulter en ligne si nécessaire.</p>
@@ -197,13 +208,13 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                        <item><gi>particDesc</gi></item>
                     </list>
                     <div5><head>Les éléments <hi rend="italic">creation</hi> et <hi rend="italic">abstract</hi> :</head>
-                       <p>Le <gi>creation</gi> contient des informations relatives à la genèse de la Comédie Humaine. </item>
-                       <p>L'élément <gi>abstract</gi> spécifie, en prose, l'intérêt de la présente édition au vu de la génétique de l'œuvre balzacienne. </p>
+                       <p>Le <gi>creation</gi> contient des informations relatives à la genèse de la Comédie Humaine. </p>
+                       <p>L'élément <gi>abstract</gi> spécifie, en prose, l'intérêt de la présente édition au vu de la génétique de l'œuvre balzacienne. </p></div5>
                      <div5> <head> Le <hi rend="italic">particDesc</hi> :</head>
-                       <p>Le <gi>particDesc</gi> contient des informations sur les personnages apparaissant dans l'encodage. Il a deux balises filles : <specList>
+                       <p>Le <gi>particDesc</gi> contient des informations sur les personnages apparaissant dans l'encodage. Il a deux balises filles : <list>
                           <item><gi>listPerson</gi></item>
                           <item><gi>listRelation</gi></item>
-                       </specList></p>
+                       </list></p>
                        <p>Le <gi>listPerson</gi> contient les notices de tous les noms de personnages apparaissant dans la transcription. Chacune des notices possède un identifiant unique (<att>xml:id</att>) vers lequel pointer à chacune de leur apparitions dans le texte. <gi>person</gi> permet alors d'encadrer toutes les informations concernant un individu. <gi>person</gi> possède en outre un attribut <att>role</att> pouvant prendre les valeurs <val>real</val> ou <val>fictional</val> pour indiquer s'il s'agit d'une personne réelle ou d'un personnage fictionnel. Cette balise contient :
                        <list>
                        <item>Le nom des personnes et personnage dans la balise <gi>persName</gi>. Le nom peut éventuellement être donné sous plusieurs formes :
@@ -231,7 +242,6 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
 
                                   <item>Un élément <gi>app</gi> sert à encoder les différentes appellations des personnages d'un témoin à l'autre, s'il y a variation.
                                   <eg xmlns="http://www.tei-c.org/ns/Examples">
-                                     <exemplum>
                                        <person xml:id="femme" role="fictional">
                                           <persName type="text-name">
                                              <app corresp="#word-diff #particulier">
@@ -245,9 +255,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                           </persName>
                                         </person>
                                   </eg>
-                                  <item></list>
+                                  </item></list></item>
                        <item>Un élément <gi>note</gi> donne des informations bibliographiques sur la personne ou le personnage, son rôle réel ou au sein de la fiction.</item>
-                     </list>
+                     </list></p>
                      <p>Le <gi>persName</gi> pourra se décliner en <gi>forename</gi> <gi>surname</gi> <gi>addname</gi> <gi>rolename</gi> ou encore <gi>name</gi>. À ces sous-groupes du nom pourra être ajouté un <att>type</att> (<val>occupation-name</val> ou <val>honorific</val>).</p>
 
                      <p>Pour les besoins du projet, il est important de distinguer les noms de personnes des noms de lieux, mais il est aussi et surtout essentiel de lever toute ambiguïté entre les références aux entités nommées. Cela explique l'emploi d'un tel ensemble de balises dans le <gi>particDesc</gi>, ainsi que l'encodage des entités nommées faisant référence au <att>xml:id</att> avec l'attribut <att>ref</att> pour associer différentes dénominations d'une entité avec les données la concernant, et donc lever tout ambiguïté. <!--lien vers partie texte--> </p>
@@ -256,7 +266,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                          <personGrp xml:id="convive" role="invités" sex="masculin"/>
                      </egXML>
 
-                       <p>La liste des relations entre les personnages se trouve dans un <gi>listRelation</gi>.</p> <!-- l'utilisation des balises, des attributs et le svaleurs possibles sont documentées dans la présente ODD <specDesc key="relation"/>.-->
+                       <p>La liste des relations entre les personnages se trouve dans un <gi>listRelation</gi>.</p> <!-- l'utilisation des balises, des attributs et les valeurs possibles sont documentées dans la présente ODD <specDesc key="relation"/>.--></div5>
 
                           <div5> <head> Le <hi rend="italic">settingDesc</hi> : </head>
                           <p>Enfin, le <gi>settingDesc</gi> permet de décrire les lieux mentionnés dans l'extrait, dans un
@@ -274,13 +284,13 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                              </egXML>
                         </div5>
                         <div5><head>Intérêt génétique et critique de la présence de ces notices de lieux et de personnages : </head>
-                        <p>Les notices du <gi>particDesc</gi> et du <gi>settingDesc</gi> permettent de relier les personnages et les lieux cités dans les textes avec le niveau supérieur de l'œuvre : <bibl><hi rend="italique">La Comédie Humaine</hi></bibl>, et ce afin d'observer la création du réseau complexe des protagnonistes et des intrigues revenant d'un roman à l'autre. Elle témoignent des processus de construction narrative de Balzac, soulignant la richesse de son univers littéraire. Elles permettent en outre de constater la manière dont Balzac puise son inspiration dans le réel, multipliant les références à des lieux ou des personnes ayant réellement existé. Ces notices ne servent donc pas seulement à la sémantisation de l'encodage, mais fonctionnent aussi comme des clés d'entrée dans l'intrigue balzacienne.</<p>
+                        <p>Les notices du <gi>particDesc</gi> et du <gi>settingDesc</gi> permettent de relier les personnages et les lieux cités dans les textes avec le niveau supérieur de l'œuvre : <bibl><hi rend="italique">La Comédie Humaine</hi></bibl>, et ce afin d'observer la création du réseau complexe des protagnonistes et des intrigues revenant d'un roman à l'autre. Elle témoignent des processus de construction narrative de Balzac, soulignant la richesse de son univers littéraire. Elles permettent en outre de constater la manière dont Balzac puise son inspiration dans le réel, multipliant les références à des lieux ou des personnes ayant réellement existé. Ces notices ne servent donc pas seulement à la sémantisation de l'encodage, mais fonctionnent aussi comme des clés d'entrée dans l'intrigue balzacienne.</p>
                         </div5>
                  </div4>
               </div3>
               <div3>
                  <head>Le <gi>text</gi> : ses états successifs alignés : </head>
-                 <p>L'élément <gi>text</gi> contient le corps des extraits encodés. Ils sont contenus dans un <gi>ab</gi>, un conteneur qui a été choisi car il n'a pas de valeur sémantique, ni de valeur structurante pour le texte (contrairement à <gi>p</gi>), mais qui peut contenir directement du texte (contrairement à <gi>div</gi> ).
+                 <p>L'élément <gi>text</gi> contient le corps des extraits encodés. Ils sont contenus dans un <gi>ab</gi>, un conteneur qui a été choisi car il n'a pas de valeur sémantique, ni de valeur structurante pour le texte (contrairement à <gi>p</gi>), mais qui peut contenir directement du texte (contrairement à <gi>div</gi> ).</p>
                  <p>Ce <gi>ab</gi> prend un attribut <att>type</att> qui donne une version courte du titre ainsi qu'un attribut <att>n</att> qui numérote les couples alignés.</p>
                     <egXML xmlns="http://www.tei-c.org/ns/Examples">.
                        <body>
@@ -318,13 +328,13 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                     <head>Identifier des témoins :</head>
                     <p>Grâce à <ref target="https://collatex.net/"><orgName>Collatex</orgName></ref>, le texte dans les balises <gi>lem</gi> et <gi>rdg</gi> est reliée à la source de la transcription grâce à l'attribut <att>wit</att>. Trois valeurs sont possibles :
                     <list>
-                       <item><val><hi rend="bold">#F</hi></val> : l'identifiant du <bibl>Furne Corrigé</bibl>.</item>
-                       <item><val><hi rend="bold">#C</hi></val> : l'identifiant du <bibl>Constitutionnel du 16 décembre 1831 ("Le Petit Mercier")</bibl></item>
-                       <item><val><hi rend="bold">#C2</hi></val> : l'identifiant <bibl>Constitutionnel du 11 Novembre 1831 ("Une débauche")</bibl>.</item>
-                       <item><val><hi rend="bold">#R2M</hi></val> : l'identifiant de la <bibl>Revue des deux Mondes</bibl></item>
+                       <item><val>#F</val> : l'identifiant du <bibl>Furne Corrigé</bibl>.</item>
+                       <item><val>#C</val> : l'identifiant du <bibl>Constitutionnel du 16 décembre 1831 ("Le Petit Mercier")</bibl></item>
+                       <item><val>#C2</val> : l'identifiant <bibl>Constitutionnel du 11 Novembre 1831 ("Une débauche")</bibl>.</item>
+                       <item><val>#R2M</val> : l'identifiant de la <bibl>Revue des deux Mondes</bibl></item>
                     </list>
                     Ces valeurs font référence à l'attribut <att>xml:id</att> des témoins, qui est donné dans les éléments <gi>witness</gi> du <gi>teiHeader</gi> (/TEI/teiHeader/fileDesc/sourceDesc/listWit/witness/@xml:id).</p>
-                    <<p> Des règles schematron ont été rédigées pour identifier les témoins de référence sans ambiguité attribut <att>correspo<att> :<p>
+                    <p> Des règles schematron ont été rédigées pour identifier les témoins de référence sans ambiguité attribut <att>correspo</att> :</p>
                       <egXML xmlns="http://www.tei-c.org/ns/Examples">
                       <constraintSpec scheme="schematron" ident="rdgWit" mode="add">
                         <constraint>
@@ -337,8 +347,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                           </s:rule>
                         </constraint>
                       </constraintSpec>
-                     <egXLM>
-
+                      </egXML>
                   </div4>
                    <div4>
                      <head>Reprise de l'alignement : </head>
@@ -357,7 +366,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                      Bon&susp;</rdg>
                                </app>
                           </eg>
-                          Dans ce cas, l'attribut <att>corresp</att> porte la valeur générique <hi rend="bold">"word-diff"<hi>, et si le une des versions est quantitativement supérieure à l'autre, on pourra aussi rajouter la valeur "add-words".
+                          Dans ce cas, l'attribut <att>corresp</att> porte la valeur générique <hi rend="bold">"word-diff"</hi>, et si le une des versions est quantitativement supérieure à l'autre, on pourra aussi rajouter la valeur "add-words".
                         </item>
                           <item>Lorsque le déplacement d'un bloc de texte a une courte portée, les deux versions sont rassemblées dans un même élément &lt;app&gt; dont le <att>corresp</att> sera "sentence-order", considérant que la variation principale relève de l'inversion de l'ordre de deux groupes dans la phrase. Les autres types de variation venant affecter le bloc seront spécifiés car il est possible de multiplier les attributs <att>corresp</att>.
                           <eg xmlns="http://www.tei-c.org/ns/Examples">
@@ -371,7 +380,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                         </item>
                         <item>Si le déplacement du bloc de texte a une portée importante, on mettra plutôt l'accent sur les variations de termes, de personne, d'orthographes, qui sont plus signifiactives que les changements dans l'ordre de la phrase. Ainsi, le bloc ne sera pas encodée comme un élément entier dans un seul élément <gi>app</gi>, afin de de mettre en avant les différences terminologique, syntaxiques ou orthographiques. Le déplacement du terme sera alors considéré comme un ajout. Néanmoins, on signalera la présence de termes similaires grâce à la valeur d'attribut "sentence-order" de l'attribut <att>corresp</att> dans un <gi>app</gi> qui signale l'ajout. Dans l'exemple ci-dessous, par exemple, l'encodage met en avant une différence dans la structure de la phrase, mais aussi une variation pronominale importante qui indique un passage du discours au récit.
                            <eg xmlns="http://www.tei-c.org/ns/Examples">
-                             </app> Là, posé sur un fauteuil, comme un perroquet <app corresp="#add-words">
+                             Là, posé sur un fauteuil, comme un perroquet <app corresp="#add-words">
                                 <rdg wit="#C">vert</rdg>
                              </app> sur <app corresp="#pers-diff">
                                 <lem wit="#F">son</lem>
@@ -415,7 +424,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                   </app> lutrin
                               </eg>
                            </item>
-                         </list>
+                         </list></p>
                        </div4>
                      <div4>
                        <head>Traitement de la segmentation du texte : </head>
@@ -434,36 +443,35 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                        <head>Caractériser la différence entre le texte médiatique et le texte romanesque avec <att>corresp</att> : </head>
                        <p>L'attribut <att>corresp</att> permet de définir précisément le changement opéré dans le sens chronologique entre le témoin médiatique et le témoin romanesque dans les couples alignés. La valeur d'attribut porte un ou plusieurs "#" suivi(s) d'un identifiant faisant référence au <att>xml:id</att> que l'on trouve dans une liste de vocabulaire contrôlée dans le teiHeader (TEI/teiHeader/encodingDesc/editorialDecl/p[3]). Il est utilisé à la place du <att>type</att> (qui est préconisé par le <hi rend="italic"><orgName>TEI consortium</orgName></hi>) :
                        contrairement à <att>type</att>, <att>corresp</att> permet de fournir plusieurs valeurs et donc d'indiquer plusieurs différences au sein d'un même <gi>app</gi>.</p>
-                       <p>Nous avons repris la liste de vocabulaire du <ref target="https://github.com/paulhectork/tnah2021_xsl_rendu.git">projet d'édition critique des chroniques de Froissart<ref> et rajouté des valeurs possibles pour souligner les variations stylistiques.</p>
+                       <p>Nous avons repris la liste de vocabulaire du <ref target="https://github.com/paulhectork/tnah2021_xsl_rendu.git">projet d'édition critique des chroniques de Froissart</ref> et rajouté des valeurs possibles pour souligner les variations stylistiques.</p>
                        <p>La liste des valeurs possibles pour <att>corresp</att> est :
                        <list>
-                          <item><val><hi rend="bold">#orth</hi></val> : différence orthographique</item>
-                          <item><val><hi rend="bold">#punct</hi></val> : différence de ponctuation</item>
-                          <item><val><hi rend="bold">#sentence-order</hi></val> : différence dans l'ordre des mots dans un bloc de texte, ou déplacement de termes dans la phrase</item>
-                          <item><val><hi rend="bold">#word-diff</hi></val> : des mots différents sont utilisés dans un même bloc de texte dans les deux témoins</item>
-                          <item><val><hi rend="bold">#add-words</hi></val> : un témoin présente un ou plusieurs mots qui ne se trouvent pas dans l'autre</item>
-                          <item><val><hi rend="bold">#text-segmentation</hi></val> : la séparation du texte en paragraphes et pages est différente d'un témoin à l'autre</item>
-                          <item><val><hi rend="bold">#attenuation</hi></val> : la différence va dans le sens de l'atténuation, de la version antérieure à la version postérieure.</item>
-                          <item><val><hi rend="bold">#exepressif</hi></val> : la différence va dans le sens de l'emphase, de la version antérieure à la version postérieure.</item>
-                          <item><val><hi rend="bold">#general</hi></val> : la différence va vers la généralisation, de la version antérieure à la version postérieure.</item>
-                          <item><val><hi rend="bold">#particulier</hi></val> : la différence va vers la particularisation, de la version antérieure à la version postérieure.</item>
-                             <item><val><hi rend="bold">#syntax</hi></val> : la différence est d'ordre syntaxique (conjugaison, passage de la seconde à la troisième personne&susp;).</item>
-                          <item><val><hi rend="bold">#parole</hi></val> : différence dans la prise de parole des personnages (notamment rajout de verbe de parole).</item>
-                          <item><val><hi rend="bold">#rend</hi></val> : différence typographique significative.</item>
-                          <item><val><hi rend="bold">#place-diff</hi></val> : changement dans la dénomination d'un lieu.</item>
+                          <item><val>#orth</val> : différence orthographique</item>
+                          <item><val>#punct</val> : différence de ponctuation</item>
+                          <item><val>#sentence-order</val> : différence dans l'ordre des mots dans un bloc de texte, ou déplacement de termes dans la phrase</item>
+                          <item><val>#word-diff</val> : des mots différents sont utilisés dans un même bloc de texte dans les deux témoins</item>
+                          <item><val>#add-words</val> : un témoin présente un ou plusieurs mots qui ne se trouvent pas dans l'autre</item>
+                          <item><val>#text-segmentation</val> : la séparation du texte en paragraphes et pages est différente d'un témoin à l'autre</item>
+                          <item><val>#attenuation</val> : la différence va dans le sens de l'atténuation, de la version antérieure à la version postérieure.</item>
+                          <item><val>#exepressif</val> : la différence va dans le sens de l'emphase, de la version antérieure à la version postérieure.</item>
+                          <item><val>#general</val> : la différence va vers la généralisation, de la version antérieure à la version postérieure.</item>
+                          <item><val>#particulier</val> : la différence va vers la particularisation, de la version antérieure à la version postérieure.</item>
+                             <item><val>#syntax</val> : la différence est d'ordre syntaxique (conjugaison, passage de la seconde à la troisième personne&susp;).</item>
+                          <item><val>#parole</val> : différence dans la prise de parole des personnages (notamment rajout de verbe de parole).</item>
+                          <item><val>#rend</val> : différence typographique significative.</item>
+                          <item><val>#place-diff</val> : changement dans la dénomination d'un lieu.</item></list></p>
+                     <p>Comme on peut le voir dans l'exempe ci-dessous, les valeurs de l'attribut <att>corresp</att> êuvent être multipliées si les changements au sein du bloc relèvent de différentes catégories.</p>
                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                             <exemplum>
                                <app corresp="#punct #attenuation #text-segmentation">
                                   <lem wit="#F">.</lem>
                                   <rdg wit="#C">!&susp; <milestone unit="tei:p"/><lb/></rdg>
-                               </app>
-                            </exemplum>
+                               </app>   
                           </egXML>
-                       </list></p>
+
                    </div3>
                    <div3>
                        <head>Encodage sémantique : balisage des noms de personnages et de lieux :</head>
-                       <p>Au sein de l'encodage, quand il est mention d'un personnage, il encodé dans la balise <gi>persName</gi></p>. Cet attribut prend comme valeur un "#" suivi d'un identifiant faisant référence au <att>xml:id</att> définit dans les <gi>person</gi> du <gi>particDesc</gi>, dans le <gi>teiHeader</gi> (/TEI/teiHeader/profileDesc/particDesc/listPerson/person/@xml:id)). L'élément est utilisé à chaque fois qu'il est fait mention d'un personnage, et pas seulement quand le personnage est nommé. En construisant les notices de personnes et personnages, il s'est alors posé la question de ce qui les déinit comme tel. Dans un souci de cohérence de l'encodage, il a été décidé d'encoder toutes les mentions de personnes dans des <gi>persName</gi> ; cependant les individus qui ne possèdent ni rôle identifié dans la fiction ou la réalité, ni une personnalité assez définie, seront référencés par un <gi>persGroup</gi> dans le <gi>listPerson</gi>, et ce même si les termes employés diffèrent d'un témoin à l'autre. C'est le cas de la longue liste de convives qui entourent Raphaël et Émile dans "Une Débauche" (/TEI/text/ab[@n=2]).</p>
+                       <p>Au sein de l'encodage, quand il est mention d'un personnage, il encodé dans la balise <gi>persName</gi>. Cet attribut prend comme valeur un "#" suivi d'un identifiant faisant référence au <att>xml:id</att> définit dans les <gi>person</gi> du <gi>particDesc</gi>, dans le <gi>teiHeader</gi> (/TEI/teiHeader/profileDesc/particDesc/listPerson/person/@xml:id)). L'élément est utilisé à chaque fois qu'il est fait mention d'un personnage, et pas seulement quand le personnage est nommé. En construisant les notices de personnes et personnages, il s'est alors posé la question de ce qui les déinit comme tel. Dans un souci de cohérence de l'encodage, il a été décidé d'encoder toutes les mentions de personnes dans des <gi>persName</gi> ; cependant les individus qui ne possèdent ni rôle identifié dans la fiction ou la réalité, ni une personnalité assez définie, seront référencés par un <gi>persGroup</gi> dans le <gi>listPerson</gi>, et ce même si les termes employés diffèrent d'un témoin à l'autre. C'est le cas de la longue liste de convives qui entourent Raphaël et Émile dans "Une Débauche" (/TEI/text/ab[@n=2]).</p>
                          <egXML xmlns="http://www.tei-c.org/ns/Examples">
                               <persName ref="#convives">un jeune &ho; politique</persName> récemment tombé de la
                               tribune sans se faire aucun mal.<app corresp="#text-segmentation">
@@ -502,18 +510,18 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                        <head>Rendu des propriétés typographiques : </head>
                        <p>Les italiques et les petites capitales ont été rendues par la balises <gi>hi</gi>, et si leur présence produit une nouvelle variante, l'attribut <att>corresp</att> de l'<gi>app</gi> portera la valeur <val>#rend</val>.</p>
                      </div3>
-              </div3>
+
            </div2>
            <div2>
               <head>Avantages et raison d'être d'une édition critique et génétique numérique :</head>
               <p>La constitution d'une telle édition numérique offre plusieurs perspectives scientifiques et possibilités d'exploitation  :
                  <list>
 
-                    <item><emph rend="bold">La caractérisation des variations</hi> : grâce à l'attribut <att>corresp</att> ou placé sur les <gi>app</gi>, il est possible decaractériser les différents types de variations (syntaxiques, orthographiques, énonciation, termes d'adresse, etc.). Remettre en question d'un Balzac qui écrit vite et mal. Un travail de correction qui dénote une attention à la forme.</item>
+                    <item><hi rend="bold">La caractérisation des variations</hi> : grâce à l'attribut <att>corresp</att> ou placé sur les <gi>app</gi>, il est possible decaractériser les différents types de variations (syntaxiques, orthographiques, énonciation, termes d'adresse, etc.). Remettre en question d'un Balzac qui écrit vite et mal. Un travail de correction qui dénote une attention à la forme.</item>
 
                     <item>la collation automatique peut être considérablement plus rapide (du moins si tous les témoins sont déjà entièrement transcrits). Les philologues pourraient concentrer leur attention sur la sémantique et laisser la fastidieuse collation à la machine. Le temps et l'énergie économisés par la collation automatique peuvent être entièrement utilisés pour interpréter et affiner les résultats.</item>
 
-                    <item><emph rend="bold">Enrichissement de la présente édition</hi> : la présente ODD donne un cadre pour procéder à de nouveaux encodages. Articulation entre le monde médiatique, le monde scientifique et le monde littéraire. Paradigme d'édition hypertextuelle.</item>
+                    <item><hi rend="bold">Enrichissement de la présente édition</hi> : la présente ODD donne un cadre pour procéder à de nouveaux encodages. Articulation entre le monde médiatique, le monde scientifique et le monde littéraire. Paradigme d'édition hypertextuelle.</item>
 
                     <item>Le présent encodage peut en outre amélioré en lui apportant plus de précision scientifique : la liste des variations possibles pour un <gi>app</gi>, par exemple, peut être encore affinée. On pourra soit enrichir la liste des valeurs possible du <att>type</att> ou rajouter d'autres attributs.</item>
 
@@ -523,10 +531,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
 
                      <item><hi rend="bold">Analyses statistiques</hi>. Grâce au haut degré de précision et de caractérisation permis par un apparat critique en TEI, il est envisageable de mener une étude des textes
                              témoins (mesurer le nombre de mots qui diffèrent entre les témoins, quantifier la similitude entre les témoins... Levenshtein). Il est aussi possible d'étudier les types de variations, puisqu'elles
-                             ont étés caractérisées selon un vocabulaire contrôlé : on peut par exemple mesurer la proportion de chaque type de variation, ou voir quelle type de variation est la plus répandue. Il serait alors possible d'obtenir <emp rend="italic">in fine<emp> des données quantitatives sur le passage de la chronique journalistique au roman, et plus globalement sur le processus crétif de Balzac.</item>
+                             ont étés caractérisées selon un vocabulaire contrôlé : on peut par exemple mesurer la proportion de chaque type de variation, ou voir quelle type de variation est la plus répandue. Il serait alors possible d'obtenir <hi rend="italic">in fine</hi> des données quantitatives sur le passage de la chronique journalistique au roman, et plus globalement sur le processus crétif de Balzac.</item>
 
                        </list>
-                 </list>
               </p>
            </div2>
         </div1>
@@ -960,14 +967,22 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="from" mode="delete"/>
             <attDef ident="to" mode="delete"/>
 
-            <attDef ident="cert" mode="change">
+            <!--<attDef ident="cert" mode="change">
               <desc>Estimation du degré de certitude pour l'identification de la personne ou du
                 personnage à une dénomination.</desc>
-            </attDef>
+            </attDef>-->
             <attDef ident="resp" mode="change">
               <desc>Responsabilité de l'identification de l'entité réelle ou fictive à une
                 dénomination, notamment de l'alignement des dénominations textuelle et
                 contemporaine.</desc>
+              <datatype minOccurs="0" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#cg">
+                  <desc>L'encodeuse est responsable de l'alignement des dénomination dans la notice</desc>
+                </valItem>
+              </valList>
             </attDef>
             <attDef ident="type" mode="change">
               <desc>Indique le type de dénomination, il peut y avoir plusieurs dénominations en parallèle dans un même élément &lt;person&gt;.</desc>
@@ -993,11 +1008,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                   <dataRef key="teidata.pointer"/>
                 </datatype>
             </attDef>
-            <attDef ident="xml:id" usage="opt">
-              <datatype>
-                <dataRef key="teidata.pointer"/>
-              </datatype>
-            </attDef>
+            <attDef ident="xml:id" mode="change" usage="opt"/>
           </attList>
 
         </elementSpec>
@@ -1150,17 +1161,22 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="exclude" mode="delete"/>
             <attDef ident="select" mode="delete"/>
             <attDef ident="source" mode="delete"/>
-            <attDef ident="cert" mode="change">
+            <!--<attDef ident="cert" mode="change">
               <desc>Indique le degré de certitude de
                 l'association du lieu cité à une autre dénomination.</desc>
-            </attDef>
+            </attDef>-->
             <attDef ident="resp" mode="change">
               <desc>mention de responsablité de l'alignement
                 du lieu cité avec une dénomination qui n'est pas celle employée dans le
                 texte.</desc>
-                <datatype minOccurs="1" maxOccurs="unbounded">
-                  <dataRef key="teidata.pointer"/>
-                </datatype>
+              <datatype minOccurs="0" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#cg">
+                  <desc>L'encodeuse est responsable de l'alignement des dénomination dans la notice</desc>
+                </valItem>
+              </valList>
             </attDef>
             <attDef ident="rend" mode="delete"/>
             <attDef ident="style" mode="delete"/>
