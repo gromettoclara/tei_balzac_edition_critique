@@ -19,10 +19,10 @@
             <title type="sub">Extraits choisis</title>
             <title type="sub">Édition critique et génétique</title>
             <author ref="balzac">Balzac</author>
-            <principal>GROMETTO Clara</principal>
+            <principal xml:id="cg">GROMETTO Clara</principal>
             <respStmt>
                <resp>Sélection, alignement des témoins et édition en ligne par</resp>
-               <persName xml:id="cg">
+               <persName ref="#cg">
                   <forename>Clara</forename>
                   <surname>Grometto</surname>
                </persName>

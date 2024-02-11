@@ -568,7 +568,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
           </classes>
         </elementSpec>
 
-        <elementSpec ident="milestone" mode="change">
+        <elementSpec ident="milestone" mode="change"> <!-- règle contraignant l'enchaînement des éléments -->
           <constraintSpec scheme="schematron" ident="milestoneToLb" mode="add">
             <constraint>
               <s:rule context="tei:TEI//tei:body//tei:*[./tei:milestone]">
@@ -593,80 +593,35 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="type" mode="delete"/>
           </attList>
         </elementSpec>
-
-        <elementSpec ident="title" mode="change">
-          <classes mode="change">
-            <memberOf key="att.canonical" mode="delete"/>
-            <memberOf key="att.datable" mode="delete"/>
-            <memberOf key="att.global" mode="delete"/>
-          </classes>
-          <attList>
-            <attDef ident="calendar" mode="delete"/>
-            <attDef ident="when-custom" mode="delete"/>
-            <attDef ident="notBefore-custom" mode="delete"/>
-            <attDef ident="notAfter-custom" mode="delete"/>
-            <attDef ident="from-custom" mode="delete"/>
-            <attDef ident="to-custom" mode="delete"/>
-            <attDef ident="datingPoint" mode="delete"/>
-            <attDef ident="datingMethod" mode="delete"/>
-            <attDef ident="when-iso" mode="delete"/>
-            <attDef ident="notBefore-iso" mode="delete"/>
-            <attDef ident="notAfter-iso" mode="delete"/>
-            <attDef ident="from-iso" mode="delete"/>
-            <attDef ident="to-iso" mode="delete"/>
-            <attDef ident="when" mode="delete"/>
-            <attDef ident="notBefore" mode="delete"/>
-            <attDef ident="notAfter" mode="delete"/>
-            <attDef ident="from" mode="delete"/>
-            <attDef ident="to" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-          </attList>
-        </elementSpec>
-
-        <elementSpec ident="ab" mode="change">
+        
+        <elementSpec ident="ab" mode="change"> <!-- règle contraignant l'usage d'un attribut et de ces valeurs -->
           <classes mode="change">
             <memberOf key="att.declaring" mode="delete"/>
             <memberOf key="att.fragmentable" mode="delete"/>
             <memberOf key="att.written" mode="delete"/>
           </classes>
-              <constraintSpec scheme="schematron" ident="abN" mode="add">
-                    <constraint>
-                          <s:rule context="tei:TEI//tei:body//tei:ab">
-                                <s:assert test="@n and matches(@n, '^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')">
-                                      L'élément &lt;ab&gt; doit avoir un attribut @n
-                                      qui est un chiffre romain</s:assert>
-                          </s:rule>
-                    </constraint>
-              </constraintSpec>
-              <constraintSpec scheme="schematron" ident="abCorresp" mode="add">
-                    <constraint>
-                          <s:pattern>
-                                <s:rule context="tei:TEI//tei:body//tei:ab/@corresp">
-                                      <s:let name="corresp" value="@corresp"/>
-                                      <s:let name="corresps" value="for $c in tokenize(., '\s+') return substring-after($c, '#')"/>
-                                      <s:assert test="every $corresp in $corresps satisfies $corresp = //tei:TEI//tei:listWit//@xml:id">
-                                            Chaque référence dans l'attribut @corresp doit correspondre à l'identifiant d'un &lt;witness&gt; dans le &lt;sourceDesc&gt;.
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
-                    </constraint>
-              </constraintSpec>
+          <constraintSpec scheme="schematron" ident="abN" mode="add">
+            <constraint>
+              <s:rule context="tei:TEI//tei:body//tei:ab">
+                <s:assert test="@n and matches(@n, '^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')">
+                  L'élément &lt;ab&gt; doit avoir un attribut @n
+                  qui est un chiffre romain</s:assert>
+              </s:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec scheme="schematron" ident="abCorresp" mode="add">
+            <constraint>
+              <s:pattern>
+                <s:rule context="tei:TEI//tei:body//tei:ab/@corresp">
+                  <s:let name="corresp" value="@corresp"/>
+                  <s:let name="corresps" value="for $c in tokenize(., '\s+') return substring-after($c, '#')"/>
+                  <s:assert test="every $corresp in $corresps satisfies $corresp = //tei:TEI//tei:listWit//@xml:id">
+                    Chaque référence dans l'attribut @corresp doit correspondre à l'identifiant d'un &lt;witness&gt; dans le &lt;sourceDesc&gt;.
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
+            </constraint>
+          </constraintSpec>
           <attList>
             <attDef ident="synch" mode="delete"/>
             <attDef ident="sameAs" mode="delete"/>
@@ -721,43 +676,13 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
               </datatype>
             </attDef>
           </attList>
-
         </elementSpec>
-
-        <elementSpec ident="addName" mode="change">
-          <desc>sert à encoder un composant de nom
-            additionnel, tel qu'un surnom, un épithète, ou un alias, ou toute autre expression
-            descriptive utilisée dans un nom.</desc>
+        
+        <elementSpec ident="app" mode="change"> <!-- règle contraignant l'enchaînement des éléments et définition des valeurs du @corresp -->
           <classes mode="change">
             <memberOf key="att.global" mode="delete"/>
-            <memberOf key="att.global" mode="delete"/>
-            <memberOf key="att.personal" mode="delete"/>
+            <memberOf key="att.typed" mode="delete"/>
           </classes>
-          <attList>
-            <attDef ident="role" mode="delete"/>
-            <attDef ident="nymRef" mode="delete"/>
-            <attDef ident="type" mode="change">
-              <desc>Caractérise le composant
-                additionnel.</desc>
-              <valList type="closed" mode="change">
-                <valItem mode="add" ident="honorific">
-                  <desc>Ajout de marque(s) formelle(s) de
-                    respect.</desc>
-                </valItem>
-                <valItem mode="add" ident="occupation">
-                  <desc>Ajout de la mention de l'occupation
-                    de la personne.</desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-
-        <elementSpec ident="app" mode="change">
-              <classes mode="change">
-                    <memberOf key="att.global" mode="delete"/>
-                    <memberOf key="att.typed" mode="delete"/>
-              </classes>
           <content>
             <sequence>
               <elementRef key="lem" minOccurs="0" maxOccurs="1"/>
@@ -765,7 +690,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                 maxOccurs="1"/>
             </sequence>
           </content>
-
+          
           <attList>
             <attDef ident="from" mode="delete"/>
             <attDef ident="to" mode="delete"/>
@@ -836,38 +761,12 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="author" mode="change">
+        
+        <elementSpec ident="lem" mode="change"> <!-- règle contraignant les valeurs d'un attribut -->
           <classes mode="change">
-            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.textCritical" mode="delete"/>
           </classes>
-          <attList>
-            <attDef ident="calendar" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="role" mode="delete"/>
-            <attDef ident="nymRef" mode="delete"/>
-            <attDef ident="key" mode="delete"/>
-            <attDef ident="from" mode="delete"/>
-            <attDef ident="to" mode="delete"/>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-          </attList>
-        </elementSpec>
-
-        <elementSpec ident="lem" mode="change">
-              <classes mode="change">
-                    <memberOf key="att.global" mode="delete"/>
-                    <memberOf key="att.textCritical" mode="delete"/>
-              </classes>
           <constraintSpec scheme="schematron" ident="lemWit" mode="add">
             <constraint>
               <s:pattern>
@@ -875,8 +774,8 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                   <s:let name="temoin" value="substring-after(@wit, '#')"/>
                   <s:assert test="@wit and $temoin = //tei:TEI//tei:sourceDesc//tei:witness[1]/@xml:id">
                     L'attribut @wit de l'élément &lt;lem&gt; doit référencer le @xml:id du premier &lt;witness&gt; du &lt;sourceDesc&gt;
-                </s:assert>
-              </s:rule>
+                  </s:assert>
+                </s:rule>
               </s:pattern>
             </constraint>
           </constraintSpec>
@@ -906,49 +805,117 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="wit" mode="change" usage="req">
               <desc>fait référence à l'identifiant du lem
                 défini dans le &lt;sourceDesc&gt; du &lt;teiHeader&gt;.</desc>
-                <datatype minOccurs="1" maxOccurs="1">
-                  <dataRef key="teidata.pointer"/>
-                </datatype>
+              <datatype minOccurs="1" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
             </attDef>
             <attDef ident="hand" mode="delete"/>
           </attList>
         </elementSpec>
-
-        <elementSpec ident="witness" mode="change">
-        <constraintSpec ident="witnessId" scheme="schematron" mode="add">
-          <constraint>
-            <s:pattern>
-              <s:rule context="tei:TEI//tei:sourceDesc/tei:listWit/tei:witness">
-                <s:assert test="./@xml:id"> l'élément &lt;wit&gt; doit avoir un @xml:id </s:assert>
-              <s:assert test="matches(@xml:id, '^[A-Z0-9]{1,5}$')"> L'attribut @xml:id est une suite de majuscules et de nombres, 5 maximum et en tout. </s:assert>
+        
+        <elementSpec ident="rdg" mode="change"> <!-- règle contraignant les valeurs d'un attribut -->
+          <constraintSpec scheme="schematron" ident="rdgWit" mode="add">
+            <constraint>
+              <s:rule context="tei:TEI//tei:rdg">
+                <s:let name="temoin" value="substring-after(@wit, '#')"/>
+                <s:assert test="./@wit and ./@wit[not(contains(., '#F'))] and $temoin = //tei:TEI//tei:sourceDesc//tei:witness/@xml:id">
+                  L'élément &lt;rdg&gt; doit contenir un @wit.
+                  La valeur de cet attribut ne peut pas contenir '#F'
+                  La valeur de cet attribut doit renvoyer au @xml:id d'un &lt;witness&gt; du &lt;sourceDesc&gt;</s:assert>
               </s:rule>
-            </s:pattern>
-          </constraint>
-        </constraintSpec>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="wit" mode="change" usage="req">
+              <desc>Contient un identifiant qui renvoie au témoin auquel correspond le texte encodé dans les balises
+                &lt;rdg&gt;</desc>
+              <datatype minOccurs="1" maxOccurs="unbounded">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
         </elementSpec>
 
-        <elementSpec ident="persName" mode="change">
-              <classes mode="change">
-                    <memberOf key="att.global.responsibility"/>
-                    <memberOf key="att.datable" mode="delete"/>
-                    <memberOf key="att.global" mode="delete"/>
-                    <!--<memberOf key="att.global.responsibility"/>-->
-                    <memberOf key="att.datable" mode="delete"/>
-                    <memberOf key="att.editLike" mode="delete"/>
-              </classes>
-              <constraintSpec ident="placeNameRef" scheme="schematron" mode="add">
-                    <constraint>
-                          <s:pattern>
-                                <s:rule context="tei:TEI//tei:body//tei:persName">
-                                      <s:let name="ref" value="substring-after(@ref, '#')"/>
-                                      <s:assert test="@ref and $ref = //tei:TEI//tei:particDesc//tei:listPerson//*/@xml:id">
-                                            la valeur @ref du &lt;persName&gt; doit être renseignée (dans le &lt;body&gt; seulement)
-                                            et correspondre à un @xml:id d'un élément &lt;person&gt; déclaré dans le &lt;particDesc&gt;
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
-                    </constraint>
-              </constraintSpec>
+        <elementSpec ident="title" mode="change">
+          <classes mode="change">
+            <memberOf key="att.canonical" mode="delete"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="witness" mode="change"> <!-- règle contraignant la manière de construire le @xml:id des élements witness -->
+          <constraintSpec ident="witnessId" scheme="schematron" mode="add">
+            <constraint>
+              <s:pattern>
+                <s:rule context="tei:TEI//tei:sourceDesc/tei:listWit/tei:witness">
+                  <s:assert test="./@xml:id"> l'élément &lt;wit&gt; doit avoir un @xml:id </s:assert>
+                  <s:assert test="matches(@xml:id, '^[A-Z0-9]{1,5}$')"> L'attribut @xml:id est une suite de majuscules et de nombres, 5 maximum et en tout. </s:assert>
+                </s:rule>
+              </s:pattern>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        
+        <elementSpec ident="persName" mode="change"> <!-- règle contraignant l'usage d'un attribut et de ses valeurs en fonction du contexte -->
+          <classes mode="change">
+            <memberOf key="att.global.responsibility"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.editLike" mode="delete"/>
+          </classes>
+          <constraintSpec ident="placeNameRef" scheme="schematron" mode="add">
+            <constraint>
+              <s:pattern>
+                <s:rule context="tei:TEI//tei:body//tei:persName">
+                  <s:let name="ref" value="substring-after(@ref, '#')"/>
+                  <s:assert test="@ref and $ref = //tei:TEI//tei:particDesc//tei:listPerson//*/@xml:id">
+                    la valeur @ref du &lt;persName&gt; doit être renseignée (dans le &lt;body&gt; seulement)
+                    et correspondre à un @xml:id d'un élément &lt;person&gt; déclaré dans le &lt;particDesc&gt;
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
+            </constraint>
+          </constraintSpec>
           <attList>
             <attDef ident="when-iso" mode="delete"/>
             <attDef ident="notBefore-iso" mode="delete"/>
@@ -967,7 +934,6 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="notAfter" mode="delete"/>
             <attDef ident="from" mode="delete"/>
             <attDef ident="to" mode="delete"/>
-
             <!--<attDef ident="cert" mode="change">
               <desc>Estimation du degré de certitude pour l'identification de la personne ou du
                 personnage à une dénomination.</desc>
@@ -1005,121 +971,15 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="ref" mode="change">
               <desc>Renvoie à l'identifiant de la notice du
                 pesonnage.</desc>
-                <datatype minOccurs="0" maxOccurs="1">
-                  <dataRef key="teidata.pointer"/>
-                </datatype>
+              <datatype minOccurs="0" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
             </attDef>
             <attDef ident="xml:id" mode="change" usage="opt"/>
           </attList>
-
         </elementSpec>
-
-        <elementSpec ident="person" mode="change">
-          <attList>
-            <attDef ident="role" mode="change">
-              <desc>Spécifie s'il s'agit d'une personne réelle ou d'un personnage</desc>
-              <valList type="closed" mode="change">
-                <valItem mode="add" ident="real">
-                  <desc>La notice concerne une personne réelle</desc>
-                </valItem>
-                <valItem mode="add" ident="fictional">
-                  <desc>La notice concerne un personnage de fiction</desc>
-                </valItem>
-              </valList>
-            </attDef>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="xml:id" mode="change" usage="req">
-              <desc>L'attribut @xml:id donne à la personne ou au personnage concerné par la notice un identifiant unique</desc>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="personGrp" mode="change">
-          <attList>
-            <attDef ident="role" mode="change">
-              <valList mode="add" type="semi">
-                <valItem ident="convive"/>
-              </valList>
-            </attDef>
-            <attDef ident="age" mode="delete"/>
-            <attDef ident="size" mode="delete"/>
-            <attDef ident="xml:id" mode="change" usage="req"/>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-          </attList>
-        </elementSpec>
-
-        <elementSpec ident="place" mode="change">
-          <classes mode="change">
-            <memberOf key="att.typed" mode="delete"/>
-          </classes>
-          <attList>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="xml:id" mode="change" usage="req">
-              <desc>Il fournit un identifiant unique au lieu dont il est question</desc>
-            </attDef>
-          </attList>
-        </elementSpec>
-
-        <elementSpec ident="placeName" mode="change">
+        
+        <elementSpec ident="placeName" mode="change"> <!-- règle contraignant l'usage d'un attribut et de ses valeurs en fonction du contexte -->
           <classes mode="change">
             <memberOf key="att.datable" mode="delete"/>
             <memberOf key="att.global" mode="delete"/>
@@ -1127,19 +987,19 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <memberOf key="att.datable" mode="delete"/>
             <memberOf key="att.global" mode="delete"/>
           </classes>
-              <constraintSpec ident="refPlaceName" scheme="schematron" mode="add">
-                    <constraint>
-                          <s:pattern>
-                                <s:rule context="tei:TEI//tei:body//tei:placeName">
-                                      <s:let name="ref" value="substring-after(@ref, '#')"/>
-                                      <s:assert test="@ref and $ref = //tei:TEI//tei:settingDesc//tei:place/@xml:id">
-                                            la valeur @ref du &lt;placeName&gt; doit être renseignée
-                                            et correspondre à l'@xml:id d'un élément &lt;place&gt; déclaré dans le &lt;settingDesc&gt;
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
-                    </constraint>
-              </constraintSpec>
+          <constraintSpec ident="refPlaceName" scheme="schematron" mode="add">
+            <constraint>
+              <s:pattern>
+                <s:rule context="tei:TEI//tei:body//tei:placeName">
+                  <s:let name="ref" value="substring-after(@ref, '#')"/>
+                  <s:assert test="@ref and $ref = //tei:TEI//tei:settingDesc//tei:place/@xml:id">
+                    la valeur @ref du &lt;placeName&gt; doit être renseignée
+                    et correspondre à l'@xml:id d'un élément &lt;place&gt; déclaré dans le &lt;settingDesc&gt;
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
+            </constraint>
+          </constraintSpec>
           <attList>
             <attDef ident="key" mode="delete"/>
             <attDef ident="ref" mode="change">
@@ -1213,60 +1073,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
               </valList>
             </attDef>
           </attList>
-
         </elementSpec>
 
-        <elementSpec ident="rdg" mode="change">
-          <constraintSpec scheme="schematron" ident="rdgWit" mode="add">
-            <constraint>
-              <s:rule context="tei:TEI//tei:rdg">
-                <s:let name="temoin" value="substring-after(@wit, '#')"/>
-                <s:assert test="./@wit and ./@wit[not(contains(., '#F'))] and $temoin = //tei:TEI//tei:sourceDesc//tei:witness/@xml:id">
-                  L'élément &lt;rdg&gt; doit contenir un @wit.
-                  La valeur de cet attribut ne peut pas contenir '#F'
-                  La valeur de cet attribut doit renvoyer au @xml:id d'un &lt;witness&gt; du &lt;sourceDesc&gt;</s:assert>
-              </s:rule>
-            </constraint>
-          </constraintSpec>
-          <attList>
-            <attDef ident="hand" mode="delete"/>
-            <attDef ident="wit" mode="change" usage="req">
-              <desc>Contient un identifiant qui renvoie au témoin auquel correspond le texte encodé dans les balises
-                &lt;rdg&gt;</desc>
-                <datatype minOccurs="1" maxOccurs="unbounded">
-                  <dataRef key="teidata.pointer"/>
-                </datatype>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="settlement" mode="change">
-          <classes mode="change">
-            <memberOf key="att.datable" mode="delete"/>
-            <memberOf key="att.global" mode="delete"/>
-            <memberOf key="att.global.linking"/>
-<!--            <memberOf key="att.datable" mode="delete"/>
-            <memberOf key="att.global" mode="delete"/>-->
-          </classes>
-          <attList>
-            <attDef ident="key" mode="delete"/>
-            <attDef ident="nymRef" mode="delete"/>
-            <attDef ident="ref" mode="change">
-              <desc>fait référence à la valeur du @xml:id d'un élément &lt;place&gt;</desc>
-              <datatype minOccurs="1" maxOccurs="1">
-                <dataRef key="teidata.pointer"/>
-              </datatype>
-            </attDef>
-            <attDef ident="type" mode="change">
-              <valList mode="add" type="closed">
-                <valItem ident="town"/>
-                <valItem ident="region"/>
-                <valItem ident="dpt"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-
-        <elementSpec ident="relation" mode="change">
+        <elementSpec ident="relation" mode="change"> <!-- règle sur l'emploi et les valeurs de l'@mutual -->
           <classes mode="change">
             <memberOf key="att.canonical" mode="delete"/>
             <memberOf key="att.datable" mode="delete"/>
@@ -1275,24 +1084,24 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <memberOf key="att.sortable" mode="delete"/>
             <memberOf key="att.typed" mode="delete"/>
           </classes>
-              <constraintSpec scheme="schematron" ident="relationMutual" mode="add">
-                    <constraint>
-                          <s:pattern>
-                                <s:rule context="@mutual">
-                                      <s:let name="mutual" value="@mutual"/>
-                                      <s:let name="partics" value="for $p in tokenize(., '\s+') return substring-after($p, '#')"/>
-                                      <s:assert test="every $mutual in $partics satisfies $mutual = //tei:TEI//tei:particDesc/tei:listPerson/tei:person/@xml:id">
-                                            Chaque référence dans l'attribut @mutual doit correspondre à l'identifiant d'une &lt;person&gt; dans le &lt;listPerson&gt; du &lt;particDesc&gt;
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
-                    </constraint>
-              </constraintSpec>
+          <constraintSpec scheme="schematron" ident="relationMutual" mode="add">
+            <constraint>
+              <s:pattern>
+                <s:rule context="@mutual">
+                  <s:let name="mutual" value="@mutual"/>
+                  <s:let name="partics" value="for $p in tokenize(., '\s+') return substring-after($p, '#')"/>
+                  <s:assert test="every $mutual in $partics satisfies $mutual = //tei:TEI//tei:particDesc/tei:listPerson/tei:person/@xml:id">
+                    Chaque référence dans l'attribut @mutual doit correspondre à l'identifiant d'une &lt;person&gt; dans le &lt;listPerson&gt; du &lt;particDesc&gt;
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
+            </constraint>
+          </constraintSpec>
           <attList>
             <attDef ident="name" mode="change">
               <desc>Caractérise la relation entre deux
                 instances, ici des personnes ou personnages.</desc>
-              <valList type="closed" mode="change">
+              <valList type="semi" mode="change">
                 <valItem mode="add" ident="married">
                   <desc>deux personnages sont mariés</desc>
                 </valItem>
@@ -1343,7 +1152,194 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="style" mode="delete"/>
             <attDef ident="rendition" mode="delete"/>
           </attList>
+        </elementSpec>
 
+        <elementSpec ident="addName" mode="change"> <!-- contrainte sur les valeurs de l'@type -->
+          <desc>sert à encoder un composant de nom
+            additionnel, tel qu'un surnom, un épithète, ou un alias, ou toute autre expression
+            descriptive utilisée dans un nom.</desc>
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.personal" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="type" mode="change">
+              <desc>Caractérise le composant
+                additionnel.</desc>
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="honorific">
+                  <desc>Ajout de marque(s) formelle(s) de
+                    respect.</desc>
+                </valItem>
+                <valItem mode="add" ident="occupation">
+                  <desc>Ajout de la mention de l'occupation
+                    de la personne.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        
+        <elementSpec ident="author" mode="change">
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="person" mode="change">
+          <attList>
+            <attDef ident="role" mode="change">
+              <desc>Spécifie s'il s'agit d'une personne réelle ou d'un personnage</desc>
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="real">
+                  <desc>La notice concerne une personne réelle</desc>
+                </valItem>
+                <valItem mode="add" ident="fictional">
+                  <desc>La notice concerne un personnage de fiction</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="xml:id" mode="change" usage="req">
+              <desc>L'attribut @xml:id donne à la personne ou au personnage concerné par la notice un identifiant unique</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="personGrp" mode="change"> 
+          <attList>
+            <attDef ident="role" mode="change">
+              <valList mode="add" type="semi">
+                <valItem ident="convive"/>
+              </valList>
+            </attDef>
+            <attDef ident="age" mode="delete"/>
+            <attDef ident="size" mode="delete"/>
+            <attDef ident="xml:id" mode="change" usage="req"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="place" mode="change">
+          <classes mode="change">
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="xml:id" mode="change" usage="req">
+              <desc>Il fournit un identifiant unique au lieu dont il est question</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="settlement" mode="change"> <!-- valeurs de l'@type -->
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.global.linking"/>
+          </classes>
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="ref" mode="change">
+              <desc>fait référence à la valeur du @xml:id d'un élément &lt;place&gt;</desc>
+              <datatype minOccurs="1" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList mode="add" type="closed">
+                <valItem ident="town"/>
+                <valItem ident="region"/>
+                <valItem ident="dpt"/>
+              </valList>
+            </attDef>
+          </attList>
         </elementSpec>
 
       </schemaSpec>

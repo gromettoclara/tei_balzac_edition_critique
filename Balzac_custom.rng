@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-02-11T08:35:22Z. . 
+Schema generated from ODD source 2024-02-11T14:01:52Z. . 
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -4122,25 +4122,25 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                     xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron"
                     context="tei:TEI//tei:body//tei:ab">
-                                <s:assert test="@n and matches(@n, '^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')">
-                                      L'élément &lt;ab&gt; doit avoir un attribut @n
-                                      qui est un chiffre romain</s:assert>
-                          </s:rule>
+                <s:assert test="@n and matches(@n, '^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')">
+                  L'élément &lt;ab&gt; doit avoir un attribut @n
+                  qui est un chiffre romain</s:assert>
+              </s:rule>
          </pattern>
          <s:pattern xmlns:rng="http://relaxng.org/ns/structure/1.0"
                     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                     xmlns:xi="http://www.w3.org/2001/XInclude"
                     xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron">
-                                <s:rule context="tei:TEI//tei:body//tei:ab/@corresp">
-                                      <s:let name="corresp" value="@corresp"/>
-                                      <s:let name="corresps"
+                <s:rule context="tei:TEI//tei:body//tei:ab/@corresp">
+                  <s:let name="corresp" value="@corresp"/>
+                  <s:let name="corresps"
                       value="for $c in tokenize(., '\s+') return substring-after($c, '#')"/>
-                                      <s:assert test="every $corresp in $corresps satisfies $corresp = //tei:TEI//tei:listWit//@xml:id">
-                                            Chaque référence dans l'attribut @corresp doit correspondre à l'identifiant d'un &lt;witness&gt; dans le &lt;sourceDesc&gt;.
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
+                  <s:assert test="every $corresp in $corresps satisfies $corresp = //tei:TEI//tei:listWit//@xml:id">
+                    Chaque référence dans l'attribut @corresp doit correspondre à l'identifiant d'un &lt;witness&gt; dans le &lt;sourceDesc&gt;.
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="Balzac_custom-ab-abstractModel-structure-ab-in-l-or-lg-constraint-report-9">
             <rule context="tei:ab">
@@ -4506,14 +4506,14 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                     xmlns:xi="http://www.w3.org/2001/XInclude"
                     xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron">
-                                <s:rule context="tei:TEI//tei:body//tei:persName">
-                                      <s:let name="ref" value="substring-after(@ref, '#')"/>
-                                      <s:assert test="@ref and $ref = //tei:TEI//tei:particDesc//tei:listPerson//*/@xml:id">
-                                            la valeur @ref du &lt;persName&gt; doit être renseignée (dans le &lt;body&gt; seulement)
-                                            et correspondre à un @xml:id d'un élément &lt;person&gt; déclaré dans le &lt;particDesc&gt;
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
+                <s:rule context="tei:TEI//tei:body//tei:persName">
+                  <s:let name="ref" value="substring-after(@ref, '#')"/>
+                  <s:assert test="@ref and $ref = //tei:TEI//tei:particDesc//tei:listPerson//*/@xml:id">
+                    la valeur @ref du &lt;persName&gt; doit être renseignée (dans le &lt;body&gt; seulement)
+                    et correspondre à un @xml:id d'un élément &lt;person&gt; déclaré dans le &lt;particDesc&gt;
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="Balzac_custom-persName-calendar-check-persName-constraint-rule-25">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:*[@calendar]">
@@ -4565,14 +4565,6 @@ Suggested values include: 1] #cg</a:documentation>
                   <value>occupation-name</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Le personnage ou la personne est désigné par son occupation</a:documentation>
                </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="xml:id">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <data type="anyURI">
-                  <param name="pattern">\S+</param>
-               </data>
             </attribute>
          </optional>
          <optional>
@@ -4665,14 +4657,14 @@ Suggested values include: 1] #cg</a:documentation>
                     xmlns:xi="http://www.w3.org/2001/XInclude"
                     xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron">
-                                <s:rule context="tei:TEI//tei:body//tei:placeName">
-                                      <s:let name="ref" value="substring-after(@ref, '#')"/>
-                                      <s:assert test="@ref and $ref = //tei:TEI//tei:settingDesc//tei:place/@xml:id">
-                                            la valeur @ref du &lt;placeName&gt; doit être renseignée
-                                            et correspondre à l'@xml:id d'un élément &lt;place&gt; déclaré dans le &lt;settingDesc&gt;
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
+                <s:rule context="tei:TEI//tei:body//tei:placeName">
+                  <s:let name="ref" value="substring-after(@ref, '#')"/>
+                  <s:assert test="@ref and $ref = //tei:TEI//tei:settingDesc//tei:place/@xml:id">
+                    la valeur @ref du &lt;placeName&gt; doit être renseignée
+                    et correspondre à l'@xml:id d'un élément &lt;place&gt; déclaré dans le &lt;settingDesc&gt;
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="Balzac_custom-placeName-calendar-check-placeName-constraint-rule-28">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:*[@calendar]">
@@ -5318,15 +5310,15 @@ Suggested values include: 1] convive</a:documentation>
                     xmlns:xi="http://www.w3.org/2001/XInclude"
                     xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron">
-                                <s:rule context="@mutual">
-                                      <s:let name="mutual" value="@mutual"/>
-                                      <s:let name="partics"
+                <s:rule context="@mutual">
+                  <s:let name="mutual" value="@mutual"/>
+                  <s:let name="partics"
                       value="for $p in tokenize(., '\s+') return substring-after($p, '#')"/>
-                                      <s:assert test="every $mutual in $partics satisfies $mutual = //tei:TEI//tei:particDesc/tei:listPerson/tei:person/@xml:id">
-                                            Chaque référence dans l'attribut @mutual doit correspondre à l'identifiant d'une &lt;person&gt; dans le &lt;listPerson&gt; du &lt;particDesc&gt;
-                                      </s:assert>
-                                </s:rule>
-                          </s:pattern>
+                  <s:assert test="every $mutual in $partics satisfies $mutual = //tei:TEI//tei:particDesc/tei:listPerson/tei:person/@xml:id">
+                    Chaque référence dans l'attribut @mutual doit correspondre à l'identifiant d'une &lt;person&gt; dans le &lt;listPerson&gt; du &lt;particDesc&gt;
+                  </s:assert>
+                </s:rule>
+              </s:pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="Balzac_custom-relation-reforkeyorname-constraint-assert-33">
             <rule context="tei:relation">
@@ -5413,12 +5405,16 @@ Suggested values include: 1] convive</a:documentation>
          </pattern>
          <optional>
             <attribute name="name">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Caractérise la relation entre deux instances, ici des personnes ou personnages.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Caractérise la relation entre deux instances, ici des personnes ou personnages.
+Suggested values include: 1] married; 2] friend</a:documentation>
                <choice>
                   <value>married</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">deux personnages sont mariés</a:documentation>
                   <value>friend</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">deux personnages sont amis</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
                </choice>
             </attribute>
          </optional>
@@ -5579,8 +5575,8 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
                   <s:let name="temoin" value="substring-after(@wit, '#')"/>
                   <s:assert test="@wit and $temoin = //tei:TEI//tei:sourceDesc//tei:witness[1]/@xml:id">
                     L'attribut @wit de l'élément &lt;lem&gt; doit référencer le @xml:id du premier &lt;witness&gt; du &lt;sourceDesc&gt;
-                </s:assert>
-              </s:rule>
+                  </s:assert>
+                </s:rule>
               </s:pattern>
          <attribute name="wit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(witness or witnesses) fait référence à l'identifiant du lem défini dans le &lt;sourceDesc&gt; du &lt;teiHeader&gt;.</a:documentation>
@@ -5712,11 +5708,11 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
          <s:pattern xmlns:rng="http://relaxng.org/ns/structure/1.0"
                     xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron">
-              <s:rule context="tei:TEI//tei:sourceDesc/tei:listWit/tei:witness">
-                <s:assert test="./@xml:id"> l'élément &lt;wit&gt; doit avoir un @xml:id </s:assert>
-              <s:assert test="matches(@xml:id, '^[A-Z0-9]{1,5}$')"> L'attribut @xml:id est une suite de majuscules et de nombres, 5 maximum et en tout. </s:assert>
-              </s:rule>
-            </s:pattern>
+                <s:rule context="tei:TEI//tei:sourceDesc/tei:listWit/tei:witness">
+                  <s:assert test="./@xml:id"> l'élément &lt;wit&gt; doit avoir un @xml:id </s:assert>
+                  <s:assert test="matches(@xml:id, '^[A-Z0-9]{1,5}$')"> L'attribut @xml:id est une suite de majuscules et de nombres, 5 maximum et en tout. </s:assert>
+                </s:rule>
+              </s:pattern>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.sortable.attributes"/>
          <empty/>
