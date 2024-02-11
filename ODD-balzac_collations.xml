@@ -52,13 +52,13 @@
                  <list>
                     <item>trois extraits de la dernière version des romans de la Comédie Humaine qui soit vérifiée par l'auteur, encodée en XML-TEI par le projet eBalzac et issue d'une rétroconversion.</item>
                     <item> trois témoins qui se présentent comme des ébauches de ses passages, issus des journaux <hi rend="italic">Le Constitutionnel</hi> et <hi rend="italic">La Revue des deux Mondes</hi>.</item></list></p>
-              <p>Les trois couples de témoins sont encodés en segmentation parrallèle (<gloss>collation des différentes version d'un textes faite en les mettant en parrallèle dans le corps du document ; toutes les variantes en tout point du texte sont exprimées comme des variantes les unes des autres</gloss>). L'apparat est présenté en négatif (<gloss></gloss>). </p><!-- ici ?????????????? -->
+              <p>Les trois couples de témoins sont encodés en segmentation parrallèle (<gloss>collation des différentes version d'un textes faite en les mettant en parrallèle dans le corps du document ; toutes les variantes en tout point du texte sont exprimées comme des variantes les unes des autres</gloss>). </p>
               <p>Grâce à l'encodage déjà réalisé et à la présente ODD qui documente le projet et la méthode à suivre pour la collation, il est possible de compléter l'encodage par l'ajout d'autres extraits de l'œuvre balzacienne dont on aurait trouvé des antécédents dans des textes non littéraires du XIXe siècle. On identifie notamment des traité de médecine comme source et inspiration de Balzac. Œuvre monde qui multiplie les connections et les liens (en son sein et vers son extérieur), la Comédie Humaine se présente comme un texte privilégié pour l'édition numérique et comme un hypertexte avant la lettre. Cette édition, et celles qui pourront suivre éventuellement, ont pour objectif d'articuler le monde médiatique, le monde scientifique et le monde littéraire, matérialisant l'intertextualité foisonnate inhérente au texte.</p></div2>
               <div2>
                  <head>Présentation du corpus</head>
 <div3>
                     <head>Les extraits de la <hi rend="italic">Comédie Humaine</hi></head>
-                    
+
                     <list>
                        <item>La Physiologie du Petit Mercier, préambule de l'histoire de <bibl xml:id="fyo"><hi rend="italic">La Fille aux yeux d’or</hi></bibl>, troisième et dernier épisode de <bibl><hi rend="italic">l’Histoire des Treize</hi></bibl>.</item>
                        <item>Un extrait de la première partie ("Le Talisman") de <bibl xml:id="pdc"><hi rend="italic">La Peau de chagrin</hi></bibl> : Raphaël et Émile se rendent chez Talleyrand, le banquier qui finance leur journal. Cynique, Balzac décrit cette petite société dépourvue de repères moraux.</item>
@@ -74,7 +74,7 @@
                  <p>Pour ce projet, <ref target="https://github.com/ebalzac/FC">l'édition XML-TEI établie par eBalzac</ref> a été rétroconvertie en .txt grâce à un <ref target="https://github.com/anisrfd/Convert-XML-to-PandasDataFrame-CSV-TextFile/blob/master/XMLtoTXT.ipynb">script Python</ref> puis convertis en UTF-8 en ligne de commande.</p>
                   </div3>
                   <div3>
-                     <head>Le Furne Corrigé</head><!--peut-être chercher des informations sur le Furne Corrigé-->
+                     <head>Le Furne Corrigé</head>
                      <p>L’ensemble de textes que l’on connaît aujourd’hui sous le nom de Comédie humaine a été rédigé et élaboré progressivement par Balzac de 1829 à 1850. Le titre du cycle balzacien fait son apparition en 1842, lors de la première publication de l’ensemble en 17 volumes par les éditeurs Furne, Dubochet, Hetzel et Paulin jusqu'en 1848. L'auteur a significativement annoté et corrigé son exemplaire personnel ; il est connu sous le nom de  <hi rend="italic">Furne corrigé</hi>. Cette version n'a pas été publiée du vivant de Balzac et présente un nouvel agencement du cycle ainsi que de nouveaux titres pour plusieurs romans.</p>
                      <p>Il faut ajouter à ces volumes des textes qui appartiennent de fait à La <hi rend="italic">Comédie humaine</hi> et qui n’ont pas pu être publiés dans l’édition originale : <hi rend="italic">La Dernière Incarnation de Vautrin</hi>, dernière partie de <hi rend="italic">Splendeurs et misères des courtisanes</hi> ; <hi rend="italic">L’Initié</hi>, dernière partie de <hi rend="italic">L’Envers de l’histoire contemporaine</hi> ; <hi rend="italic">Les Paysans</hi> ; <hi rend="italic">Le Député d’Arcis</hi> ; <hi rend="italic">Les Petits Bourgeois</hi> ; <hi rend="italic">Petites misères de la vie conjugale</hi> parues chez Chlendowski ; <hi rend="bold">Pathologie de la vie sociale</hi> qui comprend la <hi rend="italic">Théorie de la démarche</hi>, le <hi rend="italic">Traité de la vie élégante</hi> et le <hi rend="italic">Traité des excitants modernes</hi>.</p>
                      <p>Naturellement, c'est <hi rend="italic">Furne Corrigé</hi> qui fait référence au sein du corpus, et il est donc encodé dans l'élément <gi>lem</gi>.</p>
@@ -197,7 +197,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
 </div4>
                  <div4>
                     <head>L'<hi rend="italic">encodingDesc</hi></head>
-                    <p>Cet élément a pour objectif de détailler les approches adoptées pour l'encodage TEI. C'est un espace d'expression de la personne chargée de l'encodage, oùseront précisées des informations nécessaires à la bonne lecture de l'encodage et des précisions sur la scientificité des méthodes. Il sera aussi pertinent de donner quelques précisions sur le projet encadrant ce travail, afin de justifier son existence. Ainsi, l'<gi>encodingDesc</gi> donne à la fois des informations descriptives sur l'encodage (le contexte de production dans la balise <gi>projectDesc</gi>, la méthode d'alignement dans la balise <gi>variantEncoding</gi>) et les principes éditoriaux suivis, qui sont spécifiés dans la balise <gi>editorialDesc</gi>. Ces principes sont également explicités dans la présente ODD. </p> <!--lien intene Xpath ou HTML-->
+                    <p>Cet élément a pour objectif de détailler les approches adoptées pour l'encodage TEI. C'est un espace d'expression de la personne chargée de l'encodage, oùseront précisées des informations nécessaires à la bonne lecture de l'encodage et des précisions sur la scientificité des méthodes. Il sera aussi pertinent de donner quelques précisions sur le projet encadrant ce travail, afin de justifier son existence. Ainsi, l'<gi>encodingDesc</gi> donne à la fois des informations descriptives sur l'encodage (le contexte de production dans la balise <gi>projectDesc</gi>, la méthode d'alignement dans la balise <gi>variantEncoding</gi>) et les principes éditoriaux suivis, qui sont spécifiés dans la balise <gi>editorialDesc</gi>. Ces principes sont également explicités dans la présente ODD <ref target="#index.xml-body.1_div1.1_div2.4"> ici </ref>. </p>
 
                  </div4>
                  <div4>
@@ -238,7 +238,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                   </egXML>
                                   L'alignement se fera graĉe à un attribut <att>type</att> prenant comme valeurs <val>contemporary-name</val> ou <val>text-name</val>.
                                   Comme dans l'exemple ci-dessus, il est alors utile d'indiquer le niveau de certitude du rapprochement (<att>cert</att>) et une mention de responsabilité (<att>resp</att>) renvoyant à un <att>xml:id</att> (dans l'exemple précédent, l'encodeur, c'est-à-dire moi).
-                                  Cette présente ODD fournit les attributs et des règles limitant leur utilisation : <specDesc key="persName"/>
+                                  Cette présente ODD fournit les attributs et des règles limitant leur utilisation : <specList><specDesc key="persName"/><specList>
                                 </item>
 
                                   <item>Un élément <gi>app</gi> sert à encoder les différentes appellations des personnages d'un témoin à l'autre, s'il y a variation.
@@ -261,13 +261,13 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                      </list></p>
                      <p>Le <gi>persName</gi> pourra se décliner en <gi>forename</gi> <gi>surname</gi> <gi>addname</gi> <gi>rolename</gi> ou encore <gi>name</gi>. À ces sous-groupes du nom pourra être ajouté un <att>type</att> (<val>occupation-name</val> ou <val>honorific</val>).</p>
 
-                     <p>Pour les besoins du projet, il est important de distinguer les noms de personnes des noms de lieux, mais il est aussi et surtout essentiel de lever toute ambiguïté entre les références aux entités nommées. Cela explique l'emploi d'un tel ensemble de balises dans le <gi>particDesc</gi>, ainsi que l'encodage des entités nommées faisant référence au <att>xml:id</att> avec l'attribut <att>ref</att> pour associer différentes dénominations d'une entité avec les données la concernant, et donc lever tout ambiguïté. <!--lien vers partie texte--> </p>
+                     <p>Pour les besoins du projet, il est important de distinguer les noms de personnes des noms de lieux, mais il est aussi et surtout essentiel de lever toute ambiguïté entre les références aux entités nommées. Cela explique l'emploi d'un tel ensemble de balises dans le <gi>particDesc</gi>, ainsi que l'encodage des entités nommées faisant référence au <att>xml:id</att> avec l'attribut <att>ref</att> pour associer différentes dénominations d'une entité avec les données la concernant, et donc lever tout ambiguïté. Cette présente ODD documente aussi le processus d'encodage sémantique qui permet de référencer le nom des lieux et des personnages dans un index accompagné de notices : <ref target="#index.xml-body.1_div1.1_div2.4_div3.4"> Ici </ref>.</p>
                      <p>Seront considérées comme personnes ou personnages toute entité réelle ou fictive dôtée d'une personnalité et d'un rôle significatif au sein de la fiction ou dans le monde réel. C'est pourquoi, par exemple, les figurants de la scène du dîner dans <bibl corresp="#pdc">La Peau de Chagrin</bibl> sont référencés dans un <gi>persGroup</gi>.</p>
                      <egXML xmlns="http://www.tei-c.org/ns/Examples">
                          <personGrp xml:id="convive" role="invités" sex="masculin"/>
                      </egXML>
 
-                       <p>La liste des relations entre les personnages se trouve dans un <gi>listRelation</gi>.</p> <!-- l'utilisation des balises, des attributs et les valeurs possibles sont documentées dans la présente ODD <specDesc key="relation"/>.--></div5>
+                       <p>La liste des relations entre les personnages se trouve dans un <gi>listRelation</gi>. L'utilisation des balises, des attributs et les valeurs possibles sont documentées dans la présente ODD : <specList><specDesc key="relation"/><specList></p></div5>
 
                           <div5> <head> Le <hi rend="italic">settingDesc</hi> : </head>
                           <p>Enfin, le <gi>settingDesc</gi> permet de décrire les lieux mentionnés dans l'extrait, dans un
@@ -304,11 +304,11 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
 <p> Nous utilisons pour ce faire les éléments <gi>app</gi>, <gi>lem</gi>, <gi>rdg</gi>, dont la documentation fournit les attributs et des contraintes :
 <specList>
 <specDesc key="app"/>
+<specDesc key="lem"/>
 <specDesc key="rdg"/>
 </specList>
 </p>
-                    <p>Les principes suivis pour l'encodage du texte des trois témoins sont décrits ci-dessous.</p>
-                 <!--faire un lien XPath ou html-->
+                    <p>Les principes suivis pour l'encodage du texte des trois témoins sont décrits <ref target="#index.xml-body.1_div1.1_div2.4"> ci-dessous </ref>.</p>
               </div3>
            </div2>
            <div2>
@@ -466,7 +466,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                <app corresp="#punct #attenuation #text-segmentation">
                                   <lem wit="#F">.</lem>
                                   <rdg wit="#C">!&susp; <milestone unit="tei:p"/><lb/></rdg>
-                               </app>   
+                               </app>
                           </egXML>
 
                    </div3>
@@ -593,7 +593,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="type" mode="delete"/>
           </attList>
         </elementSpec>
-        
+
         <elementSpec ident="ab" mode="change"> <!-- règle contraignant l'usage d'un attribut et de ces valeurs -->
           <classes mode="change">
             <memberOf key="att.declaring" mode="delete"/>
@@ -677,8 +677,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             </attDef>
           </attList>
         </elementSpec>
-        
+
         <elementSpec ident="app" mode="change"> <!-- règle contraignant l'enchaînement des éléments et définition des valeurs du @corresp -->
+          <desc>Cet élément encadre l'alignement d'un lemme et d'une leçon.</desc>
           <classes mode="change">
             <memberOf key="att.global" mode="delete"/>
             <memberOf key="att.typed" mode="delete"/>
@@ -690,7 +691,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                 maxOccurs="1"/>
             </sequence>
           </content>
-          
+
           <attList>
             <attDef ident="from" mode="delete"/>
             <attDef ident="to" mode="delete"/>
@@ -761,8 +762,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             </attDef>
           </attList>
         </elementSpec>
-        
+
         <elementSpec ident="lem" mode="change"> <!-- règle contraignant les valeurs d'un attribut -->
+          <desc>Cet élément contient la leçon du lemme, soit le Furne.</desc>
           <classes mode="change">
             <memberOf key="att.global" mode="delete"/>
             <memberOf key="att.textCritical" mode="delete"/>
@@ -812,8 +814,9 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="hand" mode="delete"/>
           </attList>
         </elementSpec>
-        
+
         <elementSpec ident="rdg" mode="change"> <!-- règle contraignant les valeurs d'un attribut -->
+          <desc>Cet élément contient le texte de l'antécédent médiatique du lemme. </desc>
           <constraintSpec scheme="schematron" ident="rdgWit" mode="add">
             <constraint>
               <s:rule context="tei:TEI//tei:rdg">
@@ -881,7 +884,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="rendition" mode="delete"/>
           </attList>
         </elementSpec>
-        
+
         <elementSpec ident="witness" mode="change"> <!-- règle contraignant la manière de construire le @xml:id des élements witness -->
           <constraintSpec ident="witnessId" scheme="schematron" mode="add">
             <constraint>
@@ -894,7 +897,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             </constraint>
           </constraintSpec>
         </elementSpec>
-        
+
         <elementSpec ident="persName" mode="change"> <!-- règle contraignant l'usage d'un attribut et de ses valeurs en fonction du contexte -->
           <classes mode="change">
             <memberOf key="att.global.responsibility"/>
@@ -978,7 +981,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             <attDef ident="xml:id" mode="change" usage="opt"/>
           </attList>
         </elementSpec>
-        
+
         <elementSpec ident="placeName" mode="change"> <!-- règle contraignant l'usage d'un attribut et de ses valeurs en fonction du contexte -->
           <classes mode="change">
             <memberOf key="att.datable" mode="delete"/>
@@ -1183,7 +1186,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
           </attList>
         </elementSpec>
 
-        
+
         <elementSpec ident="author" mode="change">
           <classes mode="change">
             <memberOf key="att.datable" mode="delete"/>
@@ -1250,8 +1253,8 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
             </attDef>
           </attList>
         </elementSpec>
-        
-        <elementSpec ident="personGrp" mode="change"> 
+
+        <elementSpec ident="personGrp" mode="change">
           <attList>
             <attDef ident="role" mode="change">
               <valList mode="add" type="semi">
