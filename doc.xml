@@ -33,6 +33,8 @@
                <orgName>
                   <ref target="https://ebalzac.com/">eBalzac</ref>
                </orgName>
+               <note>Projet financé par l'AANR dans le cadre du Projet d’Hypertexte de l’Œuvre de
+                  Balzac reposant sur l’Utilisation de Similarités – PHŒBUS</note>
             </respStmt>
             <respStmt>
                <resp>Responsables du projet eBalzac</resp>
@@ -64,7 +66,8 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="F">
-								 <note>L'encodage est issu d'un rétroconversion de l'édition TEI réalisée par <ref target="https://ebalzac.com/">eBalzac</ref> en .txt.</note>
+                  <note>L'encodage est issu d'un rétroconversion de l'édition TEI réalisée par <ref
+                        target="https://ebalzac.com/">eBalzac</ref> en .txt.</note>
                   <biblFull>
                      <titleStmt>
                         <title>La Comédie humaine, édition électronique</title>
@@ -75,8 +78,11 @@
                            version dite du « Furne corrigé », qui intègre les corrections
                            manuscrites apportées par l’auteur sur son exemplaire personnel de la
                            première édition de <hi rend="i">La Comédie humaine</hi> parue chez Furne
-                           de 1842 à 1847. Cet exemplaire est conservé
-dans le fonds Lovenjoul de la Bibliothèque de l’Institut de France. Pour les romans publiés chez Furne après la mort de l'auteur, le texte a été établi à partir de la dernière édition datant de son vivant. Cette édition a été établie dans le cadre du projetPHŒBUS, financé par l’Agence nationale de la recherche
+                           de 1842 à 1847. Cet exemplaire est conservé dans le fonds Lovenjoul de la
+                           Bibliothèque de l’Institut de France. Pour les romans publiés chez Furne
+                           après la mort de l'auteur, le texte a été établi à partir de la dernière
+                           édition datant de son vivant. Cette édition a été établie dans le cadre
+                           du projetPHŒBUS, financé par l’Agence nationale de la recherche
                            (2015&tiret;2019).</edition>
                      </editionStmt>
                      <publicationStmt>
@@ -84,37 +90,36 @@ dans le fonds Lovenjoul de la Bibliothèque de l’Institut de France. Pour les 
                         <publisher>ALITHILA (Université Lille III)</publisher>
                         <publisher>CELLF (CNRS &amp; Université Paris IV Sorbonne)</publisher>
                         <publisher>LIP6 (Université Paris VI)</publisher>
-                        <date when="2017"/>
                         <availability status="restricted">
-                           <!--<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">-->
-                              <p> Copyright © 2017 Université Charles&tiret;de&tiret;Gaulle Lille 3, agissant
-                                 pour le projet ANR « Projet d’hypertexte de l’œuvre de Balzac par
-                                 l’utilisation de similarités » (ci&tiret;après dénommé ANR Phœbus). </p>
-                              <p> Cette ressource électronique protégée par le code de la propriété
-                                 intellectuelle sur les bases de données (L341&tiret;1) est mise à
-                                 disposition de la communauté scientifique internationale par l’ANR
-                                 Phœbus, selon les termes de la licence Creative Commons : «
-                                 Attribution &tiret; Pas d’Utilisation Commerciale &tiret; Pas de Modification
-                                 3.0 France (CC BY&tiret;NC&tiret;ND 3.0 FR) ». </p>
-                              <p> Attribution : afin de référencer la source, toute utilisation ou
-                                 publication dérivée de cette ressource électroniques comportera le
-                                 nom de l’ANR Phœbus et surtout l’adresse Internet de la ressource. </p>
-                              <p> Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
-                                 scientifique, toute utilisation commerciale est interdite. </p>
-                              <p> Pas de Modification : l’ANR Phœbus s’engage à améliorer et à
-                                 corriger cette ressource électronique, notamment en intégrant
-                                 toutes les contributions extérieures, la diffusion de versions
-                                 modifiées de cette ressource n’est pas souhaitable. </p>
-                           <!--</licence>-->
+                           <p>Sous licence <ref
+                                 target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">CC
+                                 BY-NC-ND 3.0 FR DEED Attribution - Pas d’Utilisation Commerciale -
+                                 Pas de Modification 3.0 France</ref></p>
+                           <p> Copyright © 2017 Université Charles&tiret;de&tiret;Gaulle Lille 3,
+                              agissant pour le projet ANR « Projet d’hypertexte de l’œuvre de Balzac
+                              par l’utilisation de similarités » (ci&tiret;après dénommé ANR
+                              Phœbus). </p>
+                           <p> Cette ressource électronique protégée par le code de la propriété
+                              intellectuelle sur les bases de données (L341&tiret;1) est mise à
+                              disposition de la communauté scientifique internationale par l’ANR
+                              Phœbus, selon les termes de la licence Creative Commons : «
+                              Attribution &tiret; Pas d’Utilisation Commerciale &tiret; Pas de
+                              Modification 3.0 France (CC BY&tiret;NC&tiret;ND 3.0 FR) ». </p>
+                           <p> Attribution : afin de référencer la source, toute utilisation ou
+                              publication dérivée de cette ressource électroniques comportera le nom
+                              de l’ANR Phœbus et surtout l’adresse Internet de la ressource. </p>
+                           <p> Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                              scientifique, toute utilisation commerciale est interdite. </p>
+                           <p> Pas de Modification : l’ANR Phœbus s’engage à améliorer et à corriger
+                              cette ressource électronique, notamment en intégrant toutes les
+                              contributions extérieures, la diffusion de versions modifiées de cette
+                              ressource n’est pas souhaitable. </p>
+
                         </availability>
                         <pubPlace>Paris</pubPlace>
+                        <date when="2017"/>
                      </publicationStmt>
                      <sourceDesc>
-											 <!-- ŒUVRES COMPLÈTES / de M. de Balzac. - Paris, les Bibliophiles de l'originale, 1965-1976. 30 vol. [R 8° Ca 10, 12
-Publiées sous la direction de Jean-A. Ducourneau.
-I-XVI. La Comédie humaine. Fac-similé de l'exemplaire corrigé par Balzac de l'édition Furne-Hetzel de 1842-1846 ( Furne corrigé ”.) avec transcription des corrections.
-XVII. Fac-similé du tome XVII de 1848, dont l'exemplaire corrigé par Balzac n'a pas été retrouvé.
-XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-Hetzel. Pathologie de la vie sociale. Ébauches pour La Comédie humaine. Préfaces.-->
                         <bibl>
                            <title type="main">La Comédie Humaine</title>
                            <title level="m">Neuvième volume (Études de mœurs, Scènes de la vie
@@ -127,8 +132,9 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                                  <surname>Honoré de</surname>
                               </persName>
                            </author>
-                           <publisher>Furne,rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ; J.&tiret;J. Dubochet et cie,
-                              rue de Seine, 33 ; J. Hetzel, rue de Seine, 33.</publisher>
+                           <publisher>Furne,rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ;
+                              J.&tiret;J. Dubochet et cie, rue de Seine, 33 ; J. Hetzel, rue de
+                              Seine, 33.</publisher>
                            <pubPlace>Paris</pubPlace>
                            <date>1843</date>
                            <biblScope unit="page">239&tiret;240</biblScope>
@@ -137,8 +143,9 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                         <bibl>
                            <title type="main">La Comédie Humaine</title>
                            <title level="m">Quatorzième volume (Étude philosophiques, Tome I) / La
-                              Peau de chagrin. – Jésus&tiret;Christ en Flandre. – Melmoth réconcilié. / Le
-                              Chef&tiret;d'œuvre inconnu. – La Recherche de l'absolu.</title>
+                              Peau de chagrin. – Jésus&tiret;Christ en Flandre. – Melmoth
+                              réconcilié. / Le Chef&tiret;d'œuvre inconnu. – La Recherche de
+                              l'absolu.</title>
                            <title type="a">La Peau de Chagrin</title>
                            <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
                               <persName ref="#balzac">
@@ -146,8 +153,9 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                                  <surname>Honoré de</surname>
                               </persName>
                            </author>
-                           <publisher>Furne,rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ; J.&tiret;J. Dubochet et cie,
-                              rue de Seine, 33 ; J. Hetzel, rue de Seine, 33.</publisher>
+                           <publisher>Furne,rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ;
+                              J.&tiret;J. Dubochet et cie, rue de Seine, 33 ; J. Hetzel, rue de
+                              Seine, 33.</publisher>
                            <pubPlace>Paris</pubPlace>
                            <date>1845</date>
                            <biblScope unit="page">35&tiret;38</biblScope>
@@ -166,46 +174,67 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                            <date>1846</date>
                            <biblScope unit="page">182&tiret;185</biblScope>
                            <note>L'édition Chlendowski est antérieure à l'édition du 18° volume de
-                              La Comédie Humaine (publié par Houssiaux en 1855, soit après la mort de <persName ref="#balzac">Balzac</persName>). Elle sert de base à l'établissement du texte car elle constitue la dernière édition contrôlée par l'auteur.</note>
+                              La Comédie Humaine (publié par Houssiaux en 1855, soit après la mort
+                              de <persName ref="#balzac">Balzac</persName>). Elle sert de base à
+                              l'établissement du texte car elle constitue la dernière édition
+                              contrôlée par l'auteur.</note>
                         </bibl>
-
+                        <bibl>
+                           <title level="s">ŒUVRES COMPLÈTES</title> / de <author
+                              ref="https://catalogue.bnf.fr/ark:/12148/cb118900414"><persName
+                                 ref="#balzac">M. de Balzac</persName></author>. -
+                              <pubPlace>Paris</pubPlace>, <publisher>les Bibliophiles de
+                              l'originale</publisher>, <date>1965-1976</date>. 30 vol. [R 8° Ca 10,
+                           12 Publiées sous la direction de <editor>Jean-A. Ducourneau</editor>.
+                              <biblScope unit="volume">I-XVI</biblScope>. <title type="main">La
+                              Comédie humaine</title>. <note>Fac-similé de l'exemplaire corrigé par
+                              Balzac de l'édition Furne-Hetzel de 1842-1846 (Furne corrigé) avec
+                              transcription des corrections.</note></bibl>
                      </sourceDesc>
                   </biblFull>
                </witness>
                <witness xml:id="C">
-                  <note>L'encodage se fonde sur la <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k1048844p/f1.item">numérisation de <bibl>La Caricature morale, politique et littéraire</bibl></ref> disponible sur l'interface de <ref target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">Gallica (Bnf)</ref>.</note>
+                  <note>L'encodage se fonde sur la <ref
+                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k1048844p/f1.item">numérisation
+                        de <bibl>La Caricature morale, politique et littéraire</bibl></ref>
+                     disponible sur l'interface de <ref
+                        target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">Gallica
+                     (Bnf)</ref>.</note>
                   <biblStruct>
-										<analytic>
+                     <analytic>
                         <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
                            <persName ref="#balzac">Alfred Coudreux</persName>
                         </author>
-												<title level="a">Le petit Mercier</title>
-										   <idno type="ark">ark:/12148/bpt6k1048844p</idno>
+                        <title level="a">Le petit Mercier</title>
+                        <idno type="ark">ark:/12148/bpt6k1048844p</idno>
                      </analytic>
-										 <monogr>
-											 <title level="j">
-													 La Caricature morale, politique et littéraire
-											 </title>
- 										 		<imprint>
-														<date when="1830-12-16">16 décembre 1830</date>
- 										 		   
- 										 		</imprint>
-                           <biblScope unit="page">49&tiret;51</biblScope>
+                     <monogr>
+                        <title level="j"> La Caricature morale, politique et littéraire </title>
+                        <imprint>
+                           <date when="1830-12-16">16 décembre 1830</date>
+
+                        </imprint>
+                        <biblScope unit="page">49&tiret;51</biblScope>
 
                      </monogr>
-                     
+
                      <ptr type="catBnf" target="http://catalogue.bnf.fr/ark:/12148/cb344523348"/>
                   </biblStruct>
                </witness>
-               
+
                <witness xml:id="C2">
-                  <note>L'encodage se fonde sur la <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k10488349/f1.item">numérisation de <bibl>La Caricature morale, politique et littéraire</bibl></ref> disponible sur l'interface de <ref target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">Gallica (Bnf)</ref>.</note>
+                  <note>L'encodage se fonde sur la <ref
+                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k10488349/f1.item">numérisation
+                        de <bibl>La Caricature morale, politique et littéraire</bibl></ref>
+                     disponible sur l'interface de <ref
+                        target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">Gallica
+                     (Bnf)</ref>.</note>
                   <biblStruct>
                      <analytic>
-												<author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
+                        <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
                            <persName ref="#balzac">Alfred Coudreux</persName>
                         </author>
-												<title level="a">La Consultation</title>
+                        <title level="a">La Consultation</title>
                         <idno type="ark">ark:/12148/bpt6k10488349</idno>
                      </analytic>
                      <monogr>
@@ -213,31 +242,35 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                         <imprint>
                            <date when="1830-11-11">11 novembre 1830</date>
                         </imprint>
-												<biblScope unit="page">9&tiret;11</biblScope>
-	
+                        <biblScope unit="page">9&tiret;11</biblScope>
+
                      </monogr>
                      <ptr type="catBnf" target="https://catalogue.bnf.fr/ark:/12148/cb344523348"/>
                   </biblStruct>
                </witness>
                <witness xml:id="R2M">
-                  <note>L'encodage se fonde sur la <ref facs="https://archive.org/details/revuedesdeuxmond011831pari/">numérisation de <bibl>La Revue des deux mondes</bibl></ref> disponible sur l'interface des <ref target="https://archive.org/about/">Internet Archives</ref>.</note>
+                  <note>L'encodage se fonde sur la <ref
+                        facs="https://archive.org/details/revuedesdeuxmond011831pari/">numérisation
+                        de <bibl>La Revue des deux mondes</bibl></ref> disponible sur l'interface
+                     des <ref target="https://archive.org/about/">Internet Archives</ref>.</note>
                   <biblStruct>
                      <analytic>
-											 <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
-													<persName ref="#balzac">Alfred Coudreux</persName>
-											 </author>
-                       <title level="a">Une débauche</title>
+                        <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
+                           <persName ref="#balzac">Alfred Coudreux</persName>
+                        </author>
+                        <title level="a">Une débauche</title>
                         <idno type="ark">ark:/13960/t6445rk72</idno>
                      </analytic>
                      <monogr>
                         <title level="j">La revue des deux Mondes</title>
                         <imprint>
                            <date when="1831-05">Mai 1831</date>
-												</imprint>
+                        </imprint>
                         <biblScope unit="vol">Tome 2</biblScope>
-                        <biblScope unit="page">287&tiret;291</biblScope>				
+                        <biblScope unit="page">287&tiret;291</biblScope>
                      </monogr>
-                     <ptr type="URI" target="https://archive.org/details/revuedesdeuxmond011831pari/"/>
+                     <ptr type="URI"
+                        target="https://archive.org/details/revuedesdeuxmond011831pari/"/>
                   </biblStruct>
                </witness>
             </listWit>
@@ -245,22 +278,38 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>L'alignement des des passages journalistiques et romanesques accouplés a été réalisé avec l'aide de l'algorithme de Dekker de <ref
-                  target="https://collatex.net/">Collatex</ref>. Cet alignement a été repris ensuite
-               pour constituer l'édition critique et génétique qui suit.</p>
+            <p>L'alignement des des passages journalistiques et romanesques accouplés a été réalisé
+               avec l'aide de l'algorithme de Dekker de <ref target="https://collatex.net/"
+                  >Collatex</ref>. Cet alignement a été repris ensuite pour constituer l'édition
+               critique et génétique qui suit.</p>
             <p>L'édition critique et l'alignement des témoins cherchent à permettre l'étude la plus
-               précise possible de la variance et des similitudes entre l'antécédent publié dans la presse et la version roman :<list>
+               précise possible de la variance et des similitudes entre l'antécédent publié dans la
+               presse et la version roman :<list>
                   <item>La structuration du texte en paragraphes (&lt;p&gt;) a été abandonnée : les
                      trois textes sont insérés dans un conteneur &lt;ab&gt; et les changements de
                      paragraphes sont signalés par des &lt;milestone&gt;, pour que l'alignement des
                      témoins puisse mettre en avant les variances syntaxique, lexicales ou
                      orthographique. On considérera que les variations affectant la structure
                      syntaxique et le sémantisme sont plus importantes que les variation tenant à la
-                     structure de la page. C'est pourquoi les changement de page n'a pas été encodé, nous ocnsidérerons que ces aspects ne relèvent pas de décisions auctoriales. </item>
-                  <item> Quand deux blocs dans les deux témoins de texte se présentent comme trop éloignés pour un alignement mot à mot mais peuvent être mis en parralèle pour d'autres raison (structure syntaxiques, thématiques, alignement des mots qui suivent), il sseront encodés dans un même élément &lt;app&gt;. L'@corresp portera la valeur générale "word-diff" ; et "add-words" si l'un des deux témoins est significativement plus fourni que l'autre. </item>
+                     structure de la page. C'est pourquoi les changement de page n'a pas été encodé,
+                     nous ocnsidérerons que ces aspects ne relèvent pas de décisions auctoriales. </item>
+                  <item> Quand deux blocs dans les deux témoins de texte se présentent comme trop
+                     éloignés pour un alignement mot à mot mais peuvent être mis en parralèle pour
+                     d'autres raison (structure syntaxiques, thématiques, alignement des mots qui
+                     suivent), il sseront encodés dans un même élément &lt;app&gt;. L'@corresp
+                     portera la valeur générale "word-diff" ; et "add-words" si l'un des deux
+                     témoins est significativement plus fourni que l'autre. </item>
                   <item>Les italiques et les petites capitales ont été rendues par la balises
-                     &lt;hi&gt;, et si leur présence produit une nouvelle variante, l'@corresp portera la valeur "rend".</item>
-										 <item>Prise de décision concernant les déplacements et les structures syntaxiques en miroir : il revient à l'encodeur la décision de les encoder dans un seul élément &lt;app&gt;(considérant alors un déplacement au sein du bloc, l'inversion de l'ordre de deux groupes dans la phrase) ou dans deux éléments &lt;app&gt; distincts (considérant alors une suppression à un endroit et un ajout à un autre endroit du texte) en fonction de la portée du déplacement. Dans les deux cas, si on observe le déplacement d'un terme ou d'un groupe de mot dans la phrase l'@corresp portera la valeur "sentence-order".</item>
+                     &lt;hi&gt;, et si leur présence produit une nouvelle variante, l'@corresp
+                     portera la valeur "rend".</item>
+                  <item>Prise de décision concernant les déplacements et les structures syntaxiques
+                     en miroir : il revient à l'encodeur la décision de les encoder dans un seul
+                     élément &lt;app&gt;(considérant alors un déplacement au sein du bloc,
+                     l'inversion de l'ordre de deux groupes dans la phrase) ou dans deux éléments
+                     &lt;app&gt; distincts (considérant alors une suppression à un endroit et un
+                     ajout à un autre endroit du texte) en fonction de la portée du déplacement.
+                     Dans les deux cas, si on observe le déplacement d'un terme ou d'un groupe de
+                     mot dans la phrase l'@corresp portera la valeur "sentence-order".</item>
                </list>
             </p>
             <p>Pour chaque élément &lt;app&gt;, un attribut "@corresp" est utilisé pour préciser la
@@ -271,21 +320,22 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      texte, ou déplacement de termes dans la phrase</item>
                   <item xml:id="word-diff">des mots différents sont utilisés dans un même bloc de
                      texte dans les différents témoins</item>
-                  <item xml:id="pers-diff">différence dans la dénomination des personnages (et pas différence de personnage)</item>
+                  <item xml:id="pers-diff">différence dans la dénomination des personnages (et pas
+                     différence de personnage)</item>
                   <item xml:id="add-words">un témoin présente un ou plusieurs mots qui ne se
                      trouvent pas dans l'autre</item>
-                  <item xml:id="text-segmentation">la séparation du texte en paragraphes
-                     est différente d'un témoin à l'autre</item>
+                  <item xml:id="text-segmentation">la séparation du texte en paragraphes est
+                     différente d'un témoin à l'autre</item>
                   <item xml:id="attenuation">la différence va dans le sens de l'atténuation, de la
                      version antérieure à la version postérieure</item>
                   <item xml:id="expressif">la différence va dans le sens de l'emphase, de la version
                      antérieure à la version postérieure</item>
-                  <item xml:id="general">la différence va vers la généralisation, de la version antérieure
-                     à la version postérieure</item>
-                  <item xml:id="particulier">la différence va vers la particularisation, de la version
+                  <item xml:id="general">la différence va vers la généralisation, de la version
                      antérieure à la version postérieure</item>
-                  <item xml:id="syntax">la différence est d'ordre syntaxique (conjugaison,
-                     passage de la seconde à la troisième personne&susp;)</item>
+                  <item xml:id="particulier">la différence va vers la particularisation, de la
+                     version antérieure à la version postérieure</item>
+                  <item xml:id="syntax">la différence est d'ordre syntaxique (conjugaison, passage
+                     de la seconde à la troisième personne&susp;)</item>
                   <item xml:id="parole">différence dans la prise de parole des personnages
                      (notamment rajout de verbe de parole)</item>
                   <item xml:id="rend">différence typographique significative</item>
@@ -296,8 +346,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <p>Pour mieux aligner les textes et mettre en avant les variations entre les témoins,
                   les paragraphes ne sont pas contenus dans des &lt;p&gt;. Le passage d'un
                   paragraphe à l'autre est signalé par un &lt;milestone unit="tei:p"/&gt; et par un
-                  &lt;lb/&gt;. Cette méthode est suggérée par Beshero&tiret;Bondar, Cayless, Vigilanti
-                  (2019: 3.10) <bibl>
+                  &lt;lb/&gt;. Cette méthode est suggérée par Beshero&tiret;Bondar, Cayless,
+                  Vigilanti (2019: 3.10) <bibl>
                      <author>
                         <persName>Beshero&tiret;Bondar</persName>
                         <persName>Cayless</persName>
@@ -311,7 +361,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </segmentation>
          </editorialDecl>
          <projectDesc>
-            <p>Encodage réalisé dans le cadre du cours de TEI du M2 TNAH de l'ENC, 2022&tiret;2023.</p>
+            <p>Encodage réalisé dans le cadre du cours de TEI du M2 TNAH de l'ENC,
+               2022&tiret;2023.</p>
          </projectDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
       </encodingDesc>
@@ -322,17 +373,14 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             <country>France</country>
          </creation>
          <abstract>
-            <p><persName ref="#balzac">Balzac</persName> a la spécificité de multiplier les supports d'écriture (livre, feuilleton,
-               articles de journal), en réutilisant ses textes antérieurs. Ainsi son activité
-               journalistique, bien que motivée a priori par une rentabilité, n'est pas
-               sans intérêt, d'autant que les journaux se font l'antichambre de l'oœvre à venir. L'auteur collabore à partir de 1830 à de nombreux journaux et revue, souvent
-               sous pseudonyme. Il prépublie des oœuvres courtes, contes et nouvelles ; mais aussi
-               (c'est ce qui nous intéresse) des passages que l'on retrouvera ensuite intégré dans
-               des romans. L'idée est donc d'accoler les ébauches avec leur version la plus aboutie
-               dont on dispose, c'est&tiret;à&tiret;dire le Furne corrigée, exemplaire personnel de La Comédie
-               Humaine de Balzac, et annoté par l'auteur lui&tiret;même.</p>
+            <p><persName ref="#balzac">Balzac</persName> a la spécificité de multiplier les supports d'écriture (livre, feuilleton, articles de journal), en réutilisant ses textes
+               antérieurs. Ainsi son activité journalistique, bien que motivée a priori par une
+               rentabilité, n'est pas sans intérêt, d'autant que les journaux se font l'antichambre de l'oœvre à venir. L'auteur collabore à partir de 1830 à de nombreux journaux et
+               revue, souvent sous pseudonyme. Il prépublie des oœuvres courtes, contes et nouvelles ; mais aussi (c'est ce qui nous intéresse) des passages que l'on retrouvera ensuite
+               intégré dans des romans. L'idée est donc d'accoler les ébauches avec leur version la plus aboutie dont on dispose, c'est&tiret;à&tiret;dire le Furne corrigée, exemplaire
+               personnel de La Comédie Humaine de Balzac, et annoté par l'auteur lui&tiret;même.</p>
             <p>Cette amorce d'édition critique fournira un nouvel outil d'interrogation des textes
-               de La Comédie Humaine, en approfondissant la connaissance des phénomènes génétiques,
+               de La Comédie Humaine, en approfondissant la connaissance des phénomènes génétiques
                poétiques et stylistiques à l'oœuvre dans le processus d'écriture, et en permettant
                de mieux comprendre l'apparition des réutilisations dans l'oœuvre littéraire.</p>
          </abstract>
@@ -348,7 +396,7 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      <forename>Honoré de</forename>
                      <surname>Balzac</surname>
                   </persName>
-                 </person>
+               </person>
                <person xml:id="mercier" role="fictional">
                   <persName type="text-name">
                      <name>Mercier</name>
@@ -359,7 +407,7 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      <name>Mercière</name>
                   </persName>
                   <persName type="text-name">
-                        <name>sa &fe;</name>
+                     <name>sa &fe;</name>
                   </persName>
                </person>
                <person xml:id="vh" role="real">
@@ -394,8 +442,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      <addName type="honorific">M.</addName>
                      <surname>Jay</surname>
                   </persName>
-                  <note source="wikipedia">&ho; de lettres, journaliste, historien et &ho;
-                     politique (1770&tiret;1854)</note>
+                  <note source="wikipedia">&ho; de lettres, journaliste, historien et &ho; politique
+                     (1770&tiret;1854)</note>
                </person>
                <person xml:id="chaign" role="real">
                   <persName type="contemporary-name" resp="#cg" cert="low">
@@ -406,11 +454,11 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      <addName type="honorific">M.</addName>
                      <surname>Chaignieau</surname>
                   </persName>
-                  <note source="wikipedia">Jean&tiret;Louis Chaigneau (1767&tiret;1847) est un &ho; politique
-                     français. Pendant la révolution, il entra au Conseil des Cinq&tiret;Cents. Il y prit
-                     quelquefois la parole, par exemple, pour présenter un rapport sur les
-                     versements en assignats faits par les comptables. Il siégea jusqu'en l'an
-                     VIII.</note>
+                  <note source="wikipedia">Jean&tiret;Louis Chaigneau (1767&tiret;1847) est un &ho;
+                     politique français. Pendant la révolution, il entra au Conseil des
+                     Cinq&tiret;Cents. Il y prit quelquefois la parole, par exemple, pour présenter
+                     un rapport sur les versements en assignats faits par les comptables. Il siégea
+                     jusqu'en l'an VIII.</note>
                </person>
                <person xml:id="tag" role="real">
                   <persName type="contemporary-name" resp="#cg" cert="high">
@@ -441,11 +489,10 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      <surname>Lafayette</surname>
                   </persName>
                   <note source="wikipedia"> &ho; politique français, célèbre en raison de son
-                     engagement dans les rangs de l'armée des insurgés américains (1777&tiret;1783), puis
-                     dans l'aile libérale et réformiste de l'aristocratie française (1784&tiret;1792),
-                     enfin dans l'opposition libérale au régime de la monarchie de Juillet qu'il
-                     avait pourtant contribué à établir lors des Trois Glorieuses (juillet
-                     1830).</note>
+                     engagement dans les rangs de l'armée des insurgés américains (1777&tiret;1783), puis dans l'aile libérale et réformiste de l'aristocratie française
+                     (1784&tiret;1792), enfin dans l'opposition libérale au régime de la monarchie
+                     de Juillet qu'il avait pourtant contribué à établir lors des Trois Glorieuses
+                     (juillet 1830).</note>
                </person>
                <person xml:id="mari" role="fictional">
                   <persName type="text-name">
@@ -459,17 +506,17 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      </app>
                   </persName>
                </person>
-							 <person xml:id="femme" role="fictional">
-									<persName type="text-name">
-										 <app corresp="#word-diff #particulier">
-												<lem wit="#F">
-													 <forename type="honorific">Caroline</forename>
-												</lem>
-												<rdg wit="#C">
-													 <name type="honorific">Madame de ***</name>
-												</rdg>
-										 </app>
-									</persName>
+               <person xml:id="femme" role="fictional">
+                  <persName type="text-name">
+                     <app corresp="#word-diff #particulier">
+                        <lem wit="#F">
+                           <forename type="honorific">Caroline</forename>
+                        </lem>
+                        <rdg wit="#C">
+                           <name type="honorific">Madame de ***</name>
+                        </rdg>
+                     </app>
+                  </persName>
                </person>
                <person xml:id="elssler" role="real">
                   <persName type="contemporary-name" resp="#cg" cert="high">
@@ -536,9 +583,9 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                   <persName type="text-name">
                      <name>amphitryon</name>
                   </persName>
-                  <note source="Wikipedia">Jean&tiret;Frédéric Taillefer est un personnage de la Comédie
-                     Humaine. Fournisseur de vivres sous l'Empire, il s'enrichit à la suite d'un
-                     crime. Il devient banquier et spécule avec le baron de NucingeLorsque l'on
+                  <note source="Wikipedia">Jean&tiret;Frédéric Taillefer est un personnage de la
+                     Comédie Humaine. Fournisseur de vivres sous l'Empire, il s'enrichit à la suite
+                     d'un crime. Il devient banquier et spécule avec le baron de NucingeLorsque l'on
                      parle de l'hôte, le terme « amphitryon » est utilisé. En langage soutenu, on
                      entend par ce mot l'hôte d'un dîner. Mais il s'agit de la référence à une
                      comédie de Molière inspirée de celle de Plaute, dans laquelle Amphitryon,
@@ -566,8 +613,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <place xml:id="antin">
                   <placeName type="contemporary-name">la Chaussée&tiret;d'Antin</placeName>
                   <settlement type="town" ref="#paris">Paris</settlement>
-                  <note>Le quartier de la Chaussée&tiret;d'Antin est le 34e quartier administratif de
-                     Paris situé dans le 9 arrondissement</note>
+                  <note>Le quartier de la Chaussée&tiret;d'Antin est le 34e quartier administratif
+                     de Paris situé dans le 9 arrondissement</note>
                </place>
                <place xml:id="rue_bar">
                   <placeName type="contemporary-name">rue Barillerie</placeName>
@@ -610,8 +657,7 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                   <placeName type="contemporary-name" resp="cg" cert="low">Théâtre National de
                      l'Opéra&tiret;comique</placeName>
                   <settlement type="town" ref="#paris">Paris</settlement>
-                  <note>Depuis 1825, l'Opéra comique, qui conserve dans l'ancienne dénomination "Les
-                     Italiens" occupent la salle Favart dans le deuxième arrondissement de
+                  <note>Depuis 1825, l'Opéra comique, qui conserve dans l'ancienne dénomination "Les Italiens" occupent la salle Favart dans le deuxième arrondissement de
                      Paris.</note>
                </place>
             </listPlace>
@@ -621,7 +667,7 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
    <text>
       <body>
          <ab n="I" type="collation2to2" corresp="#F #C">
-					 <title>Le Petit petit_mercier</title>
+            <title>Le Petit petit_mercier</title>
             <app corresp="#word-diff #attenuation">
                <lem wit="#F">Et d'abord saluez ce</lem>
                <rdg wit="#C"><hi rend="sc">Le Petit <persName ref="#mercier"
@@ -718,8 +764,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      rend="sc">utile dulci</hi> !&susp;<milestone unit="tei:p"/><lb/></rdg>
             </app>
             <app corresp="#add-words #attenuation #text-segmentation">
-               <rdg wit="#C">Pardonnez&tiret;moi cette incroyable hypebole ; mais encore un mot, et vous
-                  chanterez à la gloire de l'&ho; en qui je veux célébrer <hi rend="sc"
+               <rdg wit="#C">Pardonnez&tiret;moi cette incroyable hypebole ; mais encore un mot, et
+                  vous chanterez à la gloire de l'&ho; en qui je veux célébrer <hi rend="sc"
                      >l'utilité</hi> même !&susp;.<milestone unit="tei:p"/><lb/></rdg>
             </app> Levé tous les jours à cinq heures, il a franchi <app corresp="#punct">
                <rdg wit="#C">,</rdg>
@@ -978,8 +1024,7 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </app> dort vite, <app corresp="#syntax">
                <lem wit="#F">et dépêche</lem>
                <rdg wit="#C">dépêchant</rdg>
-            </app> son sommeil comme <app
-               corresp="#add-words #attenuation #text-segmentation">
+            </app> son sommeil comme <app corresp="#add-words #attenuation #text-segmentation">
                <lem wit="#F">il a dépêché sa vie</lem>
                <rdg wit="#C">il dépêche sa vie&susp;. <milestone unit="tei:p"/><lb/>Comme il est bel
                   &ho;, il a obtenu la place lucrative de tambour&tiret;major de légion</rdg>
@@ -1022,10 +1067,11 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </app>
             <app corresp="#add-words">
                <lem wit="#F"> Aucune physionomie ne saurait se conserver pure en de tels travaux.
-                  Peut&tiret;être l'ouvrier qui meurt vieux à trente ans, l'estomac tanné par les doses
-                  progressives de son eau&tiret;de&tiret;vie, sera&tiret;t&tiret;il trouvé, au dire de quelques philosophes
-                  bien rentés, plus heureux que ne l'est <persName ref="#mercier">le
-                     mercier</persName>. L'un périt d'un seul coup et l'autre en détail. De </lem>
+                  Peut&tiret;être l'ouvrier qui meurt vieux à trente ans, l'estomac tanné par les
+                  doses progressives de son eau&tiret;de&tiret;vie, sera&tiret;t&tiret;il trouvé, au
+                  dire de quelques philosophes bien rentés, plus heureux que ne l'est <persName
+                     ref="#mercier">le mercier</persName>. L'un périt d'un seul coup et l'autre en
+                  détail. De </lem>
                <rdg wit="#C">Il cumule Dieu et le Diable, le gouvernement et l'opposition ; et,
                   de</rdg>
             </app> ses huit industries, de ses épaules, de son gosier, de ses mains <app
@@ -1053,17 +1099,17 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                   ou son fils élevé au collége, qui, plus instruit que ne l'est son père, jette plus
                   haut ses regards ambitieux. Souvent le cadet d'un petit détaillant veut être
                   quelque chose dans l'État.</lem>
-               <rdg wit="#C">O mon voisin ! tu es, sans t'en douter, un symbole dont ta &fe; a
-                  seule la clé !&susp; Va, cours, poursuis ta carrière&susp; Te reposeras&tiret;tu jamais ?&susp;
-                  Mort, ton chagrin serait d'être couché sans espoir de mouvement&susp; Sois
+               <rdg wit="#C">O mon voisin ! tu es, sans t'en douter, un symbole dont ta &fe; a seule
+                  la clé !&susp; Va, cours, poursuis ta carrière&susp; Te reposeras&tiret;tu jamais
+                  ?&susp; Mort, ton chagrin serait d'être couché sans espoir de mouvement&susp; Sois
                   tranquille, tu trouveras encore de l'emploi parmi les ombres, et tu reviendras
-                  peut&tiret;être dans les romans nouveaux, soit comme esprit, soit comme génie !&susp;
-                  <milestone unit="tei:p"/><lb/>Gloire à toi, roi du mouvement ! (Bis.) <persName
-                     ref="#balzac"><hi rend="sc">Alfred Coudreux</hi></persName></rdg>
+                  peut&tiret;être dans les romans nouveaux, soit comme esprit, soit comme génie
+                  !&susp; <milestone unit="tei:p"/><lb/>Gloire à toi, roi du mouvement ! (Bis.)
+                     <persName ref="#balzac"><hi rend="sc">Alfred Coudreux</hi></persName></rdg>
             </app>
          </ab>
          <ab n="II" type="collation2to2" corresp="#F #R2M">
-					 <title>Une débauche</title>
+            <title>Une débauche</title>
             <persName ref="#emile">Émile</persName> était un <app corresp="#word-diff">
                <lem wit="#F">journaliste</lem>
                <rdg wit="#R2M">auteur</rdg>
@@ -1124,8 +1170,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <lem wit="#F">ne</lem>
             </app> travaillait <app corresp="#add-words">
                <lem wit="#F">que</lem>
-            </app> par boutade ou par nécessité.<milestone unit="tei:p"/><lb/> &tiret; Nous allons faire,
-               <app corresp="#word-diff">
+            </app> par boutade ou par nécessité.<milestone unit="tei:p"/><lb/> &tiret; Nous allons
+            faire, <app corresp="#word-diff">
                <lem wit="#F">suivant l'expression de</lem>
                <rdg wit="#R2M">comme dit</rdg>
             </app><persName ref="#rab">maître Alcofribas</persName>, un fameux <hi rend="i">tronçon
@@ -1138,9 +1184,9 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             <app corresp="#punct #attenuation">
                <lem wit="#F">,</lem>
                <rdg wit="#R2M"><hi rend="i">!&susp;</hi></rdg>
-            </app> dit&tiret;il à <persName ref="#raph">Raphaël</persName> en lui montrant les caisses de
-            fleurs qui embaumaient et verdissaient les escaliers.<milestone unit="tei:p"/><lb/> &tiret;
-               <app corresp="#add-words #attenuation">
+            </app> dit&tiret;il à <persName ref="#raph">Raphaël</persName> en lui montrant les
+            caisses de fleurs qui embaumaient et verdissaient les escaliers.<milestone unit="tei:p"
+            /><lb/> &tiret; <app corresp="#add-words #attenuation">
                <lem wit="#F">J</lem>
                <rdg wit="#R2M">Oh ! que j</rdg>
             </app>'aime les porches bien chauffés <app corresp="#punct">
@@ -1168,7 +1214,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             <app corresp="#punct #text-segmentation">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp; <milestone unit="tei:p"/><lb/>&tiret;</rdg>
-            </app> Ah çà ! reprit&tiret;il, j'espère que nous serons les vainqueurs <app corresp="#punct">
+            </app> Ah çà ! reprit&tiret;il, j'espère que nous serons les vainqueurs <app
+               corresp="#punct">
                <rdg wit="#R2M">,</rdg>
             </app> et que nous marcherons sur toutes ces têtes&tiret;là <app
                corresp="#punct #word-diff #text-segmentation">
@@ -1195,7 +1242,7 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <rdg wit="#R2M">. <milestone unit="tei:p"/><lb/> Ils</rdg>
             </app> furent aussitôt accueillis par les jeunes gens les plus remarquables de
                <placeName ref="#paris">Paris</placeName>. <app corresp="#text-segmentation">
-                  <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
+               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
             </app>L'un venait de révéler un talent neuf, et de rivaliser <app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
             </app> par son premier tableau <app corresp="#punct">
@@ -1250,7 +1297,9 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </app> de ne pas mentir, en s'adressant de douces flatteries.<app
                corresp="#text-segmentation">
                <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> <persName ref="#convive">Un musicien célèbre</persName> consolait en <hi rend="i">si bémol</hi>
+            </app>
+            <persName ref="#convive">Un musicien célèbre</persName> consolait en <hi rend="i">si
+               bémol</hi>
             <app corresp="#punct">
                <lem wit="#F">,</lem>
             </app> et d'une voix moqueuse <app corresp="#punct">
@@ -1268,8 +1317,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <lem wit="#F">. Voyant</lem>
                <rdg wit="#R2M">; et, voyant</rdg>
             </app> ces êtres incomplets, <persName ref="#convive">un pauvre
-               saint&tiret;simonien</persName>, assez naïf pour croire à sa doctrine, les accouplait avec
-            charité, voulant sans doute les transformer en religieux de son ordre.<app
+               saint&tiret;simonien</persName>, assez naïf pour croire à sa doctrine, les accouplait
+            avec charité, voulant sans doute les transformer en religieux de son ordre.<app
                corresp="#text-segmentation">
                <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
             </app> Enfin, il <app corresp="#word-diff">
@@ -1294,8 +1343,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             des gens qui <app corresp="#syntax">
                <lem wit="#F">épousent</lem>
                <rdg wit="#R2M">épousaient</rdg>
-            </app> leurs admirations ou leurs mépris pour les &ho;s et les choses, faisaient déjà
-            de cette politique à double tranchant, avec laquelle ils conspirent contre tous les
+            </app> leurs admirations ou leurs mépris pour les &ho;s et les choses, faisaient déjà de
+            cette politique à double tranchant, avec laquelle ils conspirent contre tous les
             systèmes, sans prendre parti pour aucun..<app corresp="#text-segmentation">
                <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
             </app> Le <persName ref="#convive"><hi rend="i">jugeur</hi></persName>, qui ne s'étonne
@@ -1413,13 +1462,14 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             sur l'imagination d'un &ho; <app corresp="#word-diff">
                <lem wit="#F">sans</lem>
                <rdg wit="#R2M">dénué d'</rdg>
-            </app>argent.<milestone unit="tei:p"/><lb/> &tiret; Cent mille livres de rente sont un bien
-            joli commentaire du catéchisme, et nous aident merveilleusement à mettre la <hi rend="i"
-               >morale en</hi>
+            </app>argent.<milestone unit="tei:p"/><lb/> &tiret; Cent mille livres de rente sont un
+            bien joli commentaire du catéchisme, et nous aident merveilleusement à mettre la <hi
+               rend="i">morale en</hi>
             <app corresp="#orth #punct">
                <lem wit="#F"><hi rend="i">actions !</hi></lem>
                <rdg wit="#R2M"><hi rend="i">action</hi> !&susp;</rdg>
-            </app> dit&tiret;il en soupirant. Oh ! oui, ma vertu ne va guère à pied <app corresp="#punct">
+            </app> dit&tiret;il en soupirant. Oh ! oui, ma vertu ne va guère à pied <app
+               corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
             </app> Pour moi <app corresp="#punct">
@@ -1479,21 +1529,21 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </app>évangélique et rassurant aspect que présentait la salle à manger du <persName
                ref="#taillefer">benoît capitaliste</persName>. <app corresp="#text-segmentation">
                <rdg wit="#R2M"><milestone unit="tei:p"/><lb/> &tiret; </rdg>
-            </app> Cet &ho;&tiret;là, reprit&tiret;il, ne s'est vraiment donné la peine d'amasser son argent
-            que pour nous <app corresp="#punct">
+            </app> Cet &ho;&tiret;là, reprit&tiret;il, ne s'est vraiment donné la peine d'amasser
+            son argent que pour nous <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
-            </app> N'est&tiret;ce pas une espèce d'éponge oubliée par les naturalistes dans l'ordre des
-               <app corresp="#orth">
+            </app> N'est&tiret;ce pas une espèce d'éponge oubliée par les naturalistes dans l'ordre
+            des <app corresp="#orth">
                <lem wit="#F"><hi rend="i">Polypiers</hi></lem>
                <rdg wit="#R2M">polypiers</rdg>
             </app>, et qu'il s'agit de presser avec délicatesse, avant de la laisser sucer par des
-            héritiers ? Ne trouves&tiret;tu pas du style aux bas&tiret;reliefs qui décorent les murs ? Et les
-            lustres, et les tableaux, quel luxe bien entendu ! S'il faut croire les envieux et ceux
-            qui tiennent à voir les ressorts de la vie, cet &ho; aurait tué, pendant la révolution,
-               <app corresp="#word-diff">
-               <lem wit="#F">un Allemand et quelques autres personnes qui seraient, dit&tiret;on, son
-                  meilleur ami et la mère de cet ami</lem>
+            héritiers ? Ne trouves&tiret;tu pas du style aux bas&tiret;reliefs qui décorent les murs
+            ? Et les lustres, et les tableaux, quel luxe bien entendu ! S'il faut croire les envieux
+            et ceux qui tiennent à voir les ressorts de la vie, cet &ho; aurait tué, pendant la
+            révolution, <app corresp="#word-diff">
+               <lem wit="#F">un Allemand et quelques autres personnes qui seraient, dit&tiret;on,
+                  son meilleur ami et la mère de cet ami</lem>
                <rdg wit="#R2M">je ne sais quelle vieille dame asthmatique, un petit orphelin
                   scrofuleux et quelque autre personne</rdg>
             </app>. Peux&tiret;tu donner place à des crimes sous les cheveux <app corresp="#orth">
@@ -1540,30 +1590,32 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <rdg wit="#R2M">&susp;</rdg>
             </app> [&susp;] </ab>
          <ab n="III" type="collation2to2" corresp="#F #C2">
-					 <title>La Consultation</title>
+            <title>La Consultation</title>
             <app corresp="#add-words">
-               <lem wit="#F">Plus Adolphe tente d'égayer &caro;, plus &caro; s'enveloppe dans
-                  les crêpes d'un deuil à larmes continues. Cette seconde fois, Adolphe reste et
+               <lem wit="#F">Plus Adolphe tente d'égayer &caro;, plus &caro; s'enveloppe dans les
+                  crêpes d'un deuil à larmes continues. Cette seconde fois, Adolphe reste et
                   s'ennuie. Puis, à la troisième attaque à larmes forcées, il sort sans aucune
                   tristesse. Enfin, il se blase sur ces plaintes éternelles, sur ces attitudes de
-                  mourant, sur ces larmes de crocodile. Et il finit par dire : &tiret; Si tu es malade,
-                  &caro;, il faut voir un médecin&susp;<milestone unit="tei:p"/><lb/> &tiret; Comme tu
-                  voudras ! cela finira plus promptement ainsi, cela me va&susp; Mais alors, amène un
-                     <persName ref="#doc">fameux médecin</persName>.<milestone unit="tei:p"/><lb/> Au bout d'un
-                  mois, <persName ref="#mari">Adolphe</persName>, fatigué d'entendre l'air funèbre
-                  que <persName ref="#femme">Caroline</persName> lui joue sur tous les tons, amène
-                  un <persName ref="#doc">grand médecin</persName>. À <placeName ref="#paris">Paris</placeName>, les
+                  mourant, sur ces larmes de crocodile. Et il finit par dire : &tiret; Si tu es
+                  malade, &caro;, il faut voir un médecin&susp;<milestone unit="tei:p"/><lb/>
+                  &tiret; Comme tu voudras ! cela finira plus promptement ainsi, cela me va&susp;
+                  Mais alors, amène un <persName ref="#doc">fameux médecin</persName>.<milestone
+                     unit="tei:p"/><lb/> Au bout d'un mois, <persName ref="#mari"
+                  >Adolphe</persName>, fatigué d'entendre l'air funèbre que <persName ref="#femme"
+                     >Caroline</persName> lui joue sur tous les tons, amène un <persName ref="#doc"
+                     >grand médecin</persName>. À <placeName ref="#paris">Paris</placeName>, les
                   médecins sont tous des gens d'esprit, et ils se connaissent admirablement en
                   Nosographie conjugale.<milestone unit="tei:p"/><lb/> &tiret; Eh bien ! madame, dit
                      <persName ref="#doc">le grand médecin</persName>, comment une si jolie &fe;
-                  s'avise&tiret;t&tiret;elle d'être malade ?<milestone unit="tei:p"/><lb/> &tiret; Oui, monsieur, de
-                  même que le nez du <persName ref="#pa">père Aubry</persName>, j'aspire à la
-                     tombe&susp;<milestone unit="tei:p"/><lb/>
+                  s'avise&tiret;t&tiret;elle d'être malade ?<milestone unit="tei:p"/><lb/> &tiret;
+                  Oui, monsieur, de même que le nez du <persName ref="#pa">père Aubry</persName>,
+                  j'aspire à la tombe&susp;<milestone unit="tei:p"/><lb/>
                   <persName ref="#femme">Caroline</persName>, par égard pour <persName ref="#mari"
                      >Adolphe</persName>, essaie de sourire.</lem>
-               <rdg wit="#C2">(Un hôtel de la <placeName ref="#antin">Chaussée&tiret;d'Antin</placeName>.)<milestone
-                     unit="tei:p"/><lb/>&tiret; <hi rend="sc">Plaisanterie</hi> à part , mon cher &doc;,
-                  je suis malade , et ce n'est pas sans raison que je vous ai fait venir&susp;</rdg>
+               <rdg wit="#C2">(Un hôtel de la <placeName ref="#antin"
+                     >Chaussée&tiret;d'Antin</placeName>.)<milestone unit="tei:p"/><lb/>&tiret; <hi
+                     rend="sc">Plaisanterie</hi> à part , mon cher &doc;, je suis malade , et ce
+                  n'est pas sans raison que je vous ai fait venir&susp;</rdg>
             </app><milestone unit="tei:p"/> &tiret; <app corresp="#sentence-order #add-words">
                <lem wit="#F">Bon ! cependant vous avez</lem>
                <rdg wit="#C2">Vous avez cependant</rdg>
@@ -1575,10 +1627,11 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </app> la fièvre <app corresp="#word-diff">
                <lem wit="#F">me dévore, une petite fièvre imperceptible, lente&susp;<milestone
                      unit="tei:p"/><lb/> Et elle arrête le plus malicieux de ses regards sur
-                  l'illustre <persName ref="#doc">docteur</persName>, qui se dit en lui&tiret;même : Quels
-                  yeux !&susp;</lem>
+                  l'illustre <persName ref="#doc">docteur</persName>, qui se dit en lui&tiret;même :
+                  Quels yeux !&susp;</lem>
                <rdg wit="#C2">; je l'ai eue pendant toute la nuit&susp; </rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff #punct #attenuation">
+            </app><milestone unit="tei:p"/><lb/> &tiret; <app
+               corresp="#word-diff #punct #attenuation">
                <lem wit="#F">Bien, voyons la</lem>
                <rdg wit="#C2">Ah ! Voyons votre</rdg>
             </app> langue <app corresp="#parole #punct">
@@ -1628,12 +1681,12 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </app> sentez&tiret;vous <app corresp="#add-words #parole">
                <lem wit="#F">? demande gravement le &doc; à &caro;.</lem>
                <rdg wit="#C2"> ?&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Je ne dors pas.<milestone unit="tei:p"/><lb/> &tiret;
-            Bon <app corresp="#punct #expressif">
+            </app><milestone unit="tei:p"/><lb/> &tiret; Je ne dors pas.<milestone unit="tei:p"
+            /><lb/> &tiret; Bon <app corresp="#punct #expressif">
                <lem wit="#F">!</lem>
                <rdg wit="#C2">.</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Je n'ai pas d'appétit&susp;<milestone unit="tei:p"
-            /><lb/> &tiret; Bien <app corresp="#punct #expressif">
+            </app><milestone unit="tei:p"/><lb/> &tiret; Je n'ai pas d'appétit&susp;<milestone
+               unit="tei:p"/><lb/> &tiret; Bien <app corresp="#punct #expressif">
                <lem wit="#F">!</lem>
                <rdg wit="#C2">&susp;</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; J'ai des douleurs <app corresp="#word-diff">
@@ -1656,7 +1709,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
             </app> me passe des frissons par <app corresp="#orth">
                <lem wit="#F">moments</lem>
                <rdg wit="#C2">moment</rdg>
-            </app>&susp;<milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff #punct #expressif">
+            </app>&susp;<milestone unit="tei:p"/><lb/> &tiret; <app
+               corresp="#word-diff #punct #expressif">
                <lem wit="#F">Bon !</lem>
                <rdg wit="#C2">Bien&susp; </rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; J'ai des tristesses <app
@@ -1667,9 +1721,9 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <lem wit="#F">toujours</lem>
             </app> à la mort <app corresp="#word-diff #add-words #text-segmentation">
                <lem wit="#F">, j'ai des idées de suicide.</lem>
-               <rdg wit="#C2">.<milestone unit="tei:p"/><lb/> &tiret; Après&susp;<milestone unit="tei:p"
-                  /><lb/> &tiret; Mais je suis fatiguée aussitôt que j'ai fait la plus petite
-                  course&susp;</rdg>
+               <rdg wit="#C2">.<milestone unit="tei:p"/><lb/> &tiret; Après&susp;<milestone
+                     unit="tei:p"/><lb/> &tiret; Mais je suis fatiguée aussitôt que j'ai fait la
+                  plus petite course&susp;</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff #punct #expressif">
                <lem wit="#F">Ah ! vraiment ?</lem>
                <rdg wit="#C2">Bon&susp;</rdg>
@@ -1706,24 +1760,25 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                      rend="i">trismus</hi> ; mais il fait observer avec la plus grande modestie que,
                   si la science sait que le <hi rend="i">trismus</hi> est le <hi rend="i"
                      >trismus</hi>, elle ignore entièrement la cause de ce mouvement nerveux, qui
-                  va, vient, passe, reparaît&susp; Et, dit&tiret;il, nous avons reconnu que c'était purement
-                  nerveux. <milestone unit="tei:p"/><lb/> &tiret; Est&tiret;ce bien </lem>
-               <rdg wit="#C2">&tiret; Ah ! cela se nomme <hi rend="i">trismus</hi> !&susp; Est&tiret;ce</rdg>
+                  va, vient, passe, reparaît&susp; Et, dit&tiret;il, nous avons reconnu que c'était
+                  purement nerveux. <milestone unit="tei:p"/><lb/> &tiret; Est&tiret;ce bien </lem>
+               <rdg wit="#C2">&tiret; Ah ! cela se nomme <hi rend="i">trismus</hi> !&susp;
+                  Est&tiret;ce</rdg>
             </app> dangereux <app corresp="#punct #add-words #parole #persname-diff">
                <lem wit="#F"> ? demanda <persName ref="#femme">Caroline</persName> inquiète.</lem>
                <rdg wit="#C2"> !</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; Nullement. <app corresp="#add-words">
                <lem wit="#F"> ?</lem>
-               <rdg wit="#C2"><milestone unit="tei:p"/><lb/> &tiret; Je tousse. Une petite toux sèche&susp;
-                  J'ai des inquiétudes dans les jambes&susp; Je suis sûre d'avoir anévrisme au coeur&susp;
-                     <milestone unit="tei:p"/><lb/></rdg>
+               <rdg wit="#C2"><milestone unit="tei:p"/><lb/> &tiret; Je tousse. Une petite toux
+                  sèche&susp; J'ai des inquiétudes dans les jambes&susp; Je suis sûre d'avoir
+                  anévrisme au coeur&susp; <milestone unit="tei:p"/><lb/></rdg>
             </app> Comment vous couchez&tiret;vous <app corresp="#punct">
                <rdg wit="#C2"> ?&susp;</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; En rond<app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#C2">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Bien, sur quel côté ?<milestone unit="tei:p"
-            /><lb/> &tiret; <app corresp="#add-words #expressif">
+            </app><milestone unit="tei:p"/><lb/> &tiret; Bien, sur quel côté ?<milestone
+               unit="tei:p"/><lb/> &tiret; <app corresp="#add-words #expressif">
                <lem wit="#F">À</lem>
                <rdg wit="#C2">Oh ! toujours à</rdg>
             </app> gauche<app corresp="#punct">
@@ -1742,8 +1797,8 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <lem wit="#F">Bien ; y a&tiret;t&tiret;il</lem>
                <rdg wit="#C2">Avez&tiret;vous</rdg>
             </app> un sommier ?<milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Mais, oui&susp;<milestone unit="tei:p"/><lb/> &tiret; Quelle est la substance du
-                  sommier ?<milestone unit="tei:p"/><lb/> &tiret; Le</lem>
+               <lem wit="#F">Mais, oui&susp;<milestone unit="tei:p"/><lb/> &tiret; Quelle est la
+                  substance du sommier ?<milestone unit="tei:p"/><lb/> &tiret; Le</lem>
                <rdg wit="#C2">De</rdg>
             </app> crin<app corresp="#punct">
                <lem wit="#F">.</lem>
@@ -1757,36 +1812,38 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                   <persName ref="#femme">Caroline</persName></lem>
                <rdg wit="#C2">? (Elle</rdg>
             </app> marche <app corresp="#word-diff">
-               <lem wit="#F">à la <persName ref="#doc">Elssler</persName>, en agitant <hi rend="i">sa
-                     tournure</hi> de la façon la plus andalouse.<milestone unit="tei:p"/><lb/> &tiret;
-                  Vous ne sentez pas un peu de pesanteur dans les genoux ?<milestone unit="tei:p"
-                  /><lb/> &tiret; Mais&susp; non&susp; (Elle revient à sa place.) Mon Dieu, quand on
-                  s'examine&susp; il me semble maintenant que oui&susp;<milestone unit="tei:p"/><lb/> &tiret;
-                  Bon. Vous êtes restée à la maison depuis quelque temps ?<milestone unit="tei:p"
-                  /><lb/> &tiret; Oh ! oui, <persName ref="#mari">monsieur</persName>, beaucoup trop&susp; et
-                     seule.<milestone unit="tei:p"/><lb/> &tiret; Bien, c'est cela. Comment vous
-                  coiffez&tiret;vous pour</lem>
-               <rdg wit="#C2">.)<milestone unit="tei:p"/><lb/> &tiret; Ne sentez&tiret;vous pas des pesanteurs
-                  dans la synovie de vos rotules ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Qu'est&tiret;ce que
-                  c'est, <persName ref="#doc">docteur</persName>, que cette synovie ?&susp;<milestone
-                     unit="tei:p"/><lb/> &tiret; Ce n'est rien. Tenez, c'est une espèce de liqueur, à
-                  l'aide de laquelle se meuvent les cartilages que vous avez au genou,
-                     là&susp;<milestone unit="tei:p"/><lb/> &tiret; Non, <persName ref="#doc"
-                     >docteur</persName>, je n'y sens rien. Êtes&tiret;vous heureux de savoir toutes ces
-                  choses&tiret;là !&susp; Est&tiret;ce que si j'y avais des pesanteurs ?&susp;<milestone unit="tei:p"
-                  /><lb/> &tiret; Que mettez&tiret;vous sur votre tête pendant </rdg>
+               <lem wit="#F">à la <persName ref="#doc">Elssler</persName>, en agitant <hi rend="i"
+                     >sa tournure</hi> de la façon la plus andalouse.<milestone unit="tei:p"/><lb/>
+                  &tiret; Vous ne sentez pas un peu de pesanteur dans les genoux ?<milestone
+                     unit="tei:p"/><lb/> &tiret; Mais&susp; non&susp; (Elle revient à sa place.) Mon
+                  Dieu, quand on s'examine&susp; il me semble maintenant que oui&susp;<milestone
+                     unit="tei:p"/><lb/> &tiret; Bon. Vous êtes restée à la maison depuis quelque
+                  temps ?<milestone unit="tei:p"/><lb/> &tiret; Oh ! oui, <persName ref="#mari"
+                     >monsieur</persName>, beaucoup trop&susp; et seule.<milestone unit="tei:p"
+                  /><lb/> &tiret; Bien, c'est cela. Comment vous coiffez&tiret;vous pour</lem>
+               <rdg wit="#C2">.)<milestone unit="tei:p"/><lb/> &tiret; Ne sentez&tiret;vous pas des
+                  pesanteurs dans la synovie de vos rotules ?&susp;<milestone unit="tei:p"/><lb/>
+                  &tiret; Qu'est&tiret;ce que c'est, <persName ref="#doc">docteur</persName>, que
+                  cette synovie ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Ce n'est rien. Tenez,
+                  c'est une espèce de liqueur, à l'aide de laquelle se meuvent les cartilages que
+                  vous avez au genou, là&susp;<milestone unit="tei:p"/><lb/> &tiret; Non, <persName
+                     ref="#doc">docteur</persName>, je n'y sens rien. Êtes&tiret;vous heureux de
+                  savoir toutes ces choses&tiret;là !&susp; Est&tiret;ce que si j'y avais des
+                  pesanteurs ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Que mettez&tiret;vous sur
+                  votre tête pendant </rdg>
             </app> la nuit ?<milestone unit="tei:p"/><lb/> &tiret; Un bonnet <app
                corresp="#add-words #text-segmentation">
                <lem wit="#F"> brodé, puis</lem>
                <rdg wit="#C2">. <milestone unit="tei:p"/><lb/>&tiret; Est&tiret;il en toile ou en
-                     coton?&susp;<milestone unit="tei:p"/><lb/> &tiret; En batiste&susp; Mais je mets</rdg>
-            </app> quelquefois par&tiret;dessus un foulard&susp;<milestone unit="tei:p"/><lb/> &tiret; <app
-               corresp="#add-words">
-               <lem wit="#F">&tiret; Vous n'y sentez pas des chaleurs&susp; une petite sueur ?&susp;<milestone
-                     unit="tei:p"/><lb/> &tiret; En dormant, cela me semble difficile.<milestone
-                     unit="tei:p"/><lb/> &tiret; Vous pourriez trouver votre linge humide à l'endroit du
-                  front en vous réveillant ?<milestone unit="tei:p"/><lb/> &tiret; Quelquefois.<milestone
-                     unit="tei:p"/><lb/> &tiret; Bon.</lem>
+                     coton?&susp;<milestone unit="tei:p"/><lb/> &tiret; En batiste&susp; Mais je
+                  mets</rdg>
+            </app> quelquefois par&tiret;dessus un foulard&susp;<milestone unit="tei:p"/><lb/>
+            &tiret; <app corresp="#add-words">
+               <lem wit="#F">&tiret; Vous n'y sentez pas des chaleurs&susp; une petite sueur
+                     ?&susp;<milestone unit="tei:p"/><lb/> &tiret; En dormant, cela me semble
+                     difficile.<milestone unit="tei:p"/><lb/> &tiret; Vous pourriez trouver votre
+                  linge humide à l'endroit du front en vous réveillant ?<milestone unit="tei:p"
+                  /><lb/> &tiret; Quelquefois.<milestone unit="tei:p"/><lb/> &tiret; Bon.</lem>
             </app>Donnez&tiret;moi votre main<app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#C2">&susp;</rdg>
@@ -1797,19 +1854,19 @@ XVIII-XIX. La Comédie humaine. Œuvres ne figurant pas dans l'édition Furne-He
                <rdg wit="#C2">(Il tire sa montre.)</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
                <lem wit="#F">Vous</lem>
-               <rdg wit="#C2">Ah! &doc;, je n'aime pas que vous comptiez les minutes&susp; ça me fait
-                  peur&susp; Ah ! vous</rdg>
+               <rdg wit="#C2">Ah! &doc;, je n'aime pas que vous comptiez les minutes&susp; ça me
+                  fait peur&susp; Ah ! vous</rdg>
             </app> ai&tiret;je dit que j'avais des vertiges <app corresp="#punct">
                <lem wit="#F"> ? dit &caro;.</lem>
                <rdg wit="#C2"> ?&susp;</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Chut !&susp; fait <persName ref="#doc">le &doc;</persName> qui compte les
-                  pulsations. Est&tiret;ce le soir ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Non, le
-                  matin</lem>
-               <rdg wit="#C2">Non.<milestone unit="tei:p"/><lb/> &tiret; Eh bien, j'ai manqué de tomber
-                  hier à la renverse&susp; Était&tiret;ce le matin ?&susp; Non, c'était le soir&susp; Mais était&tiret;ce
-                  bien le soir ?&susp; Oui. Oui, c'était le soir.<milestone unit="tei:p"/><lb/> &tiret;
-                  Bon&susp;</rdg>
+               <lem wit="#F">Chut !&susp; fait <persName ref="#doc">le &doc;</persName> qui compte
+                  les pulsations. Est&tiret;ce le soir ?&susp;<milestone unit="tei:p"/><lb/> &tiret;
+                  Non, le matin</lem>
+               <rdg wit="#C2">Non.<milestone unit="tei:p"/><lb/> &tiret; Eh bien, j'ai manqué de
+                  tomber hier à la renverse&susp; Était&tiret;ce le matin ?&susp; Non, c'était le
+                  soir&susp; Mais était&tiret;ce bien le soir ?&susp; Oui. Oui, c'était le
+                     soir.<milestone unit="tei:p"/><lb/> &tiret; Bon&susp;</rdg>
             </app>
          </ab>
       </body>

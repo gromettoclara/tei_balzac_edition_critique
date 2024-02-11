@@ -18,8 +18,8 @@
         </titleStmt>
         <publicationStmt>
            <publisher>
-              <orgName>École nationale des Chartes</orgName>
-              <note>ODD réalisée à partir de Roma, éditeur d'ODD en ligne développé par le TEI Consortium.</note>
+              École nationale des Chartes
+             <note>ODD réalisée à partir de Roma, éditeur d'ODD en ligne développé par le <hi rend="italic">TEI consortium</hi>.</note>
            </publisher>
            <pubPlace>Paris, France</pubPlace>
            <date when="2024-02-29" type="date-de-rendu">29 février 2024</date>
@@ -43,7 +43,7 @@
               trois passages issus de la dernière version vérifiée par l'auteur comparée à leurs antécédents publiés dans la presse.</head>
            <div2>
               <head>Présentation du projet</head>
-              <p>Ce projet est une proposition d'encodage numérique d'extraits de la <hi rend="italic">Comédie Humaine</hi> de Balzac à l'aide de la <hi rend="italic"><orgName><ref target="https://www.tei-c.org">Text Encoding Initiative</ref></orgName></hi>.</p>
+              <p>Ce projet est une proposition d'encodage numérique d'extraits de la <hi rend="italic">Comédie Humaine</hi> de Balzac à l'aide de la <hi rend="italic"><ref target="https://www.tei-c.org">Text Encoding Initiative</ref></hi>.</p>
               <p>Cette documentation a pour but d'expliquer comment a été encodée en XML-TEI cette édition critique génétique, ainsi que les objectifs de ce schéma. Cette ODD présente des principes d'encodage dans le but de produire un document exploitable scientifiquement.</p>
               <p>La comparaison de textes consiste à identifier les différences entre deux textes ou plus, en les comparant directement les uns aux autres. Cette technique est utilisée dans un large éventail de disciplines scientifiques où le texte est impliqué : en informatique pour suivre les modifications dans le code ; en jurisprudence pour identifier les modifications pertinentes des lois ou contrats ; même en bioinformatique pour aligner des séquences d'ADN (bien que l'ADN ne soit pas littéralement du texte) - pour donner quelques exemples. La collation de textes est ainsi une technique utilisée en critique textuelle, visant dans ce cadre à retracer la genèse et l'histoire des textes. En tant que sous-discipline, l'étude de la genèse textuelle se concentre sur le processus de création d'une œuvre textuelle.</p>
               <p>Cet encodage propose une étude édition critique et génétique des extraits choisis des textes de Balzac, mis en parallèle avec leurs ébauches publiées en revue. Cet encodage vise à offrir une vision analytique de l'influence de la production journalistique balzacienne sur l'œuvre romanesque. Cet encodage sera exploitable sur un plan littéraire : la typification des variante pourra permettre une évaluation quantitative des variations entre l'œuvre littéraire fragmentaire et feuilletonnante, et l'œuvre littéraire parachevée.</p>
@@ -60,20 +60,23 @@
                     <head>Les extraits de la <hi rend="italic">Comédie Humaine</hi></head>
                     
                     <list>
-                       <item>Physiologie du <persName>Petit Mercier</persName>, préambule de l'histoire de <bibl xml:id="fyo"><hi rend="italic">La Fille aux yeux d’or</hi></bibl>, troisième et dernier épisode de <bibl><hi rend="italic">l’Histoire des Treize</hi></bibl>.</item>
-                       <item>Un extrait de la première partie ("Le Talisman") de <bibl xml:id="pdc"><hi rend="italic">La Peau de chagrin</hi></bibl> : Raphaël et Émile se rendent chez <persName>Talleyrand</persName>, le banquier qui finance leur journal. Cynique, Balzac décrit cette petite société dépourvue de repères moraux.</item>
-                       <item><bibl xml:id="pmv"><hi rend="italic">Petites Misères de la vie conjugales</hi></bibl> se compose d'une série de sketches burlesques centrés autour des deux figures types d'un jeune ménage bourgeois, <persName>Adolphe</persName> et <persName>Caroline</persName>. Les fragments donnés comme un ensemble conservent les marques de leur passage par des journaux et des recueils en vogue. On utilisera le passage de la consultation chez le médecin.</item>
+                       <item>La Physiologie du Petit Mercier, préambule de l'histoire de <bibl xml:id="fyo"><hi rend="italic">La Fille aux yeux d’or</hi></bibl>, troisième et dernier épisode de <bibl><hi rend="italic">l’Histoire des Treize</hi></bibl>.</item>
+                       <item>Un extrait de la première partie ("Le Talisman") de <bibl xml:id="pdc"><hi rend="italic">La Peau de chagrin</hi></bibl> : Raphaël et Émile se rendent chez Talleyrand, le banquier qui finance leur journal. Cynique, Balzac décrit cette petite société dépourvue de repères moraux.</item>
+                       <item><bibl xml:id="pmv"><hi rend="italic">Petites Misères de la vie conjugales</hi></bibl> se compose d'une série de sketches burlesques centrés autour des deux figures types d'un jeune ménage bourgeois, Adolphe et Caroline. Les fragments donnés comme un ensemble conservent les marques de leur passage par des journaux et des recueils en vogue. On utilisera le passage de la consultation chez le médecin.</item>
                     </list>
 
                  <p>Le texte des trois témoins du Furne Corrigé ont été établis et encodés en XML-TEI par <ref target="https://www.ebalzac.com/">eBalzac</ref>. Ce
-                    site est issu d'un projet inter-universitaire dirigé par <persName>Jean-Gabriel Ganascia</persName>, <persName>Andrea Del Lungo</persName> et <persName>Pierre Glaudes</persName>.</p>
-                    <p>eBalzac propose une nouvelle édition de La Comédie humaine dans la version du « Furne corrigé ». Conforme à l’orthographe d’époque, respectueuse du dernier classement des œuvres voulu par Balzac, cette édition électronique corrige plusieurs erreurs des éditions « papier » du xxe siècle. Elle a pour ambition d’être aussi fidèle que possible au fac-similé de l’exemplaire de Balzac.</p>
-                 <p>Pour ce projet, <ref target="https://github.com/ebalzac/FC">l'édition XML-TEI établie par <orgName>eBalzac</orgName></ref> a été rétroconvertie en .txt grâce à un <ref target="https://github.com/anisrfd/Convert-XML-to-PandasDataFrame-CSV-TextFile/blob/master/XMLtoTXT.ipynb">script Python</ref> puis convertis en UTF-8 en ligne de commade.</p>
+                    site est issu d'un projet inter-universitaire dirigé par Jean-Gabriel Ganascia, Andrea Del Lungo et Pierre Glaudes.</p>
+  <p>eBalzac propose une nouvelle édition de La Comédie humaine dans la version du « Furne corrigé ». Conforme à l’orthographe d’époque, respectueuse du dernier classement des œuvres voulu par Balzac, cette édition électronique corrige plusieurs erreurs des éditions « papier » du xxe siècle. Elle a pour ambition d’être aussi fidèle que possible au fac-similé de l’exemplaire de Balzac. Les corrections apportées par l'auteur ont pour cela été rajoutées manuellement à partir de l'édition de la <hi rend="italic">Comédie Humaine</hi> des <hi rend="italic">Bibliophiles de
+    l'originale</hi> (1965-1976) : fac-similé de l'exemplaire corrigé par
+    Balzac de l'édition Furne-Hetzel de 1842-1846 avec
+    transcription des corrections.</p>
+                 <p>Pour ce projet, <ref target="https://github.com/ebalzac/FC">l'édition XML-TEI établie par eBalzac</ref> a été rétroconvertie en .txt grâce à un <ref target="https://github.com/anisrfd/Convert-XML-to-PandasDataFrame-CSV-TextFile/blob/master/XMLtoTXT.ipynb">script Python</ref> puis convertis en UTF-8 en ligne de commande.</p>
                   </div3>
                   <div3>
                      <head>Le Furne Corrigé</head><!--peut-être chercher des informations sur le Furne Corrigé-->
-                     <p>L’ensemble de textes que l’on connaît aujourd’hui sous le nom de Comédie humaine a été rédigé et élaboré progressivement par <persName>Balzac</persName> de 1829 à 1850. Le titre du cycle balzacien fait son apparition en 1842, lors de la première publication de l’ensemble en 17 volumes par les éditeurs Furne, Dubochet, Hetzel et Paulin jusqu'en 1848. L'auteur a significativement annoté et corrigé son exemplaire personnel ; il est connu sous le nom de  <hi rend="italic">Furne corrigé</hi>. Cette version n'a pas été publiée du vivant de <persName>Blazac</persName> et présente un nouvel agencement du cycle ainsi que de nouveaux titres pour plusieurs romans.</p>
-                     <p>Il faut ajouter à ces volumes des textes qui appartiennent de fait à La Comédie humaine et qui n’ont pas pu être publiés dans l’édition originale : <hi rend="italic">La Dernière Incarnation de Vautrin</hi>, dernière partie de <hi rend="italic">Splendeurs et misères des courtisanes</hi> ; <hi rend="italic">L’Initié</hi>, dernière partie de <hi rend="italic">L’Envers de l’histoire contemporaine</hi> ; <hi rend="italic">Les Paysans</hi> ; <hi rend="italic">Le Député d’Arcis</hi> ; <hi rend="italic">Les Petits Bourgeois</hi> ; <hi rend="italic">Petites misères de la vie conjugale</hi> parues chez Chlendowski ; <hi rend="bold">Pathologie de la vie sociale</hi> qui comprend la <hi rend="italic">Théorie de la démarche</hi>, le <hi rend="italic">Traité de la vie élégante</hi> et le <hi rend="italic">Traité des excitants modernes</hi>.</p>
+                     <p>L’ensemble de textes que l’on connaît aujourd’hui sous le nom de Comédie humaine a été rédigé et élaboré progressivement par Balzac de 1829 à 1850. Le titre du cycle balzacien fait son apparition en 1842, lors de la première publication de l’ensemble en 17 volumes par les éditeurs Furne, Dubochet, Hetzel et Paulin jusqu'en 1848. L'auteur a significativement annoté et corrigé son exemplaire personnel ; il est connu sous le nom de  <hi rend="italic">Furne corrigé</hi>. Cette version n'a pas été publiée du vivant de Balzac et présente un nouvel agencement du cycle ainsi que de nouveaux titres pour plusieurs romans.</p>
+                     <p>Il faut ajouter à ces volumes des textes qui appartiennent de fait à La <hi rend="italic">Comédie humaine</hi> et qui n’ont pas pu être publiés dans l’édition originale : <hi rend="italic">La Dernière Incarnation de Vautrin</hi>, dernière partie de <hi rend="italic">Splendeurs et misères des courtisanes</hi> ; <hi rend="italic">L’Initié</hi>, dernière partie de <hi rend="italic">L’Envers de l’histoire contemporaine</hi> ; <hi rend="italic">Les Paysans</hi> ; <hi rend="italic">Le Député d’Arcis</hi> ; <hi rend="italic">Les Petits Bourgeois</hi> ; <hi rend="italic">Petites misères de la vie conjugale</hi> parues chez Chlendowski ; <hi rend="bold">Pathologie de la vie sociale</hi> qui comprend la <hi rend="italic">Théorie de la démarche</hi>, le <hi rend="italic">Traité de la vie élégante</hi> et le <hi rend="italic">Traité des excitants modernes</hi>.</p>
                      <p>Naturellement, c'est <hi rend="italic">Furne Corrigé</hi> qui fait référence au sein du corpus, et il est donc encodé dans l'élément <gi>lem</gi>.</p>
                   </div3>
                   <div3>
@@ -114,8 +117,8 @@
                       <p><gi>titleStmt</gi> donne :
                       <list><item>le titre  la présente édition</item>
                       <item>des renseignements sur les documents sur lesquels se basent cette édition (c'est-à-dire des extraits de la Comédie Humaine de Balzac)</item>
-                      <item>des renseignements sur la présente édition numérique : titre et nature (édition critique et génétique, extraits choisis) le contexte éditorial, ses responsables ainsi que les institutions partenaires, au sein de plusieurs <gi>respStmt</gi>.
-                        <eg xmlns="http://www.tei-c.org/ns/Examples">
+                        <item>des renseignements sur la présente édition numérique : titre et nature (édition critique et génétique, extraits choisis) le contexte éditorial, ses responsables ainsi que les institutions partenaires, au sein de plusieurs <gi>respStmt</gi>.</item></list></p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
                          <respStmt>
                             <resp>Sélection, alignement des témoins et édition en ligne par</resp>
                             <persName xml:id="cg">
@@ -123,9 +126,7 @@
                                <surname>Grometto</surname>
                             </persName>
                          </respStmt>
-                      </eg>
-                         </item></list>
-                    </p>
+                      </egXML>
                     <p>Comme le document encodé n'est pas une nouvelle édition du documentsource, mais une proposition éditoriale à part entière basée qui retrace la génétique ce dit document sourcen, il n'est pas nécessaire de donner les informations de responsailité dans un <gi>editionStmt</gi>, elle peuvent se situer au niveau de du <gi>titleStmt</gi>.</p>
                       <p>Le <gi>publicationStmt</gi> fournit les informations touchant à la publication et à la diffusion du document. L'élément
                             <gi>publisher</gi> se rapporte au contexte institutionnel de la publication. Les balises <gi>pubPlace</gi> renseignent complètent les éléments contextuels de publication du présent document.</p>
@@ -220,7 +221,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                        <item>Le nom des personnes et personnage dans la balise <gi>persName</gi>. Le nom peut éventuellement être donné sous plusieurs formes :
                                 <list>
                                   <item>Dans le cas des personnes réelles, il est possible d'aligner le nom donné dans les extraits avec le nom sous lequel la personne est connue.
-                                  <eg xmlns="http://www.tei-c.org/ns/Examples">
+                                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                        <person xml:id="rab" role="real">
                                           <persName type="contemporary-name" resp="#cg" cert="high">
                                              <forename>François</forename>
@@ -234,14 +235,14 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                              anagrammes de son nom : Alcofribas Nasier ou bien Serafin Calobarsy. Il est un
                                              écrivain français humaniste de la Renaissance (1483 ou 1494&tiret;1553)</note>
                                        </person>
-                                  </eg>
+                                  </egXML>
                                   L'alignement se fera graĉe à un attribut <att>type</att> prenant comme valeurs <val>contemporary-name</val> ou <val>text-name</val>.
                                   Comme dans l'exemple ci-dessus, il est alors utile d'indiquer le niveau de certitude du rapprochement (<att>cert</att>) et une mention de responsabilité (<att>resp</att>) renvoyant à un <att>xml:id</att> (dans l'exemple précédent, l'encodeur, c'est-à-dire moi).
                                   Cette présente ODD fournit les attributs et des règles limitant leur utilisation : <specDesc key="persName"/>
                                 </item>
 
                                   <item>Un élément <gi>app</gi> sert à encoder les différentes appellations des personnages d'un témoin à l'autre, s'il y a variation.
-                                  <eg xmlns="http://www.tei-c.org/ns/Examples">
+                                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                        <person xml:id="femme" role="fictional">
                                           <persName type="text-name">
                                              <app corresp="#word-diff #particulier">
@@ -254,7 +255,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                              </app>
                                           </persName>
                                         </person>
-                                  </eg>
+                                  </egXML>
                                   </item></list></item>
                        <item>Un élément <gi>note</gi> donne des informations bibliographiques sur la personne ou le personnage, son rôle réel ou au sein de la fiction.</item>
                      </list></p>
@@ -321,12 +322,12 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                  <p>La méthodologie suivie et expliquée ici se base sur le <ref target="https://github.com/paulhectork/tnah2021_xsl_rendu.git">projet d'encodage similaire portant sur l'édition critique des chroniques de Jean Froissart</ref>, en particulier en ce qui concerne les valeurs de l'attribut <att>corresp</att>. Pour s'adapter aux besoins de cette édition et aux enjeux scientifique du projet, la liste des valeurs possible a cependant été élargie. En outre, les principes régissant l'alignement des témoins a été adaptée en fonction de la nature spécifique des textes. Le choix des balises demeurant pertinent, leur utilisation est semblable.</p>
                  <div4>
                     <head>Alignement grâce à Collatex :</head>
-                    <p>L'édition avec alignement a été réalisée à partir de trois fichiers XML produits par <ref target="https://collatex.net/"><orgName>Collatex</orgName></ref>, un logiciel d'édition critique. Le script python qui a produit le fichier de base est inclut dans le dépôt GitHub, dans le dossier <hi rend="italic">collatex</hi>.</p>
-                    <p><orgName>Collatex</orgName> permet de faire une <hi rend="bold">tokénisation</hi> au mot : l'étude de variance entre les deux textes qui constituent le couple antécédent/roman est faite mot-par-mot (et non lettre par lettre, par exemple).</p>
+                    <p>L'édition avec alignement a été réalisée à partir de trois fichiers XML produits par <ref target="https://collatex.net/">Collatex</ref>, un logiciel d'édition critique. Le script python qui a produit le fichier de base est inclut dans le dépôt GitHub, dans le dossier <hi rend="italic">collatex</hi>.</p>
+                    <p>Collatex permet de faire une <hi rend="bold">tokénisation</hi> au mot : l'étude de variance entre les deux textes qui constituent le couple antécédent/roman est faite mot-par-mot (et non lettre par lettre, par exemple).</p>
                   </div4>
                   <div4>
                     <head>Identifier des témoins :</head>
-                    <p>Grâce à <ref target="https://collatex.net/"><orgName>Collatex</orgName></ref>, le texte dans les balises <gi>lem</gi> et <gi>rdg</gi> est reliée à la source de la transcription grâce à l'attribut <att>wit</att>. Trois valeurs sont possibles :
+                    <p>Grâce à <ref target="https://collatex.net/">Collatex</ref>, le texte dans les balises <gi>lem</gi> et <gi>rdg</gi> est reliée à la source de la transcription grâce à l'attribut <att>wit</att>. Trois valeurs sont possibles :
                     <list>
                        <item><val>#F</val> : l'identifiant du <bibl>Furne Corrigé</bibl>.</item>
                        <item><val>#C</val> : l'identifiant du <bibl>Constitutionnel du 16 décembre 1831 ("Le Petit Mercier")</bibl></item>
@@ -351,11 +352,11 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                   </div4>
                    <div4>
                      <head>Reprise de l'alignement : </head>
-                      <p>À partir de la base fournie par <orgName>Collatex</orgName>, l'encodage a été repris pour le corriger et le rendre plus pertinent :
+                      <p>À partir de la base fournie par Collatex, l'encodage a été repris pour le corriger et le rendre plus pertinent :
                        <list>
                           <item>un témoin principal a été choisi, et l'élément lui correspondant a été transformé de <gi>rdg</gi> à <gi>lem</gi> de manière artisanale grâce à un archaïque chercher/remplacer combiné à une regex.</item>
-                          <item><orgName>Collatex</orgName> est originellement créé pour encoder un apparat critique qui comporte les différents témoins d'un même texte. Nous avons tiré les possibilités du script afin d'aligner des textes différents, certes similaires, mais liées par une relation ébauche-achèvement. Les variations peuvent donc être assez importantes pour que <orgName>Collatex</orgName> montre des limites. Les passages qui diffèrent trop ont été encodés à la main, en abandonnant l'alignement terme à terme, et optant pour un alignement bloc à bloc comme ci-dessous :
-                          <eg xmlns="http://www.tei-c.org/ns/Examples">
+                          <item>Collatex est originellement créé pour encoder un apparat critique qui comporte les différents témoins d'un même texte. Nous avons tiré les possibilités du script afin d'aligner des textes différents, certes similaires, mais liées par une relation ébauche-achèvement. Les variations peuvent donc être assez importantes pour que Collatex montre des limites. Les passages qui diffèrent trop ont été encodés à la main, en abandonnant l'alignement terme à terme, et optant pour un alignement bloc à bloc comme ci-dessous :
+                          <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                <app corresp="#word-diff">
                                   <lem wit="#F">Chut !&susp; fait <persName ref="doc">le &doc;</persName> qui compte les
                                      pulsations. Est&tiret;ce le soir ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Non, le
@@ -365,21 +366,21 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                      bien le soir ?&susp; Oui. Oui, c'était le soir.<milestone unit="tei:p"/><lb/> &tiret;
                                      Bon&susp;</rdg>
                                </app>
-                          </eg>
+                          </egXML>
                           Dans ce cas, l'attribut <att>corresp</att> porte la valeur générique <hi rend="bold">"word-diff"</hi>, et si le une des versions est quantitativement supérieure à l'autre, on pourra aussi rajouter la valeur "add-words".
                         </item>
                           <item>Lorsque le déplacement d'un bloc de texte a une courte portée, les deux versions sont rassemblées dans un même élément &lt;app&gt; dont le <att>corresp</att> sera "sentence-order", considérant que la variation principale relève de l'inversion de l'ordre de deux groupes dans la phrase. Les autres types de variation venant affecter le bloc seront spécifiés car il est possible de multiplier les attributs <att>corresp</att>.
-                          <eg xmlns="http://www.tei-c.org/ns/Examples">
+                          <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                <app corresp="#word-diff #sentence-order #text-segmentation">
                                   <lem wit="#F"><hi rend="i">in petto</hi>, <persName ref="#mercier"
                                      >mercier</persName>.</lem>
                                   <rdg wit="#C"><persName ref="#mercier">mercier</persName> au fond du cœur&susp;.
                                         <milestone unit="tei:p"/><lb/></rdg>
                                </app>
-                           </eg>
+                           </egXML>
                         </item>
                         <item>Si le déplacement du bloc de texte a une portée importante, on mettra plutôt l'accent sur les variations de termes, de personne, d'orthographes, qui sont plus signifiactives que les changements dans l'ordre de la phrase. Ainsi, le bloc ne sera pas encodée comme un élément entier dans un seul élément <gi>app</gi>, afin de de mettre en avant les différences terminologique, syntaxiques ou orthographiques. Le déplacement du terme sera alors considéré comme un ajout. Néanmoins, on signalera la présence de termes similaires grâce à la valeur d'attribut "sentence-order" de l'attribut <att>corresp</att> dans un <gi>app</gi> qui signale l'ajout. Dans l'exemple ci-dessous, par exemple, l'encodage met en avant une différence dans la structure de la phrase, mais aussi une variation pronominale importante qui indique un passage du discours au récit.
-                           <eg xmlns="http://www.tei-c.org/ns/Examples">
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                              Là, posé sur un fauteuil, comme un perroquet <app corresp="#add-words">
                                 <rdg wit="#C">vert</rdg>
                              </app> sur <app corresp="#pers-diff">
@@ -403,10 +404,10 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                              <app corresp="#punct #attenuation">
                                 <lem wit="#F">.</lem>
                                 <rdg wit="#C">!&susp;.</rdg></app>
-                           </eg></item>
+                           </egXML></item>
                            <item>La ponctuation est prise en compte comme une variante, comme on le remarque dans l'exemple ci-dessus, dans le dernier élément <gi>app</gi>. Une différence de ponctuation entre les témoins sera encodée dans un <gi>app</gi>.</item>
                            <item>Il faut cependant noter que l'alignement terme à terme fonctionne pour les blocs de textes qui présentent le plus de similarités.
-                             <eg xmlns="http://www.tei-c.org/ns/Examples">
+                             <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                   <app corresp="#orth">
                                      <lem wit="#F">À</lem>
                                      <rdg wit="#C">A</rdg>
@@ -422,14 +423,14 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                      <lem wit="#F">au</lem>
                                      <rdg wit="#C">à ce</rdg>
                                   </app> lutrin
-                              </eg>
+                              </egXML>
                            </item>
                          </list></p>
                        </div4>
                      <div4>
                        <head>Traitement de la segmentation du texte : </head>
                        <p>Les changements de page ne sont pas considérés comme signifiants dans le cadre de cette édition critique et génétique qui se focalise sur les variations d'ordre auctoriale.</p>
-                       <p>Afin de permettre une comparaison des témoins phrase par phrase, le découpage du texte en paragraphes a été abandonné. Les sauts de ligne ont cependant leur importance du moment que l'on considère qu'elles sont du fait de l'auteur, et elles seront alors signifiées dans un élément <gi>milestone</gi> avec attribut <att>unit</att> prenant pour valeur "tei:p" ; cette méthode est proposée dans une présentation du <orgName>TEI consortium</orgName>
+                       <p>Afin de permettre une comparaison des témoins phrase par phrase, le découpage du texte en paragraphes a été abandonné. Les sauts de ligne ont cependant leur importance du moment que l'on considère qu'elles sont du fait de l'auteur, et elles seront alors signifiées dans un élément <gi>milestone</gi> avec attribut <att>unit</att> prenant pour valeur "tei:p" ; cette méthode est proposée dans une présentation du <hi rend="italic">TEI consortium</hi>
                           (Beshero-Bondar, Cayless, Vigilanti (2019: 3.10) ; voir dans le fichier <hi rend="italic">balzac_collation.xml</hi> (/TEI/teiHeader/encodingDesc/editorialDecl/segmentation/p[1]/bibl[1]) pour une référence bibliographique complète). Pour s'assurer que la structure du texte est respectée, un élément <gi>lb</gi> suit le <gi>milestone</gi>. Notons que ces éléments peuvent se trouver dans une <gi>app</gi>, qui portera alors "text-segmentation" comme valeur de l'attribut <att>corresp</att>.</p>
                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                <app corresp="#punct #text-segmentation">
@@ -441,7 +442,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                    </div3>
                    <div3>
                        <head>Caractériser la différence entre le texte médiatique et le texte romanesque avec <att>corresp</att> : </head>
-                       <p>L'attribut <att>corresp</att> permet de définir précisément le changement opéré dans le sens chronologique entre le témoin médiatique et le témoin romanesque dans les couples alignés. La valeur d'attribut porte un ou plusieurs "#" suivi(s) d'un identifiant faisant référence au <att>xml:id</att> que l'on trouve dans une liste de vocabulaire contrôlée dans le teiHeader (TEI/teiHeader/encodingDesc/editorialDecl/p[3]). Il est utilisé à la place du <att>type</att> (qui est préconisé par le <hi rend="italic"><orgName>TEI consortium</orgName></hi>) :
+                       <p>L'attribut <att>corresp</att> permet de définir précisément le changement opéré dans le sens chronologique entre le témoin médiatique et le témoin romanesque dans les couples alignés. La valeur d'attribut porte un ou plusieurs "#" suivi(s) d'un identifiant faisant référence au <att>xml:id</att> que l'on trouve dans une liste de vocabulaire contrôlée dans le teiHeader (TEI/teiHeader/encodingDesc/editorialDecl/p[3]). Il est utilisé à la place du <att>type</att> (qui est préconisé par le <hi rend="italic">TEI consortium</hi>) :
                        contrairement à <att>type</att>, <att>corresp</att> permet de fournir plusieurs valeurs et donc d'indiquer plusieurs différences au sein d'un même <gi>app</gi>.</p>
                        <p>Nous avons repris la liste de vocabulaire du <ref target="https://github.com/paulhectork/tnah2021_xsl_rendu.git">projet d'édition critique des chroniques de Froissart</ref> et rajouté des valeurs possibles pour souligner les variations stylistiques.</p>
                        <p>La liste des valeurs possibles pour <att>corresp</att> est :
