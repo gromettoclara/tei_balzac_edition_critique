@@ -1,0 +1,902 @@
+<?xml version="1.0" ?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+<app><rdg wit="#C">-</rdg><rdg wit="#F">Plus</rdg></app>
+<app><rdg wit="#F">Adolphe</rdg></app>
+<app><rdg wit="#F">tente</rdg></app>
+<app><rdg wit="#F">d</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">égayer</rdg></app>
+<app><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">plus</rdg></app>
+<app><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#F">s</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">enveloppe</rdg></app>
+<app><rdg wit="#F">dans</rdg></app>
+<app><rdg wit="#F">les</rdg></app>
+<app><rdg wit="#F">crêpes</rdg></app>
+<app><rdg wit="#F">d</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#F">deuil</rdg></app>
+<app><rdg wit="#F">à</rdg></app>
+<app><rdg wit="#C">Plaisanterie</rdg><rdg wit="#F">larmes</rdg></app>
+<app><rdg wit="#F">continues</rdg></app>
+<app><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#F">Cette</rdg></app>
+<app><rdg wit="#F">seconde</rdg></app>
+<app><rdg wit="#F">fois</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">Adolphe</rdg></app>
+<app><rdg wit="#F">reste</rdg></app>
+<app><rdg wit="#F">et</rdg></app>
+<app><rdg wit="#F">s</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">ennuie</rdg></app>
+<app><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#F">Puis</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">à</rdg></app>
+<app><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#F">troisième</rdg></app>
+<app><rdg wit="#F">attaque</rdg></app> à
+<app><rdg wit="#F">larmes</rdg></app>
+<app><rdg wit="#F">forcées</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#C">part</rdg><rdg wit="#F">sort</rdg></app>
+<app><rdg wit="#F">sans</rdg></app>
+<app><rdg wit="#F">aucune</rdg></app>
+<app><rdg wit="#F">tristesse</rdg></app>
+<app><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#F">Enfin</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#F">se</rdg></app>
+<app><rdg wit="#F">blase</rdg></app>
+<app><rdg wit="#F">sur</rdg></app>
+<app><rdg wit="#F">ces</rdg></app>
+<app><rdg wit="#F">plaintes</rdg></app>
+<app><rdg wit="#F">éternelles</rdg></app>,
+<app><rdg wit="#C">mon</rdg><rdg wit="#F">sur</rdg></app>
+<app><rdg wit="#C">cher</rdg><rdg wit="#F">ces</rdg></app>
+<app><rdg wit="#F">attitudes</rdg></app>
+<app><rdg wit="#C">docteur</rdg><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">mourant</rdg></app>,
+<app><rdg wit="#F">sur</rdg></app>
+<app><rdg wit="#F">ces</rdg></app>
+<app><rdg wit="#F">larmes</rdg></app>
+<app><rdg wit="#C">je</rdg><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">crocodile</rdg></app>
+<app><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#F">Et</rdg></app>
+<app><rdg wit="#C">suis</rdg><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#F">finit</rdg></app>
+<app><rdg wit="#F">par</rdg></app>
+<app><rdg wit="#F">dire</rdg></app>
+<app><rdg wit="#F">: -</rdg></app>
+<app><rdg wit="#F">Si</rdg></app>
+<app><rdg wit="#F">tu</rdg></app>
+<app><rdg wit="#F">es</rdg></app>
+<app><rdg wit="#C">malade</rdg><rdg wit="#F">malade</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#F">faut</rdg></app>
+<app><rdg wit="#F">voir</rdg></app>
+<app><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#F">médecin</rdg></app>
+<app><rdg wit="#F">...
+ -</rdg></app>
+<app><rdg wit="#F">Comme</rdg></app>
+<app><rdg wit="#F">tu</rdg></app>
+<app><rdg wit="#F">voudras</rdg></app>
+<app><rdg wit="#F">!</rdg></app>
+<app><rdg wit="#F">cela</rdg></app>
+<app><rdg wit="#F">finira</rdg></app>
+<app><rdg wit="#F">plus</rdg></app>
+<app><rdg wit="#F">promptement</rdg></app>
+<app><rdg wit="#F">ainsi</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">cela</rdg></app>
+<app><rdg wit="#F">me</rdg></app>
+<app><rdg wit="#F">va</rdg></app>
+<app><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#F">Mais</rdg></app>
+<app><rdg wit="#F">alors</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">amène</rdg></app>
+<app><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#F">fameux</rdg></app>
+<app><rdg wit="#F">médecin</rdg></app>
+<app><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#F">Au</rdg></app>
+<app><rdg wit="#F">bout</rdg></app>
+<app><rdg wit="#F">d</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#F">mois</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">Adolphe</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">fatigué</rdg></app>
+<app><rdg wit="#F">d</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">entendre</rdg></app>
+<app><rdg wit="#F">l</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">air</rdg></app>
+<app><rdg wit="#F">funèbre</rdg></app>
+<app><rdg wit="#F">que</rdg></app>
+<app><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#F">lui</rdg></app>
+<app><rdg wit="#F">joue</rdg></app>
+<app><rdg wit="#F">sur</rdg></app>
+<app><rdg wit="#F">tous</rdg></app>
+<app><rdg wit="#F">les</rdg></app>
+<app><rdg wit="#F">tons</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">amène</rdg></app>
+<app><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#F">grand</rdg></app>
+<app><rdg wit="#F">médecin</rdg></app>
+<app><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#F">À</rdg></app>
+<app><rdg wit="#F">Paris</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">les</rdg></app>
+<app><rdg wit="#F">médecins</rdg></app>
+<app><rdg wit="#F">sont</rdg></app>
+<app><rdg wit="#F">tous</rdg></app>
+<app><rdg wit="#F">des</rdg></app>
+<app><rdg wit="#F">gens</rdg></app>
+<app><rdg wit="#F">d</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">esprit</rdg></app>, et
+<app><rdg wit="#F">ils</rdg></app>
+<app><rdg wit="#C">ce</rdg><rdg wit="#F">se</rdg></app>
+<app><rdg wit="#F">connaissent</rdg></app>
+<app><rdg wit="#F">admirablement</rdg></app>
+<app><rdg wit="#C">n</rdg><rdg wit="#F">en</rdg></app>
+<app><rdg wit="#F">Nosographie</rdg></app>
+<app><rdg wit="#F">conjugale</rdg></app>
+<app><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#F">Eh</rdg></app>
+<app><rdg wit="#F">bien</rdg></app>
+<app><rdg wit="#F">!</rdg></app>
+<app><rdg wit="#F">madame</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">dit</rdg></app>
+<app><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#F">grand</rdg></app>
+<app><rdg wit="#F">médecin</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">comment</rdg></app>
+<app><rdg wit="#F">une</rdg></app>
+<app><rdg wit="#F">si</rdg></app>
+<app><rdg wit="#F">jolie</rdg></app>
+<app><rdg wit="#F">femme</rdg></app>
+<app><rdg wit="#F">s</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">avise</rdg></app>
+<app><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#F">t</rdg></app>
+<app><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#F">elle</rdg></app>
+<app><rdg wit="#F">d</rdg></app>'
+<app><rdg wit="#C">est</rdg><rdg wit="#F">être</rdg></app>
+<app><rdg wit="#C">pas</rdg><rdg wit="#F">malade</rdg></app>
+<app><rdg wit="#C">sans</rdg><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#F">Oui</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">raison</rdg><rdg wit="#F">monsieur</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">même</rdg></app> que
+<app><rdg wit="#C">je</rdg><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#C">vous</rdg><rdg wit="#F">nez</rdg></app>
+<app><rdg wit="#C">ai</rdg><rdg wit="#F">du</rdg></app>
+<app><rdg wit="#C">fait</rdg><rdg wit="#F">père</rdg></app>
+<app><rdg wit="#C">venir</rdg><rdg wit="#F">Aubry</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">Vous</rdg><rdg wit="#F">j</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#C">avez</rdg><rdg wit="#F">aspire</rdg></app>
+<app><rdg wit="#F">à</rdg></app>
+<app><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#F">tombe</rdg></app>
+<app><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">par</rdg></app>
+<app><rdg wit="#F">égard</rdg></app>
+<app><rdg wit="#F">pour</rdg></app>
+<app><rdg wit="#F">Adolphe</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">essaie</rdg></app>
+<app><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">sourire</rdg></app>
+<app><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#F">Bon</rdg></app>
+<app><rdg wit="#F">!</rdg></app> cependant
+<app><rdg wit="#F">vous</rdg></app>
+<app><rdg wit="#F">avez</rdg></app> les yeux
+<app><rdg wit="#C">vifs</rdg><rdg wit="#F">vifs</rdg></app>
+<app><rdg wit="#F">:</rdg></app>
+<app><rdg wit="#F">ils</rdg></app>
+<app><rdg wit="#F">souhaitent</rdg></app>
+<app><rdg wit="#F">peu</rdg></app>
+<app><rdg wit="#F">nos</rdg></app>
+<app><rdg wit="#F">infernales</rdg></app>
+<app><rdg wit="#F">drogues</rdg></app>...
+ -
+<app><rdg wit="#C">C</rdg><rdg wit="#F">Regardez</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#F">y</rdg></app>
+<app><rdg wit="#C">est</rdg><rdg wit="#F">bien</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">docteur</rdg></app>
+<app><rdg wit="#F">,</rdg></app> la
+<app><rdg wit="#F">fièvre</rdg></app>
+<app><rdg wit="#F">me</rdg></app>
+<app><rdg wit="#F">dévore</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">une</rdg></app>
+<app><rdg wit="#F">petite</rdg></app> fièvre
+<app><rdg wit="#C">;</rdg><rdg wit="#F">imperceptible</rdg></app>
+<app><rdg wit="#C">je</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">rai</rdg><rdg wit="#F">lente</rdg></app>
+<app><rdg wit="#C">eue</rdg><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#C">pendant</rdg><rdg wit="#F">Et</rdg></app>
+<app><rdg wit="#C">toute</rdg><rdg wit="#F">elle</rdg></app>
+<app><rdg wit="#C">la</rdg><rdg wit="#F">arrête</rdg></app>
+<app><rdg wit="#C">nuit</rdg><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">plus</rdg></app>
+<app><rdg wit="#C">Ah</rdg><rdg wit="#F">malicieux</rdg></app>
+<app><rdg wit="#C">!</rdg><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#C">Voyons</rdg><rdg wit="#F">ses</rdg></app>
+<app><rdg wit="#F">regards</rdg></app>
+<app><rdg wit="#F">sur</rdg></app>
+<app><rdg wit="#F">l</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">illustre</rdg></app>
+<app><rdg wit="#C">votre</rdg><rdg wit="#F">docteur</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">qui</rdg></app>
+<app><rdg wit="#F">se</rdg></app>
+<app><rdg wit="#F">dit</rdg></app>
+<app><rdg wit="#F">en</rdg></app>
+<app><rdg wit="#F">lui</rdg></app>
+<app><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#F">même</rdg></app>
+<app><rdg wit="#F">: -</rdg></app>
+<app><rdg wit="#F">Quels</rdg></app>
+<app><rdg wit="#F">yeux</rdg></app>
+<app><rdg wit="#F">!...
+ -</rdg></app>
+<app><rdg wit="#F">Bien</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">voyons</rdg></app>
+<app><rdg wit="#F">la</rdg></app> langue
+<app><rdg wit="#C">?...</rdg><rdg wit="#F">?</rdg></app>
+<app><rdg wit="#C">La</rdg><rdg wit="#F">dit</rdg></app>
+<app><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#C">jeune</rdg><rdg wit="#F">tout</rdg></app>
+<app><rdg wit="#F">haut</rdg></app>
+<app><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#C">dame</rdg><rdg wit="#F">Caroline</rdg></app> montre
+<app><rdg wit="#C">une</rdg><rdg wit="#F">sa</rdg></app>
+<app><rdg wit="#C">petite</rdg></app> langue
+<app><rdg wit="#C">rouge</rdg><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">chat</rdg></app> entre deux rangées de dents blanches comme
+<app><rdg wit="#C">de</rdg><rdg wit="#F">celles</rdg></app>
+<app><rdg wit="#C">l</rdg><rdg wit="#F">d</rdg></app>'
+<app><rdg wit="#C">ivoire</rdg><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#C">.
+ -</rdg><rdg wit="#F">chien</rdg></app>
+<app><rdg wit="#C">Oui</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">,</rdg></app>
+<app><rdg wit="#C">elle</rdg><rdg wit="#F">Elle</rdg></app> est un peu chargée
+<app><rdg wit="#F">,</rdg></app> au fond
+<app><rdg wit="#C">.... Mais</rdg><rdg wit="#F">; mais</rdg></app> vous avez déjeuné
+<app><rdg wit="#C">?</rdg><rdg wit="#F">...</rdg></app>
+ -  <app><rdg wit="#C">Oh</rdg><rdg wit="#F">fait</rdg></app> 
+<app><rdg wit="#C">!</rdg><rdg wit="#F">observer</rdg></app>
+<app><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#C">rien</rdg><rdg wit="#F">grand</rdg></app>
+<app><rdg wit="#F">médecin</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">du</rdg><rdg wit="#F">qui</rdg></app>
+<app><rdg wit="#F">se</rdg></app>
+<app><rdg wit="#C">tout</rdg><rdg wit="#F">tourne</rdg></app>
+<app><rdg wit="#F">vers</rdg></app>
+<app><rdg wit="#F">Adolphe</rdg></app>
+<app><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#F">Rien</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">répond</rdg></app>
+<app><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">deux</rdg></app>
+<app><rdg wit="#F">tasses</rdg></app>
+<app><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">thé</rdg></app>
+<app><rdg wit="#C">...</rdg><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#F">Adolphe</rdg></app>
+<app><rdg wit="#C">Une</rdg><rdg wit="#F">et</rdg></app>
+<app><rdg wit="#F">l</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">illustre</rdg></app>
+<app><rdg wit="#F">docteur</rdg></app>
+<app><rdg wit="#C">tasse</rdg><rdg wit="#F">se</rdg></app>
+<app><rdg wit="#F">regardent</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">car</rdg></app>
+<app><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#F">docteur</rdg></app>
+<app><rdg wit="#F">se</rdg></app>
+<app><rdg wit="#F">demande</rdg></app>
+<app><rdg wit="#F">qui</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">madame</rdg></app>
+<app><rdg wit="#F">ou</rdg></app> de
+<app><rdg wit="#C">café</rdg><rdg wit="#F">monsieur</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">Et</rdg><rdg wit="#F">se</rdg></app>
+<app><rdg wit="#C">que</rdg><rdg wit="#F">moque</rdg></app>
+<app><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#F">lui</rdg></app>
+<app><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#F">Que</rdg></app> sentez-vous
+<app><rdg wit="#F">?</rdg></app>
+<app><rdg wit="#F">demande</rdg></app>
+<app><rdg wit="#F">gravement</rdg></app>
+<app><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#F">docteur</rdg></app>
+<app><rdg wit="#F">à</rdg></app>
+<app><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">.
+ -</rdg></app> Je ne dors pas
+<app><rdg wit="#C">.
+ -</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">Bon</rdg><rdg wit="#F">Bon</rdg></app>
+<app><rdg wit="#C">.
+ -</rdg><rdg wit="#F">!
+ -</rdg></app> Je n'ai pas d'appétit
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">...
+ -</rdg></app>
+<app><rdg wit="#C">Bien</rdg><rdg wit="#F">Bien</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">!
+ -</rdg></app> J'ai des
+<app><rdg wit="#C">douleurs</rdg><rdg wit="#F">douleurs</rdg></app>
+<app><rdg wit="#C">dans</rdg></app>
+<app><rdg wit="#C">la</rdg></app>
+<app><rdg wit="#C">poitrine</rdg></app>,
+<app><rdg wit="#C">comme</rdg></app>
+<app><rdg wit="#C">çà</rdg></app>
+<app><rdg wit="#C">...</rdg></app> là
+<app><rdg wit="#C">...</rdg><rdg wit="#F">...</rdg></app> Le médecin regarde l'endroit
+<app><rdg wit="#C">où</rdg><rdg wit="#F">indiqué</rdg></app>
+<app><rdg wit="#C">madame</rdg><rdg wit="#F">par</rdg></app>
+<app><rdg wit="#C">de</rdg><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#C">***</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">se</rdg><rdg wit="#F">Très</rdg></app>
+<app><rdg wit="#C">pose</rdg><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#C">la</rdg><rdg wit="#F">bien</rdg></app>
+<app><rdg wit="#C">main</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">.
+ -</rdg></app>
+<app><rdg wit="#C">Nous</rdg><rdg wit="#F">nous</rdg></app> verrons cela tout à l'heure
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#C">Et</rdg><rdg wit="#F">Après</rdg></app>
+<app><rdg wit="#C">puis</rdg><rdg wit="#F">?...
+ -</rdg></app>
+<app><rdg wit="#C">,</rdg></app>
+<app><rdg wit="#C">docteur</rdg></app>
+<app><rdg wit="#C">,</rdg></app>
+<app><rdg wit="#C">il</rdg><rdg wit="#F">Il</rdg></app> me passe des frissons par
+<app><rdg wit="#C">moment</rdg><rdg wit="#F">moments</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">...
+ -</rdg></app>
+<app><rdg wit="#C">Bien</rdg><rdg wit="#F">Bon</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">!
+ -</rdg></app> J'ai des tristesses
+<app><rdg wit="#C">...</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">Il</rdg></app>
+<app><rdg wit="#C">y</rdg></app>
+<app><rdg wit="#C">a</rdg></app>
+<app><rdg wit="#C">des</rdg></app>
+<app><rdg wit="#C">momens</rdg></app>
+<app><rdg wit="#C">où</rdg></app> je pense
+<app><rdg wit="#F">toujours</rdg></app> à la mort
+<app><rdg wit="#C">.
+ -</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">Après</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg></app>
+<app><rdg wit="#C">Mais</rdg></app>
+<app><rdg wit="#C">je</rdg></app>
+<app><rdg wit="#C">suis</rdg></app>
+<app><rdg wit="#C">fatiguée</rdg></app>
+<app><rdg wit="#C">aussitôt</rdg></app>
+<app><rdg wit="#C">que</rdg></app> j'ai
+<app><rdg wit="#C">fait</rdg><rdg wit="#F">des</rdg></app>
+<app><rdg wit="#C">la</rdg><rdg wit="#F">idées</rdg></app>
+<app><rdg wit="#C">plus</rdg><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#C">petite</rdg><rdg wit="#F">suicide</rdg></app>
+<app><rdg wit="#C">course</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">Ah</rdg></app>
+<app><rdg wit="#F">!</rdg></app>
+<app><rdg wit="#C">Bon</rdg><rdg wit="#F">vraiment</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">?
+ -</rdg></app> Il me monte des feux à la
+<app><rdg wit="#C">figure</rdg><rdg wit="#F">figure</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">;</rdg></app>
+<app><rdg wit="#C">Ah</rdg><rdg wit="#F">tenez</rdg></app>
+<app><rdg wit="#C">!</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">ah</rdg><rdg wit="#F">j</rdg></app>
+<app><rdg wit="#C">!
+ -</rdg></app>
+<app><rdg wit="#C">Je</rdg></app>
+<app><rdg wit="#C">n</rdg></app>'ai
+<app><rdg wit="#C">courage</rdg><rdg wit="#F">constamment</rdg></app>
+<app><rdg wit="#C">à</rdg><rdg wit="#F">des</rdg></app>
+<app><rdg wit="#C">rien</rdg><rdg wit="#F">tressaillements</rdg></app>
+<app><rdg wit="#C">...</rdg><rdg wit="#F">dans</rdg></app>
+<app><rdg wit="#C">Ah</rdg><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#C">!</rdg><rdg wit="#F">paupière</rdg></app>
+<app><rdg wit="#C">ah</rdg><rdg wit="#F">...
+ -</rdg></app>
+<app><rdg wit="#C">!</rdg><rdg wit="#F">Très</rdg></app>
+<app><rdg wit="#C">j</rdg><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">bien</rdg></app>
+<app><rdg wit="#C">oubliais</rdg><rdg wit="#F">:</rdg></app>
+<app><rdg wit="#C">!...</rdg><rdg wit="#F">nous</rdg></app>
+<app><rdg wit="#C">Les</rdg><rdg wit="#F">nommons</rdg></app>
+<app><rdg wit="#C">yeux</rdg><rdg wit="#F">cela</rdg></app>
+<app><rdg wit="#C">me</rdg><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#C">cuisent</rdg><rdg wit="#F">trismus</rdg></app>
+<app><rdg wit="#C">.,</rdg><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#C">et</rdg><rdg wit="#F">Le</rdg></app>
+<app><rdg wit="#C">je</rdg><rdg wit="#F">docteur</rdg></app>
+<app><rdg wit="#C">ressens</rdg><rdg wit="#F">explique</rdg></app>
+<app><rdg wit="#C">des</rdg><rdg wit="#F">pendant</rdg></app>
+<app><rdg wit="#C">tressaillemens</rdg><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#F">quart</rdg></app>
+<app><rdg wit="#C">dans</rdg><rdg wit="#F">d</rdg></app>
+<app><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#F">heure</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">en</rdg></app>
+<app><rdg wit="#F">employant</rdg></app>
+<app><rdg wit="#F">les</rdg></app>
+<app><rdg wit="#F">termes</rdg></app> les
+<app><rdg wit="#C">nerfs</rdg><rdg wit="#F">plus</rdg></app>
+<app><rdg wit="#C">de</rdg><rdg wit="#F">scientifiques</rdg></app>
+<app><rdg wit="#F">,</rdg></app> la
+<app><rdg wit="#C">paupière</rdg><rdg wit="#F">nature</rdg></app>
+<app><rdg wit="#C">de</rdg><rdg wit="#F">du</rdg></app>
+<app><rdg wit="#C">celui</rdg><rdg wit="#F">trismus</rdg></app>
+<app><rdg wit="#C">-</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">là</rdg><rdg wit="#F">d</rdg></app>
+<app><rdg wit="#C">... (</rdg><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#C">Elle</rdg><rdg wit="#F">où</rdg></app>
+<app><rdg wit="#C">montre</rdg><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#C">son</rdg><rdg wit="#F">résulte</rdg></app>
+<app><rdg wit="#C">oeil</rdg><rdg wit="#F">que</rdg></app>
+<app><rdg wit="#C">gauche</rdg><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#C">.)
+ -</rdg><rdg wit="#F">trismus</rdg></app>
+<app><rdg wit="#F">est</rdg></app>
+<app><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#C">Nous</rdg><rdg wit="#F">trismus</rdg></app>
+<app><rdg wit="#F">;</rdg></app>
+<app><rdg wit="#C">appelons</rdg><rdg wit="#F">mais</rdg></app>
+<app><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#F">fait</rdg></app>
+<app><rdg wit="#F">observer</rdg></app>
+<app><rdg wit="#F">avec</rdg></app>
+<app><rdg wit="#C">cela</rdg><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#F">plus</rdg></app>
+<app><rdg wit="#F">grande</rdg></app>
+<app><rdg wit="#F">modestie</rdg></app>
+<app><rdg wit="#C">un</rdg><rdg wit="#F">que</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">si</rdg></app>
+<app><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#F">science</rdg></app>
+<app><rdg wit="#F">sait</rdg></app>
+<app><rdg wit="#F">que</rdg></app>
+<app><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#C">trismus</rdg><rdg wit="#F">trismus</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">est</rdg></app>
+<app><rdg wit="#C">Ah</rdg><rdg wit="#F">le</rdg></app>
+<app><rdg wit="#C">!</rdg><rdg wit="#F">trismus</rdg></app>
+<app><rdg wit="#C">cela</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">se</rdg><rdg wit="#F">elle</rdg></app>
+<app><rdg wit="#C">nomme</rdg><rdg wit="#F">ignore</rdg></app>
+<app><rdg wit="#C">trismus</rdg><rdg wit="#F">entièrement</rdg></app>
+<app><rdg wit="#C">!...</rdg><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#C">Est</rdg><rdg wit="#F">cause</rdg></app>
+<app><rdg wit="#C">-</rdg><rdg wit="#F">de</rdg></app> ce
+<app><rdg wit="#C">dangereux</rdg><rdg wit="#F">mouvement</rdg></app>
+<app><rdg wit="#C">!
+ -</rdg><rdg wit="#F">nerveux</rdg></app>
+<app><rdg wit="#C">Nullement</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">.
+ -</rdg><rdg wit="#F">qui</rdg></app>
+<app><rdg wit="#C">Je</rdg><rdg wit="#F">va</rdg></app>
+<app><rdg wit="#C">tousse</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">.</rdg><rdg wit="#F">vient</rdg></app>
+<app><rdg wit="#C">Une</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">petite</rdg><rdg wit="#F">passe</rdg></app>
+<app><rdg wit="#C">toux</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">sèche</rdg><rdg wit="#F">reparaît</rdg></app>
+<app><rdg wit="#C">...</rdg><rdg wit="#F">... -</rdg></app>
+<app><rdg wit="#C">J</rdg><rdg wit="#F">Et</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">dit</rdg></app>
+<app><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">nous</rdg></app>
+<app><rdg wit="#F">avons</rdg></app>
+<app><rdg wit="#F">reconnu</rdg></app>
+<app><rdg wit="#F">que</rdg></app>
+<app><rdg wit="#F">c</rdg></app>'
+<app><rdg wit="#C">ai</rdg><rdg wit="#F">était</rdg></app>
+<app><rdg wit="#C">des</rdg><rdg wit="#F">purement</rdg></app>
+<app><rdg wit="#C">inquiétudes</rdg><rdg wit="#F">nerveux</rdg></app>
+<app><rdg wit="#C">dans</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">les</rdg><rdg wit="#F">Est</rdg></app>
+<app><rdg wit="#C">jambes</rdg><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#C">...</rdg><rdg wit="#F">ce</rdg></app>
+<app><rdg wit="#C">Je</rdg><rdg wit="#F">bien</rdg></app>
+<app><rdg wit="#C">suis</rdg><rdg wit="#F">dangereux</rdg></app>
+<app><rdg wit="#C">sûre</rdg><rdg wit="#F">?</rdg></app>
+<app><rdg wit="#C">d</rdg><rdg wit="#F">demanda</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#C">avoir</rdg><rdg wit="#F">inquiète</rdg></app>
+<app><rdg wit="#C">anévrisme</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">au</rdg><rdg wit="#F">Nullement</rdg></app>
+<app><rdg wit="#C">coeur</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">.</rdg></app> Comment vous couchez-vous
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">?
+ -</rdg></app> En rond
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">.
+ -</rdg></app> Bien
+<app><rdg wit="#C">.</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">Sur</rdg><rdg wit="#F">sur</rdg></app> quel
+<app><rdg wit="#C">coté</rdg><rdg wit="#F">côté</rdg></app>
+<app><rdg wit="#C">?
+ -</rdg><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#C">Oh</rdg><rdg wit="#F">À</rdg></app>
+<app><rdg wit="#C">!</rdg></app>
+<app><rdg wit="#C">toujours</rdg></app>
+<app><rdg wit="#C">à</rdg></app> gauche
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">Bien</rdg><rdg wit="#F">Bien</rdg></app>
+<app><rdg wit="#C">... -</rdg><rdg wit="#F">;</rdg></app>
+<app><rdg wit="#C">Bon</rdg></app>
+<app><rdg wit="#C">.</rdg></app>
+<app><rdg wit="#C">Combien</rdg><rdg wit="#F">combien</rdg></app> avez-vous de matelas
+<app><rdg wit="#C">dans</rdg><rdg wit="#F">à</rdg></app> votre lit
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">?
+ -</rdg></app> Trois
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">Avez</rdg><rdg wit="#F">Bien</rdg></app>
+<app><rdg wit="#F">;</rdg></app>
+<app><rdg wit="#F">y</rdg></app>
+<app><rdg wit="#F">a</rdg></app>
+<app><rdg wit="#F">-</rdg></app>
+<app><rdg wit="#F">t</rdg></app>-
+<app><rdg wit="#C">vous</rdg><rdg wit="#F">il</rdg></app> un
+<app><rdg wit="#F">sommier</rdg></app>
+<app><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#F">Mais</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">oui</rdg></app>
+<app><rdg wit="#F">...
+ -</rdg></app>
+<app><rdg wit="#F">Quelle</rdg></app>
+<app><rdg wit="#F">est</rdg></app>
+<app><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#F">substance</rdg></app>
+<app><rdg wit="#F">du</rdg></app> sommier
+<app><rdg wit="#C">?
+ -</rdg><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#C">De</rdg><rdg wit="#F">Le</rdg></app> crin
+<app><rdg wit="#C">...
+ -</rdg><rdg wit="#F">.
+ -</rdg></app> Bon
+<app><rdg wit="#C">...</rdg><rdg wit="#F">.</rdg></app> Marchez un peu devant moi
+<app><rdg wit="#C">?... (</rdg><rdg wit="#F">!...</rdg></app>
+<app><rdg wit="#C">Elle</rdg><rdg wit="#F">Oh</rdg></app>
+<app><rdg wit="#C">marche</rdg><rdg wit="#F">!</rdg></app>
+<app><rdg wit="#C">.)
+ -</rdg><rdg wit="#F">mais</rdg></app>
+<app><rdg wit="#C">Ne</rdg><rdg wit="#F">naturellement</rdg></app>
+<app><rdg wit="#C">sentez</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">-</rdg><rdg wit="#F">et</rdg></app>
+<app><rdg wit="#F">comme</rdg></app>
+<app><rdg wit="#F">si</rdg></app>
+<app><rdg wit="#F">nous</rdg></app>
+<app><rdg wit="#F">ne</rdg></app> vous
+<app><rdg wit="#F">regardions</rdg></app>
+<app><rdg wit="#C">pas</rdg><rdg wit="#F">pas</rdg></app>
+<app><rdg wit="#C">des</rdg><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#C">pesanteurs</rdg><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#C">dans</rdg><rdg wit="#F">marche</rdg></app>
+<app><rdg wit="#F">à</rdg></app> la
+<app><rdg wit="#C">synovie</rdg><rdg wit="#F">Elssler</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">en</rdg></app>
+<app><rdg wit="#F">agitant</rdg></app>
+<app><rdg wit="#F">sa</rdg></app>
+<app><rdg wit="#F">tournure</rdg></app> de
+<app><rdg wit="#C">vos</rdg><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#C">rotules</rdg><rdg wit="#F">façon</rdg></app>
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#C">Qu</rdg><rdg wit="#F">plus</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">andalouse</rdg></app>
+<app><rdg wit="#C">est</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">-</rdg><rdg wit="#F">Vous</rdg></app>
+<app><rdg wit="#C">ce</rdg><rdg wit="#F">ne</rdg></app>
+<app><rdg wit="#C">que</rdg><rdg wit="#F">sentez</rdg></app>
+<app><rdg wit="#C">c</rdg><rdg wit="#F">pas</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#C">est</rdg><rdg wit="#F">peu</rdg></app>
+<app><rdg wit="#C">,</rdg><rdg wit="#F">de</rdg></app>
+<app><rdg wit="#C">docteur</rdg><rdg wit="#F">pesanteur</rdg></app>
+<app><rdg wit="#C">,</rdg><rdg wit="#F">dans</rdg></app>
+<app><rdg wit="#C">que</rdg><rdg wit="#F">les</rdg></app>
+<app><rdg wit="#C">cette</rdg><rdg wit="#F">genoux</rdg></app>
+<app><rdg wit="#C">synovie</rdg><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">Mais</rdg></app>
+<app><rdg wit="#C">Ce</rdg><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#C">n</rdg><rdg wit="#F">non</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">... (</rdg></app>
+<app><rdg wit="#C">est</rdg><rdg wit="#F">Elle</rdg></app>
+<app><rdg wit="#C">rien</rdg><rdg wit="#F">revient</rdg></app>
+<app><rdg wit="#F">à</rdg></app>
+<app><rdg wit="#F">sa</rdg></app>
+<app><rdg wit="#F">place</rdg></app>
+<app><rdg wit="#C">.</rdg><rdg wit="#F">.)</rdg></app>
+<app><rdg wit="#C">Tenez</rdg><rdg wit="#F">Mon</rdg></app>
+<app><rdg wit="#F">Dieu</rdg></app>,
+<app><rdg wit="#C">c</rdg><rdg wit="#F">quand</rdg></app>
+<app><rdg wit="#F">on</rdg></app>
+<app><rdg wit="#F">s</rdg></app>'
+<app><rdg wit="#C">est</rdg><rdg wit="#F">examine</rdg></app>
+<app><rdg wit="#C">une</rdg><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#C">espèce</rdg><rdg wit="#F">il</rdg></app>
+<app><rdg wit="#C">de</rdg><rdg wit="#F">me</rdg></app>
+<app><rdg wit="#C">liqueur</rdg><rdg wit="#F">semble</rdg></app>
+<app><rdg wit="#C">,</rdg><rdg wit="#F">maintenant</rdg></app>
+<app><rdg wit="#C">à</rdg><rdg wit="#F">que</rdg></app>
+<app><rdg wit="#C">l</rdg><rdg wit="#F">oui</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">...
+ -</rdg></app>
+<app><rdg wit="#C">aide</rdg><rdg wit="#F">Bon</rdg></app>
+<app><rdg wit="#C">de</rdg><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#C">laquelle</rdg><rdg wit="#F">Vous</rdg></app>
+<app><rdg wit="#C">se</rdg><rdg wit="#F">êtes</rdg></app>
+<app><rdg wit="#C">meuvent</rdg><rdg wit="#F">restée</rdg></app>
+<app><rdg wit="#C">les</rdg><rdg wit="#F">à</rdg></app>
+<app><rdg wit="#C">cartilages</rdg><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#C">que</rdg><rdg wit="#F">maison</rdg></app>
+<app><rdg wit="#C">vous</rdg><rdg wit="#F">depuis</rdg></app>
+<app><rdg wit="#C">avez</rdg><rdg wit="#F">quelque</rdg></app>
+<app><rdg wit="#C">au</rdg><rdg wit="#F">temps</rdg></app>
+<app><rdg wit="#C">genou</rdg><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#C">,</rdg><rdg wit="#F">Oh</rdg></app>
+<app><rdg wit="#C">là</rdg><rdg wit="#F">!</rdg></app>
+<app><rdg wit="#C">...
+ -</rdg></app>
+<app><rdg wit="#C">Non</rdg><rdg wit="#F">oui</rdg></app>,
+<app><rdg wit="#C">docteur</rdg><rdg wit="#F">monsieur</rdg></app>,
+<app><rdg wit="#F">beaucoup</rdg></app>
+<app><rdg wit="#F">trop</rdg></app>
+<app><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#C">je</rdg><rdg wit="#F">et</rdg></app>
+<app><rdg wit="#F">seule</rdg></app>
+<app><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">n</rdg><rdg wit="#F">Bien</rdg></app>
+<app><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#F">c</rdg></app>'
+<app><rdg wit="#C">y</rdg><rdg wit="#F">est</rdg></app>
+<app><rdg wit="#C">sens</rdg><rdg wit="#F">cela</rdg></app>
+<app><rdg wit="#C">rien</rdg></app>.
+<app><rdg wit="#F">Comment</rdg></app>
+<app><rdg wit="#C">Êtes</rdg><rdg wit="#F">vous</rdg></app>
+<app><rdg wit="#F">coiffez</rdg></app>-vous
+<app><rdg wit="#C">heureux</rdg><rdg wit="#F">pour</rdg></app>
+<app><rdg wit="#C">de</rdg><rdg wit="#F">la</rdg></app>
+<app><rdg wit="#C">savoir</rdg><rdg wit="#F">nuit</rdg></app>
+<app><rdg wit="#C">toutes</rdg><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#C">ces</rdg><rdg wit="#F">Un</rdg></app>
+<app><rdg wit="#C">choses</rdg><rdg wit="#F">bonnet</rdg></app>
+<app><rdg wit="#C">-</rdg><rdg wit="#F">brodé</rdg></app>
+<app><rdg wit="#C">là</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">!...</rdg><rdg wit="#F">puis</rdg></app>
+<app><rdg wit="#C">Est</rdg><rdg wit="#F">quelquefois</rdg></app>
+<app><rdg wit="#F">par</rdg></app>-
+<app><rdg wit="#C">ce</rdg><rdg wit="#F">dessus</rdg></app>
+<app><rdg wit="#C">que</rdg><rdg wit="#F">un</rdg></app>
+<app><rdg wit="#C">si</rdg><rdg wit="#F">foulard</rdg></app>
+<app><rdg wit="#C">j</rdg><rdg wit="#F">...
+ -</rdg></app>
+<app><rdg wit="#F">Vous</rdg></app>
+<app><rdg wit="#F">n</rdg></app>'y
+<app><rdg wit="#F">sentez</rdg></app>
+<app><rdg wit="#C">avais</rdg><rdg wit="#F">pas</rdg></app> des
+<app><rdg wit="#C">pesanteurs</rdg><rdg wit="#F">chaleurs</rdg></app>
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">...</rdg></app>
+<app><rdg wit="#C">Que</rdg><rdg wit="#F">une</rdg></app>
+<app><rdg wit="#C">mettez</rdg><rdg wit="#F">petite</rdg></app>
+<app><rdg wit="#C">-</rdg><rdg wit="#F">sueur</rdg></app>
+<app><rdg wit="#C">vous</rdg><rdg wit="#F">?...
+ -</rdg></app>
+<app><rdg wit="#C">sur</rdg><rdg wit="#F">En</rdg></app>
+<app><rdg wit="#C">votre</rdg><rdg wit="#F">dormant</rdg></app>
+<app><rdg wit="#C">tête</rdg><rdg wit="#F">,</rdg></app>
+<app><rdg wit="#C">pendant</rdg><rdg wit="#F">cela</rdg></app>
+<app><rdg wit="#C">la</rdg><rdg wit="#F">me</rdg></app>
+<app><rdg wit="#C">nuit</rdg><rdg wit="#F">semble</rdg></app>
+<app><rdg wit="#C">?
+ -</rdg><rdg wit="#F">difficile</rdg></app>
+<app><rdg wit="#C">Un</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">bonnet</rdg><rdg wit="#F">Vous</rdg></app>
+<app><rdg wit="#C">.
+ -</rdg><rdg wit="#F">pourriez</rdg></app>
+<app><rdg wit="#C">Est</rdg><rdg wit="#F">trouver</rdg></app>
+<app><rdg wit="#C">-</rdg><rdg wit="#F">votre</rdg></app>
+<app><rdg wit="#C">il</rdg><rdg wit="#F">linge</rdg></app>
+<app><rdg wit="#C">en</rdg><rdg wit="#F">humide</rdg></app>
+<app><rdg wit="#C">toile</rdg><rdg wit="#F">à</rdg></app>
+<app><rdg wit="#C">ou</rdg><rdg wit="#F">l</rdg></app>
+<app><rdg wit="#C">en</rdg><rdg wit="#F">'</rdg></app>
+<app><rdg wit="#C">coton</rdg><rdg wit="#F">endroit</rdg></app>
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">du</rdg></app>
+<app><rdg wit="#C">En</rdg><rdg wit="#F">front</rdg></app>
+<app><rdg wit="#C">batiste</rdg><rdg wit="#F">en</rdg></app>
+<app><rdg wit="#C">...</rdg><rdg wit="#F">vous</rdg></app>
+<app><rdg wit="#C">Mais</rdg><rdg wit="#F">réveillant</rdg></app>
+<app><rdg wit="#C">je</rdg><rdg wit="#F">?
+ -</rdg></app>
+<app><rdg wit="#C">mets</rdg><rdg wit="#F">Quelquefois</rdg></app>
+<app><rdg wit="#C">quelquefois</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">par</rdg></app>
+<app><rdg wit="#C">dessus</rdg></app>
+<app><rdg wit="#C">un</rdg><rdg wit="#F">Bon</rdg></app>
+<app><rdg wit="#C">foulard</rdg></app>
+<app><rdg wit="#C">....
+ -</rdg><rdg wit="#F">.</rdg></app> Donnez-moi votre main
+<app><rdg wit="#C">... (</rdg><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#C">Il</rdg><rdg wit="#F">Le</rdg></app>
+<app><rdg wit="#F">docteur</rdg></app> tire sa montre
+<app><rdg wit="#C">.)
+ -</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">Ah</rdg></app>
+<app><rdg wit="#C">!</rdg></app>
+<app><rdg wit="#C">docteur</rdg></app>
+<app><rdg wit="#C">,</rdg></app>
+<app><rdg wit="#C">je</rdg></app>
+<app><rdg wit="#C">n</rdg></app>
+<app><rdg wit="#C">'</rdg></app>
+<app><rdg wit="#C">aime</rdg></app>
+<app><rdg wit="#C">pas</rdg></app>
+<app><rdg wit="#C">que</rdg></app>
+<app><rdg wit="#C">vous</rdg><rdg wit="#F">Vous</rdg></app>
+<app><rdg wit="#C">comptiez</rdg></app>
+<app><rdg wit="#C">les</rdg></app>
+<app><rdg wit="#C">minutes</rdg></app>
+<app><rdg wit="#C">...</rdg></app>
+<app><rdg wit="#C">ça</rdg></app>
+<app><rdg wit="#C">me</rdg></app>
+<app><rdg wit="#C">fait</rdg></app>
+<app><rdg wit="#C">peur</rdg></app>
+<app><rdg wit="#C">...</rdg></app>
+<app><rdg wit="#C">Ah</rdg></app>
+<app><rdg wit="#C">!</rdg></app>
+<app><rdg wit="#C">vous</rdg></app> ai-je dit que j'
+<app><rdg wit="#C">avais</rdg><rdg wit="#F">ai</rdg></app> des vertiges
+<app><rdg wit="#C">?...
+ -</rdg><rdg wit="#F">?</rdg></app>
+<app><rdg wit="#C">Non</rdg><rdg wit="#F">dit</rdg></app>
+<app><rdg wit="#C">.
+ -</rdg><rdg wit="#F">Caroline</rdg></app>
+<app><rdg wit="#C">Eh</rdg><rdg wit="#F">.
+ -</rdg></app>
+<app><rdg wit="#C">bien</rdg><rdg wit="#F">Chut</rdg></app>
+<app><rdg wit="#C">,</rdg><rdg wit="#F">!...</rdg></app>
+<app><rdg wit="#C">j</rdg></app>
+<app><rdg wit="#C">'</rdg></app>
+<app><rdg wit="#C">ai</rdg><rdg wit="#F">fait</rdg></app>
+<app><rdg wit="#C">manqué</rdg></app>
+<app><rdg wit="#C">de</rdg></app>
+<app><rdg wit="#C">tomber</rdg></app>
+<app><rdg wit="#C">hier</rdg></app>
+<app><rdg wit="#C">à</rdg></app>
+<app><rdg wit="#C">la</rdg></app>
+<app><rdg wit="#C">renverse</rdg></app>
+<app><rdg wit="#C">...</rdg></app>
+<app><rdg wit="#C">Était</rdg></app>
+<app><rdg wit="#C">-</rdg></app>
+<app><rdg wit="#C">ce</rdg></app> le
+<app><rdg wit="#C">matin</rdg><rdg wit="#F">docteur</rdg></app>
+<app><rdg wit="#C">?... -</rdg><rdg wit="#F">qui</rdg></app>
+<app><rdg wit="#C">Non</rdg><rdg wit="#F">compte</rdg></app>
+<app><rdg wit="#C">,</rdg><rdg wit="#F">les</rdg></app>
+<app><rdg wit="#C">c</rdg><rdg wit="#F">pulsations</rdg></app>
+<app><rdg wit="#C">'</rdg><rdg wit="#F">.</rdg></app>
+<app><rdg wit="#C">était</rdg></app>
+<app><rdg wit="#C">le</rdg></app>
+<app><rdg wit="#C">soir</rdg><rdg wit="#F">Est</rdg></app>
+<app><rdg wit="#C">... -</rdg></app>
+<app><rdg wit="#C">Mais</rdg></app>
+<app><rdg wit="#C">était</rdg></app>-ce
+<app><rdg wit="#C">bien</rdg></app> le soir
+<app><rdg wit="#C">?...</rdg><rdg wit="#F">?...
+ -</rdg></app>
+<app><rdg wit="#C">Oui</rdg><rdg wit="#F">Non</rdg></app>
+<app><rdg wit="#C">. -</rdg></app>
+<app><rdg wit="#C">Oui</rdg></app>,
+<app><rdg wit="#C">c</rdg></app>
+<app><rdg wit="#C">'</rdg></app>
+<app><rdg wit="#C">était</rdg></app> le
+<app><rdg wit="#C">soir</rdg></app>
+<app><rdg wit="#C">.
+ -</rdg></app>
+<app><rdg wit="#C">Bon</rdg><rdg wit="#F">matin</rdg></app>
+<app><rdg wit="#C">...</rdg><rdg wit="#F">.</rdg></app></cx:apparatus>

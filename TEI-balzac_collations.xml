@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="Balzac_custom.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="Balzac_custom.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="RNG-balzax_collations.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="RNG-balzax_collations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <!DOCTYPE TEI [
 <!ENTITY caro "Caroline">

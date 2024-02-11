@@ -1,0 +1,133 @@
+<?xml version="1.0" ?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+ <app corresp="#word-diff #attenuation"><lem wit="#F">Et d'abord saluez ce</lem><rdg wit="#C"><hi rend="sc">Le Petit <persName reef="#mercier">Mercier</persName></hi><hi rend="sc">Gloire</hi> à toi</rdg></app> roi du mouvement
+<app corresp="#word-diff #attenuation"><lem wit="#F">parisien, qui s'est soumis le</lem><rdg wit="#C">! souverain du</rdg></app> temps et
+<app corresp="#add-words"><rdg wit="#C">maître de</rdg></app> l'espace
+ <app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!...</rdg></app>
+<app corresp="#pers-diff"><lem wit="#F">Oui, saluez cette</lem><rdg wit="#C">Salut, être courageux,</rdg></app> créature composée de salpêtre et de gaz
+<app corresp="#add-words"><rdg wit="#C">carbonique...</rdg></app> qui
+<app corresp="#orth"><lem wit="#F">donne</lem><rdg wit="#C">donnes</rdg></app> des
+<app corresp="#orth"><lem wit="#F">enfants</lem><rdg wit="#C">enfans</rdg></app> à la France pendant
+<app corresp="#pers-diff"><lem wit="#F">ses</lem><rdg wit="#C">tes</rdg></app> nuits laborieuses
+<app corresp="#punct"><lem wit="#F">,</lem></app> et
+<app corresp="#add-words"><rdg wit="#C">qui</rdg></app>
+<app corresp="#word-diff"><lem wit="#F">remultiplie</lem><rdg wit="#C">multiplies</rdg></app>
+<app corresp="#punct"><rdg wit="#C">,</rdg></app> pendant le jour
+<app corresp="#punct"><rdg wit="#C">,</rdg></app>
+<app corresp="#pers-diff"><lem wit="#F">son</lem><rdg wit="#C">ton</rdg></app> individu
+<app corresp="#punct"><rdg wit="#C">,</rdg></app> pour le service, la gloire et le plaisir de
+<app corresp="#pers-diff"><lem wit="#F">ses</lem><rdg wit="#C">tes</rdg></app> concitoyens
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!...</rdg></app>
+<app corresp="#pers-diff"><lem wit="#F">Cet homme résout</lem><rdg wit="#C">Salut, toi qui a résolu</rdg></app> le problème de suffire, à la fois, à une femme aimable, à
+<app corresp="#pers-diff"><lem wit="#F">son</lem><rdg wit="#C">ton</rdg></app> ménage, au Constitutionnel, à
+<app corresp="#pers-diff"><lem wit="#F">son</lem><rdg wit="#C">ton</rdg></app>
+ <app corresp="#orth"><lem wit="#F">bureau</lem><rdg wit="#C">Bureau</rdg></app>, à la Garde nationale, à l'<placeName ref="#opera">Opéra</placeName>, à Dieu
+<app corresp="#punct"><lem wit="#F">;</lem><rdg wit="#C">,</rdg></app>
+<app corresp="#add-words #attenuation"><lem wit="#F">mais pour transformer</lem><rdg wit="#C">à tout... et qui tires parti de tout, transformant</rdg></app> en écus le Constitutionnel,
+ <app corresp="#pers-diff"><lem wit="#F">le</lem><rdg wit="#C">ton</rdg></app> Bureau, l'<placeName ref="#opera">Opéra</placeName>, la Garde nationale,
+<app corresp="#pers-diff"><lem wit="#F">la</lem><rdg wit="#C">ta</rdg></app> femme et Dieu
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!...</rdg></app>
+<app corresp="#pers-diff"><lem wit="#F">Enfin saluez un</lem><rdg wit="#C">Salut prince des cumulards,</rdg></app>, irréprochable cumulard
+<app corresp="#add-words #punct #attenuation #text-segmentation"><lem wit="#F">.</lem><rdg wit="#C">, cumulard intéressant, honte des oisifs ! image violente de l'<hi rend="sc">utile dulci</hi> !...<milestone unit="tei:p"/><lb/></rdg></app>
+<app corresp="#add-words #attenuation #text-segmentation"><rdg wit="#C">Pardonnez-moi cette incroyable hypebole ; mais encore un mot, et vous chanterez à la gloire de l'homme en qui je veux célébrer <hi rend="sc">l'utilité</hi> même !....<milestone unit="tei:p"/><lb/></rdg></app>
+ Levé tous les jours à cinq heures, il a franchi
+<app corresp="#punct"><rdg wit="#C">,</rdg></app> comme un oiseau
+<app corresp="#punct"><rdg wit="#C">,</rdg></app> l'espace qui sépare
+ <app corresp="#place-diff #general"><lem wit="#F">son domicile</lem><rdg wit="#C"><placeName ref="#rue_bar">la rue Barillerie</placeName></rdg></app> de <placeName ref="#rue_mont">la rue Montmartre</placeName>
+<app corresp="#punct"><lem wit="#F">. Qu</lem><rdg wit="#C">; et, qu</rdg></app>'il vente
+<app corresp="#punct #syntax"><lem wit="#F">ou</lem><rdg wit="#C">,</rdg></app> tonne, pleuve ou neige, il est au Constitutionnel
+<app corresp="#punct #syntax"><lem wit="#F">et y attend</lem><rdg wit="#C">, attendant</rdg></app> la charge de journaux dont il a soumissionné la distribution
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!</rdg></app> Il reçoit ce pain politique avec avidité, le prend
+<app corresp="#punct #syntax"><lem wit="#F">et</lem><rdg wit="#C">,</rdg></app> le porte
+<app corresp="#punct"><lem wit="#F">. À</lem><rdg wit="#C">; et, à</rdg></app> neuf heures, il est au sein de son ménage,
+<app corresp="#syntax"><lem wit="#F">débite</lem><rdg wit="#C">débitant</rdg></app> un
+<app corresp="#orth"><lem wit="#F">calembour</lem><rdg wit="#C">calembourg</rdg></app> à sa femme, lui
+<app corresp="#syntax"><lem wit="#F">dérobe</lem><rdg wit="#C">dérobant</rdg></app> un gros baiser,
+<app corresp="#syntax"><lem wit="#F">déguste</lem><rdg wit="#C">dégustant</rdg></app> une tasse de café ou
+<app corresp="#syntax"><lem wit="#F">gronde</lem><rdg wit="#C">grondant</rdg></app> ses
+<app corresp="#orth"><lem wit="#F">enfants</lem><rdg wit="#C">enfans</rdg></app>
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C">!</rdg></app>
+<app corresp="#add-words"><lem wit="#F">À</lem><rdg wit="#C">Puis, à</rdg></app> dix heures moins un quart, il apparaît
+ <app corresp="#place-diff #general"><rdg wit="#C"><placeName ref="#rue_gar">rue Garancière</placeName>,</rdg></app> à la Mairie
+<app corresp="#punct #text-segmentation"><lem wit="#F">.</lem><rdg wit="#C">!.... <milestone unit="tei:p"/><lb/></rdg></app> Là, posé sur un fauteuil, comme un perroquet
+<app corresp="#add-words"><rdg wit="#C">vert</rdg></app> sur
+<app corresp="#pers-diff"><lem wit="#F">son</lem><rdg wit="#C">un</rdg></app> bâton
+ <app corresp="#sentence-order"><rdg wit="#C">, jusqu'à quatre heures il écrivasse</rdg></app> chauffé par <placeName ref="#paris">la ville de Paris</placeName>,
+<app corresp="#syntax"><lem wit="#F">il inscrit</lem><rdg wit="#C">inscrivant</rdg></app>
+<app corresp="#sentence-order"><lem wit="#F">jusqu'a quatre heures</lem></app>, sans leur donner une larme ou un sourire, les décès et les naissances
+ <app corresp="#word-diff #general"><lem wit="#F">de <placeName ref="#5arr">tout un</placeName></lem><rdg wit="#C">du <placeName ref="#5arr">5e</placeName></rdg></app> <placeName ref="#5arr">arrondissement</placeName>
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!....</rdg></app> Le bonheur, le malheur
+<app corresp="#word-diff #attenuation"><lem wit="#F">du</lem><rdg wit="#C">de tout un</rdg></app> quartier passe par le bec de sa plume, comme l'esprit
+<app corresp="#word-diff"><lem wit="#F">du Constitutionnel voyageait</lem><rdg wit="#C">de <persName ref="#Jay">M.Jay</persName>, la polémique de <persName ref="#etienne">M. Etienne</persName> et l'encre de <persName ref="#chaign">M. Chaignieau</persName> étaient</rdg></app> naguère sur ses épaules
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C">...</rdg></app> Rien ne lui pèse ! Il va toujours
+<app corresp="#word-diff"><lem wit="#F">droit devant lui</lem><rdg wit="#C">chanteronnant</rdg></app>, prend son patriotisme tout fait dans le journal, ne contredit personne, crie ou applaudit avec tout le monde, et vit en hirondelle
+<app corresp="#punct #attenuation #text-segmentation"><lem wit="#F">.</lem><rdg wit="#C">!.... <milestone unit="tei:p"/><lb/></rdg></app>
+<app corresp="#orth"><lem wit="#F">À</lem><rdg wit="#C">A</rdg></app> deux pas de
+<app corresp="#word-diff #general"><lem wit="#F">sa paroisse</lem><rdg wit="#C"><placeName ref="#st_sulp">Saint-Sulpice</placeName></rdg></app>, il peut, en cas d'une cérémonie importante, laisser sa place
+<app corresp="#word-diff"><lem wit="#F">à un surnuméraire</lem><rdg wit="#C">au garçon de bureau</rdg></app>  et aller chanter un <hi rend="i">requiem</hi>
+<app corresp="#word-diff"><lem wit="#F">au</lem><rdg wit="#C">à ce</rdg></app> lutrin
+<app corresp="#add-words"><lem wit="#F">de l'église,</lem></app> dont il est, le dimanche et les jours de fête, le plus bel ornement, la voix la plus imposante, où il tord avec énergie sa large bouche en faisant tonner un joyeux
+<app corresp="#punct #attenuation"><lem wit="#F"><hi rend="i">Amen</hi>.</lem><rdg wit="#C"> : - <hi rend="i">Amen</hi> !...</rdg></app> Il est chantre
+<app corresp="#punct #attenuation #text-segmentation"><lem wit="#F">.</lem><rdg wit="#C">!... <milestone unit="tei:p"/><lb/></rdg></app> Libéré à quatre heures de son service officiel, il apparaît pour répandre la joie et la gaieté au sein de la boutique la plus célèbre qui soit en la Cité.
+<app corresp="#sentence-order #punct"><lem wit="#F">Heureuse est sa femme, il</lem><rdg wit="#C"><persName ref="#merciere">Sa femme</persName> est mercière. Il</rdg></app>  n'a pas le temps d'être jaloux ;
+<app corresp="#word-diff"><lem wit="#F">il</lem><rdg wit="#C">car c'</rdg></app> est plutôt
+<app corresp="#add-words"><rdg wit="#C">un</rdg></app> homme d'action que de sentiment. Aussi, dès qu'il arrive,
+<app corresp="#sentence-order"><lem wit="#F">agace-il</lem><rdg wit="#C">il agace</rdg></app>
+<app corresp="#word-diff"><lem wit="#F">les</lem><rdg wit="#C">des</rdg></app> demoiselles
+<app corresp="#word-diff #general"><lem wit="#F">de</lem><rdg wit="#C">du</rdg></app> comptoir, dont les yeux vifs attirent force chalands
+<app corresp="#punct"><lem wit="#F">;</lem><rdg wit="#C">...</rdg></app>
+<app corresp="#add-words"><rdg wit="#C">Il</rdg></app> se gaudit au sein des parures, des fichus, de la mousseline
+<app corresp="#syntax"><lem wit="#F">façonnée</lem><rdg wit="#C">façonnés</rdg></app> par ces habiles ouvrières ; ou, plus souvent encore, avant de dîner, il
+<app corresp="#add-words"><lem wit="#F">sert une pratique,</lem></app> copie une page du journal ou porte chez l'huissier quelque effet en retard
+<app corresp="#punct #text-segmentation"><lem wit="#F">.</lem><rdg wit="#C">.... <milestone unit="tei:p"/><lb/></rdg></app>
+<app corresp="#orth"><lem wit="#F">À</lem><rdg wit="#C">A</rdg></app> six heures
+<app corresp="#add-words"><lem wit="#F">, tous les deux jours,</lem></app> il est fidèle à son poste
+<app corresp="#punct #syntax #add-words"><lem wit="#F">. Inamovible basse-taille des chœurs il</lem><rdg wit="#C">et</rdg></app> se trouve
+ <app corresp="#add-words"><rdg wit="#C">planté, soit</rdg></app> à l'<placeName ref="#opera">Opéra</placeName>
+ <app corresp="#add-words"><rdg wit="#C">, soit aux <placeName ref="#italiens">Italiens</placeName></rdg></app>, prêt à
+<app corresp="#word-diff"><lem wit="#F">y devenir</lem><rdg wit="#C">se formuler en</rdg></app> soldat,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> Arabe,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> prisonnier,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> sauvage,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> paysan
+<app corresp="#add-words"><rdg wit="#C">, en officier</rdg></app>,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> ombre,
+<app corresp="#add-words #orth"><lem wit="#F">pate</lem><rdg wit="#C">en patte</rdg></app> de chameau,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> lion,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> diable,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> génie
+<app corresp="#add-words"><rdg wit="#C">, en Africain</rdg></app>,
+<app corresp="#add-words"><rdg wit="#C">en</rdg></app> esclave,
+<app corresp="#word-diff"><lem wit="#F">eunuque noir ou blanc,</lem><rdg wit="#C">en grand seigneur...,</rdg></app> toujours expert à
+<app corresp="#word-diff"><lem wit="#F">produire</lem><rdg wit="#C">faire</rdg></app> de la joie, de la douleur, de la pitié, de l'étonnement, à pousser
+<app corresp="#word-diff"><lem wit="#F">d'invariables</lem><rdg wit="#C">des</rdg></app> cris, à se taire, à chasser, à se battre, à représenter Rome ou l'
+<app corresp="#orth"><lem wit="#F">Égypte</lem><rdg wit="#C">Egypte</rdg></app>
+<app corresp="#punct"><lem wit="#F">;</lem><rdg wit="#C">,</rdg></app> mais toujours
+<app corresp="#word-diff #sentence-order #text-segmentation"><lem wit="#F"><hi rend="i">in petto</hi>, <persName ref="#mercier">mercier</persName>.</lem><rdg wit="#C"><persName ref="#mercier">mercier</persName> au fond du cœur.... <milestone unit="tei:p"/><lb/></rdg></app>
+<app corresp="#orth"><lem wit="#F">À</lem><rdg wit="#C">A</rdg></app> minuit, il redevient bon mari, homme,
+<app corresp="#sentence-order"><lem wit="#F">tendre père</lem><rdg wit="#C">père tendre</rdg></app>, il se glisse dans le lit conjugal, l'imagination encore tendue par les formes décevantes des nymphes de l'Opéra,
+<app corresp="#syntax"><lem wit="#F">et fait</lem><rdg wit="#C">faisant</rdg></app> ainsi tourner
+<app corresp="#punct"><lem wit="#F">,</lem></app> au profit de l'amour conjugal
+<app corresp="#punct"><lem wit="#F">,</lem></app> les dépravations du monde et les voluptueux ronds de jambe de
+<app corresp="#add-words #particulier"><lem wit="#F">la</lem></app> <persName ref="#tag">Taglioni</persName>
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!...</rdg></app> Enfin, s'il dort
+<app corresp="#punct #attenuation"><lem wit="#F">, il</lem><rdg wit="#C">?... Il</rdg></app> dort vite,
+<app corresp="#syntax"><lem wit="#F">et dépêche</lem><rdg wit="#C">dépêchant</rdg></app> son sommeil comme
+<app corresp="#sentence-order #add-words #attenuation #text-segmentation"><lem wit="#F">il a dépêché sa vie</lem><rdg wit="#C">il dépêche sa vie.... <milestone unit="tei:p"/><lb/>Comme il est bel homme, il a obtenu la place lucrative de tambour-major de légion</rdg></app>.
+<app corresp="#add-words #text-segmentation"><rdg wit="#C">Alors, les dimanches, il est, selon les vœux de l'église ou du <persName ref="#laf">général Lafayette</persName>, ou chantre divin, rossignol lithurgique, ou modèle des grâces, une sorte d'Apollon militaire, réglant la marche des tambours, et se balançant en tête de la garde nationale, comme une préface de <persName ref="#vh">Victor Hugo</persName> devant un volume de poésies !... <milestone unit="tei:p"/><lb/></rdg></app>N'est-ce pas le mouvement fait homme, l'espace incarné
+<app corresp="#add-words #attenuation"><rdg wit="#C">, le cumul en chair et en os</rdg></app>, le protée de la civilisation ?
+<app corresp="#word-diff"><lem wit="#F">Cet</lem><rdg wit="#C">C'est un</rdg></app> homme
+<app corresp="#syntax"><rdg wit="#C">qui</rdg></app> résume tout : histoire, littérature, politique, gouvernement, religion, art militaire
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!</rdg></app>
+<app corresp="#syntax"><lem wit="#F">N'est-ce pas</lem><rdg wit="#C">C'est</rdg></app> une encyclopédie vivante
+<app corresp="#punct #syntax"><lem wit="#F">,</lem><rdg wit="#C">et</rdg></app> un atlas grotesque
+ <app corresp="#add-words #word-diff"><lem wit="#F">, sans cesse en marche comme <placeName ref="#paris">Paris</placeName> et qui jamais ne repose ?</lem><rdg wit="#C">; il porte le matin le <hi rend="i">Constitutionnel</hi> ; pendant le jour, il stipule la vie et la mort ; le soir, il représente le monde entier ! il est sans cesse en marche comme la société !</rdg></app>
+<app corresp="#sentence-order"><lem wit="#F">En lui tout est jambes.</lem><rdg wit="#C">Tout en lui tout est jambe !...</rdg></app>
+<app corresp="#add-words"><lem wit="#F"> Aucune physionomie ne saurait se conserver pure en de tels travaux. Peut-être l'ouvrier qui meurt vieux à trente ans, l'estomac tanné par les doses progressives de son eau-de-vie, sera-t-il trouvé, au dire de quelques philosophes bien rentés, plus heureux que ne l'est <persName ref="#mercier">le mercier</persName>. L'un périt d'un seul coup et l'autre en détail. De </lem><rdg wit="#C">Il cumule Dieu et le Diable, le gouvernement et l'opposition ; et, de</rdg></app> ses huit industries, de ses épaules, de son gosier, de ses mains
+<app corresp="#add-words"><rdg wit="#C">, de ses mollets</rdg></app>, de <persName ref="#merciere">sa femme</persName> et de son commerce,
+<app corresp="#word-diff"><lem wit="#F">celui-ci</lem><rdg wit="#C">il</rdg></app> retire, comme d'autant de fermes, des
+<app corresp="#orth"><lem wit="#F">enfants</lem><rdg wit="#C">enfans</rdg></app>,
+<app corresp="#word-diff #general"><lem wit="#F">quelques</lem><rdg wit="#C">douze</rdg></app> mille francs et le plus laborieux bonheur qui ait
+<app corresp="#add-words"><lem wit="#F">jamais</lem></app> récréé cœur d'homme
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C">!...</rdg></app>
+<app corresp="#word-diff #text-segmentation"><lem wit="#F">Cette fortune et ces enfants, ou les enfants qui résument tout pour lui, deviennent la proie du monde supérieur, auquel il porte ses écus et sa fille, ou son fils élevé au collége, qui, plus instruit que ne l'est son père, jette plus haut ses regards ambitieux. Souvent le cadet d'un petit détaillant veut être quelque chose dans l'État.</lem><rdg wit="#C">O mon voisin ! tu es, sans t'en douter, un symbole dont ta femme a seule la clé !... Va, cours, poursuis ta carrière... Te reposeras-tu jamais ?... Mort, ton chagrin serait d'être couché sans espoir de mouvement... Sois tranquille, tu trouveras encore de l'emploi parmi les ombres, et tu reviendras peut-être dans les romans nouveaux, soit comme esprit, soit comme génie !... <milestone unit="tei:p"/><lb/>Gloire à toi, roi du mouvement ! (Bis.) <persName ref="#Balzac"><hi rend="sc">Alfred Coudreux</hi></persName></rdg></app>
+</cx:apparatus>

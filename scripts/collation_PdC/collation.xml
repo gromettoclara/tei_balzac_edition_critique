@@ -1,0 +1,138 @@
+<?xml version="1.0" ?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"><persName ref="#emile">Émile</persName> était un
+<app corresp="#word-diff"><lem wit="#F">journaliste</lem><rdg wit="#R2M">auteur</rdg></app> qui avait conquis plus de gloire
+<app corresp="#word-diff"><lem wit="#F">à ne rien faire</lem><rdg wit="#R2M">dans ses chutes</rdg></app> que les autres n'en recueillent de leurs
+<app corresp="#orth"><lem wit="#F">succès</lem><rdg wit="#R2M">succés</rdg></app>.
+<app corresp="#word-diff"><lem wit="#F">Critique, hardi</lem><rdg wit="#R2M">Hardi dans ses compositions</rdg></app>, plein de verve et de mordant, il possédait toutes les qualités que comportaient ses défauts
+<app corresp="#punct #syntax"><lem wit="#F">. Franc et</lem><rdg wit="#R2M">: il était franc</rdg></app> rieur,
+<app corresp="#syntax"><lem wit="#F">il</lem><rdg wit="#R2M">et</rdg></app> disait en face
+<app corresp="#word-diff #expressif"><lem wit="#F">mille épigrammes</lem><rdg wit="#R2M">une épigramme</rdg></app> à un ami
+<app corresp="#punct"><lem wit="#F">,</lem></app> qu'absent
+<app corresp="#punct"><lem wit="#F">,</lem></app> il défendait avec courage et loyauté. Il se moquait de tout, même de son avenir
+<app corresp="#punct #syntax"><lem wit="#F">. Toujours</lem><rdg wit="#R2M">; et toujours</rdg></app> dépourvu d'argent, il restait, comme tous les hommes de quelque portée, plongé dans une inexprimable paresse, jetant un livre dans un mot au nez
+<app corresp="#word-diff"><lem wit="#F">de</lem><rdg wit="#R2M">des</rdg></app> gens qui ne savaient pas mettre un mot dans leurs livres.
+<app corresp="#word-diff #expressif"><lem wit="#F">Prodigue de</lem><rdg wit="#R2M">Il plaisait par des</rdg></app> promesses qu'il ne réalisait jamais,
+<app corresp="#syntax"><lem wit="#F">il</lem><rdg wit="#R2M">et</rdg></app> s'était fait de sa fortune et de sa gloire un coussin pour dormir
+<app corresp="#punct"><lem wit="#F">,</lem><rdg wit="#R2M">.</rdg></app>
+<app corresp="#syntax"><lem wit="#F">courant ainsi</lem><rdg wit="#R2M">Il courait</rdg></app> la chance de se réveiller vieux
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> à l'hôpital.
+<app corresp="#word-diff"><lem wit="#F">D'ailleurs</lem><rdg wit="#R2M">Du reste</rdg></app>, ami jusqu'à l'échafaud, fanfaron de cynisme et simple comme un enfant, il
+<app corresp="#add-words"><lem wit="#F">ne</lem></app> travaillait
+<app corresp="#add-words"><lem wit="#F">que</lem></app> par boutade ou par nécessité.<milestone unit="tei:p"/><lb/> - Nous allons faire,
+    <app corresp="#word-diff"><lem wit="#F">suivant l'expression de</lem><rdg wit="#R2M">comme dit</rdg></app><persName ref="#rab">maître Alcofribas</persName>, un fameux <hi rend="i">tronçon de</hi>
+<app corresp="#orth"><lem wit="#F"><hi rend="i">chiere</hi></lem><rdg wit="#R2M"><hi rend="i">chère</hi></rdg></app> <hi rend="i">lie</hi>
+    <app corresp="#punct #attenuation"><lem wit="#F">,</lem><rdg wit="#R2M"><hi rend="i">!...</hi></rdg></app> dit-il à <persName ref="#raph">Raphaël</persName> en lui montrant les caisses de fleurs qui embaumaient et verdissaient les escaliers.<milestone unit="tei:p"/><lb/> - <app corresp="#add-words #attenuation"><lem wit="#F">J</lem><rdg wit="#R2M">Oh ! que j</rdg></app>'aime les porches bien chauffés
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> et
+<app corresp="#word-diff"><lem wit="#F">garnis de tapis</lem><rdg wit="#R2M">dont tapis sont</rdg></app> riches
+    <app corresp="#punct #attenuation"><lem wit="#F">,</lem><rdg wit="#R2M">!...</rdg></app> répondit <persName ref="#raph">Raphaël</persName>. Le luxe dès le péristyle est rare en <placeName>France</placeName>
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app> Ici
+<app corresp="#punct"><lem wit="#F">,</lem></app> je me sens renaître
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app><milestone unit="tei:p"/><lb/>
+- Et là
+    <app corresp="#orth"><lem wit="#F">-</lem></app>haut nous allons boire et rire encore une fois, mon pauvre <persName ref="#raph">Raphaël</persName>
+<app corresp="#punct #text-segmentation"><lem wit="#F">.</lem><rdg wit="#R2M">... - <milestone unit="tei:p"/><lb/>-</rdg></app>
+Ah çà ! reprit-il, j'espère que nous serons les vainqueurs
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> et que nous marcherons sur toutes ces têtes-là
+<app corresp="#punct #word-diff #text-segmentation"><lem wit="#F">. Puis</lem><rdg wit="#R2M">!...  <milestone unit="tei:p"/><lb/> Et</rdg></app>, d'un geste moqueur, il lui montra les convives
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> en entrant dans un salon
+<app corresp="#syntax"><lem wit="#F">qui resplendissait</lem><rdg wit="#R2M">resplendissant</rdg></app> de
+<app corresp="#word-diff"><lem wit="#F">dorures</lem><rdg wit="#R2M">luxe</rdg></app>
+<app corresp="#syntax #punct"><lem wit="#F">,</lem><rdg wit="#R2M">et</rdg></app> de
+<app corresp="#orth #syntax"><lem wit="#F">lumières</lem><rdg wit="#R2M">lumière</rdg></app>
+<app corresp="#punct #syntax"><lem wit="#F">, et où ils</lem><rdg wit="#R2M">. <milestone unit="tei:p"/><lb/> Ils</rdg></app> furent aussitôt accueillis par les jeunes gens les plus remarquables de <placeName>Paris</placeName>. <app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app>L'un venait de révéler un talent neuf, et de rivaliser
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> par son premier tableau
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> avec les gloires de la peinture impériale.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> L'autre avait hasardé
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> la vieille
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> un livre plein de verdeur, empreint d'une sorte de dédain littéraire, et qui découvrait
+<app corresp="#sentence-order"><rdg wit="#R2M">de nouvelles routes à l'école moderne.<milestone unit="tei:p"/><lb/></rdg><lem wit="#F">à l'école moderne de nouvelles routes.</lem></app> Plus loin, <persName ref="#convives">un statuaire</persName>
+<app corresp="#punt"><rdg wit="#R2M">,</rdg></app> dont la figure pleine de rudesse accusait quelque vigoureux génie, causait avec un de ces froids railleurs qui
+<app corresp="#add-words"><lem wit="#F">, selon l'occurence,</lem></app> tantôt ne veulent voir de
+<app corresp="#orth"><lem wit="#F">supériorité</lem><rdg wit="#R2M">supériorités</rdg></app> nulle part, et tantôt en reconnaissent partout.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Ici
+<app corresp="#punct"><lem wit="#F">,</lem></app> <persName ref="#convives">le plus spirituel de nos caricaturistes</persName>
+<app corresp="#punct"><lem wit="#F">,</lem></app> à l'œil malin, à la bouche mordante, guettait les épigrammes pour les traduire à coups de crayon.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Là
+<app corresp="#punct"><lem wit="#F">,</lem></app> <persName ref="#convives">ce jeune et audacieux écrivain</persName>, qui
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> mieux que personne
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> distillait la quintessence des pensées politiques, ou
+    <app corresp="#add-words"><rdg wit="#R2M">, dans un article,</rdg></app> condensait en se jouant l'esprit d'un écrivain fécond, s'entretenait avec <persName ref="#convives">ce poète</persName> dont les écrits écraseraient toutes les œuvres du temps présent, si son talent avait la puissance de sa haine. Tous deux essayaient de ne pas dire la vérité
+<app corresp="#syntax"><lem wit="#F">et</lem><rdg wit="#R2M">,</rdg></app> de ne pas mentir, en s'adressant de douces flatteries.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Un musicien célèbre consolait en <hi rend="i">si bémol</hi>
+<app corresp="#punct"><lem wit="#F">,</lem></app> et d'une voix moqueuse
+    <app corresp="#punct"><lem wit="#F">,</lem></app> <persName ref="#convives">un jeune homme politique</persName> récemment tombé de la tribune sans se faire aucun mal.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> <persName ref="#convives">De jeunes auteurs</persName> sans style étaient auprès de <persName ref="#convives">jeunes auteurs sans idées</persName>, des <persName ref="#convives">prosateurs pleins de poésie</persName> près de <persName ref="#convives">poètes prosaïques</persName>
+    <app corresp="#punct #syntax"><lem wit="#F">. Voyant</lem><rdg wit="#R2M">; et, voyant</rdg></app> ces êtres incomplets, <persName ref="#convives">un pauvre saint-simonien</persName>, assez naïf pour croire à sa doctrine, les accouplait avec charité, voulant sans doute les transformer en religieux de son ordre.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Enfin, il
+<app corresp="#word-diff"><lem wit="#F">s'y trouvait</lem><rdg wit="#R2M">y avait</rdg></app> deux ou trois de ces
+    <app corresp="#orth"><lem wit="#F"><persName ref="#convives">savants</persName></lem><rdg wit="#R2M"><persName ref="#convives">savans</persName></rdg></app> destinés à mettre de l'azote dans la conversation, et plusieurs vaudevillistes prêts à y jeter
+<app corresp="#word-diff"><lem wit="#F">de ces</lem><rdg wit="#R2M">des</rdg></app> lueurs éphémères
+<app corresp="#add-words #syntax"><lem wit="#F">, qui</lem></app>, semblables aux étincelles du diamant
+<app corresp="#syntax #orth"><lem wit="#F">, ne donnent</lem><rdg wit="#R2M">qui ne donne</rdg></app> ni chaleur ni lumière
+    <app corresp="#punct #text-segmentation"><lem wit="#F">.</lem><rdg wit="#R2M">...<milestone unit="tei:p"/><lb/></rdg></app> Quelques <persName ref="#convives">hommes à paradoxes</persName>, riant sous cape des gens qui
+    <app corresp="#syntax"><lem wit="#F">épousent</lem><rdg wit="#R2M">épousaient</rdg></app> leurs admirations ou leurs mépris pour les hommes et les choses, faisaient déjà de cette politique à double tranchant, avec laquelle ils conspirent contre tous les systèmes, sans prendre parti pour aucun..<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Le <persName ref="#convives"><hi rend="i">jugeur</hi></persName>, qui ne s'étonne de rien, qui se mouche au milieu d'une cavatine aux Bouffons, y
+<app corresp="#word-diff"><lem wit="#F">crie</lem><rdg wit="#R2M">chante</rdg></app> <hi rend="i">brava</hi>
+<app corresp="#punct #attenuation #syntax"><rdg wit="#R2M"><hi rend="i">!...</hi></rdg></app> avant tout le monde, et contredit ceux qui
+<app corresp="#word-diff"><lem wit="#F">préviennent</lem><rdg wit="#R2M">prédisent</rdg></app> son avis, était là, cherchant à s'attribuer les mots des gens d'esprit..<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Parmi ces convives, cinq avaient de l'avenir, une dizaine devait obtenir quelque gloire viagère
+<app corresp="#punct #syntax"><lem wit="#F"> ;</lem><rdg wit="#R2M">, et,</rdg></app> quant aux autres, ils pouvaient
+<app corresp="#sentence-order"><rdg wit="#R2M">se dire, comme toutes les médiocrités,</rdg><lem wit="#F">comme toutes les médiocrités se dire</lem></app> le fameux
+    <app corresp="#word-diff"><lem wit="#F">mensonge</lem><rdg wit="#R2M">mot</rdg></app> de <persName ref="#louisXVIII">Louis XVIII</persName> : <hi rend="i">Union et oubli</hi>
+    <app corresp="#punct #text-segmentation"><lem wit="#F">.</lem><rdg wit="#R2M">...<milestone unit="tei:p"/><lb/></rdg></app> <persName ref="#taillefer">L'amphitryon</persName> avait la
+<app corresp="#orth"><lem wit="#F">gaieté</lem><rdg wit="#R2M">gaîté</rdg></app> soucieuse d'un homme qui dépense deux mille écus ;
+<app corresp="#add-words"><rdg wit="#R2M">et, comme</rdg></app> de temps
+<app corresp="#word-diff"><lem wit="#F">en temps</lem><rdg wit="#R2M">à autre</rdg></app> ses yeux se dirigeaient avec impatience vers la porte du salon,
+<app corresp="#word-diff"><lem wit="#F">en appelant celui des convives qui se faisait attendre.</lem><rdg wit="#R2M">il était facile de voir que tous les convives se trouvaient réunis, moins un...</rdg></app>
+<app corresp="#word-diff"><lem wit="#F">Bientôt</lem><rdg wit="#R2M">Alors</rdg></app> apparut un gros petit homme
+<app corresp="#word-diff"><lem wit="#F">qui fut</lem><rdg wit="#R2M">vêtu de noir,</rdg></app> accueilli
+<app corresp="#add-word"><rdg wit="#R2M">soudain</rdg></app> par une flatteuse rumeur
+    <app corresp="#syntax #punct"><lem wit="#F">, c</lem><rdg wit="#R2M">. C</rdg></app>'était <persName ref="#convives">le notaire</persName> qui, le matin même, avait achevé de créer le journal.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Un
+<app corresp="#word-diff"><lem wit="#F">valet de chambre vêtu de noir</lem><rdg wit="#R2M">domestique en grande livrée</rdg></app> vint ouvrir les portes d'une vaste salle à manger, où chacun alla
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> sans cérémonie
+    <app corresp="#punct"><rdg wit="#R2M">,</rdg></app> reconnaître sa place autour d'une table immense.<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg></app> Avant de quitter les salons, <persName ref="#raph">Raphaël</persName> y jeta un dernier coup
+<app corresp="#orth"><rdg wit="#R2M">-</rdg></app>d'œil. Son souhait était certes bien complètement réalisé
+<app corresp="#syntax #punct"><lem wit="#F">: la</lem><rdg wit="#R2M">. La</rdg></app> soie et l'or tapissaient les
+<app corresp="#orth"><lem wit="#F">appartements</lem><rdg wit="#R2M">appartemens</rdg></app>
+<app corresp="#punct syntax"><lem wit="#F">, de </lem><rdg wit="#R2M">. De</rdg></app> riches
+<app corresp="#orth"><lem wit="#F">candélabres</lem><rdg wit="#R2M">candelabres</rdg></app>
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> supportant d'innombrables bougies
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> faisaient briller les
+<app corresp="#word-diff"><lem wit="#F">plus légers détails des</lem><rdg wit="#R2M">moindres</rdg></app> frises dorées, les
+<app corresp="#sentence-order"><rdg wit="#R2M">ciselures délicates des bronzes,</rdg><lem wit="#F">délicates ciselures du bronze</lem></app> et les somptueuses couleurs de l'ameublement
+<app corresp="#punct #word-diff #particulier"><lem wit="#F"> ; les</lem><rdg wit="#R2M">. Des</rdg></app> fleurs rares
+<app corresp="#word-diff #particulier"><lem wit="#F">de</lem><rdg wit="#R2M">, contenues dans</rdg></app> quelques jardinières artistement construites avec des bambous, répandaient de doux parfums
+<app corresp="#punct"><lem wit="#F">; les</lem><rdg wit="#R2M">. Les</rdg></app> draperies respiraient une élégance sans prétention
+<app corresp="#syntax #punct"><lem wit="#F">;</lem><rdg wit="#R2M">, et</rdg></app> il y avait en tout je ne sais quelle grâce poétique dont le prestige devait agir sur l'imagination d'un homme
+<app corresp="#word-diff"><lem wit="#F">sans</lem><rdg wit="#R2M">dénué d'</rdg></app>argent.<milestone unit="tei:p"/><lb/>
+- Cent mille livres de rente sont un bien joli commentaire du catéchisme, et nous aident merveilleusement à mettre la <hi rend="i">morale en</hi>
+<app corresp="#orth #punct"><lem wit="#F"><hi rend="i">actions !</hi></lem><rdg wit="#R2M"><hi rend="i">action</hi> !...</rdg></app> dit-il en soupirant. Oh ! oui, ma vertu ne va guère à pied
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app> Pour moi
+<app corresp="#punct"><lem wit="#F">,</lem></app> le vice
+<app corresp="#punct #attenuation"><rdg wit="#R2M">...</rdg></app> c'est une mansarde, un habit râpé, un chapeau gris en hiver
+<app corresp="#punct"><lem wit="#F">,</lem></app> et des dettes chez le portier
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app> Ah ! je veux vivre au sein de ce luxe un an, six mois, n'importe
+<app corresp="#punct #expressif"><lem wit="#F">! Et</lem><rdg wit="#R2M">... et</rdg></app> puis après
+<app corresp="#punct #attenuation"><rdg wit="#R2M">...</rdg></app> mourir. J'aurai du moins épuisé, connu, dévoré mille existences.<milestone unit="tei:p"/><lb/>
+- Oh !
+    <app corresp="#add-words"><rdg wit="#R2M">oh !</rdg></app> lui dit <persName ref="#emile">Émile</persName>
+<app corresp="#punct"><rdg wit="#R2M">,</rdg></app> qui l'écoutait, tu prends le coupé d'un agent de change pour le bonheur
+<app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#R2M">....</rdg></app> Va, tu serais bientôt ennuyé de la fortune en t'apercevant qu'elle te ravirait la chance d'être un homme supérieur
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app> Entre les pauvretés de la richesse et les richesses de la pauvreté, l'artiste a-t-il jamais
+<app corresp="#word-diff"><lem wit="#F">balancé</lem><rdg wit="#R2M">hésité</rdg></app>
+<app corresp="#punct"><lem wit="#F">?</lem><rdg wit="#R2M">!...</rdg></app>
+<app corresp="#syntax"><lem wit="#F">Ne nous faut-il pas toujours</lem><rdg wit="#R2M">Il nous faut</rdg></app> des luttes, à nous autres
+<app corresp="#punct"><lem wit="#F">?</lem><rdg wit="#R2M">...</rdg></app> Aussi, prépare ton estomac
+<app corresp="#punct #attenuation"><lem wit="#F">, vois,</lem><rdg wit="#R2M">!... Vois !...<milestone unit="tei:p"/><lb/></rdg></app>
+<app corresp="#syntax"><lem wit="#F">dit-il en lui montrant</lem><rdg wit="#R2M">Et il lui montra</rdg></app>, par un geste héroïque, le majestueux, le trois fois saint,
+    <app corresp="#add-words"><lem wit="#F">l'</lem></app>évangélique et rassurant aspect que présentait la salle à manger du <persName ref="#taillefer">benoît capitaliste</persName>.
+<app corresp="#text-segmentation"><rdg wit="#R2M"><milestone unit="tei:p"/><lb/> - </rdg></app> Cet homme-là, reprit-il, ne s'est vraiment donné la peine d'amasser son argent que pour nous
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app> N'est-ce pas une espèce d'éponge oubliée par les naturalistes dans l'ordre des
+<app corresp="#orth"><lem wit="#F"><hi rend="i">Polypiers</hi></lem><rdg wit="#R2M">polypiers</rdg></app>, et qu'il s'agit de presser avec délicatesse, avant de la laisser sucer par des héritiers ? Ne trouves-tu pas du style aux bas-reliefs qui décorent les murs ? Et les lustres, et les tableaux, quel luxe bien entendu ! S'il faut croire les envieux et ceux qui tiennent à voir les ressorts de la vie, cet homme aurait tué, pendant la révolution,
+<app corresp="#word-diff"><lem wit="#F">un Allemand et quelques autres personnes qui seraient, dit-on, son meilleur ami et la mère de cet ami</lem><rdg wit="#R2M">je ne sais quelle vieille dame asthmatique, un petit orphelin scrofuleux et quelque autre personne</rdg></app>. Peux-tu donner place à des crimes sous les cheveux
+<app corresp="#orth"><lem wit="#F">grisonnants</lem><rdg wit="#R2M">grisonnans</rdg></app> de
+<app corresp="#word-diff"><lem wit="#F">ce</lem><rdg wit="#R2M">notre</rdg></app> vénérable
+    <app corresp="#persName-diff #particulier"><lem wit="#F"><persName ref="#taillefer">Taillefer</persName></lem><rdg wit="#R2M"><persName ref="#taillefer">amphitryon</persName></rdg></app>
+<app corresp="#punct"><lem wit="#F">?</lem><rdg wit="#R2M">?...</rdg></app> Il a l'air d'un bien bon homme
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app> Vois donc comme l'argenterie étincelle
+<app corresp="#punct #syntax"><lem wit="#F">, et chacun</lem><rdg wit="#R2M">!... Chacun</rdg></app> de ces rayons
+<app corresp="#orth"><lem wit="#F">brillants</lem><rdg wit="#R2M">brillans</rdg></app> serait
+<app corresp="#add-words"><lem wit="#F">pour lui</lem></app> un coup de poignard
+<app corresp="#punct"><lem wit="#F">!</lem><rdg wit="#R2M">...</rdg></app> Allons donc ! autant vaudrait croire en Mahomet. Si le public avait raison, voici trente hommes de cœur et de talent qui s'apprêteraient à manger les entrailles, à boire le sang d'une famille
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">!...</rdg></app> Et nous deux, jeunes gens pleins de candeur
+<app corresp="#punct syntax"><lem wit="#F">,</lem><rdg wit="#R2M">et</rdg></app> d'enthousiasme, nous serions complices du forfait
+<app corresp="#punct"><lem wit="#F">!</lem><rdg wit="#R2M">!...</rdg></app> J'ai envie de demander à notre capitaliste s'il est honnête homme
+<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#R2M">...</rdg></app>
+[...]
+</cx:apparatus>

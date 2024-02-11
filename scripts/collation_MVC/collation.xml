@@ -1,0 +1,111 @@
+<?xml version="1.0" ?><cx:apparatus xmlns:cx="http://interedition.eu/collatex/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <app corresp="#add-words"><rdg wit="#C2">(Un hôtel de la <placeName>Chaussée-d'Antin</placeName>.)<milestone unit="tei:p"/><lb/>- <hi rend="sc">Plaisanterie</hi> à part , mon cher docteur, je suis malade , et ce n'est pas sans raison que je vous ai fait venir...</rdg><lem wit="#F">Plus Adolphe tente d'égayer Caroline, plus Caroline s'enveloppe dans les crêpes d'un deuil à larmes continues. Cette seconde fois, Adolphe reste et s'ennuie. Puis, à la troisième attaque à larmes forcées, il sort sans aucune tristesse. Enfin, il se blase sur ces plaintes éternelles, sur ces attitudes de mourant, sur ces larmes de crocodile. Et il finit par dire : - Si tu es malade, Caroline, il faut voir un médecin...<milestone unit="tei:p"/><lb/>
+- Comme tu voudras ! cela finira plus promptement ainsi, cela me va... Mais alors, amène un <persName>fameux médecin</persName>.<milestone unit="tei:p"/><lb/>
+Au bout d'un mois, <persName ref="#mari">Adolphe</persName>, fatigué d'entendre l'air funèbre que <persName ref="#femme">Caroline</persName> lui joue sur tous les tons, amène un <persName>grand médecin</persName>. À <placeName>Paris</placeName>, les médecins sont tous des gens d'esprit, et ils se connaissent admirablement en Nosographie conjugale.<milestone unit="tei:p"/><lb/>
+- Eh bien ! madame, dit <persName>le grand médecin</persName>, comment une si jolie femme s'avise-t-elle d'être malade ?<milestone unit="tei:p"/><lb/>
+- Oui, monsieur, de même que le nez du <persName ref="#pa">père Aubry</persName>, j'aspire à la tombe...<milestone unit="tei:p"/><lb/>
+    <persName ref="#femme">Caroline</persName>, par égard pour <persName ref="#mari">Adolphe</persName>, essaie de sourire.<lb/></lem></app><milestone unit="tei:p"/> -
+
+<app corresp="#sentence-order #add-words"><lem wit="#F">Bon ! cependant vous avez</lem><rdg wit="#C2">Vous avez cependant</rdg></app> les yeux vifs
+
+<app corresp="#add-words"><lem wit="#F">: ils souhaitent peu nos infernales drogues</lem></app>...<milestone unit="tei:p"/><lb/> -
+
+<app corresp="#word-diff"><lem wit="#F">Regardez-y bien, docteur</lem><rdg wit="#C2">C'est</rdg></app> la fièvre
+  <app corresp="#word-diff"><lem wit="#F">me dévore, une petite fièvre imperceptible, lente...<milestone unit="tei:p"/><lb/> Et elle arrête le plus malicieux de ses regards sur l'illustre <persName ref="doc">docteur</persName>, qui se dit en lui-même : Quels yeux !...</lem><rdg wit="#C2">; je l'ai eue pendant toute la nuit... </rdg></app><milestone unit="tei:p"/><lb/> -
+
+<app corresp="#word-diff #punct #attenuation"><lem wit="#F">Bien, voyons la</lem><rdg wit="#C2">Ah ! Voyons votre</rdg></app> langue
+<app corresp="#"><lem wit="#F">? dit-il tout haut.</lem><rdg wit="#C2">?...</rdg></app><milestone unit="tei:p"/><lb/>
+
+<app corresp="#pers-diff #particulier"><lem wit="#F"><persName ref="#femme">Caroline</persName></lem><rdg wit="#C2"><persName ref="#femme">La jeune dame</persName></rdg></app> montre
+<app corresp="#add-words"><lem wit="#F">sa</lem><rdg wit="#C2">une petite</rdg></app> langue
+<app corresp="#word-diff"><lem wit="#F">de chat</lem><rdg wit="#C2">rouge</rdg></app> entre deux rangées de dents blanches comme
+<app corresp="#word-diff"><lem wit="#F">celles d'un chien</lem><rdg wit="#C2">de l'ivoire</rdg></app>.<milestone unit="tei:p"/><lb/> -
+
+<app corresp="#add-words"><lem wit="#F">Elle</lem><rdg wit="#C2">Oui, elle</rdg></app> est un peu chargée
+<app corresp="#punct"><lem wit="#F">,</lem></app> au fond
+<app corresp="#punct #syntax"><lem wit="#F">; mais</lem><rdg wit="#C2">.... Mais</rdg></app> vous avez déjeuné
+<app corresp="#punct #text-segmentation"><lem wit="#F">...</lem><rdg wit="#C2">? <milestone unit="tei:p"/><lb/> - </rdg></app>
+  <app corresp="#add-words"><lem wit="#F"> fait observer <persName ref="doc">le grand médecin</persName> qui se tourne vers <persName ref="#mari">Adolphe</persName>. <milestone unit="tei:p"/><lb/> -</lem></app>
+<app corresp="#word-diff #punct #attenuation"><lem wit="#F">Rien, répond <persName ref="#femme">Caroline</persName>, deux tasses de thé</lem><rdg wit="#C2">Oh ! rien du tout... Une tasse de café</rdg></app>... <milestone unit="tei:p"/><lb/>
+
+  <app corresp="#add-words #text-segmentation"><lem wit="#F"><persName ref="#mari">Adolphe</persName> et l'illustre <persName ref="doc">docteur</persName> se regardent, car <persName ref="doc">le docteur</persName> se demande qui, de madame ou de monsieur, se moque de lui. <milestone unit="tei:p"/><lb/> - Que </lem><rdg wit="#C2">- Et que</rdg></app> sentez-vous
+<app corresp="#add-words #parole"><lem wit="#F">? demande gravement le docteur à Caroline.</lem><rdg wit="#C2"> ?...</rdg></app><milestone unit="tei:p"/><lb/>
+- Je ne dors pas.<milestone unit="tei:p"/><lb/>
+- Bon <app corresp="#punct #expressif"><lem wit="#F">!</lem><rdg wit="#C2">.</rdg></app><milestone unit="tei:p"/><lb/>
+- Je n'ai pas d'appétit...<milestone unit="tei:p"/><lb/>
+- Bien <app corresp="#punct #expressif"><lem wit="#F">!</lem><rdg wit="#C2">...</rdg></app><milestone unit="tei:p"/><lb/>
+- J'ai des douleurs <app corresp="#word-diff"><lem wit="#F">là</lem><rdg wit="#C2">dans la poitrine comme ça</rdg></app>...<milestone unit="tei:p"/><lb/>
+  <persName ref="doc">Le médecin</persName> regarde l'endroit <app corresp="#pers-diff #particulier #word-diff"><lem wit="#F">indiqué par <persName ref="#femme">Caroline</persName>.</lem><rdg wit="#C2">où <persName ref="#femme">madame de ***</persName> se pose la main.</rdg></app><milestone unit="tei:p"/><lb/> -
+
+<app corresp="#add-words"><lem wit="#F">Très-bien, nous</lem><rdg wit="#C2">Nous</rdg></app> verrons cela tout à l'heure ...
+<app corresp="#add-words"><lem wit="#F">Après ?... </lem></app><milestone unit="tei:p"/><lb/> -
+  <app corresp="#add-words"><lem wit="#F">Il</lem><rdg wit="#C2">Et puis, <persName ref="doc">docteur</persName>, il</rdg></app> me passe des frissons par
+<app corresp="#orth"><lem wit="#F">moments</lem><rdg wit="#C2">moment</rdg></app>...<milestone unit="tei:p"/><lb/> -
+
+<app corresp="#word-diff #punct #expressif"><lem wit="#F">Bon !</lem><rdg wit="#C2">Bien... </rdg></app><milestone unit="tei:p"/><lb/>
+- J'ai des tristesses
+<app corresp="#punct add-words"><lem wit="#F">,</lem><rdg wit="#C2">... Il y a des momens où</rdg></app> je pense
+<app corresp="#add-words"><lem wit="#F">toujours</lem></app> à la mort
+<app corresp="#word-diff #add-words #text-segmentation"><rdg wit="#C2">.<milestone unit="tei:p"/><lb/>
+- Après...<milestone unit="tei:p"/><lb/>
+- Mais je suis fatiguée aussitôt que j'ai fait la plus petite course...</rdg><lem wit="#F">, j'ai des idées de suicide.</lem></app><milestone unit="tei:p"/><lb/> -
+
+<app corresp="#word-diff #punct #expressif"><lem wit="#F">Ah ! vraiment ?</lem><rdg wit="#C2">Bon...</rdg></app><milestone unit="tei:p"/><lb/>
+- Il me monte des feux à la figure
+<app corresp="#word-diff #attenuation #punct"><lem wit="#F"> ; tenez, j'ai constamment des </lem><rdg wit="#C2">... Ah ! ah ! j'oubliais!... Les yeux me cuisent., et je ressens des</rdg></app>
+<app corresp="#orth"><lem wit="#F">tressaillements</lem><rdg wit="#C2">tressaillemens</rdg></app>
+<app corresp="#add-words"><lem wit="#F">dans la</lem><rdg wit="#C2">dans les nerfs de</rdg></app> paupière
+<app corresp="#add-words #punct"><lem wit="#F">...</lem><rdg wit="#C2">de celui-là... (Elle montre son oeil gauche.)</rdg></app> <milestone unit="tei:p"/><lb/> -
+
+<app corresp="#word-diff"><lem wit="#F">Très-bien : nous nommons cela un</lem><rdg wit="#C2">Nous appelons cela un</rdg></app> <hi rend="i">trismus</hi> <app corresp="#punct #attenuation"><lem wit="#F">.</lem><rdg wit="#C2">!...</rdg></app><milestone unit="tei:p"/><lb/>
+
+
+<app corresp="#add-words"><rdg wit="#C2">- Ah ! cela se nomme <hi rend="i">trismus</hi> !... Est-ce</rdg>
+  <lem wit="#F"><persName ref="doc">Le docteur</persName> explique pendant un quart d'heure, en employant les termes les plus scientifiques, la nature du <hi rend="i">trismus</hi>, d'où il résulte que le <hi rend="i">trismus</hi> est le <hi rend="i">trismus</hi> ; mais il fait observer avec la plus grande modestie que, si la science sait que le <hi rend="i">trismus</hi> est le <hi rend="i">trismus</hi>, elle ignore entièrement la cause de ce mouvement nerveux, qui va, vient, passe, reparaît... Et, dit-il, nous avons reconnu que c'était purement nerveux. <milestone unit="tei:p"/><lb/>
+- Est-ce bien </lem></app> dangereux <app corresp="#punct #add-words #parole #pers-diff"><lem wit="#F"> ? demanda <persName ref="#femme">Caroline</persName> inquiète.</lem><rdg wit="#C2"> !</rdg></app><milestone unit="tei:p"/><lb/>
+- Nullement.
+<app corresp="#add-words"><lem wit="#F"> ?</lem><rdg wit="#C2"><milestone unit="tei:p"/><lb/> - Je tousse. Une petite toux sèche... J'ai des inquiétudes dans les jambes... Je suis sûre d'avoir anévrisme au coeur... <milestone unit="tei:p"/><lb/></rdg></app> Comment vous couchez-vous <app corresp="#punct"><rdg wit="#C2"> ?...</rdg></app><milestone unit="tei:p"/><lb/>
+- En rond<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C2">...</rdg></app><milestone unit="tei:p"/><lb/>
+- Bien, sur quel côté ?<milestone unit="tei:p"/><lb/>
+- <app corresp="#add-words #expressif"><lem wit="#F">À</lem><rdg wit="#C2">Oh ! toujours à</rdg></app> gauche<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C2">...</rdg></app><milestone unit="tei:p"/><lb/>
+- Bien<app corresp="#add-words"><lem wit="#F"> ; combien</lem><rdg wit="#C2">... Bon. Combien </rdg></app> avez-vous de matelas dans votre lit <app corresp="#punct"><lem wit="#F">?</lem><rdg wit="#C2">?...</rdg></app><milestone unit="tei:p"/><lb/>
+- Trois<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C2">...</rdg></app><milestone unit="tei:p"/><lb/> -
+<app corresp="#word-diff"><lem wit="#F">Bien ; y a-t-il</lem><rdg wit="#C2">Avez-vous</rdg></app> un sommier ?<milestone unit="tei:p"/><lb/> -
+<app corresp="#add-words"><rdg wit="#C2">De</rdg><lem wit="#F">Mais, oui...<milestone unit="tei:p"/><lb/>
+- Quelle est la substance du sommier ?<milestone unit="tei:p"/><lb/>
+- Le</lem></app> crin<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C2">...</rdg></app><milestone unit="tei:p"/><lb/>
+- Bon<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C2">...</rdg></app> Marchez un peu devant moi<app corresp="#add-words #pers-diff #particulier"><rdg wit="#C2">? (Elle</rdg><lem wit="#F">!... Oh ! mais naturellement, et comme si nous ne vous regardions pas...<milestone unit="tei:p"/><lb/>
+<persName ref="#femme">Caroline</persName></lem></app> marche
+<app corresp="#word-diff"><rdg wit="#C2">.)<milestone unit="tei:p"/><lb/>
+- Ne sentez-vous pas des pesanteurs dans la synovie de vos rotules ?...<milestone unit="tei:p"/><lb/>
+  - Qu'est-ce que c'est, <persName ref="doc">docteur</persName>, que cette synovie ?...<milestone unit="tei:p"/><lb/>
+- Ce n'est rien. Tenez, c'est une espèce de liqueur, à l'aide de laquelle se meuvent les cartilages que vous avez au genou, là...<milestone unit="tei:p"/><lb/>
+  - Non, <persName ref="doc">docteur</persName>, je n'y sens rien. Êtes-vous heureux de savoir toutes ces choses-là !... Est-ce que si j'y avais des pesanteurs ?...<milestone unit="tei:p"/><lb/>
+- Que mettez-vous sur votre tête pendant
+</rdg><lem wit="#F">à la <persName ref="doc">Elssler</persName>, en agitant <hi rend="i">sa tournure</hi> de la façon la plus andalouse.<milestone unit="tei:p"/><lb/>
+- Vous ne sentez pas un peu de pesanteur dans les genoux ?<milestone unit="tei:p"/><lb/>
+- Mais... non... (Elle revient à sa place.) Mon Dieu, quand on s'examine... il me semble maintenant que oui...<milestone unit="tei:p"/><lb/>
+- Bon. Vous êtes restée à la maison depuis quelque temps ?<milestone unit="tei:p"/><lb/>
+- Oh ! oui, <persName ref="#mari">monsieur</persName>, beaucoup trop... et seule.<milestone unit="tei:p"/><lb/>
+- Bien, c'est cela. Comment vous coiffez-vous pour</lem></app> la nuit ?<milestone unit="tei:p"/><lb/>
+- Un bonnet
+<app corresp="#add-words #text-segmentation"><rdg wit="#C2">.
+<milestone unit="tei:p"/><lb/>- Est-il en toile ou en coton?...<milestone unit="tei:p"/><lb/>
+- En batiste... Mais je mets</rdg><lem wit="#F"> brodé, puis</lem></app> quelquefois par-dessus un foulard...<milestone unit="tei:p"/><lb/> -
+
+<app corresp="#add-words"><lem wit="#F">- Vous n'y sentez pas des chaleurs... une petite sueur ?...<milestone unit="tei:p"/><lb/>
+- En dormant, cela me semble difficile.<milestone unit="tei:p"/><lb/>
+- Vous pourriez trouver votre linge humide à l'endroit du front en vous réveillant ?<milestone unit="tei:p"/><lb/>
+- Quelquefois.<milestone unit="tei:p"/><lb/>
+- Bon.</lem></app>Donnez-moi votre main<app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C2">...</rdg></app>
+
+
+  <app corresp="#pers-diff #punct #text-segmentation"><lem wit="#F"><milestone unit="tei:p"/><lb/><persName ref="doc">Le docteur</persName> tire sa montre.</lem><rdg wit="#C2">(Il tire sa montre.)</rdg></app><milestone unit="tei:p"/><lb/> -
+<app corresp="#add-words"><lem wit="#F">Vous</lem><rdg wit="#C2">Ah! docteur, je n'aime pas que vous comptiez les minutes... ça me fait peur... Ah ! vous</rdg></app> ai-je dit que j'avais des vertiges
+<app corresp="#punct"><lem wit="#F"> ? dit Caroline.</lem><rdg wit="#C2"> ?...</rdg></app><milestone unit="tei:p"/><lb/> -
+
+<app corresp="#add-words"><rdg wit="#C2">Non.<milestone unit="tei:p"/><lb/>
+- Eh bien, j'ai manqué de tomber hier à la renverse... Était-ce le matin ?... Non, c'était le soir... Mais était-ce bien le soir ?... Oui. Oui, c'était le soir.<milestone unit="tei:p"/><lb/>
+  - Bon...</rdg><lem wit="#F">Chut !... fait <persName ref="doc">le docteur</persName> qui compte les pulsations. Est-ce le soir ?...<milestone unit="tei:p"/><lb/>
+- Non, le matin</lem></app>
+</cx:apparatus>
