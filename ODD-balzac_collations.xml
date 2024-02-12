@@ -238,7 +238,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                                   </egXML>
                                   L'alignement se fera graĉe à un attribut <att>type</att> prenant comme valeurs <val>contemporary-name</val> ou <val>text-name</val>.
                                   Comme dans l'exemple ci-dessus, il est alors utile d'indiquer le niveau de certitude du rapprochement (<att>cert</att>) et une mention de responsabilité (<att>resp</att>) renvoyant à un <att>xml:id</att> (dans l'exemple précédent, l'encodeur, c'est-à-dire moi).
-                                  Cette présente ODD fournit les attributs et des règles limitant leur utilisation : <specList><specDesc key="persName"/><specList>
+                                  Cette présente ODD fournit les attributs et des règles limitant leur utilisation : <specList><specDesc key="persName"/></specList>
                                 </item>
 
                                   <item>Un élément <gi>app</gi> sert à encoder les différentes appellations des personnages d'un témoin à l'autre, s'il y a variation.
@@ -267,7 +267,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                          <personGrp xml:id="convive" role="invités" sex="masculin"/>
                      </egXML>
 
-                       <p>La liste des relations entre les personnages se trouve dans un <gi>listRelation</gi>. L'utilisation des balises, des attributs et les valeurs possibles sont documentées dans la présente ODD : <specList><specDesc key="relation"/><specList></p></div5>
+                       <p>La liste des relations entre les personnages se trouve dans un <gi>listRelation</gi>. L'utilisation des balises, des attributs et les valeurs possibles sont documentées dans la présente ODD : <specList><specDesc key="relation"/></specList></p></div5>
 
                           <div5> <head> Le <hi rend="italic">settingDesc</hi> : </head>
                           <p>Enfin, le <gi>settingDesc</gi> permet de décrire les lieux mentionnés dans l'extrait, dans un
