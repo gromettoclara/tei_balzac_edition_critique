@@ -197,7 +197,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
 </div4>
                  <div4>
                     <head>L'<hi rend="italic">encodingDesc</hi></head>
-                    <p>Cet élément a pour objectif de détailler les approches adoptées pour l'encodage TEI. C'est un espace d'expression de la personne chargée de l'encodage, oùseront précisées des informations nécessaires à la bonne lecture de l'encodage et des précisions sur la scientificité des méthodes. Il sera aussi pertinent de donner quelques précisions sur le projet encadrant ce travail, afin de justifier son existence. Ainsi, l'<gi>encodingDesc</gi> donne à la fois des informations descriptives sur l'encodage (le contexte de production dans la balise <gi>projectDesc</gi>, la méthode d'alignement dans la balise <gi>variantEncoding</gi>) et les principes éditoriaux suivis, qui sont spécifiés dans la balise <gi>editorialDesc</gi>. Ces principes sont également explicités dans la présente ODD <ref target="#index.xml-body.1_div1.1_div2.4"> ici </ref>. </p>
+                    <p>Cet élément a pour objectif de détailler les approches adoptées pour l'encodage TEI. C'est un espace d'expression de la personne chargée de l'encodage, oùseront précisées des informations nécessaires à la bonne lecture de l'encodage et des précisions sur la scientificité des méthodes. Il sera aussi pertinent de donner quelques précisions sur le projet encadrant ce travail, afin de justifier son existence. Ainsi, l'<gi>encodingDesc</gi> donne à la fois des informations descriptives sur l'encodage (le contexte de production dans la balise <gi>projectDesc</gi>, la méthode d'alignement dans la balise <gi>variantEncoding</gi>) et les principes éditoriaux suivis, qui sont spécifiés dans la balise <gi>editorialDesc</gi>. Ces principes sont également explicités dans la présente ODD <ref target="#index.xml-body.1_div1.1_div2.4"> (//body/div1[1]/div2[4]) </ref>. </p>
 
                  </div4>
                  <div4>
@@ -261,7 +261,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                      </list></p>
                      <p>Le <gi>persName</gi> pourra se décliner en <gi>forename</gi> <gi>surname</gi> <gi>addname</gi> <gi>rolename</gi> ou encore <gi>name</gi>. À ces sous-groupes du nom pourra être ajouté un <att>type</att> (<val>occupation-name</val> ou <val>honorific</val>).</p>
 
-                     <p>Pour les besoins du projet, il est important de distinguer les noms de personnes des noms de lieux, mais il est aussi et surtout essentiel de lever toute ambiguïté entre les références aux entités nommées. Cela explique l'emploi d'un tel ensemble de balises dans le <gi>particDesc</gi>, ainsi que l'encodage des entités nommées faisant référence au <att>xml:id</att> avec l'attribut <att>ref</att> pour associer différentes dénominations d'une entité avec les données la concernant, et donc lever tout ambiguïté. Cette présente ODD documente aussi le processus d'encodage sémantique qui permet de référencer le nom des lieux et des personnages dans un index accompagné de notices : <ref target="#index.xml-body.1_div1.1_div2.4_div3.4"> Ici </ref>.</p>
+                     <p>Pour les besoins du projet, il est important de distinguer les noms de personnes des noms de lieux, mais il est aussi et surtout essentiel de lever toute ambiguïté entre les références aux entités nommées. Cela explique l'emploi d'un tel ensemble de balises dans le <gi>particDesc</gi>, ainsi que l'encodage des entités nommées faisant référence au <att>xml:id</att> avec l'attribut <att>ref</att> pour associer différentes dénominations d'une entité avec les données la concernant, et donc lever tout ambiguïté. Cette présente ODD documente aussi le processus d'encodage sémantique qui permet de référencer le nom des lieux et des personnages dans un index accompagné de notices : <ref target="#index.xml-body.1_div1.1_div2.4_div3.4"> "Encodage sémantique : balisage des noms de personnages et de lieux" (//body/div1[1]/div2[4]/div3[4]). </ref>.</p>
                      <p>Seront considérées comme personnes ou personnages toute entité réelle ou fictive dôtée d'une personnalité et d'un rôle significatif au sein de la fiction ou dans le monde réel. C'est pourquoi, par exemple, les figurants de la scène du dîner dans <bibl corresp="#pdc">La Peau de Chagrin</bibl> sont référencés dans un <gi>persGroup</gi>.</p>
                      <egXML xmlns="http://www.tei-c.org/ns/Examples">
                          <personGrp xml:id="convive" role="invités" sex="masculin"/>
@@ -308,7 +308,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
 <specDesc key="rdg"/>
 </specList>
 </p>
-                    <p>Les principes suivis pour l'encodage du texte des trois témoins sont décrits <ref target="#index.xml-body.1_div1.1_div2.4"> ci-dessous </ref>.</p>
+                    <p>Les principes suivis pour l'encodage du texte des trois témoins sont décrits <ref target="#index.xml-body.1_div1.1_div2.4"> ci-dessous (//body/div1[1]/div2[4])</ref>.</p>
               </div3>
            </div2>
            <div2>
@@ -899,6 +899,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
         </elementSpec>
 
         <elementSpec ident="persName" mode="change"> <!-- règle contraignant l'usage d'un attribut et de ses valeurs en fonction du contexte -->
+          <desc>Contient la dénomination référant à une entité nommée vivante. Il est possible de multiplier les balises et de décomposer les parties de la dénomination en forename, surname, addName, honorific etc.</desc>
           <classes mode="change">
             <memberOf key="att.global.responsibility"/>
             <memberOf key="att.datable" mode="delete"/>
@@ -1079,6 +1080,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
         </elementSpec>
 
         <elementSpec ident="relation" mode="change"> <!-- règle sur l'emploi et les valeurs de l'@mutual -->
+          <desc>Décrit les liens entre les personnes possédant une notice.</desc>
           <classes mode="change">
             <memberOf key="att.canonical" mode="delete"/>
             <memberOf key="att.datable" mode="delete"/>
