@@ -667,7 +667,7 @@
    <text>
       <body>
          <ab n="I" type="collation2to2" corresp="#F #C">
-            <title>Le Petit petit_mercier</title>
+            <title>Le Petit Mercier</title>
             <app corresp="#word-diff #attenuation">
                <lem wit="#F">Et d'abord saluez ce</lem>
                <rdg wit="#C"><hi rend="sc">Le Petit <persName ref="#mercier"
