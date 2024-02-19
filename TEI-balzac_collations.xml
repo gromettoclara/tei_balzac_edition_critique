@@ -670,8 +670,7 @@
             <title>Le Petit Mercier</title>
             <app corresp="#word-diff #attenuation">
                <lem wit="#F">Et d'abord saluez ce</lem>
-               <rdg wit="#C"><hi rend="sc">Le Petit <persName ref="#mercier"
-                     >Mercier</persName></hi><hi rend="sc">Gloire</hi> à toi</rdg>
+               <rdg wit="#C"><hi rend="sc">Gloire</hi> à toi</rdg>
             </app> roi du mouvement <app corresp="#word-diff #attenuation">
                <lem wit="#F">parisien, qui s'est soumis le</lem>
                <rdg wit="#C">! souverain du</rdg>
