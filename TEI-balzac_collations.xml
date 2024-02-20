@@ -1131,9 +1131,9 @@
             </app> disait en face <app corresp="#word-diff #expressif">
                <lem wit="#F">mille épigrammes</lem>
                <rdg wit="#R2M">une épigramme</rdg>
-            </app> à un ami <app corresp="#punct">
+            </app> à un ami<app corresp="#punct">
                <lem wit="#F">,</lem>
-            </app> qu'absent <app corresp="#punct">
+            </app> qu'absent<app corresp="#punct">
                <lem wit="#F">,</lem>
             </app> il défendait avec courage et loyauté. Il se moquait de tout, même de son avenir
                <app corresp="#punct #syntax">
@@ -1159,7 +1159,7 @@
             <app corresp="#syntax">
                <lem wit="#F">courant ainsi</lem>
                <rdg wit="#R2M">Il courait</rdg>
-            </app> la chance de se réveiller vieux <app corresp="#punct">
+            </app> la chance de se réveiller vieux<app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
             </app> à l'hôpital. <app corresp="#word-diff">
                <lem wit="#F">D'ailleurs</lem>
@@ -1201,7 +1201,7 @@
             <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
-            </app> Ici <app corresp="#punct">
+            </app> Ici<app corresp="#punct">
                <lem wit="#F">,</lem>
             </app> je me sens renaître <app corresp="#punct">
                <lem wit="#F">.</lem>
@@ -1242,7 +1242,7 @@
             </app> furent aussitôt accueillis par les jeunes gens les plus remarquables de
                <placeName ref="#paris">Paris</placeName>. <app corresp="#text-segmentation">
                <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app>L'un venait de révéler un talent neuf, et de rivaliser <app corresp="#punct">
+            </app>L'un venait de révéler un talent neuf, et de rivaliser<app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
             </app> par son premier tableau <app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
@@ -1290,8 +1290,8 @@
             </app> condensait en se jouant l'esprit d'un écrivain fécond, s'entretenait avec
                <persName ref="#convive">ce poète</persName> dont les écrits écraseraient toutes les
             œuvres du temps présent, si son talent avait la puissance de sa haine. Tous deux
-            essayaient de ne pas dire la vérité <app corresp="#syntax">
-               <lem wit="#F">et</lem>
+            essayaient de ne pas dire la vérité<app corresp="#syntax">
+               <lem wit="#F"> et</lem>
                <rdg wit="#R2M">,</rdg>
             </app> de ne pas mentir, en s'adressant de douces flatteries.<app
                corresp="#text-segmentation">
@@ -1330,11 +1330,11 @@
             prêts à y jeter <app corresp="#word-diff">
                <lem wit="#F">de ces</lem>
                <rdg wit="#R2M">des</rdg>
-            </app> lueurs éphémères <app corresp="#add-words #syntax">
+            </app> lueurs éphémères<app corresp="#add-words #syntax">
                <lem wit="#F">, qui</lem>
-            </app>, semblables aux étincelles du diamant <app corresp="#syntax #orth">
+            </app>, semblables aux étincelles du diamant<app corresp="#syntax #orth">
                <lem wit="#F">, ne donnent</lem>
-               <rdg wit="#R2M">qui ne donne</rdg>
+               <rdg wit="#R2M"> qui ne donne</rdg>
             </app> ni chaleur ni lumière <app corresp="#punct #text-segmentation">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;<milestone unit="tei:p"/><lb/></rdg>
@@ -1408,19 +1408,19 @@
             </app> Un <app corresp="#word-diff">
                <lem wit="#F">valet de chambre vêtu de noir</lem>
                <rdg wit="#R2M">domestique en grande livrée</rdg>
-            </app> vint ouvrir les portes d'une vaste salle à manger, où chacun alla <app
+            </app> vint ouvrir les portes d'une vaste salle à manger, où chacun alla<app
                corresp="#punct">
                <rdg wit="#R2M">,</rdg>
-            </app> sans cérémonie <app corresp="#punct">
+            </app> sans cérémonie<app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
             </app> reconnaître sa place autour d'une table immense.<app corresp="#text-segmentation">
                <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
             </app> Avant de quitter les salons, <persName ref="#raph">Raphaël</persName> y jeta un
             dernier coup <app corresp="#orth">
                <rdg wit="#R2M">&tiret;</rdg>
-            </app>d'œil. Son souhait était certes bien complètement réalisé <app
+            </app>d'œil. Son souhait était certes bien complètement réalisé<app
                corresp="#syntax #punct">
-               <lem wit="#F">: la</lem>
+               <lem wit="#F"> : la</lem>
                <rdg wit="#R2M">. La</rdg>
             </app> soie et l'or tapissaient les <app corresp="#orth">
                <lem wit="#F">appartements</lem>
@@ -1451,11 +1451,11 @@
                <lem wit="#F">de</lem>
                <rdg wit="#R2M">, contenues dans</rdg>
             </app> quelques jardinières artistement construites avec des bambous, répandaient de
-            doux parfums <app corresp="#punct">
+            doux parfums<app corresp="#punct">
                <lem wit="#F">; les</lem>
                <rdg wit="#R2M">. Les</rdg>
             </app> draperies respiraient une élégance sans prétention <app corresp="#syntax #punct">
-               <lem wit="#F">;</lem>
+               <lem wit="#F"> ;</lem>
                <rdg wit="#R2M">, et</rdg>
             </app> il y avait en tout je ne sais quelle grâce poétique dont le prestige devait agir
             sur l'imagination d'un &ho; <app corresp="#word-diff">
@@ -1471,13 +1471,13 @@
                corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
-            </app> Pour moi <app corresp="#punct">
+            </app> Pour moi<app corresp="#punct">
                <lem wit="#F">,</lem>
             </app> le vice <app corresp="#punct #attenuation">
                <rdg wit="#R2M">&susp;</rdg>
-            </app> c'est une mansarde, un habit râpé, un chapeau gris en hiver <app corresp="#punct">
+            </app> c'est une mansarde, un habit râpé, un chapeau gris en hiver<app corresp="#punct">
                <lem wit="#F">,</lem>
-            </app> et des dettes chez le portier <app corresp="#punct">
+            </app> et des dettes chez le portier<app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
             </app> Ah ! je veux vivre au sein de ce luxe un an, six mois, n'importe <app
@@ -1497,7 +1497,7 @@
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;.</rdg>
             </app> Va, tu serais bientôt ennuyé de la fortune en t'apercevant qu'elle te ravirait la
-            chance d'être un &ho; supérieur <app corresp="#punct">
+            chance d'être un &ho; supérieur<app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
             </app> Entre les pauvretés de la richesse et les richesses de la pauvreté, l'artiste
@@ -1558,7 +1558,7 @@
             <app corresp="#punct">
                <lem wit="#F">?</lem>
                <rdg wit="#R2M">?&susp;</rdg>
-            </app> Il a l'air d'un bien bon &ho; <app corresp="#punct">
+            </app> Il a l'air d'un bien bon &ho;<app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
             </app> Vois donc comme l'argenterie étincelle <app corresp="#punct #syntax">
@@ -1574,9 +1574,9 @@
                <rdg wit="#R2M">&susp;</rdg>
             </app> Allons donc ! autant vaudrait croire en Mahomet. Si le public avait raison, voici
             trente &ho;s de cœur et de talent qui s'apprêteraient à manger les entrailles, à boire
-            le sang d'une famille <app corresp="#punct">
+            le sang d'une famille<app corresp="#punct">
                <lem wit="#F">.</lem>
-               <rdg wit="#R2M">!&susp;</rdg>
+               <rdg wit="#R2M"> !&susp;</rdg>
             </app> Et nous deux, jeunes gens pleins de candeur <app corresp="#punct #syntax">
                <lem wit="#F">,</lem>
                <rdg wit="#R2M">et</rdg>
@@ -1613,13 +1613,13 @@
                      >Adolphe</persName>, essaie de sourire.</lem>
                <rdg wit="#C2">(Un hôtel de la <placeName ref="#antin"
                      >Chaussée&tiret;d'Antin</placeName>.)<milestone unit="tei:p"/><lb/>&tiret; <hi
-                     rend="sc">Plaisanterie</hi> à part , mon cher &doc;, je suis malade , et ce
+                     rend="sc">Plaisanterie</hi> à part , mon cher &doc;, je suis malade, et ce
                   n'est pas sans raison que je vous ai fait venir&susp;</rdg>
-            </app><milestone unit="tei:p"/> &tiret; <app corresp="#sentence-order #add-words">
+            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#sentence-order #add-words">
                <lem wit="#F">Bon ! cependant vous avez</lem>
                <rdg wit="#C2">Vous avez cependant</rdg>
-            </app> les yeux vifs <app corresp="#add-words">
-               <lem wit="#F">: ils souhaitent peu nos infernales drogues</lem>
+            </app> les yeux vifs<app corresp="#add-words">
+               <lem wit="#F"> : ils souhaitent peu nos infernales drogues</lem>
             </app>&susp;<milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff">
                <lem wit="#F">Regardez&tiret;y bien, &doc;</lem>
                <rdg wit="#C2">C'est</rdg>
@@ -1657,9 +1657,9 @@
             </app> au fond <app corresp="#punct #syntax">
                <lem wit="#F">; mais</lem>
                <rdg wit="#C2">&susp;. Mais</rdg>
-            </app> vous avez déjeuné <app corresp="#punct #text-segmentation">
+            </app> vous avez déjeuné<app corresp="#punct #text-segmentation">
                <lem wit="#F">&susp;</lem>
-               <rdg wit="#C2">? <milestone unit="tei:p"/><lb/> &tiret; </rdg>
+               <rdg wit="#C2"> ? <milestone unit="tei:p"/><lb/> &tiret; </rdg>
             </app>
             <app corresp="#add-words">
                <lem wit="#F"> fait observer <persName ref="#doc">le grand médecin</persName> qui se
@@ -1676,17 +1676,17 @@
                      ref="#doc">docteur</persName> se regardent, car <persName ref="#doc">le
                      &doc;</persName> se demande qui, de madame ou de monsieur, se moque de lui.
                      <milestone unit="tei:p"/><lb/> &tiret; Que </lem>
-               <rdg wit="#C2">&tiret; Et que</rdg>
+               <rdg wit="#C2"> &tiret; Et que</rdg>
             </app> sentez&tiret;vous <app corresp="#add-words #parole">
                <lem wit="#F">? demande gravement le &doc; à &caro;.</lem>
                <rdg wit="#C2"> ?&susp;</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; Je ne dors pas.<milestone unit="tei:p"
-            /><lb/> &tiret; Bon <app corresp="#punct #expressif">
+            /><lb/> &tiret; Bon<app corresp="#punct #expressif">
                <lem wit="#F">!</lem>
-               <rdg wit="#C2">.</rdg>
+               <rdg wit="#C2"> .</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; Je n'ai pas d'appétit&susp;<milestone
-               unit="tei:p"/><lb/> &tiret; Bien <app corresp="#punct #expressif">
-               <lem wit="#F">!</lem>
+               unit="tei:p"/><lb/> &tiret; Bien<app corresp="#punct #expressif">
+               <lem wit="#F"> !</lem>
                <rdg wit="#C2">&susp;</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; J'ai des douleurs <app corresp="#word-diff">
                <lem wit="#F">là</lem>
@@ -1700,7 +1700,7 @@
             </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
                <lem wit="#F">Très&tiret;bien, nous</lem>
                <rdg wit="#C2">Nous</rdg>
-            </app> verrons cela tout à l'heure &susp; <app corresp="#add-words">
+            </app> verrons cela tout à l'heure&susp; <app corresp="#add-words">
                <lem wit="#F">Après ?&susp; </lem>
             </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
                <lem wit="#F">Il</lem>
@@ -1712,13 +1712,13 @@
                corresp="#word-diff #punct #expressif">
                <lem wit="#F">Bon !</lem>
                <rdg wit="#C2">Bien&susp; </rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; J'ai des tristesses <app
+            </app><milestone unit="tei:p"/><lb/> &tiret; J'ai des tristesses<app
                corresp="#punct #add-words">
                <lem wit="#F">,</lem>
                <rdg wit="#C2">&susp; Il y a des momens où</rdg>
             </app> je pense <app corresp="#add-words">
                <lem wit="#F">toujours</lem>
-            </app> à la mort <app corresp="#word-diff #add-words #text-segmentation">
+            </app> à la mort<app corresp="#word-diff #add-words #text-segmentation">
                <lem wit="#F">, j'ai des idées de suicide.</lem>
                <rdg wit="#C2">.<milestone unit="tei:p"/><lb/> &tiret; Après&susp;<milestone
                      unit="tei:p"/><lb/> &tiret; Mais je suis fatiguée aussitôt que j'ai fait la
@@ -1729,7 +1729,7 @@
             </app><milestone unit="tei:p"/><lb/> &tiret; Il me monte des feux à la figure <app
                corresp="#word-diff #attenuation #punct">
                <lem wit="#F"> ; tenez, j'ai constamment des </lem>
-               <rdg wit="#C2">&susp; Ah ! ah ! j'oubliais!&susp; Les yeux me cuisent., et je ressens
+               <rdg wit="#C2">&susp; Ah ! ah ! j'oubliais !&susp; Les yeux me cuisent, et je ressens
                   des</rdg>
             </app>
             <app corresp="#orth">
@@ -1767,11 +1767,11 @@
                <lem wit="#F"> ? demanda <persName ref="#femme">Caroline</persName> inquiète.</lem>
                <rdg wit="#C2"> !</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; Nullement. <app corresp="#add-words">
-               <lem wit="#F"> ?</lem>
                <rdg wit="#C2"><milestone unit="tei:p"/><lb/> &tiret; Je tousse. Une petite toux
                   sèche&susp; J'ai des inquiétudes dans les jambes&susp; Je suis sûre d'avoir
                   anévrisme au coeur&susp; <milestone unit="tei:p"/><lb/></rdg>
             </app> Comment vous couchez&tiret;vous <app corresp="#punct">
+               <lem wit="#F"> ?</lem>
                <rdg wit="#C2"> ?&susp;</rdg>
             </app><milestone unit="tei:p"/><lb/> &tiret; En rond<app corresp="#punct">
                <lem wit="#F">.</lem>
@@ -1830,7 +1830,7 @@
                   savoir toutes ces choses&tiret;là !&susp; Est&tiret;ce que si j'y avais des
                   pesanteurs ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Que mettez&tiret;vous sur
                   votre tête pendant </rdg>
-            </app> la nuit ?<milestone unit="tei:p"/><lb/> &tiret; Un bonnet <app
+            </app> la nuit ?<milestone unit="tei:p"/><lb/> &tiret; Un bonnet<app
                corresp="#add-words #text-segmentation">
                <lem wit="#F"> brodé, puis</lem>
                <rdg wit="#C2">. <milestone unit="tei:p"/><lb/>&tiret; Est&tiret;il en toile ou en
@@ -1838,7 +1838,7 @@
                   mets</rdg>
             </app> quelquefois par&tiret;dessus un foulard&susp;<milestone unit="tei:p"/><lb/>
             &tiret; <app corresp="#add-words">
-               <lem wit="#F">&tiret; Vous n'y sentez pas des chaleurs&susp; une petite sueur
+               <lem wit="#F">Vous n'y sentez pas des chaleurs&susp; une petite sueur
                      ?&susp;<milestone unit="tei:p"/><lb/> &tiret; En dormant, cela me semble
                      difficile.<milestone unit="tei:p"/><lb/> &tiret; Vous pourriez trouver votre
                   linge humide à l'endroit du front en vous réveillant ?<milestone unit="tei:p"
