@@ -1206,7 +1206,7 @@
             </app> je me sens renaître <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Et là <app corresp="#orth">
+            </app><milestone unit="tei:p"/><lb/> &tiret; Et là <app corresp="#punct">
                <lem wit="#F">&tiret;</lem>
             </app>haut nous allons boire et rire encore une fois, mon pauvre <persName ref="#raph"
                >Raphaël</persName>
