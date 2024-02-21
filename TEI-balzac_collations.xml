@@ -1416,7 +1416,7 @@
             </app> reconnaître sa place autour d'une table immense.<app corresp="#text-segmentation">
                <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
             </app> Avant de quitter les salons, <persName ref="#raph">Raphaël</persName> y jeta un
-            dernier coup <app corresp="#orth">
+            dernier coup <app corresp="#punct">
                <rdg wit="#R2M">&tiret;</rdg>
             </app>d'œil. Son souhait était certes bien complètement réalisé<app
                corresp="#syntax #punct">
