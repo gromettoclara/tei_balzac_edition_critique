@@ -47,7 +47,7 @@
               <p>Cette documentation a pour but d'expliquer comment a été encodée en XML-TEI cette édition critique génétique, ainsi que les objectifs de ce schéma. Cette ODD présente des principes d'encodage dans le but de produire un document exploitable scientifiquement.</p>
               <p>La comparaison de textes consiste à identifier les différences entre deux textes ou plus, en les comparant directement les uns aux autres. Cette technique est utilisée dans un large éventail de disciplines scientifiques où le texte est impliqué : en informatique pour suivre les modifications dans le code ; en jurisprudence pour identifier les modifications pertinentes des lois ou contrats ; même en bioinformatique pour aligner des séquences d'ADN (bien que l'ADN ne soit pas littéralement du texte) - pour donner quelques exemples. La collation de textes est ainsi une technique utilisée en critique textuelle, visant dans ce cadre à retracer la genèse et l'histoire des textes. En tant que sous-discipline, l'étude de la genèse textuelle se concentre sur le processus de création d'une œuvre textuelle.</p>
               <p>Cet encodage propose une étude édition critique et génétique des extraits choisis des textes de Balzac, mis en parallèle avec leurs ébauches publiées en revue. Cet encodage vise à offrir une vision analytique de l'influence de la production journalistique balzacienne sur l'œuvre romanesque. Cet encodage sera exploitable sur un plan littéraire : la typification des variante pourra permettre une évaluation quantitative des variations entre l'œuvre littéraire fragmentaire et feuilletonnante, et l'œuvre littéraire parachevée.</p>
-              <p>Ce projet s'appuie sur des principes et une métodologie mise en œuvre par dans le cadre d'un <ref target="https://github.com/paulhectork/tnah2021_xsl_rendu.git">projet d'encodage similaire portant sur l'édition critique des chroniques de Jean Froissart</ref> réalisé dans le cadre du master TNAH. La méthode a été adaptée aux besoins spécifique de notre édition, qui ne s'appuie pas sur des témoins manuscrits. La complexité du processus d'écriture balzacien metà mal la tradition philologique et ses méthodes séculaires. Ainsi, nous avons adapté les principes d'encodage pour aligner les blocs de texte de la manière la plus pertinente possible, et élargi la liste de vocabulaire pour une catégorisation plus précise des variantes.</p>
+              <p>Ce projet s'appuie sur des principes et une métodologie mise en œuvre par dans le cadre d'un <ref target="https://github.com/paulhectork/tnah2021_xsl_rendu.git">projet d'encodage similaire portant sur l'édition critique des chroniques de Jean Froissart</ref> réalisé dans le cadre du master TNAH. La méthode a été adaptée aux besoins spécifique de notre édition, qui ne s'appuie pas sur des témoins manuscrits. La complexité du processus d'écriture balzacien met à mal la tradition philologique et ses méthodes séculaires. Ainsi, nous avons adapté les principes d'encodage pour aligner les blocs de texte de la manière la plus pertinente possible, et élargi la liste de vocabulaire pour une catégorisation plus précise des variantes.</p>
               <p>Le corpus se compose de :
                  <list>
                     <item>trois extraits de la dernière version des romans de la Comédie Humaine qui soit vérifiée par l'auteur, encodée en XML-TEI par le projet eBalzac et issue d'une rétroconversion.</item>
@@ -67,10 +67,7 @@
 
                  <p>Le texte des trois témoins du Furne Corrigé ont été établis et encodés en XML-TEI par <ref target="https://www.ebalzac.com/">eBalzac</ref>. Ce
                     site est issu d'un projet inter-universitaire dirigé par Jean-Gabriel Ganascia, Andrea Del Lungo et Pierre Glaudes.</p>
-  <p>eBalzac propose une nouvelle édition de La Comédie humaine dans la version du « Furne corrigé ». Conforme à l’orthographe d’époque, respectueuse du dernier classement des œuvres voulu par Balzac, cette édition électronique corrige plusieurs erreurs des éditions « papier » du xxe siècle. Elle a pour ambition d’être aussi fidèle que possible au fac-similé de l’exemplaire de Balzac. Les corrections apportées par l'auteur ont pour cela été rajoutées manuellement à partir de l'édition de la <hi rend="italic">Comédie Humaine</hi> des <hi rend="italic">Bibliophiles de
-    l'originale</hi> (1965-1976) : fac-similé de l'exemplaire corrigé par
-    Balzac de l'édition Furne-Hetzel de 1842-1846 avec
-    transcription des corrections.</p>
+  <p>eBalzac propose une nouvelle édition de La Comédie humaine dans la version du « Furne corrigé ». Conforme à l’orthographe d’époque, respectueuse du dernier classement des œuvres voulu par Balzac, cette édition électronique corrige plusieurs erreurs des éditions « papier » du xxe siècle. Elle a pour ambition d’être aussi fidèle que possible au fac-similé de l’exemplaire de Balzac. Les corrections apportées par l'auteur ont pour cela été rajoutées manuellement à partir de l'édition de la <hi rend="italic">Comédie Humaine</hi> des <hi rend="italic">Bibliophiles de l'originale</hi> (1965-1976) : fac-similé de l'exemplaire corrigé par Balzac de l'édition Furne-Hetzel de 1842-1846 avec transcription des corrections.</p>
                  <p>Pour ce projet, <ref target="https://github.com/ebalzac/FC">l'édition XML-TEI établie par eBalzac</ref> a été rétroconvertie en .txt grâce à un <ref target="https://github.com/anisrfd/Convert-XML-to-PandasDataFrame-CSV-TextFile/blob/master/XMLtoTXT.ipynb">script Python</ref> puis convertis en UTF-8 en ligne de commande.</p>
                   </div3>
                   <div3>
@@ -81,7 +78,7 @@
                   </div3>
                   <div3>
                      <head>Les ébauches journalistiques</head>
-                     <p>On trouve une parentée entre ses trois passages et respectivement  :
+                     <p>On trouve une parentée entre les trois passages ci-dessus décrits et respectivement  :
                         <list>
                            <item><bibl><title level="a">Le Petit Mercier</title> (issu de <title level="j">La Caricature</title> du <date>16 décembre 1830</date>)</bibl>, antécédent de <bibl corresp="#fyo"><hi rend="italic">La Fille aux yeux d'or</hi></bibl>.</item>
                            <item><bibl><title level="a">Une Débauche</title> (issu de <title level="j">La revue des deux mondes</title> de <date>Mai 1831</date>)</bibl>, antécédent de <bibl corresp="#pdc"><hi rend="italic">La Peau de chagrin</hi></bibl>.</item>
@@ -127,18 +124,17 @@
                             </persName>
                          </respStmt>
                       </egXML>
-                    <p>Comme le document encodé n'est pas une nouvelle édition du documentsource, mais une proposition éditoriale à part entière basée qui retrace la génétique ce dit document sourcen, il n'est pas nécessaire de donner les informations de responsailité dans un <gi>editionStmt</gi>, elle peuvent se situer au niveau de du <gi>titleStmt</gi>.</p>
-                      <p>Le <gi>publicationStmt</gi> fournit les informations touchant à la publication et à la diffusion du document. L'élément
-                            <gi>publisher</gi> se rapporte au contexte institutionnel de la publication. Les balises <gi>pubPlace</gi> renseignent complètent les éléments contextuels de publication du présent document.</p>
+                    <p>Comme le document encodé n'est pas une nouvelle édition du document source, mais une proposition éditoriale à part entière qui retrace la génétique de ce dit-document source, il n'est pas nécessaire de donner les informations de responsailité dans un <gi>editionStmt</gi>, elle peuvent se situer au niveau de du <gi>titleStmt</gi>.</p>
+                      <p>Le <gi>publicationStmt</gi> fournit les informations touchant à la publication et à la diffusion du document. L'élément <gi>publisher</gi> se rapporte au contexte institutionnel de la publication. Les balises <gi>pubPlace</gi> et <gi>date</gi> complètent les éléments contextuels de publication du présent document.</p>
                    </div5>
                    <div5>
                      <head>Le <hi rend="italic">sourceDesc</hi></head>
-                       <p>Le <gi>sourceDesc</gi> décrit les sources de l'encodage. On tentera de différencier et décrire à la fois la source physique et la numérisation des documents.</p>
+                       <p>Le <gi>sourceDesc</gi> décrit les sources de l'encodage. On tentera de décrire à la fois la source physique et la numérisation des documents.</p>
                        <p>L'élément <gi>listWit</gi> contient la liste des sources utilisées pour la présente édition critique et génétique.
                           Les témoins sont de nature diverses et doivent donc être décrits de manières différentes, selon qu'ils sont extraits d'un objet littéraire édité ou d'un objet autre (en l'occurence, médiatique).</p>
                        <p>La déclaration d'un identifiant, grâce à l'attribut <att>xml:id</att> de l'élément <gi>witness</gi>, permet de se référer aux témoins encodés en couples.</p>
-                       <p>Le premier élément <gi>biblFull</gi> contient les informations relatives à l'édition de la Comédie Humaine de eBalzac rétroconvertie dans ce travail.</p>
-                       <p>L'intérêt du <gi>biblFull</gi> est d'autoriser la description d'une référence bibliographique à l'aide de tous les composants du fichier TEI (<gi>editionStmt</gi> <gi>extent</gi> <gi>fileDesc</gi> <gi>notesStmt</gi> <gi>profileDesc</gi> <gi>publicationStmt</gi> <gi>seriesStmt</gi> <gi>sourceDesc</gi> <gi>titleStmt</gi>), description qui sera de fait très complète. En son sein, on peut donc insérer des <gi>bibl</gi>. Les éléments relatifs aux sources de eBalzac sont donc contenues dans ces <gi>bibl</gi>. On ne prélèvera que celles dont sont issues nos extraits choisis dans la Comédie Humaine.</p>
+                       <p>Le premier élément <gi>biblFull</gi> contient les informations relatives à l'édition de la <hi rend="it">Comédie Humaine</hi> de eBalzac rétroconvertie dans ce travail.</p>
+                       <p>L'intérêt du <gi>biblFull</gi> est d'autoriser la description d'une référence bibliographique à l'aide de tous les composants du fichier TEI (<gi>editionStmt</gi> <gi>extent</gi> <gi>fileDesc</gi> <gi>notesStmt</gi> <gi>profileDesc</gi> <gi>publicationStmt</gi> <gi>seriesStmt</gi> <gi>sourceDesc</gi> <gi>titleStmt</gi>), description qui sera de fait très complète. En son sein, on peut donc insérer des <gi>bibl</gi>. Les éléments relatifs aux sources de eBalzac sont donc contenues dans ces <gi>bibl</gi>. On ne prélèvera que celles dont sont issus nos extraits choisis.</p>
                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                              <bibl>
                                 <title type="main">La Comédie Humaine</title>
@@ -209,7 +205,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                        <item><gi>particDesc</gi></item>
                     </list>
                     <div5><head>Les éléments <hi rend="italic">creation</hi> et <hi rend="italic">abstract</hi> :</head>
-                       <p>Le <gi>creation</gi> contient des informations relatives à la genèse de la Comédie Humaine. </p>
+                       <p>Le <gi>creation</gi> contient des informations relatives à la genèse de la <hi rend="it">Comédie Humaine</hi>. </p>
                        <p>L'élément <gi>abstract</gi> spécifie, en prose, l'intérêt de la présente édition au vu de la génétique de l'œuvre balzacienne. </p></div5>
                      <div5> <head> Le <hi rend="italic">particDesc</hi> :</head>
                        <p>Le <gi>particDesc</gi> contient des informations sur les personnages apparaissant dans l'encodage. Il a deux balises filles : <list>
@@ -369,7 +365,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                           </egXML>
                           Dans ce cas, l'attribut <att>corresp</att> porte la valeur générique <hi rend="bold">"word-diff"</hi>, et si le une des versions est quantitativement supérieure à l'autre, on pourra aussi rajouter la valeur "add-words".
                         </item>
-                          <item>Lorsque le déplacement d'un bloc de texte a une courte portée, les deux versions sont rassemblées dans un même élément &lt;app&gt; dont le <att>corresp</att> sera "sentence-order", considérant que la variation principale relève de l'inversion de l'ordre de deux groupes dans la phrase. Les autres types de variation venant affecter le bloc seront spécifiés car il est possible de multiplier les attributs <att>corresp</att>.
+                          <item>Lorsque le déplacement d'un bloc de texte a une courte portée, les deux versions sont rassemblées dans un même élément &lt;app&gt; dont le <att>corresp</att> sera <val>"sentence-order"</val>, considérant que la variation principale relève de l'inversion de l'ordre de deux groupes dans la phrase. Les autres types de variation venant affecter le bloc seront spécifiés car il est possible de multiplier les valeurs de l'attribut <att>corresp</att>.
                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                <app corresp="#word-diff #sentence-order #text-segmentation">
                                   <lem wit="#F"><hi rend="i">in petto</hi>, <persName ref="#mercier"
@@ -461,7 +457,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                           <item><val>#parole</val> : différence dans la prise de parole des personnages (notamment rajout de verbe de parole).</item>
                           <item><val>#rend</val> : différence typographique significative.</item>
                           <item><val>#place-diff</val> : changement dans la dénomination d'un lieu.</item></list></p>
-                     <p>Comme on peut le voir dans l'exempe ci-dessous, les valeurs de l'attribut <att>corresp</att> êuvent être multipliées si les changements au sein du bloc relèvent de différentes catégories.</p>
+                     <p>Comme on peut le voir dans l'exempe ci-dessous, les valeurs de l'attribut <att>corresp</att> peuvent être multipliées si les changements au sein du bloc relèvent de différentes catégories.</p>
                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                <app corresp="#punct #attenuation #text-segmentation">
                                   <lem wit="#F">.</lem>
@@ -472,7 +468,7 @@ URL renvoyant à la notice d'autorité de la personne du catalogue Bnf. Cet attr
                    </div3>
                    <div3>
                        <head>Encodage sémantique : balisage des noms de personnages et de lieux :</head>
-                       <p>Au sein de l'encodage, quand il est mention d'un personnage, il encodé dans la balise <gi>persName</gi>. Cet attribut prend comme valeur un "#" suivi d'un identifiant faisant référence au <att>xml:id</att> définit dans les <gi>person</gi> du <gi>particDesc</gi>, dans le <gi>teiHeader</gi> (/TEI/teiHeader/profileDesc/particDesc/listPerson/person/@xml:id)). L'élément est utilisé à chaque fois qu'il est fait mention d'un personnage, et pas seulement quand le personnage est nommé. En construisant les notices de personnes et personnages, il s'est alors posé la question de ce qui les déinit comme tel. Dans un souci de cohérence de l'encodage, il a été décidé d'encoder toutes les mentions de personnes dans des <gi>persName</gi> ; cependant les individus qui ne possèdent ni rôle identifié dans la fiction ou la réalité, ni une personnalité assez définie, seront référencés par un <gi>persGroup</gi> dans le <gi>listPerson</gi>, et ce même si les termes employés diffèrent d'un témoin à l'autre. C'est le cas de la longue liste de convives qui entourent Raphaël et Émile dans "Une Débauche" (/TEI/text/ab[@n=2]).</p>
+                       <p>Au sein de l'encodage, quand il est mention d'un personnage, il encodé dans la balise <gi>persName</gi>. Cet attribut prend comme valeur un "#" suivi d'un identifiant faisant référence au <att>xml:id</att> définit dans les <gi>person</gi> du <gi>particDesc</gi>, dans le <gi>teiHeader</gi> (/TEI/teiHeader/profileDesc/particDesc/listPerson/person/@xml:id)). L'élément est utilisé à chaque fois qu'il est fait mention d'un personnage, et pas seulement quand le personnage est nommé. En construisant les notices de personnes et personnages, il s'est alors posé la question de ce qui les définit comme tel. Dans un souci de cohérence de l'encodage, il a été décidé d'encoder toutes les mentions de personnes dans des <gi>persName</gi> ; cependant les individus qui ne possèdent ni rôle identifié dans la fiction ou la réalité, ni une personnalité assez définie, seront référencés par un <gi>persGroup</gi> dans le <gi>listPerson</gi>, et ce même si les termes employés diffèrent d'un témoin à l'autre. C'est le cas de la longue liste de convives qui entourent Raphaël et Émile dans "Une Débauche" (/TEI/text/ab[@n=2]).</p>
                          <egXML xmlns="http://www.tei-c.org/ns/Examples">
                               <persName ref="#convives">un jeune &ho; politique</persName> récemment tombé de la
                               tribune sans se faire aucun mal.<app corresp="#text-segmentation">
