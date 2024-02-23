@@ -415,7 +415,7 @@
                      <forename>Victor</forename>
                      <surname>Hugo</surname>
                   </persName>
-                  <note>Romancier et poète (102&tiret;1885)</note>
+                  <note>Romancier et poète (1802&tiret;1885)</note>
                </person>
                <person xml:id="etienne" role="real">
                   <persName type="text-name" resp="#cg" cert="high">
@@ -650,7 +650,6 @@
                   <placeName type="contemporary-name" resp="cg" cert="low">Opéra Le
                      Pelletier</placeName>
                   <settlement type="town" ref="#paris">Paris</settlement>
-                  <note/>
                </place>
                <place xml:id="italiens">
                   <placeName type="text-name">les Italiens</placeName>
