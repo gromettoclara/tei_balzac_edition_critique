@@ -1,0 +1,137 @@
+
+/*définir le nom de la police pour l'appeler par la suite*/
+@font-face {
+    font-family: Texte;
+    src: url(./Rosarivo/Rosarivo-Regular.ttf);
+  }
+
+/*les éléments du body se disposent en colonne*/
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: Texte;
+    text-align: justify;
+    align-items: stretch;
+    overflow: auto;
+}
+
+/*box qui contiendra les deux autres container qui contiendront les textes mis en parallèle*/
+/*ils se disposent en ligne*/
+.main-container{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border: 5px solid #BCE7B6;
+  background-color: #f2f2f2;
+}
+
+/*box qui contient les textes*/
+.text-container {
+  flex: 1; /*pour que le shrink se fasse pareil sur les deux box*/
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 35px;
+  background-color: white;
+}
+
+
+/*classe highlight pour le JS (au mouseover, la classe est ajoutée aux spans de même index dans les deux textes parallèles)*/
+.highlight {
+  background-color: yellow;
+}
+
+/*classe highlight-empty pour le JS (au mouseover, quand les spans dont la parallèle dans l'autre texte - de même index - est vide, la classe est ajoutée)*/
+.highlight.highlight-empty {
+  background-color: #8eff8e;
+}
+
+/*header pour les pages*/
+.bandeau{
+  margin:20px;
+  background: url('./balzac-honore-de.jpg') center center;
+  background-size: cover;
+}
+
+/**/
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('./balzac-honore-de.jpg') center center;
+    background-size: cover;
+}
+
+/*taille du texte dans le header de la page 'home' : proportionelle à la taille de la fenêtre*/
+.home > h1 {
+    font-size: 4vw;
+}
+
+.home > p {
+    font-size: 2vw;
+}
+
+/*Dans la navbar les span avec les liens se disposent en ligne et s'étendent dans l'espace disponible*/
+nav {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 35px;
+  background-color: #f2f2f2;
+        }
+
+/*les liens vers les autres pages dans la navbar : esthétique et interactivité*/
+.nav-btn {
+  border: none;
+  background-color: #BCE7B6;
+  font-family: Texte;
+  padding: 10px 20px;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*changement de couleur des bouton au passage de la souris*/
+.nav-btn:hover {
+  background-color: #45a049;
+}
+
+/*esthétique du footer*/
+footer {
+  text-align: center;
+  padding: 7px;
+  background-color: #E9CBEB;
+}
+
+/*les <b> qui contiennent le nom des personnages*/
+.infobulle {
+     position: relative; /*la bulle avec information se disposera relativement à la position de l'élément <b>*/
+     display: inline-block; /*position dans le texte*/
+     cursor: pointer; /*interactivité*/
+  }
+
+/*les spans qui contiennent les information*/
+.infobulle .infobulle-text {
+    visibility: hidden; /*les éléments sont cachées*/
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    position: absolute; /*pour positionner en fontion de l'élément <b>*/
+    z-index: 2; /*faire passer au dessus de tous les éléments*/
+    bottom: 125%; /*placement au dessus du nom*/
+    left: 50%; /*centrer*/
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/*interactivité : au passage de la souris, l'infobulle apparaît*/
+.infobulle:hover .infobulle-text {
+  visibility: visible;
+  opacity: 1;
+}
