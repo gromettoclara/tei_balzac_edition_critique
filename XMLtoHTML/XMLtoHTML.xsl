@@ -471,100 +471,54 @@
                 <xsl:copy-of select="$header"/>
                 <body>
                     <div class="bandeau"><xsl:copy-of select="$body_header"/></div>
-                        <div class="main-container"><div class="text-container"><h4>Index des variantes orthographiques</h4>
-                            <xsl:for-each-group select="//body//app" group-by=".[contains(@corresp, '#orth')]">
-                            <div>
-                                <xsl:for-each-group select="." group-by="concat(/text()[1], text()[2])">
-                                    <p> <i><xsl:value-of select="current-group()/rdg"/></i> // <i><xsl:value-of select="current-group()/lem"/></i> : 
-                                       
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:choose>
-                                                    <xsl:when test="ancestor::ab/@n = 'I'">
-                                                        <xsl:text>./</xsl:text><xsl:value-of select="$mercier"/>
-                                                    </xsl:when>
-                                                    <xsl:when test="ancestor::ab/@n = 'II'">
-                                                        <xsl:text>./</xsl:text><xsl:value-of select="$debauche"/>
-                                                    </xsl:when>
-                                                    <xsl:when test="ancestor::ab/@n = 'III'">
-                                                        <xsl:text>./</xsl:text><xsl:value-of select="$consultation"/>
-                                                    </xsl:when>
-                                                </xsl:choose>
-                                            </xsl:attribute>
-                                            <xsl:value-of select="ancestor::ab/@n"/>
-                                        </a>
-                                        <xsl:if test="position()!= last()">, 
-                                        </xsl:if><xsl:if test="position() = last()">.</xsl:if>
-                         
-                                    </p>
-                                </xsl:for-each-group>
-                            </div>
-                        </xsl:for-each-group></div>
-                        <div class="text-container"><h4>Index des variantes dans la dénomination des personnages</h4>
-                            <xsl:for-each-group select="//body//app" group-by=".[contains(@corresp, '#persname-diff')]">
-                            <div>
-                                
-                                <xsl:for-each-group select="." group-by="concat(/text()[1], text()[2])">
+                    <div class="main-container">
+                        <xsl:for-each-group select="//body//app" group-by="tokenize(@corresp, ' ')">
+                            <xsl:if test="current-grouping-key()='#orth' or current-grouping-key()='#place-diff' or current-grouping-key()='#persname-diff'">
+                                <div class="text-container">
+                                    <xsl:choose>
+                                        <xsl:when test="current-grouping-key()='#orth'">
+                                            <h3>Index des variantes orthographiques</h3>
+                                        </xsl:when>
+                                        <xsl:when test="current-grouping-key()='#place-diff'">
+                                            <h3>Index des changements de noms de lieux</h3>
+                                        </xsl:when>
+                                        <xsl:when test="current-grouping-key()='#persname-diff'">
+                                            <h3>Index des variantes de dénomination des personnes</h3>
+                                        </xsl:when>
+                                    </xsl:choose>
+                                    
+                                    <xsl:for-each-group select="current-group()" group-by=".">
                                         <p> <i><xsl:value-of select="./rdg"/></i> // <i><xsl:value-of select="./lem"/></i> : 
-                                        
-                                        <a>
-                                            <xsl:attribute name="href">
-                                                <xsl:choose>
-                                                    <xsl:when test="ancestor::ab/@n = 'I'">
-                                                        <xsl:text>./</xsl:text><xsl:value-of select="$mercier"/>
-                                                    </xsl:when>
-                                                    <xsl:when test="ancestor::ab/@n = 'II'">
-                                                        <xsl:text>./</xsl:text><xsl:value-of select="$debauche"/>
-                                                    </xsl:when>
-                                                    <xsl:when test="ancestor::ab/@n = 'III'">
-                                                        <xsl:text>./</xsl:text><xsl:value-of select="$consultation"/>
-                                                    </xsl:when>
-                                                </xsl:choose>
-                                            </xsl:attribute>
-                                            <xsl:value-of select="ancestor::ab/@n"/>
-                                        </a>
-                                        <xsl:if test="position()!= last()">, 
-                                        </xsl:if><xsl:if test="position() = last()">.</xsl:if>
-                                        
-                                    </p></xsl:for-each-group>
+                                            <a>
+                                                <xsl:attribute name="href">
+                                                    <xsl:choose>
+                                                        <xsl:when test="ancestor::ab/@n = 'I'">
+                                                            <xsl:text>./</xsl:text><xsl:value-of select="$mercier"/>
+                                                        </xsl:when>
+                                                        <xsl:when test="ancestor::ab/@n = 'II'">
+                                                            <xsl:text>./</xsl:text><xsl:value-of select="$debauche"/>
+                                                        </xsl:when>
+                                                        <xsl:when test="ancestor::ab/@n = 'III'">
+                                                            <xsl:text>./</xsl:text><xsl:value-of select="$consultation"/>
+                                                        </xsl:when>
+                                                    </xsl:choose>
+                                                </xsl:attribute>
+                                                <xsl:value-of select="ancestor::ab/@n"/>
+                                            </a>
+                                            <xsl:if test="position()!= last()">, 
+                                            </xsl:if><xsl:if test="position() = last()">.</xsl:if>
+                                        </p>
+                                    </xsl:for-each-group>
                                 </div>
+                            </xsl:if>
+                            
                         </xsl:for-each-group></div>
-                        <div class="text-container"><h4>Index des variantes dans la dénomination des lieux</h4>
-                            <xsl:for-each-group select="//body//app" group-by=".[contains(@corresp, '#place-diff')]">
-                            <div>
-                                
-                                <xsl:for-each-group select="." group-by="concat(/text()[1], text()[2])">
-                                    <p> <i><xsl:value-of select="./rdg"/></i> // <i><xsl:value-of select="./lem"/></i> : 
-                                    
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:choose>
-                                                <xsl:when test="ancestor::ab/@n = 'I'">
-                                                    <xsl:text>./</xsl:text><xsl:value-of select="$mercier"/>
-                                                </xsl:when>
-                                                <xsl:when test="ancestor::ab/@n = 'II'">
-                                                    <xsl:text>./</xsl:text><xsl:value-of select="$debauche"/>
-                                                </xsl:when>
-                                                <xsl:when test="ancestor::ab/@n = 'III'">
-                                                    <xsl:text>./</xsl:text><xsl:value-of select="$consultation"/>
-                                                </xsl:when>
-                                            </xsl:choose>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="ancestor::ab/@n"/>
-                                    </a>
-                                    <xsl:if test="position()!= last()">, 
-                                    </xsl:if><xsl:if test="position() = last()">.</xsl:if>
-                                    
-                                </p>
-                                </xsl:for-each-group>
-                            </div>
-                        </xsl:for-each-group></div></div>
-                        <nav>
-                            <xsl:copy-of select="$return_home"/> 
-                            <a class="nav-btn" href="./{$mercier}">Le Petit Mercier</a>
-                            <a class="nav-btn" href="./{$consultation}">La Consultation</a>
-                            <a class="nav-btn" href="./{$debauche}">Une débauche</a>
-                        </nav>
+                    <nav>
+                        <xsl:copy-of select="$return_home"/> 
+                        <a class="nav-btn" href="./{$mercier}">Le Petit Mercier</a>
+                        <a class="nav-btn" href="./{$consultation}">La Consultation</a>
+                        <a class="nav-btn" href="./{$debauche}">Une débauche</a>
+                    </nav>
                     <xsl:copy-of select="$footer"/>
                 </body>
             </html>
