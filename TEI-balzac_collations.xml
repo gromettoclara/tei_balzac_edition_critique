@@ -838,7 +838,7 @@
             <app corresp="#sentence-order">
                <lem wit="#F">jusqu'a quatre heures</lem>
             </app>, sans leur donner une larme ou un sourire, les décès et les naissances <app
-               corresp="#word-diff #general">
+               corresp="#word-diff #general #place-diff">
                <lem wit="#F">de <placeName ref="#cinq_arr">tout un</placeName></lem>
                <rdg wit="#C">du <placeName ref="#cinq_arr">5e</placeName></rdg>
             </app>
@@ -869,7 +869,7 @@
             <app corresp="#orth">
                <lem wit="#F">À</lem>
                <rdg wit="#C">A</rdg>
-            </app> deux pas de <app corresp="#word-diff #general">
+            </app> deux pas de <app corresp="#word-diff #general #place-diff">
                <lem wit="#F">sa paroisse</lem>
                <rdg wit="#C"><placeName ref="#st_sulp">Saint&tiret;Sulpice</placeName></rdg>
             </app>, il peut, en cas d'une cérémonie importante, laisser sa place <app
