@@ -480,10 +480,10 @@
                                             <h3>Index des variantes orthographiques</h3>
                                         </xsl:when>
                                         <xsl:when test="current-grouping-key()='#place-diff'">
-                                            <h3>Index des changements de noms de lieux</h3>
+                                            <h3>Index des changements toponymiques</h3>
                                         </xsl:when>
                                         <xsl:when test="current-grouping-key()='#persname-diff'">
-                                            <h3>Index des variantes de dénomination des personnes</h3>
+                                            <h3>Index des variantes de dénomination individuelles</h3>
                                         </xsl:when>
                                     </xsl:choose>
                                     
