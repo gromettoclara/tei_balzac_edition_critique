@@ -6,6 +6,13 @@
     
     <xsl:output method="html" indent="yes"/>
     
+    <!-- déclaration des variables : l.17 -->
+    <!-- templates de la page Home : l.103 -->
+    <!-- templates de la page 'Le Petit Mercier' (extrait 1) : l.129-->
+    <!-- templates de la page 'Une débauche' (extrait 2) : l.264-->
+    <!-- templates de la page 'La Consultation' (extrait 3) : l.364-->
+    <!-- templates de l'index : l.474-->
+    <!-- règles concernant plusieurs templates : l.543-->
     
     <!-- déclaration des variables -->
     <!-- chemins des fichiers de sortie -->
@@ -120,7 +127,7 @@
     </xsl:template>
     
     <!-- TEMPLATES DE LA PAGE DU PETIT MERCIER -->
-    <!-- structure générale : header / une box mère qui contient deux box filles pour les deux versions en parallèle / biblio des témoins en parallèle / menu et footer -->
+    <!-- structure générale : header / une box mère qui contient deux box filles pour les deux versions en parallèle, avec la biblio des témoins en parallèle -->
     <xsl:template name="petit_mercier">
         <xsl:result-document href="{$mercier}" method="html">
             <html lang="fr">
@@ -157,7 +164,7 @@
                         </div>
                     </div>
          
-                    
+                    <!-- navbar et footer -->
                     <nav>
                         <a class="nav-btn" href="./{$debauche}">Une Débauche</a>
                         <a class="nav-btn" href="./{$consultation}">La Consultation</a>
@@ -206,7 +213,7 @@
     <xsl:template match="//ab[1]/app/rdg">
     </xsl:template>
     
-    <!-- 2. mode rdg : le texte du lem -->
+    <!-- 2. mode rdg : le texte du témoin second -->
     <!-- ramener le texte qui n'est pas dans les app -->
     <xsl:template match="//text/body/ab[1]" mode="rdg">
         <xsl:apply-templates mode="rdg"/>
@@ -469,11 +476,15 @@
         <xsl:result-document href="{$index}" method="html">
             <html lang="fr">
                 <xsl:copy-of select="$header"/>
+                <!-- création de la page : avec le header,le body, et le conteneur principal -->
                 <body>
                     <div class="bandeau"><xsl:copy-of select="$body_header"/></div>
                     <div class="main-container">
                         <xsl:for-each-group select="//body//app" group-by="tokenize(@corresp, ' ')">
+                            <!-- boucle 1 : tri en fonction des valeurs de l'attribut 'corresp' (attribut multi-valué) -->
                             <xsl:if test="current-grouping-key()='#orth' or current-grouping-key()='#place-diff' or current-grouping-key()='#persname-diff'">
+                                <!-- condition pour appliquer les règles uniquement sur les app qui ont ces trois valeurs d'attribut -->
+                                <!-- ouverture d'une div par valeur d'attribut, et ajout du titre adapté-->
                                 <div class="text-container">
                                     <xsl:choose>
                                         <xsl:when test="current-grouping-key()='#orth'">
@@ -486,10 +497,13 @@
                                             <h3>Index des variantes de dénomination individuelles</h3>
                                         </xsl:when>
                                     </xsl:choose>
-                                    
+                                    <!-- on a ramené trois groupe qui correspondent aux app dont l'attribut correspo contient '#orth', '#place-diff' et '#persname-diff'-->
+                                    <!-- pour chaque élément des groupe : création d'une entrée d'index unique pour chaque variante distincte -->
                                     <xsl:for-each-group select="current-group()" group-by=".">
                                         <p> <i><xsl:value-of select="./rdg"/></i> // <i><xsl:value-of select="./lem"/></i> : 
-                                            <a>
+                                            <!-- ramener les deux textes en parallèle -->
+                                                <a>
+                                                    <!-- ajouter un lien vers le texte où l'on pourra observer ce changement -->
                                                 <xsl:attribute name="href">
                                                     <xsl:choose>
                                                         <xsl:when test="ancestor::ab/@n = 'I'">
@@ -511,7 +525,6 @@
                                     </xsl:for-each-group>
                                 </div>
                             </xsl:if>
-                            
                         </xsl:for-each-group></div>
                     <nav>
                         <xsl:copy-of select="$return_home"/> 
@@ -528,6 +541,7 @@
     <!-- Règles concernant les enfants directs de ab (qui ne sont pas app), ou les enfants de lem et rdg -->
     
     <!-- les retours à la ligne, les italiques, et les petites capitales hors de app -->
+    <!-- dans l'encodage XML, comme dans la transformation HTML, on choisit de renoncer au découpage en paragraphe au profit de l'alignement du texte des témoins -->
     <xsl:template match="//text/body/ab/lb">
         <br/>
     </xsl:template>
@@ -559,7 +573,7 @@
         </xsl:element>
     </xsl:template>
     
-    <!-- les retours à la ligne, les italiques, et les petites capitales hors de app (et mode rdg pour que les apply-templates qui retranscrivent le texte du témoin soient activés) -->
+    <!-- les retours à la ligne, les italiques, et les petites capitales hors de app (et mode rdg pour que les apply-templates qui retranscrivent le texte du témoin secondaire soient activés) -->
     <xsl:template match="//text/body/ab/lb" mode="rdg">
         <br/>
     </xsl:template>
