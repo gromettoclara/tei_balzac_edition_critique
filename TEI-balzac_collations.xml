@@ -3,12 +3,13 @@
 <?xml-model href="RNG-balzac_collations.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <!DOCTYPE TEI [
-<!ENTITY caro "Caroline">
-<!ENTITY susp "...">
-<!ENTITY fe "femme">
-<!ENTITY ho "homme">
-<!ENTITY doc "docteur">
-<!ENTITY tiret "-">]>
+        <!ENTITY caro "Caroline">
+        <!ENTITY susp "...">
+        <!ENTITY fe "femme">
+        <!ENTITY ho "homme">
+        <!ENTITY doc "docteur">
+        <!ENTITY tiret "-">
+        ]>
 
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -28,7 +29,7 @@
                </persName>
             </respStmt>
             <respStmt>
-               <resp>Édition électronique de la Comédie Humaine dans la version dite Furne corrigé
+               <resp>Édition électronique de la Comédie Humaine dans la version dite Furne corrigée
                   (qui intègre les corrections manuscrites apportées par l'auteur)</resp>
                <orgName>
                   <ref target="https://ebalzac.com/">eBalzac</ref>
@@ -59,15 +60,15 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>École nationale des Chartes</publisher>
+            <publisher>École nationale des chartes</publisher>
             <pubPlace>Paris, France</pubPlace>
             <date when-iso="2024-02-27" type="date-de-rendu">27 février 2024</date>
          </publicationStmt>
          <sourceDesc>
             <listWit>
                <witness xml:id="F">
-                  <note>L'encodage est issu d'un rétroconversion de l'édition TEI réalisée par <ref
-                        target="https://ebalzac.com/">eBalzac</ref> en .txt.</note>
+                  <note>L'encodage est issu d'une rétroconversion de l'édition TEI réalisée par
+                     <ref target="https://ebalzac.com/">eBalzac</ref> en .txt.</note>
                   <biblFull>
                      <titleStmt>
                         <title>La Comédie humaine, édition électronique</title>
@@ -82,7 +83,7 @@
                            Bibliothèque de l’Institut de France. Pour les romans publiés chez Furne
                            après la mort de l'auteur, le texte a été établi à partir de la dernière
                            édition datant de son vivant. Cette édition a été établie dans le cadre
-                           du projetPHŒBUS, financé par l’Agence nationale de la recherche
+                           du projet PHŒBUS, financé par l’Agence nationale de la recherche
                            (2015&tiret;2019).</edition>
                      </editionStmt>
                      <publicationStmt>
@@ -91,29 +92,28 @@
                         <publisher>CELLF (CNRS &amp; Université Paris IV Sorbonne)</publisher>
                         <publisher>LIP6 (Université Paris VI)</publisher>
                         <availability status="restricted">
-                           <p>Sous licence <ref
-                                 target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">CC
-                                 BY-NC-ND 3.0 FR DEED Attribution - Pas d’Utilisation Commerciale -
-                                 Pas de Modification 3.0 France</ref></p>
-                           <p> Copyright © 2017 Université Charles&tiret;de&tiret;Gaulle Lille 3,
+                           <p>Sous licence <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">CC
+                              BY-NC-ND 3.0 FR DEED Attribution - Pas d’Utilisation Commerciale -
+                              Pas de Modification 3.0 France</ref></p>
+                           <p>Copyright © 2017 Université Charles&tiret;de&tiret;Gaulle Lille 3,
                               agissant pour le projet ANR « Projet d’hypertexte de l’œuvre de Balzac
                               par l’utilisation de similarités » (ci&tiret;après dénommé ANR
-                              Phœbus). </p>
-                           <p> Cette ressource électronique protégée par le code de la propriété
+                              Phœbus).</p>
+                           <p>Cette ressource électronique protégée par le code de la propriété
                               intellectuelle sur les bases de données (L341&tiret;1) est mise à
                               disposition de la communauté scientifique internationale par l’ANR
-                              Phœbus, selon les termes de la licence Creative Commons : «
-                              Attribution &tiret; Pas d’Utilisation Commerciale &tiret; Pas de
-                              Modification 3.0 France (CC BY&tiret;NC&tiret;ND 3.0 FR) ». </p>
-                           <p> Attribution : afin de référencer la source, toute utilisation ou
+                              Phœbus, selon les termes de la licence Creative Commons : « Attribution
+                              &tiret; Pas d’Utilisation Commerciale &tiret; Pas de
+                              Modification 3.0 France (CC BY&tiret;NC&tiret;ND 3.0 FR) ».</p>
+                           <p>Attribution : afin de référencer la source, toute utilisation ou
                               publication dérivée de cette ressource électroniques comportera le nom
-                              de l’ANR Phœbus et surtout l’adresse Internet de la ressource. </p>
-                           <p> Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
-                              scientifique, toute utilisation commerciale est interdite. </p>
-                           <p> Pas de Modification : l’ANR Phœbus s’engage à améliorer et à corriger
+                              de l’ANR Phœbus et surtout l’adresse Internet de la ressource.</p>
+                           <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                              scientifique, toute utilisation commerciale est interdite.</p>
+                           <p>Pas de Modification : l’ANR Phœbus s’engage à améliorer et à corriger
                               cette ressource électronique, notamment en intégrant toutes les
                               contributions extérieures, la diffusion de versions modifiées de cette
-                              ressource n’est pas souhaitable. </p>
+                              ressource n’est pas souhaitable.</p>
 
                         </availability>
                         <pubPlace>Paris</pubPlace>
@@ -132,7 +132,7 @@
                                  <surname>Honoré de</surname>
                               </persName>
                            </author>
-                           <publisher>Furne,rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ;
+                           <publisher>Furne, rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ;
                               J.&tiret;J. Dubochet et cie, rue de Seine, 33 ; J. Hetzel, rue de
                               Seine, 33.</publisher>
                            <pubPlace>Paris</pubPlace>
@@ -142,7 +142,7 @@
 
                         <bibl>
                            <title type="main">La Comédie Humaine</title>
-                           <title level="m">Quatorzième volume (Étude philosophiques, Tome I) / La
+                           <title level="m">Quatorzième volume (Études philosophiques, Tome I) / La
                               Peau de chagrin. – Jésus&tiret;Christ en Flandre. – Melmoth
                               réconcilié. / Le Chef&tiret;d'œuvre inconnu. – La Recherche de
                               l'absolu.</title>
@@ -153,7 +153,7 @@
                                  <surname>Honoré de</surname>
                               </persName>
                            </author>
-                           <publisher>Furne,rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ;
+                           <publisher>Furne, rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ;
                               J.&tiret;J. Dubochet et cie, rue de Seine, 33 ; J. Hetzel, rue de
                               Seine, 33.</publisher>
                            <pubPlace>Paris</pubPlace>
@@ -180,26 +180,24 @@
                               contrôlée par l'auteur.</note>
                         </bibl>
                         <bibl>
-                           <title level="s">ŒUVRES COMPLÈTES</title> / de <author
-                              ref="https://catalogue.bnf.fr/ark:/12148/cb118900414"><persName
-                                 ref="#balzac">M. de Balzac</persName></author>. -
-                              <pubPlace>Paris</pubPlace>, <publisher>les Bibliophiles de
-                              l'originale</publisher>, <date>1965-1976</date>. 30 vol. [R 8° Ca 10,
+                           <title level="s">ŒUVRES COMPLÈTES</title> / de
+                           <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
+                              <persName ref="#balzac">M. de Balzac</persName></author>. -
+                           <pubPlace>Paris</pubPlace>, <publisher>les Bibliophiles de
+                           l'originale</publisher>, <date>1965-1976</date>. 30 vol. [R 8° Ca 10,
                            12 Publiées sous la direction de <editor>Jean-A. Ducourneau</editor>.
-                              <biblScope unit="volume">I-XVI</biblScope>. <title type="main">La
-                              Comédie humaine</title>. <note>Fac-similé de l'exemplaire corrigé par
-                              Balzac de l'édition Furne-Hetzel de 1842-1846 (Furne corrigé) avec
-                              transcription des corrections.</note></bibl>
+                           <biblScope unit="volume">I-XVI</biblScope>. <title type="main">La
+                           Comédie humaine</title>. <note>Fac-similé de l'exemplaire corrigé par
+                           Balzac de l'édition Furne-Hetzel de 1842-1846 (Furne corrigé) avec
+                           transcription des corrections.</note></bibl>
                      </sourceDesc>
                   </biblFull>
                </witness>
                <witness xml:id="C">
-                  <note>L'encodage se fonde sur la <ref
-                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k1048844p/f1.item">numérisation
-                        de <bibl>La Caricature morale, politique et littéraire</bibl></ref>
-                     disponible sur l'interface de <ref
-                        target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">Gallica
-                     (Bnf)</ref>.</note>
+                  <note>L'encodage se fonde sur la <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k1048844p/f1.item">
+                     numérisation de <bibl>La Caricature morale, politique et littéraire</bibl></ref>
+                     disponible sur l'interface de <ref target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">
+                        Gallica (Bnf)</ref>.</note>
                   <biblStruct>
                      <analytic>
                         <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
@@ -223,12 +221,10 @@
                </witness>
 
                <witness xml:id="C2">
-                  <note>L'encodage se fonde sur la <ref
-                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k10488349/f1.item">numérisation
-                        de <bibl>La Caricature morale, politique et littéraire</bibl></ref>
-                     disponible sur l'interface de <ref
-                        target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">Gallica
-                     (Bnf)</ref>.</note>
+                  <note>L'encodage se fonde sur la <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k10488349/f1.item">
+                     numérisation de <bibl>La Caricature morale, politique et littéraire</bibl></ref>
+                     disponible sur l'interface de <ref target="https://catalogue.bnf.fr/ark:/12148/cb12381002j">
+                        Gallica (Bnf)</ref>.</note>
                   <biblStruct>
                      <analytic>
                         <author ref="https://catalogue.bnf.fr/ark:/12148/cb118900414">
@@ -249,9 +245,8 @@
                   </biblStruct>
                </witness>
                <witness xml:id="R2M">
-                  <note>L'encodage se fonde sur la <ref
-                        facs="https://archive.org/details/revuedesdeuxmond011831pari/">numérisation
-                        de <bibl>La Revue des deux mondes</bibl></ref> disponible sur l'interface
+                  <note>L'encodage se fonde sur la <ref facs="https://archive.org/details/revuedesdeuxmond011831pari/">
+                     numérisation de <bibl>La Revue des deux mondes</bibl></ref> disponible sur l'interface
                      des <ref target="https://archive.org/about/">Internet Archives</ref>.</note>
                   <biblStruct>
                      <analytic>
@@ -269,8 +264,7 @@
                         <biblScope unit="vol">Tome 2</biblScope>
                         <biblScope unit="page">287&tiret;291</biblScope>
                      </monogr>
-                     <ptr type="URI"
-                        target="https://archive.org/details/revuedesdeuxmond011831pari/"/>
+                     <ptr type="URI" target="https://archive.org/details/revuedesdeuxmond011831pari/"/>
                   </biblStruct>
                </witness>
             </listWit>
@@ -279,41 +273,40 @@
       <encodingDesc>
          <editorialDecl>
             <p>L'alignement des des passages journalistiques et romanesques accouplés a été réalisé
-               avec l'aide de l'algorithme de Dekker de <ref target="https://collatex.net/"
-                  >Collatex</ref>. Cet alignement a été repris ensuite pour constituer l'édition
-               critique et génétique qui suit.</p>
+               avec l'aide de l'algorithme de Dekker de <ref target="https://collatex.net/">Collatex</ref>.
+               Cet alignement a été repris ensuite pour constituer l'édition critique et génétique qui suit.</p>
             <p>L'édition critique et l'alignement des témoins cherchent à permettre l'étude la plus
                précise possible de la variance et des similitudes entre l'antécédent publié dans la
-               presse et la version roman :<list>
+               presse et la version roman :
+               <list>
                   <item>La structuration du texte en paragraphes (&lt;p&gt;) a été abandonnée : les
                      trois textes sont insérés dans un conteneur &lt;ab&gt; et les changements de
                      paragraphes sont signalés par des &lt;milestone&gt;, pour que l'alignement des
-                     témoins puisse mettre en avant les variances syntaxique, lexicales ou
-                     orthographique. On considérera que les variations affectant la structure
-                     syntaxique et le sémantisme sont plus importantes que les variation tenant à la
-                     structure de la page. C'est pourquoi les changement de page n'a pas été encodé,
-                     nous ocnsidérerons que ces aspects ne relèvent pas de décisions auctoriales. </item>
-                  <item> Quand deux blocs dans les deux témoins de texte se présentent comme trop
-                     éloignés pour un alignement mot à mot mais peuvent être mis en parralèle pour
-                     d'autres raison (structure syntaxiques, thématiques, alignement des mots qui
-                     suivent), il sseront encodés dans un même élément &lt;app&gt;. L'@corresp
+                     témoins puisse mettre en avant les variances syntaxiques, lexicales ou
+                     orthographiques. On considérera que les variations affectant la structure
+                     syntaxique et le sémantisme sont plus importantes que les variations tenant à la
+                     structure de la page. C'est pourquoi les changements de page n'a pas été encodé,
+                     nous considérerons que ces aspects ne relèvent pas de décisions auctoriales.</item>
+                  <item>Quand deux blocs dans les deux témoins de texte se présentent comme trop
+                     éloignés pour un alignement mot-à-mot mais peuvent être mis en parrallèle pour
+                     d'autres raisons (structures syntaxiques, thématiques, alignement des mots qui
+                     suivent), ils seront encodés dans un même élément &lt;app&gt;. L'@corresp
                      portera la valeur générale "word-diff" ; et "add-words" si l'un des deux
-                     témoins est significativement plus fourni que l'autre. </item>
-                  <item>Les italiques et les petites capitales ont été rendues par la balises
+                     témoins est significativement plus fourni que l'autre.</item>
+                  <item>Les italiques et les petites capitales ont été rendues par la balise
                      &lt;hi&gt;, et si leur présence produit une nouvelle variante, l'@corresp
                      portera la valeur "rend".</item>
                   <item>Prise de décision concernant les déplacements et les structures syntaxiques
                      en miroir : il revient à l'encodeur la décision de les encoder dans un seul
-                     élément &lt;app&gt;(considérant alors un déplacement au sein du bloc,
+                     élément &lt;app&gt; (considérant alors un déplacement au sein du bloc,
                      l'inversion de l'ordre de deux groupes dans la phrase) ou dans deux éléments
                      &lt;app&gt; distincts (considérant alors une suppression à un endroit et un
                      ajout à un autre endroit du texte) en fonction de la portée du déplacement.
                      Dans les deux cas, si on observe le déplacement d'un terme ou d'un groupe de
                      mot dans la phrase l'@corresp portera la valeur "sentence-order".</item>
-               </list>
-            </p>
+               </list></p>
             <p>Pour chaque élément &lt;app&gt;, un attribut "@corresp" est utilisé pour préciser la
-               nature de la différence entre les témoins. Les valeurs possible pour cet attribut sont:<list>
+               nature de la différence entre les témoins. Les valeurs possibles pour cet attribut sont:<list>
                   <item xml:id="orth">différence orthographique</item>
                   <item xml:id="punct">différence de ponctuation</item>
                   <item xml:id="sentence-order">différence dans l'ordre des mots dans un bloc de
@@ -340,8 +333,7 @@
                      (notamment rajout de verbe de parole)</item>
                   <item xml:id="rend">différence typographique significative</item>
                   <item xml:id="place-diff">changement dans la dénomination d'un lieu</item>
-               </list>
-            </p>
+               </list></p>
             <segmentation>
                <p>Pour mieux aligner les textes et mettre en avant les variations entre les témoins,
                   les paragraphes ne sont pas contenus dans des &lt;p&gt;. Le passage d'un
@@ -356,8 +348,7 @@
                      <title>Document Modeling with the TEI Critical Apparatus</title>
                      <date>2019</date>
                      <ref target="http://bit.ly/crit-app-panel"/>
-                  </bibl>
-               </p>
+                  </bibl></p>
             </segmentation>
          </editorialDecl>
          <projectDesc>
@@ -373,12 +364,15 @@
             <country>France</country>
          </creation>
          <abstract>
-            <p><persName ref="#balzac">Balzac</persName> a la spécificité de multiplier les supports d'écriture (livre, feuilleton, articles de journal), en réutilisant ses textes
-               antérieurs. Ainsi son activité journalistique, bien que motivée a priori par une
-               rentabilité, n'est pas sans intérêt, d'autant que les journaux se font l'antichambre de l'œuvre à venir. L'auteur collabore à partir de 1830 à de nombreux journaux et
-               revue, souvent sous pseudonyme. Il prépublie des œuvres courtes, contes et nouvelles ; mais aussi (c'est ce qui nous intéresse) des passages que l'on retrouvera ensuite
-               intégré dans des romans. L'idée est donc d'accoler les ébauches avec leur version la plus aboutie dont on dispose, c'est&tiret;à&tiret;dire le Furne corrigée, exemplaire
-               personnel de La Comédie Humaine de Balzac, et annoté par l'auteur lui&tiret;même.</p>
+            <p><persName ref="#balzac">Balzac</persName> a la spécificité de multiplier les supports d'écriture
+               (livre, feuilleton, articles de journal), en réutilisant ses textes antérieurs. Ainsi son activité
+               journalistique, bien que motivée a priori par une rentabilité, n'est pas sans intérêt, d'autant que
+               les journaux se font l'antichambre de l'œuvre à venir. L'auteur collabore à partir de 1830 à de nombreux
+               journaux et revue, souvent sous pseudonyme. Il prépublie des œuvres courtes, contes et nouvelles ; mais
+               aussi (c'est ce qui nous intéresse) des passages que l'on retrouvera ensuite intégré dans des romans.
+               L'idée est donc d'accoler les ébauches avec leur version la plus aboutie dont on dispose,
+               c'est&tiret;à&tiret;dire le Furne corrigée, exemplaire personnel de La Comédie Humaine de Balzac,
+               et annoté par l'auteur lui&tiret;même.</p>
             <p>Cette amorce d'édition critique fournira un nouvel outil d'interrogation des textes
                de La Comédie Humaine, en approfondissant la connaissance des phénomènes génétiques,
                poétiques et stylistiques à l'œuvre dans le processus d'écriture, et en permettant
@@ -488,11 +482,11 @@
                      <addName type="occupation">général</addName>
                      <surname>Lafayette</surname>
                   </persName>
-                  <note source="wikipedia"> &ho; politique français, célèbre en raison de son
-                     engagement dans les rangs de l'armée des insurgés américains (1777&tiret;1783), puis dans l'aile libérale et réformiste de l'aristocratie française
-                     (1784&tiret;1792), enfin dans l'opposition libérale au régime de la monarchie
-                     de Juillet qu'il avait pourtant contribué à établir lors des Trois Glorieuses
-                     (juillet 1830).</note>
+                  <note source="wikipedia"> &ho; politique français, célèbre en raison de son engagement dans les
+                     rangs de l'armée des insurgés américains (1777&tiret;1783), puis dans l'aile libérale et
+                     réformiste de l'aristocratie française (1784&tiret;1792), enfin dans l'opposition libérale
+                     au régime de la monarchie de Juillet qu'il avait pourtant contribué à établir lors des Trois
+                     Glorieuses (juillet 1830).</note>
                </person>
                <person xml:id="mari" role="fictional">
                   <persName type="text-name">
@@ -667,150 +661,187 @@
       <body>
          <ab n="I" type="collation2to2" corresp="#F #C">
             <title>Le Petit Mercier</title>
+
             <app corresp="#word-diff #attenuation">
                <lem wit="#F">Et d'abord saluez ce</lem>
                <rdg wit="#C"><hi rend="sc">Gloire</hi> à toi</rdg>
-            </app> roi du mouvement <app corresp="#word-diff #attenuation">
-               <lem wit="#F">parisien, qui s'est soumis le</lem>
-               <rdg wit="#C">! souverain du</rdg>
-            </app> temps et <app corresp="#add-words">
-               <rdg wit="#C">maître de</rdg>
-            </app> l'espace <app corresp="#punct #attenuation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!&susp;</rdg>
             </app>
+            roi du mouvement <app corresp="#word-diff #attenuation">
+            <lem wit="#F">parisien, qui s'est soumis le</lem>
+            <rdg wit="#C">! souverain du</rdg>
+         </app>
+            temps et <app corresp="#add-words">
+            <rdg wit="#C">maître de</rdg>
+         </app>
+            l'espace <app corresp="#punct #attenuation">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">!&susp;</rdg>
+         </app>
             <app corresp="#persname-diff">
                <lem wit="#F">Oui, saluez cette</lem>
                <rdg wit="#C">Salut, être courageux,</rdg>
-            </app> créature composée de salpêtre et de gaz <app corresp="#add-words">
-               <rdg wit="#C">carbonique&susp;</rdg>
-            </app> qui <app corresp="#orth">
-               <lem wit="#F">donne</lem>
-               <rdg wit="#C">donnes</rdg>
-            </app> des <app corresp="#orth">
-               <lem wit="#F">enfants</lem>
-               <rdg wit="#C">enfans</rdg>
-            </app> à la France pendant <app corresp="#persname-diff">
-               <lem wit="#F">ses</lem>
-               <rdg wit="#C">tes</rdg>
-            </app> nuits laborieuses <app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> et <app corresp="#add-words">
-               <rdg wit="#C">qui</rdg>
             </app>
+            créature composée de salpêtre et de gaz <app corresp="#add-words">
+            <rdg wit="#C">carbonique&susp;</rdg>
+         </app>
+            qui <app corresp="#orth">
+            <lem wit="#F">donne</lem>
+            <rdg wit="#C">donnes</rdg>
+         </app>
+            des <app corresp="#orth">
+            <lem wit="#F">enfants</lem>
+            <rdg wit="#C">enfans</rdg>
+         </app>
+            à la France pendant <app corresp="#persname-diff">
+            <lem wit="#F">ses</lem>
+            <rdg wit="#C">tes</rdg>
+         </app>
+            nuits laborieuses <app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            et <app corresp="#add-words">
+            <rdg wit="#C">qui</rdg>
+         </app>
             <app corresp="#word-diff">
                <lem wit="#F">remultiplie</lem>
                <rdg wit="#C">multiplies</rdg>
             </app>
             <app corresp="#punct">
                <rdg wit="#C">,</rdg>
-            </app> pendant le jour <app corresp="#punct">
-               <rdg wit="#C">,</rdg>
             </app>
+            pendant le jour <app corresp="#punct">
+            <rdg wit="#C">,</rdg>
+         </app>
             <app corresp="#persname-diff">
                <lem wit="#F">son</lem>
                <rdg wit="#C">ton</rdg>
-            </app> individu <app corresp="#punct">
-               <rdg wit="#C">,</rdg>
-            </app> pour le service, la gloire et le plaisir de <app corresp="#persname-diff">
-               <lem wit="#F">ses</lem>
-               <rdg wit="#C">tes</rdg>
-            </app> concitoyens <app corresp="#punct #attenuation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!&susp;</rdg>
             </app>
+            individu <app corresp="#punct">
+            <rdg wit="#C">,</rdg>
+         </app>
+            pour le service, la gloire et le plaisir de <app corresp="#persname-diff">
+            <lem wit="#F">ses</lem>
+            <rdg wit="#C">tes</rdg>
+         </app>
+            concitoyens <app corresp="#punct #attenuation">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">!&susp;</rdg>
+         </app>
             <app corresp="#persname-diff">
                <lem wit="#F">Cet &ho; résout</lem>
                <rdg wit="#C">Salut, toi qui a résolu</rdg>
-            </app> le problème de suffire, à la fois, à une &fe; aimable, à <app
-               corresp="#persname-diff">
-               <lem wit="#F">son</lem>
-               <rdg wit="#C">ton</rdg>
-            </app> ménage, au Constitutionnel, à <app corresp="#persname-diff">
+            </app>
+            le problème de suffire, à la fois, à une &fe; aimable, à
+            <app corresp="#persname-diff">
                <lem wit="#F">son</lem>
                <rdg wit="#C">ton</rdg>
             </app>
+            ménage, au Constitutionnel, à <app corresp="#persname-diff">
+            <lem wit="#F">son</lem>
+            <rdg wit="#C">ton</rdg>
+         </app>
             <app corresp="#orth">
                <lem wit="#F">bureau</lem>
                <rdg wit="#C">Bureau</rdg>
-            </app>, à la Garde nationale, à l'<placeName ref="#opera">Opéra</placeName>, à Dieu <app
-               corresp="#punct">
+            </app>, à la Garde nationale, à l'<placeName ref="#opera">Opéra</placeName>, à Dieu
+            <app corresp="#punct">
                <lem wit="#F">;</lem>
                <rdg wit="#C">,</rdg>
             </app>
             <app corresp="#add-words #attenuation">
                <lem wit="#F">mais pour transformer</lem>
                <rdg wit="#C">à tout&susp; et qui tires parti de tout, transformant</rdg>
-            </app> en écus le Constitutionnel, <app corresp="#persname-diff">
-               <lem wit="#F">le</lem>
-               <rdg wit="#C">ton</rdg>
-            </app> Bureau, l'<placeName ref="#opera">Opéra</placeName>, la Garde nationale, <app
-               corresp="#persname-diff">
+            </app>
+            en écus le Constitutionnel, <app corresp="#persname-diff">
+            <lem wit="#F">le</lem>
+            <rdg wit="#C">ton</rdg>
+         </app>
+            Bureau, l'<placeName ref="#opera">Opéra</placeName>, la Garde nationale,
+            <app corresp="#persname-diff">
                <lem wit="#F">la</lem>
                <rdg wit="#C">ta</rdg>
-            </app> &fe; et Dieu <app corresp="#punct #attenuation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!&susp;</rdg>
             </app>
+            &fe; et Dieu <app corresp="#punct #attenuation">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">!&susp;</rdg>
+         </app>
             <app corresp="#persname-diff">
                <lem wit="#F">Enfin saluez un</lem>
                <rdg wit="#C">Salut prince des cumulards,</rdg>
-            </app>, irréprochable cumulard <app
-               corresp="#add-words #punct #attenuation #text-segmentation">
+            </app>, irréprochable cumulard
+            <app corresp="#add-words #punct #attenuation #text-segmentation">
                <lem wit="#F">.</lem>
-               <rdg wit="#C">, cumulard intéressant, honte des oisifs ! image violente de l'<hi
-                     rend="sc">utile dulci</hi> !&susp;<milestone unit="tei:p"/><lb/></rdg>
+               <rdg wit="#C">, cumulard intéressant, honte des oisifs ! image violente de
+                  l'<hi rend="sc">utile dulci</hi> !&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
             </app>
             <app corresp="#add-words #attenuation #text-segmentation">
-               <rdg wit="#C">Pardonnez&tiret;moi cette incroyable hypebole ; mais encore un mot, et
-                  vous chanterez à la gloire de l'&ho; en qui je veux célébrer <hi rend="sc"
-                     >l'utilité</hi> même !&susp;.<milestone unit="tei:p"/><lb/></rdg>
-            </app> Levé tous les jours à cinq heures, il a franchi <app corresp="#punct">
-               <rdg wit="#C">,</rdg>
-            </app> comme un oiseau <app corresp="#punct">
-               <rdg wit="#C">,</rdg>
-            </app> l'espace qui sépare <app corresp="#place-diff #general">
-               <lem wit="#F">son domicile</lem>
-               <rdg wit="#C"><placeName ref="#rue_bar">la rue Barillerie</placeName></rdg>
-            </app> de <placeName ref="#rue_mont">la rue Montmartre</placeName>
+               <rdg wit="#C">Pardonnez&tiret;moi cette incroyable hyperbole ; mais encore un mot, et
+                  vous chanterez à la gloire de l'&ho; en qui je veux célébrer
+                  <hi rend="sc">l'utilité</hi> même !&susp;.
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
+            </app>
+            Levé tous les jours à cinq heures, il a franchi <app corresp="#punct">
+            <rdg wit="#C">,</rdg>
+         </app>
+            comme un oiseau <app corresp="#punct">
+            <rdg wit="#C">,</rdg>
+         </app>
+            l'espace qui sépare <app corresp="#place-diff #general">
+            <lem wit="#F">son domicile</lem>
+            <rdg wit="#C"><placeName ref="#rue_bar">la rue Barillerie</placeName></rdg>
+         </app>
+            de <placeName ref="#rue_mont">la rue Montmartre</placeName>
             <app corresp="#punct">
                <lem wit="#F">. Qu</lem>
                <rdg wit="#C">; et, qu</rdg>
             </app>'il vente <app corresp="#punct #syntax">
-               <lem wit="#F">ou</lem>
-               <rdg wit="#C">,</rdg>
-            </app> tonne, pleuve ou neige, il est au Constitutionnel <app corresp="#punct #syntax">
-               <lem wit="#F">et y attend</lem>
-               <rdg wit="#C">, attendant</rdg>
-            </app> la charge de journaux dont il a soumissionné la distribution <app
-               corresp="#punct #attenuation">
+            <lem wit="#F">ou</lem>
+            <rdg wit="#C">,</rdg>
+         </app>
+            tonne, pleuve ou neige, il est au Constitutionnel <app corresp="#punct #syntax">
+            <lem wit="#F">et y attend</lem>
+            <rdg wit="#C">, attendant</rdg>
+         </app>
+            la charge de journaux dont il a soumissionné la distribution
+            <app corresp="#punct #attenuation">
                <lem wit="#F">.</lem>
                <rdg wit="#C">!</rdg>
-            </app> Il reçoit ce pain politique avec avidité, le prend <app corresp="#punct #syntax">
-               <lem wit="#F">et</lem>
-               <rdg wit="#C">,</rdg>
-            </app> le porte <app corresp="#punct">
-               <lem wit="#F">. À</lem>
-               <rdg wit="#C">; et, à</rdg>
-            </app> neuf heures, il est au sein de son ménage, <app corresp="#syntax">
-               <lem wit="#F">débite</lem>
-               <rdg wit="#C">débitant</rdg>
-            </app> un <app corresp="#orth">
-               <lem wit="#F">calembour</lem>
-               <rdg wit="#C">calembourg</rdg>
-            </app> à sa &fe;, lui <app corresp="#syntax">
-               <lem wit="#F">dérobe</lem>
-               <rdg wit="#C">dérobant</rdg>
-            </app> un gros baiser, <app corresp="#syntax">
-               <lem wit="#F">déguste</lem>
-               <rdg wit="#C">dégustant</rdg>
-            </app> une tasse de café ou <app corresp="#syntax">
-               <lem wit="#F">gronde</lem>
-               <rdg wit="#C">grondant</rdg>
-            </app> ses <app corresp="#orth">
-               <lem wit="#F">enfants</lem>
-               <rdg wit="#C">enfans</rdg>
             </app>
+            Il reçoit ce pain politique avec avidité, le prend <app corresp="#punct #syntax">
+            <lem wit="#F">et</lem>
+            <rdg wit="#C">,</rdg>
+         </app>
+            le porte <app corresp="#punct">
+            <lem wit="#F">. À</lem>
+            <rdg wit="#C">; et, à</rdg>
+         </app>
+            neuf heures, il est au sein de son ménage, <app corresp="#syntax">
+            <lem wit="#F">débite</lem>
+            <rdg wit="#C">débitant</rdg>
+         </app>
+            un <app corresp="#orth">
+            <lem wit="#F">calembour</lem>
+            <rdg wit="#C">calembourg</rdg>
+         </app>
+            à sa &fe;, lui <app corresp="#syntax">
+            <lem wit="#F">dérobe</lem>
+            <rdg wit="#C">dérobant</rdg>
+         </app>
+            un gros baiser, <app corresp="#syntax">
+            <lem wit="#F">déguste</lem>
+            <rdg wit="#C">dégustant</rdg>
+         </app>
+            une tasse de café ou <app corresp="#syntax">
+            <lem wit="#F">gronde</lem>
+            <rdg wit="#C">grondant</rdg>
+         </app>
+            ses <app corresp="#orth">
+            <lem wit="#F">enfants</lem>
+            <rdg wit="#C">enfans</rdg>
+         </app>
             <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#C">!</rdg>
@@ -818,27 +849,35 @@
             <app corresp="#add-words">
                <lem wit="#F">À</lem>
                <rdg wit="#C">Puis, à</rdg>
-            </app> dix heures moins un quart, il apparaît <app corresp="#place-diff #general">
-               <rdg wit="#C"><placeName ref="#rue_gar">rue Garancière</placeName>,</rdg>
-            </app> à la Mairie <app corresp="#punct #text-segmentation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!&susp;. <milestone unit="tei:p"/><lb/></rdg>
-            </app> Là, posé sur un fauteuil, comme un perroquet <app corresp="#add-words">
-               <rdg wit="#C">vert</rdg>
-            </app> sur <app corresp="#persname-diff">
-               <lem wit="#F">son</lem>
-               <rdg wit="#C">un</rdg>
-            </app> bâton <app corresp="#sentence-order">
-               <rdg wit="#C">, jusqu'à quatre heures il écrivasse</rdg>
-            </app> chauffé par <placeName ref="#paris">la ville de Paris</placeName>, <app
-               corresp="#syntax">
+            </app>
+            dix heures moins un quart, il apparaît <app corresp="#place-diff #general">
+            <rdg wit="#C"><placeName ref="#rue_gar">rue Garancière</placeName>,</rdg>
+         </app>
+            à la Mairie <app corresp="#punct #text-segmentation">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">!&susp;.
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Là, posé sur un fauteuil, comme un perroquet <app corresp="#add-words">
+            <rdg wit="#C">vert</rdg>
+         </app>
+            sur <app corresp="#persname-diff">
+            <lem wit="#F">son</lem>
+            <rdg wit="#C">un</rdg>
+         </app>
+            bâton <app corresp="#sentence-order">
+            <rdg wit="#C">, jusqu'à quatre heures il écrivasse</rdg>
+         </app>
+            chauffé par <placeName ref="#paris">la ville de Paris</placeName>,
+            <app corresp="#syntax">
                <lem wit="#F">il inscrit</lem>
                <rdg wit="#C">inscrivant</rdg>
             </app>
             <app corresp="#sentence-order">
                <lem wit="#F">jusqu'a quatre heures</lem>
-            </app>, sans leur donner une larme ou un sourire, les décès et les naissances <app
-               corresp="#word-diff #general">
+            </app>, sans leur donner une larme ou un sourire, les décès et les naissances
+            <app corresp="#word-diff #general">
                <lem wit="#F">de <placeName ref="#cinq_arr">tout un</placeName></lem>
                <rdg wit="#C">du <placeName ref="#cinq_arr">5e</placeName></rdg>
             </app>
@@ -846,219 +885,277 @@
             <app corresp="#punct #attenuation">
                <lem wit="#F">.</lem>
                <rdg wit="#C">!&susp;.</rdg>
-            </app> Le bonheur, le malheur <app corresp="#word-diff #attenuation">
-               <lem wit="#F">du</lem>
-               <rdg wit="#C">de tout un</rdg>
-            </app> quartier passe par le bec de sa plume, comme l'esprit <app corresp="#word-diff">
-               <lem wit="#F">du Constitutionnel voyageait</lem>
-               <rdg wit="#C">de <persName ref="#jay">M.Jay</persName>, la polémique de <persName
-                     ref="#etienne">M. Etienne</persName> et l'encre de <persName ref="#chaign">M.
-                     Chaignieau</persName> étaient</rdg>
-            </app> naguère sur ses épaules <app corresp="#punct">
+            </app>
+            Le bonheur, le malheur <app corresp="#word-diff #attenuation">
+            <lem wit="#F">du</lem>
+            <rdg wit="#C">de tout un</rdg>
+         </app>
+            quartier passe par le bec de sa plume, comme l'esprit <app corresp="#word-diff">
+            <lem wit="#F">du Constitutionnel voyageait</lem>
+            <rdg wit="#C">de <persName ref="#jay">M.Jay</persName>, la polémique de
+               <persName ref="#etienne">M. Etienne</persName> et l'encre de <persName ref="#chaign">M.
+                  Chaignieau</persName> étaient</rdg>
+         </app>
+            naguère sur ses épaules <app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">&susp;</rdg>
+         </app>
+            Rien ne lui pèse ! Il va toujours <app corresp="#word-diff">
+            <lem wit="#F">droit devant lui</lem>
+            <rdg wit="#C">chanteronnant</rdg>
+         </app>, prend son patriotisme tout fait dans le journal, ne contredit personne, crie ou
+            applaudit avec tout le monde, et vit en hirondelle
+            <app corresp="#punct #attenuation #text-segmentation">
                <lem wit="#F">.</lem>
-               <rdg wit="#C">&susp;</rdg>
-            </app> Rien ne lui pèse ! Il va toujours <app corresp="#word-diff">
-               <lem wit="#F">droit devant lui</lem>
-               <rdg wit="#C">chanteronnant</rdg>
-            </app>, prend son patriotisme tout fait dans le journal, ne contredit personne, crie ou
-            applaudit avec tout le monde, et vit en hirondelle <app
-               corresp="#punct #attenuation #text-segmentation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!&susp;. <milestone unit="tei:p"/><lb/></rdg>
+               <rdg wit="#C">!&susp;.
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
             </app>
             <app corresp="#orth">
                <lem wit="#F">À</lem>
                <rdg wit="#C">A</rdg>
-            </app> deux pas de <app corresp="#word-diff #general">
-               <lem wit="#F">sa paroisse</lem>
-               <rdg wit="#C"><placeName ref="#st_sulp">Saint&tiret;Sulpice</placeName></rdg>
-            </app>, il peut, en cas d'une cérémonie importante, laisser sa place <app
-               corresp="#word-diff">
+            </app>
+            deux pas de <app corresp="#word-diff #general">
+            <lem wit="#F">sa paroisse</lem>
+            <rdg wit="#C"><placeName ref="#st_sulp">Saint&tiret;Sulpice</placeName></rdg>
+         </app>, il peut, en cas d'une cérémonie importante, laisser sa place
+            <app corresp="#word-diff">
                <lem wit="#F">à un surnuméraire</lem>
                <rdg wit="#C">au garçon de bureau</rdg>
-            </app> et aller chanter un <hi rend="i">requiem</hi>
+            </app>
+            et aller chanter un <hi rend="i">requiem</hi>
             <app corresp="#word-diff">
                <lem wit="#F">au</lem>
                <rdg wit="#C">à ce</rdg>
-            </app> lutrin <app corresp="#add-words">
-               <lem wit="#F">de l'église,</lem>
-            </app> dont il est, le dimanche et les jours de fête, le plus bel ornement, la voix la
-            plus imposante, où il tord avec énergie sa large bouche en faisant tonner un joyeux <app
-               corresp="#punct #attenuation">
+            </app>
+            lutrin <app corresp="#add-words">
+            <lem wit="#F">de l'église,</lem>
+         </app>
+            dont il est, le dimanche et les jours de fête, le plus bel ornement, la voix la
+            plus imposante, où il tord avec énergie sa large bouche en faisant tonner un joyeux
+            <app corresp="#punct #attenuation">
                <lem wit="#F"><hi rend="i">Amen</hi>.</lem>
                <rdg wit="#C"> : &tiret; <hi rend="i">Amen</hi> !&susp;</rdg>
-            </app> Il est chantre <app corresp="#punct #attenuation #text-segmentation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!&susp; <milestone unit="tei:p"/><lb/></rdg>
-            </app> Libéré à quatre heures de son service officiel, il apparaît pour répandre la joie
-            et la gaieté au sein de la boutique la plus célèbre qui soit en la Cité. <app
-               corresp="#sentence-order #word-diff #punct">
+            </app>
+            Il est chantre <app corresp="#punct #attenuation #text-segmentation">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">!&susp;
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Libéré à quatre heures de son service officiel, il apparaît pour répandre la joie
+            et la gaieté au sein de la boutique la plus célèbre qui soit en la Cité.
+            <app corresp="#sentence-order #word-diff #punct">
                <lem wit="#F">Heureuse est sa &fe;, il</lem>
                <rdg wit="#C"><persName ref="#merciere">Sa &fe;</persName> est mercière. Il</rdg>
-            </app> n'a pas le temps d'être jaloux ; <app corresp="#word-diff">
-               <lem wit="#F">il</lem>
-               <rdg wit="#C">car c'</rdg>
-            </app> est plutôt <app corresp="#add-words">
-               <rdg wit="#C">un</rdg>
-            </app> &ho; d'action que de sentiment. Aussi, dès qu'il arrive, <app
-               corresp="#sentence-order">
+            </app>
+            n'a pas le temps d'être jaloux ; <app corresp="#word-diff">
+            <lem wit="#F">il</lem>
+            <rdg wit="#C">car c'</rdg>
+         </app>
+            est plutôt <app corresp="#add-words">
+            <rdg wit="#C">un</rdg>
+         </app>
+            &ho; d'action que de sentiment. Aussi, dès qu'il arrive,
+            <app corresp="#sentence-order">
                <lem wit="#F">agace&tiret;il</lem>
                <rdg wit="#C">il agace</rdg>
             </app>
             <app corresp="#word-diff">
                <lem wit="#F">les</lem>
                <rdg wit="#C">des</rdg>
-            </app> demoiselles <app corresp="#word-diff #general">
-               <lem wit="#F">de</lem>
-               <rdg wit="#C">du</rdg>
-            </app> comptoir, dont les yeux vifs attirent force chalands <app corresp="#punct">
-               <lem wit="#F">;</lem>
-               <rdg wit="#C">&susp;</rdg>
             </app>
+            demoiselles <app corresp="#word-diff #general">
+            <lem wit="#F">de</lem>
+            <rdg wit="#C">du</rdg>
+         </app>
+            comptoir, dont les yeux vifs attirent force chalands <app corresp="#punct">
+            <lem wit="#F">;</lem>
+            <rdg wit="#C">&susp;</rdg>
+         </app>
             <app corresp="#add-words">
                <rdg wit="#C">Il</rdg>
-            </app> se gaudit au sein des parures, des fichus, de la mousseline <app
-               corresp="#syntax">
+            </app>
+            se gaudit au sein des parures, des fichus, de la mousseline
+            <app corresp="#syntax">
                <lem wit="#F">façonnée</lem>
                <rdg wit="#C">façonnés</rdg>
-            </app> par ces habiles ouvrières ; ou, plus souvent encore, avant de dîner, il <app
-               corresp="#add-words">
+            </app>
+            par ces habiles ouvrières ; ou, plus souvent encore, avant de dîner, il
+            <app corresp="#add-words">
                <lem wit="#F">sert une pratique,</lem>
-            </app> copie une page du journal ou porte chez l'huissier quelque effet en retard <app
-               corresp="#punct #text-segmentation">
+            </app>
+            copie une page du journal ou porte chez l'huissier quelque effet en retard
+            <app corresp="#punct #text-segmentation">
                <lem wit="#F">.</lem>
-               <rdg wit="#C">&susp;. <milestone unit="tei:p"/><lb/></rdg>
+               <rdg wit="#C">&susp;.
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
             </app>
             <app corresp="#orth">
                <lem wit="#F">À</lem>
                <rdg wit="#C">A</rdg>
-            </app> six heures <app corresp="#add-words">
-               <lem wit="#F">, tous les deux jours,</lem>
-            </app> il est fidèle à son poste <app corresp="#punct #syntax #add-words">
-               <lem wit="#F">. Inamovible basse&tiret;taille des chœurs il</lem>
-               <rdg wit="#C">et</rdg>
-            </app> se trouve <app corresp="#add-words">
-               <rdg wit="#C">planté, soit</rdg>
-            </app> à l'<placeName ref="#opera">Opéra</placeName>
+            </app>
+            six heures <app corresp="#add-words">
+            <lem wit="#F">, tous les deux jours,</lem>
+         </app>
+            il est fidèle à son poste <app corresp="#punct #syntax #add-words">
+            <lem wit="#F">. Inamovible basse&tiret;taille des chœurs il</lem>
+            <rdg wit="#C">et</rdg>
+         </app>
+            se trouve <app corresp="#add-words">
+            <rdg wit="#C">planté, soit</rdg>
+         </app>
+            à l'<placeName ref="#opera">Opéra</placeName>
             <app corresp="#add-words">
                <rdg wit="#C">, soit aux <placeName ref="#italiens">Italiens</placeName></rdg>
             </app>, prêt à <app corresp="#word-diff">
-               <lem wit="#F">y devenir</lem>
-               <rdg wit="#C">se formuler en</rdg>
-            </app> soldat, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> Arabe, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> prisonnier, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> sauvage, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> paysan <app corresp="#add-words">
-               <rdg wit="#C">, en officier</rdg>
-            </app>, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> ombre, <app corresp="#add-words #orth">
-               <lem wit="#F">pate</lem>
-               <rdg wit="#C">en patte</rdg>
-            </app> de chameau, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> lion, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> diable, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> génie <app corresp="#add-words">
-               <rdg wit="#C">, en Africain</rdg>
-            </app>, <app corresp="#add-words">
-               <rdg wit="#C">en</rdg>
-            </app> esclave, <app corresp="#word-diff">
-               <lem wit="#F">eunuque noir ou blanc,</lem>
-               <rdg wit="#C">en grand seigneur&susp;,</rdg>
-            </app> toujours expert à <app corresp="#word-diff">
-               <lem wit="#F">produire</lem>
-               <rdg wit="#C">faire</rdg>
-            </app> de la joie, de la douleur, de la pitié, de l'étonnement, à pousser <app
-               corresp="#word-diff">
+            <lem wit="#F">y devenir</lem>
+            <rdg wit="#C">se formuler en</rdg>
+         </app>
+            soldat, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            Arabe, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            prisonnier, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            sauvage, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            paysan <app corresp="#add-words">
+            <rdg wit="#C">, en officier</rdg>
+         </app>, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            ombre, <app corresp="#add-words #orth">
+            <lem wit="#F">pate</lem>
+            <rdg wit="#C">en patte</rdg>
+         </app>
+            de chameau, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            lion, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            diable, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            génie <app corresp="#add-words">
+            <rdg wit="#C">, en Africain</rdg>
+         </app>, <app corresp="#add-words">
+            <rdg wit="#C">en</rdg>
+         </app>
+            esclave, <app corresp="#word-diff">
+            <lem wit="#F">eunuque noir ou blanc,</lem>
+            <rdg wit="#C">en grand seigneur&susp;,</rdg>
+         </app>
+            toujours expert à <app corresp="#word-diff">
+            <lem wit="#F">produire</lem>
+            <rdg wit="#C">faire</rdg>
+         </app>
+            de la joie, de la douleur, de la pitié, de l'étonnement, à pousser
+            <app corresp="#word-diff">
                <lem wit="#F">d'invariables</lem>
                <rdg wit="#C">des</rdg>
-            </app> cris, à se taire, à chasser, à se battre, à représenter Rome ou l' <app
-               corresp="#orth">
+            </app>
+            cris, à se taire, à chasser, à se battre, à représenter Rome ou l'
+            <app corresp="#orth">
                <lem wit="#F">Égypte</lem>
                <rdg wit="#C">Egypte</rdg>
             </app>
             <app corresp="#punct">
                <lem wit="#F">;</lem>
                <rdg wit="#C">,</rdg>
-            </app> mais toujours <app corresp="#word-diff #sentence-order #text-segmentation">
-               <lem wit="#F"><hi rend="i">in petto</hi>, <persName ref="#mercier"
-                  >mercier</persName>.</lem>
-               <rdg wit="#C"><persName ref="#mercier">mercier</persName> au fond du cœur&susp;.
-                     <milestone unit="tei:p"/><lb/></rdg>
             </app>
+            mais toujours <app corresp="#word-diff #sentence-order #text-segmentation">
+            <lem wit="#F"><hi rend="i">in petto</hi>, <persName ref="#mercier">mercier</persName>.</lem>
+            <rdg wit="#C"><persName ref="#mercier">mercier</persName> au fond du cœur&susp;.
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
             <app corresp="#orth">
                <lem wit="#F">À</lem>
                <rdg wit="#C">A</rdg>
-            </app> minuit, il redevient bon mari, &ho;, <app corresp="#sentence-order">
-               <lem wit="#F">tendre père</lem>
-               <rdg wit="#C">père tendre</rdg>
-            </app>, il se glisse dans le lit conjugal, l'imagination encore tendue par les formes
+            </app>
+            minuit, il redevient bon mari, &ho;, <app corresp="#sentence-order">
+            <lem wit="#F">tendre père</lem>
+            <rdg wit="#C">père tendre</rdg>
+         </app>, il se glisse dans le lit conjugal, l'imagination encore tendue par les formes
             décevantes des nymphes de l'Opéra, <app corresp="#syntax">
-               <lem wit="#F">et fait</lem>
-               <rdg wit="#C">faisant</rdg>
-            </app> ainsi tourner <app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> au profit de l'amour conjugal <app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> les dépravations du monde et les voluptueux ronds de jambe de <app
-               corresp="#add-words #particulier">
+            <lem wit="#F">et fait</lem>
+            <rdg wit="#C">faisant</rdg>
+         </app>
+            ainsi tourner <app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            au profit de l'amour conjugal <app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            les dépravations du monde et les voluptueux ronds de jambe de
+            <app corresp="#add-words #particulier">
                <lem wit="#F">la</lem>
             </app>
             <persName ref="#tag">Taglioni</persName>
             <app corresp="#punct #attenuation">
                <lem wit="#F">.</lem>
                <rdg wit="#C">!&susp;</rdg>
-            </app> Enfin, s'il dort <app corresp="#punct #attenuation">
-               <lem wit="#F">, il</lem>
-               <rdg wit="#C">?&susp; Il</rdg>
-            </app> dort vite, <app corresp="#syntax">
-               <lem wit="#F">et dépêche</lem>
-               <rdg wit="#C">dépêchant</rdg>
-            </app> son sommeil comme <app corresp="#add-words #attenuation #text-segmentation">
-               <lem wit="#F">il a dépêché sa vie</lem>
-               <rdg wit="#C">il dépêche sa vie&susp;. <milestone unit="tei:p"/><lb/>Comme il est bel
-                  &ho;, il a obtenu la place lucrative de tambour&tiret;major de légion</rdg>
-            </app>. <app corresp="#add-words #text-segmentation">
-               <rdg wit="#C">Alors, les dimanches, il est, selon les vœux de l'église ou du
-                     <persName ref="#laf">général Lafayette</persName>, ou chantre divin, rossignol
-                  lithurgique, ou modèle des grâces, une sorte d'Apollon militaire, réglant la
-                  marche des tambours, et se balançant en tête de la garde nationale, comme une
-                  préface de <persName ref="#vh">Victor Hugo</persName> devant un volume de poésies
-                  !&susp; <milestone unit="tei:p"/><lb/></rdg>
-            </app>N'est&tiret;ce pas le mouvement fait &ho;, l'espace incarné <app
-               corresp="#add-words #attenuation">
+            </app>
+            Enfin, s'il dort <app corresp="#punct #attenuation">
+            <lem wit="#F">, il</lem>
+            <rdg wit="#C">?&susp; Il</rdg>
+         </app>
+            dort vite, <app corresp="#syntax">
+            <lem wit="#F">et dépêche</lem>
+            <rdg wit="#C">dépêchant</rdg>
+         </app>
+            son sommeil comme <app corresp="#add-words #attenuation #text-segmentation">
+            <lem wit="#F">il a dépêché sa vie</lem>
+            <rdg wit="#C">il dépêche sa vie&susp;.
+               <milestone unit="tei:p"/>
+               <lb/>Comme il est bel
+               &ho;, il a obtenu la place lucrative de tambour&tiret;major de légion</rdg>
+         </app>. <app corresp="#add-words #text-segmentation">
+            <rdg wit="#C">Alors, les dimanches, il est, selon les vœux de l'église ou du
+               <persName ref="#laf">général Lafayette</persName>, ou chantre divin, rossignol
+               lithurgique, ou modèle des grâces, une sorte d'Apollon militaire, réglant la
+               marche des tambours, et se balançant en tête de la garde nationale, comme une
+               préface de <persName ref="#vh">Victor Hugo</persName> devant un volume de poésies
+               !&susp;
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>N'est&tiret;ce pas le mouvement fait &ho;, l'espace incarné
+            <app corresp="#add-words #attenuation">
                <rdg wit="#C">, le cumul en chair et en os</rdg>
             </app>, le protée de la civilisation ? <app corresp="#word-diff">
-               <lem wit="#F">Cet</lem>
-               <rdg wit="#C">C'est un</rdg>
-            </app> &ho; <app corresp="#syntax">
-               <rdg wit="#C">qui</rdg>
-            </app> résume tout : histoire, littérature, politique, gouvernement, religion, art
+            <lem wit="#F">Cet</lem>
+            <rdg wit="#C">C'est un</rdg>
+         </app>
+            &ho; <app corresp="#syntax">
+            <rdg wit="#C">qui</rdg>
+         </app>
+            résume tout : histoire, littérature, politique, gouvernement, religion, art
             militaire <app corresp="#punct #attenuation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!</rdg>
-            </app>
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">!</rdg>
+         </app>
             <app corresp="#syntax">
                <lem wit="#F">N'est&tiret;ce pas</lem>
                <rdg wit="#C">C'est</rdg>
-            </app> une encyclopédie vivante <app corresp="#punct #syntax">
-               <lem wit="#F">,</lem>
-               <rdg wit="#C">et</rdg>
-            </app> un atlas grotesque <app corresp="#add-words #word-diff">
-               <lem wit="#F">, sans cesse en marche comme <placeName ref="#paris">Paris</placeName>
-                  et qui jamais ne repose ?</lem>
-               <rdg wit="#C">; il porte le matin le <hi rend="i">Constitutionnel</hi> ; pendant le
-                  jour, il stipule la vie et la mort ; le soir, il représente le monde entier ! il
-                  est sans cesse en marche comme la société !</rdg>
             </app>
+            une encyclopédie vivante <app corresp="#punct #syntax">
+            <lem wit="#F">,</lem>
+            <rdg wit="#C">et</rdg>
+         </app>
+            un atlas grotesque <app corresp="#add-words #word-diff">
+            <lem wit="#F">, sans cesse en marche comme <placeName ref="#paris">Paris</placeName>
+               et qui jamais ne repose ?</lem>
+            <rdg wit="#C">; il porte le matin le <hi rend="i">Constitutionnel</hi> ; pendant le
+               jour, il stipule la vie et la mort ; le soir, il représente le monde entier ! il
+               est sans cesse en marche comme la société !</rdg>
+         </app>
             <app corresp="#sentence-order">
                <lem wit="#F">En lui tout est jambes.</lem>
                <rdg wit="#C">Tout en lui tout est jambe !&susp;</rdg>
@@ -1067,30 +1164,34 @@
                <lem wit="#F"> Aucune physionomie ne saurait se conserver pure en de tels travaux.
                   Peut&tiret;être l'ouvrier qui meurt vieux à trente ans, l'estomac tanné par les
                   doses progressives de son eau&tiret;de&tiret;vie, sera&tiret;t&tiret;il trouvé, au
-                  dire de quelques philosophes bien rentés, plus heureux que ne l'est <persName
-                     ref="#mercier">le mercier</persName>. L'un périt d'un seul coup et l'autre en
+                  dire de quelques philosophes bien rentés, plus heureux que ne l'est
+                  <persName ref="#mercier">le mercier</persName>. L'un périt d'un seul coup et l'autre en
                   détail. De </lem>
                <rdg wit="#C">Il cumule Dieu et le Diable, le gouvernement et l'opposition ; et,
                   de</rdg>
-            </app> ses huit industries, de ses épaules, de son gosier, de ses mains <app
-               corresp="#add-words">
+            </app>
+            ses huit industries, de ses épaules, de son gosier, de ses mains
+            <app corresp="#add-words">
                <rdg wit="#C">, de ses mollets</rdg>
-            </app>, de <persName ref="#merciere">sa &fe;</persName> et de son commerce, <app
-               corresp="#word-diff">
+            </app>, de <persName ref="#merciere">sa &fe;</persName> et de son commerce,
+            <app corresp="#word-diff">
                <lem wit="#F">celui&tiret;ci</lem>
                <rdg wit="#C">il</rdg>
-            </app> retire, comme d'autant de fermes, des <app corresp="#orth">
-               <lem wit="#F">enfants</lem>
-               <rdg wit="#C">enfans</rdg>
-            </app>, <app corresp="#word-diff #general">
-               <lem wit="#F">quelques</lem>
-               <rdg wit="#C">douze</rdg>
-            </app> mille francs et le plus laborieux bonheur qui ait <app corresp="#add-words">
-               <lem wit="#F">jamais</lem>
-            </app> récréé cœur d'&ho; <app corresp="#punct #attenuation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C">!&susp;</rdg>
             </app>
+            retire, comme d'autant de fermes, des <app corresp="#orth">
+            <lem wit="#F">enfants</lem>
+            <rdg wit="#C">enfans</rdg>
+         </app>, <app corresp="#word-diff #general">
+            <lem wit="#F">quelques</lem>
+            <rdg wit="#C">douze</rdg>
+         </app>
+            mille francs et le plus laborieux bonheur qui ait <app corresp="#add-words">
+            <lem wit="#F">jamais</lem>
+         </app>
+            récréé cœur d'&ho; <app corresp="#punct #attenuation">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C">!&susp;</rdg>
+         </app>
             <app corresp="#word-diff #text-segmentation">
                <lem wit="#F">Cette fortune et ces enfants, ou les enfants qui résument tout pour
                   lui, deviennent la proie du monde supérieur, auquel il porte ses écus et sa fille,
@@ -1102,78 +1203,97 @@
                   ?&susp; Mort, ton chagrin serait d'être couché sans espoir de mouvement&susp; Sois
                   tranquille, tu trouveras encore de l'emploi parmi les ombres, et tu reviendras
                   peut&tiret;être dans les romans nouveaux, soit comme esprit, soit comme génie
-                  !&susp; <milestone unit="tei:p"/><lb/>Gloire à toi, roi du mouvement ! (Bis.)
-                     <persName ref="#balzac"><hi rend="sc">Alfred Coudreux</hi></persName></rdg>
+                  !&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>Gloire à toi, roi du mouvement ! (Bis.)
+                  <persName ref="#balzac"><hi rend="sc">Alfred Coudreux</hi></persName></rdg>
             </app>
          </ab>
          <ab n="II" type="collation2to2" corresp="#F #R2M">
             <title>Une débauche</title>
             <persName ref="#emile">Émile</persName> était un <app corresp="#word-diff">
-               <lem wit="#F">journaliste</lem>
-               <rdg wit="#R2M">auteur</rdg>
-            </app> qui avait conquis plus de gloire <app corresp="#word-diff">
-               <lem wit="#F">à ne rien faire</lem>
-               <rdg wit="#R2M">dans ses chutes</rdg>
-            </app> que les autres n'en recueillent de leurs <app corresp="#orth">
-               <lem wit="#F">succès</lem>
-               <rdg wit="#R2M">succés</rdg>
-            </app>. <app corresp="#word-diff">
-               <lem wit="#F">Critique, hardi</lem>
-               <rdg wit="#R2M">Hardi dans ses compositions</rdg>
-            </app>, plein de verve et de mordant, il possédait toutes les qualités que comportaient
+            <lem wit="#F">journaliste</lem>
+            <rdg wit="#R2M">auteur</rdg>
+         </app>
+            qui avait conquis plus de gloire <app corresp="#word-diff">
+            <lem wit="#F">à ne rien faire</lem>
+            <rdg wit="#R2M">dans ses chutes</rdg>
+         </app>
+            que les autres n'en recueillent de leurs <app corresp="#orth">
+            <lem wit="#F">succès</lem>
+            <rdg wit="#R2M">succés</rdg>
+         </app>. <app corresp="#word-diff">
+            <lem wit="#F">Critique, hardi</lem>
+            <rdg wit="#R2M">Hardi dans ses compositions</rdg>
+         </app>, plein de verve et de mordant, il possédait toutes les qualités que comportaient
             ses défauts <app corresp="#punct #syntax">
-               <lem wit="#F">. Franc et</lem>
-               <rdg wit="#R2M">: il était franc</rdg>
-            </app> rieur, <app corresp="#syntax">
-               <lem wit="#F">il</lem>
-               <rdg wit="#R2M">et</rdg>
-            </app> disait en face <app corresp="#word-diff #expressif">
-               <lem wit="#F">mille épigrammes</lem>
-               <rdg wit="#R2M">une épigramme</rdg>
-            </app> à un ami<app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> qu'absent<app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> il défendait avec courage et loyauté. Il se moquait de tout, même de son avenir
-               <app corresp="#punct #syntax">
+            <lem wit="#F">. Franc et</lem>
+            <rdg wit="#R2M">: il était franc</rdg>
+         </app>
+            rieur, <app corresp="#syntax">
+            <lem wit="#F">il</lem>
+            <rdg wit="#R2M">et</rdg>
+         </app>
+            disait en face <app corresp="#word-diff #expressif">
+            <lem wit="#F">mille épigrammes</lem>
+            <rdg wit="#R2M">une épigramme</rdg>
+         </app>
+            à un ami<app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            qu'absent<app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            il défendait avec courage et loyauté. Il se moquait de tout, même de son avenir
+            <app corresp="#punct #syntax">
                <lem wit="#F">. Toujours</lem>
                <rdg wit="#R2M">; et toujours</rdg>
-            </app> dépourvu d'argent, il restait, comme tous les &ho;s de quelque portée, plongé
-            dans une inexprimable paresse, jetant un livre dans un mot au nez <app
-               corresp="#word-diff">
+            </app>
+            dépourvu d'argent, il restait, comme tous les &ho;s de quelque portée, plongé
+            dans une inexprimable paresse, jetant un livre dans un mot au nez
+            <app corresp="#word-diff">
                <lem wit="#F">de</lem>
                <rdg wit="#R2M">des</rdg>
-            </app> gens qui ne savaient pas mettre un mot dans leurs livres. <app
-               corresp="#word-diff #expressif">
+            </app>
+            gens qui ne savaient pas mettre un mot dans leurs livres.
+            <app corresp="#word-diff #expressif">
                <lem wit="#F">Prodigue de</lem>
                <rdg wit="#R2M">Il plaisait par des</rdg>
-            </app> promesses qu'il ne réalisait jamais, <app corresp="#syntax">
-               <lem wit="#F">il</lem>
-               <rdg wit="#R2M">et</rdg>
-            </app> s'était fait de sa fortune et de sa gloire un coussin pour dormir <app
-               corresp="#punct">
+            </app>
+            promesses qu'il ne réalisait jamais, <app corresp="#syntax">
+            <lem wit="#F">il</lem>
+            <rdg wit="#R2M">et</rdg>
+         </app>
+            s'était fait de sa fortune et de sa gloire un coussin pour dormir
+            <app corresp="#punct">
                <lem wit="#F">,</lem>
                <rdg wit="#R2M">.</rdg>
             </app>
             <app corresp="#syntax">
                <lem wit="#F">courant ainsi</lem>
                <rdg wit="#R2M">Il courait</rdg>
-            </app> la chance de se réveiller vieux<app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> à l'hôpital. <app corresp="#word-diff">
-               <lem wit="#F">D'ailleurs</lem>
-               <rdg wit="#R2M">Du reste</rdg>
-            </app>, ami jusqu'à l'échafaud, fanfaron de cynisme et simple comme un enfant, il <app
-               corresp="#add-words">
+            </app>
+            la chance de se réveiller vieux<app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            à l'hôpital. <app corresp="#word-diff">
+            <lem wit="#F">D'ailleurs</lem>
+            <rdg wit="#R2M">Du reste</rdg>
+         </app>, ami jusqu'à l'échafaud, fanfaron de cynisme et simple comme un enfant, il
+            <app corresp="#add-words">
                <lem wit="#F">ne</lem>
-            </app> travaillait <app corresp="#add-words">
-               <lem wit="#F">que</lem>
-            </app> par boutade ou par nécessité.<milestone unit="tei:p"/><lb/> &tiret; Nous allons
+            </app>
+            travaillait <app corresp="#add-words">
+            <lem wit="#F">que</lem>
+         </app>
+            par boutade ou par nécessité.
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Nous allons
             faire, <app corresp="#word-diff">
-               <lem wit="#F">suivant l'expression de</lem>
-               <rdg wit="#R2M">comme dit</rdg>
-            </app><persName ref="#rab">maître Alcofribas</persName>, un fameux <hi rend="i">tronçon
-               de</hi>
+            <lem wit="#F">suivant l'expression de</lem>
+            <rdg wit="#R2M">comme dit</rdg>
+         </app><persName ref="#rab">maître Alcofribas</persName>, un fameux
+            <hi rend="i">tronçon de</hi>
             <app corresp="#orth">
                <lem wit="#F"><hi rend="i">chiere</hi></lem>
                <rdg wit="#R2M"><hi rend="i">chère</hi></rdg>
@@ -1182,210 +1302,289 @@
             <app corresp="#punct #attenuation">
                <lem wit="#F">,</lem>
                <rdg wit="#R2M"><hi rend="i">!&susp;</hi></rdg>
-            </app> dit&tiret;il à <persName ref="#raph">Raphaël</persName> en lui montrant les
-            caisses de fleurs qui embaumaient et verdissaient les escaliers.<milestone unit="tei:p"
-            /><lb/> &tiret; <app corresp="#add-words #attenuation">
-               <lem wit="#F">J</lem>
-               <rdg wit="#R2M">Oh ! que j</rdg>
-            </app>'aime les porches bien chauffés <app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> et <app corresp="#word-diff">
-               <lem wit="#F">garnis de tapis</lem>
-               <rdg wit="#R2M">dont tapis sont</rdg>
-            </app> riches <app corresp="#punct #attenuation">
-               <lem wit="#F">,</lem>
-               <rdg wit="#R2M">!&susp;</rdg>
-            </app> répondit <persName ref="#raph">Raphaël</persName>. Le luxe dès le péristyle est
+            </app>
+            dit&tiret;il à <persName ref="#raph">Raphaël</persName> en lui montrant les
+            caisses de fleurs qui embaumaient et verdissaient les escaliers.
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words #attenuation">
+            <lem wit="#F">J</lem>
+            <rdg wit="#R2M">Oh ! que j</rdg>
+         </app>'aime les porches bien chauffés <app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            et <app corresp="#word-diff">
+            <lem wit="#F">garnis de tapis</lem>
+            <rdg wit="#R2M">dont tapis sont</rdg>
+         </app>
+            riches <app corresp="#punct #attenuation">
+            <lem wit="#F">,</lem>
+            <rdg wit="#R2M">!&susp;</rdg>
+         </app>
+            répondit <persName ref="#raph">Raphaël</persName>. Le luxe dès le péristyle est
             rare en <placeName ref="#fr">France</placeName>
             <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
-            </app> Ici<app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> je me sens renaître <app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Et là <app corresp="#punct">
-               <lem wit="#F">&tiret;</lem>
-            </app>haut nous allons boire et rire encore une fois, mon pauvre <persName ref="#raph"
-               >Raphaël</persName>
+            </app>
+            Ici<app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            je me sens renaître <app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Et là <app corresp="#punct">
+            <lem wit="#F">&tiret;</lem>
+         </app>haut nous allons boire et rire encore une fois, mon pauvre
+            <persName ref="#raph">Raphaël</persName>
             <app corresp="#punct #text-segmentation">
                <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp; <milestone unit="tei:p"/><lb/>&tiret;</rdg>
-            </app> Ah çà ! reprit&tiret;il, j'espère que nous serons les vainqueurs <app
-               corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> et que nous marcherons sur toutes ces têtes&tiret;là <app
-               corresp="#punct #word-diff #text-segmentation">
-               <lem wit="#F">. Puis</lem>
-               <rdg wit="#R2M">!&susp; <milestone unit="tei:p"/><lb/> Et</rdg>
-            </app>, d'un geste moqueur, il lui montra les convives <app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> en entrant dans un salon <app corresp="#syntax">
-               <lem wit="#F">qui resplendissait</lem>
-               <rdg wit="#R2M">resplendissant</rdg>
-            </app> de <app corresp="#word-diff">
-               <lem wit="#F">dorures</lem>
-               <rdg wit="#R2M">luxe</rdg>
+               <rdg wit="#R2M">&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret;</rdg>
             </app>
+            Ah çà ! reprit&tiret;il, j'espère que nous serons les vainqueurs
+            <app corresp="#punct">
+               <rdg wit="#R2M">,</rdg>
+            </app>
+            et que nous marcherons sur toutes ces têtes&tiret;là
+            <app corresp="#punct #word-diff #text-segmentation">
+               <lem wit="#F">. Puis</lem>
+               <rdg wit="#R2M">!&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/> Et</rdg>
+            </app>, d'un geste moqueur, il lui montra les convives <app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            en entrant dans un salon <app corresp="#syntax">
+            <lem wit="#F">qui resplendissait</lem>
+            <rdg wit="#R2M">resplendissant</rdg>
+         </app>
+            de <app corresp="#word-diff">
+            <lem wit="#F">dorures</lem>
+            <rdg wit="#R2M">luxe</rdg>
+         </app>
             <app corresp="#syntax #punct">
                <lem wit="#F">,</lem>
                <rdg wit="#R2M">et</rdg>
-            </app> de <app corresp="#orth #syntax">
-               <lem wit="#F">lumières</lem>
-               <rdg wit="#R2M">lumière</rdg>
             </app>
+            de <app corresp="#orth #syntax">
+            <lem wit="#F">lumières</lem>
+            <rdg wit="#R2M">lumière</rdg>
+         </app>
             <app corresp="#punct #syntax">
                <lem wit="#F">, et où ils</lem>
-               <rdg wit="#R2M">. <milestone unit="tei:p"/><lb/> Ils</rdg>
-            </app> furent aussitôt accueillis par les jeunes gens les plus remarquables de
-               <placeName ref="#paris">Paris</placeName>. <app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app>L'un venait de révéler un talent neuf, et de rivaliser<app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> par son premier tableau <app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> avec les gloires de la peinture impériale.<app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> L'autre avait hasardé <app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> la vieille <app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> un livre plein de verdeur, empreint d'une sorte de dédain littéraire, et qui
+               <rdg wit="#R2M">.
+                  <milestone unit="tei:p"/>
+                  <lb/> Ils</rdg>
+            </app>
+            furent aussitôt accueillis par les jeunes gens les plus remarquables de
+            <placeName ref="#paris">Paris</placeName>. <app corresp="#text-segmentation">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>L'un venait de révéler un talent neuf, et de rivaliser<app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            par son premier tableau <app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            avec les gloires de la peinture impériale.<app corresp="#text-segmentation">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            L'autre avait hasardé <app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            la vieille <app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            un livre plein de verdeur, empreint d'une sorte de dédain littéraire, et qui
             découvrait <app corresp="#sentence-order">
-               <lem wit="#F">à l'école moderne de nouvelles routes.</lem>
-               <rdg wit="#R2M">de nouvelles routes à l'école moderne.<milestone unit="tei:p"
-                  /><lb/></rdg>
-            </app> Plus loin, <persName ref="#convive">un statuaire</persName>
+            <lem wit="#F">à l'école moderne de nouvelles routes.</lem>
+            <rdg wit="#R2M">de nouvelles routes à l'école moderne.
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Plus loin, <persName ref="#convive">un statuaire</persName>
             <app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
-            </app> dont la figure pleine de rudesse accusait quelque vigoureux génie, causait avec
-            un de ces froids railleurs qui <app corresp="#add-words">
-               <lem wit="#F">, selon l'occurence,</lem>
-            </app> tantôt ne veulent voir de <app corresp="#orth">
-               <lem wit="#F">supériorité</lem>
-               <rdg wit="#R2M">supériorités</rdg>
-            </app> nulle part, et tantôt en reconnaissent partout.<app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> Ici <app corresp="#punct">
-               <lem wit="#F">,</lem>
             </app>
+            dont la figure pleine de rudesse accusait quelque vigoureux génie, causait avec
+            un de ces froids railleurs qui <app corresp="#add-words">
+            <lem wit="#F">, selon l'occurrence,</lem>
+         </app>
+            tantôt ne veulent voir de <app corresp="#orth">
+            <lem wit="#F">supériorité</lem>
+            <rdg wit="#R2M">supériorités</rdg>
+         </app>
+            nulle part, et tantôt en reconnaissent partout.<app corresp="#text-segmentation">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Ici <app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
             <persName ref="#convive">le plus spirituel de nos caricaturistes</persName>
             <app corresp="#punct">
                <lem wit="#F">,</lem>
-            </app> à l'œil malin, à la bouche mordante, guettait les épigrammes pour les traduire à
-            coups de crayon.<app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> Là <app corresp="#punct">
-               <lem wit="#F">,</lem>
             </app>
-            <persName ref="#convive">ce jeune et audacieux écrivain</persName>, qui <app
-               corresp="#punct">
+            à l'œil malin, à la bouche mordante, guettait les épigrammes pour les traduire à
+            coups de crayon.<app corresp="#text-segmentation">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Là <app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            <persName ref="#convive">ce jeune et audacieux écrivain</persName>, qui
+            <app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
-            </app> mieux que personne <app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> distillait la quintessence des pensées politiques, ou <app corresp="#add-words">
-               <rdg wit="#R2M">, dans un article,</rdg>
-            </app> condensait en se jouant l'esprit d'un écrivain fécond, s'entretenait avec
-               <persName ref="#convive">ce poète</persName> dont les écrits écraseraient toutes les
+            </app>
+            mieux que personne <app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            distillait la quintessence des pensées politiques, ou <app corresp="#add-words">
+            <rdg wit="#R2M">, dans un article,</rdg>
+         </app>
+            condensait en se jouant l'esprit d'un écrivain fécond, s'entretenait avec
+            <persName ref="#convive">ce poète</persName> dont les écrits écraseraient toutes les
             œuvres du temps présent, si son talent avait la puissance de sa haine. Tous deux
             essayaient de ne pas dire la vérité<app corresp="#syntax">
-               <lem wit="#F"> et</lem>
-               <rdg wit="#R2M">,</rdg>
-            </app> de ne pas mentir, en s'adressant de douces flatteries.<app
-               corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
+            <lem wit="#F"> et</lem>
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            de ne pas mentir, en s'adressant de douces flatteries.
+            <app corresp="#text-segmentation">
+               <rdg wit="#R2M">
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
             </app>
-            <persName ref="#convive">Un musicien célèbre</persName> consolait en <hi rend="i">si
-               bémol</hi>
+            <persName ref="#convive">Un musicien célèbre</persName> consolait en
+            <hi rend="i">si bémol</hi>
             <app corresp="#punct">
                <lem wit="#F">,</lem>
-            </app> et d'une voix moqueuse <app corresp="#punct">
-               <lem wit="#F">,</lem>
             </app>
+            et d'une voix moqueuse <app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
             <persName ref="#convive">un jeune &ho; politique</persName> récemment tombé de la
             tribune sans se faire aucun mal.<app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app>
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
             <persName ref="#convive">De jeunes auteurs</persName> sans style étaient auprès de
-               <persName ref="#convive">jeunes auteurs sans idées</persName>, des <persName
-               ref="#convive">prosateurs pleins de poésie</persName> près de <persName
-               ref="#convive">poètes prosaïques</persName>
+            <persName ref="#convive">jeunes auteurs sans idées</persName>, des
+            <persName ref="#convive">prosateurs pleins de poésie</persName> près de
+            <persName ref="#convive">poètes prosaïques</persName>
             <app corresp="#punct #syntax">
                <lem wit="#F">. Voyant</lem>
                <rdg wit="#R2M">; et, voyant</rdg>
-            </app> ces êtres incomplets, <persName ref="#convive">un pauvre
-               saint&tiret;simonien</persName>, assez naïf pour croire à sa doctrine, les accouplait
-            avec charité, voulant sans doute les transformer en religieux de son ordre.<app
-               corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> Enfin, il <app corresp="#word-diff">
-               <lem wit="#F">s'y trouvait</lem>
-               <rdg wit="#R2M">y avait</rdg>
-            </app> deux ou trois de ces <app corresp="#orth">
-               <lem wit="#F"><persName ref="#convive">savants</persName></lem>
-               <rdg wit="#R2M"><persName ref="#convive">savans</persName></rdg>
-            </app> destinés à mettre de l'azote dans la conversation, et plusieurs vaudevillistes
+            </app>
+            ces êtres incomplets, <persName ref="#convive">un pauvre
+            saint&tiret;simonien</persName>, assez naïf pour croire à sa doctrine, les accouplait
+            avec charité, voulant sans doute les transformer en religieux de son ordre.
+            <app corresp="#text-segmentation">
+               <rdg wit="#R2M">
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
+            </app>
+            Enfin, il <app corresp="#word-diff">
+            <lem wit="#F">s'y trouvait</lem>
+            <rdg wit="#R2M">y avait</rdg>
+         </app>
+            deux ou trois de ces <app corresp="#orth">
+            <lem wit="#F"><persName ref="#convive">savants</persName></lem>
+            <rdg wit="#R2M"><persName ref="#convive">savans</persName></rdg>
+         </app>
+            destinés à mettre de l'azote dans la conversation, et plusieurs vaudevillistes
             prêts à y jeter <app corresp="#word-diff">
-               <lem wit="#F">de ces</lem>
-               <rdg wit="#R2M">des</rdg>
-            </app> lueurs éphémères<app corresp="#add-words #syntax">
-               <lem wit="#F">, qui</lem>
-            </app>, semblables aux étincelles du diamant<app corresp="#syntax #orth">
-               <lem wit="#F">, ne donnent</lem>
-               <rdg wit="#R2M"> qui ne donne</rdg>
-            </app> ni chaleur ni lumière <app corresp="#punct #text-segmentation">
-               <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp;<milestone unit="tei:p"/><lb/></rdg>
-            </app> Quelques <persName ref="#convive">&ho;s à paradoxes</persName>, riant sous cape
+            <lem wit="#F">de ces</lem>
+            <rdg wit="#R2M">des</rdg>
+         </app>
+            lueurs éphémères<app corresp="#add-words #syntax">
+            <lem wit="#F">, qui</lem>
+         </app>, semblables aux étincelles du diamant<app corresp="#syntax #orth">
+            <lem wit="#F">, ne donnent</lem>
+            <rdg wit="#R2M"> qui ne donne</rdg>
+         </app>
+            ni chaleur ni lumière <app corresp="#punct #text-segmentation">
+            <lem wit="#F">.</lem>
+            <rdg wit="#R2M">&susp;
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Quelques <persName ref="#convive">&ho;s à paradoxes</persName>, riant sous cape
             des gens qui <app corresp="#syntax">
-               <lem wit="#F">épousent</lem>
-               <rdg wit="#R2M">épousaient</rdg>
-            </app> leurs admirations ou leurs mépris pour les &ho;s et les choses, faisaient déjà de
+            <lem wit="#F">épousent</lem>
+            <rdg wit="#R2M">épousaient</rdg>
+         </app>
+            leurs admirations ou leurs mépris pour les &ho;s et les choses, faisaient déjà de
             cette politique à double tranchant, avec laquelle ils conspirent contre tous les
             systèmes, sans prendre parti pour aucun..<app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> Le <persName ref="#convive"><hi rend="i">jugeur</hi></persName>, qui ne s'étonne
-            de rien, qui se mouche au milieu d'une cavatine aux Bouffons, y <app
-               corresp="#word-diff">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Le <persName ref="#convive"><hi rend="i">jugeur</hi></persName>, qui ne s'étonne
+            de rien, qui se mouche au milieu d'une cavatine aux Bouffons, y
+            <app corresp="#word-diff">
                <lem wit="#F">crie</lem>
                <rdg wit="#R2M">chante</rdg>
             </app>
             <hi rend="i">brava</hi>
             <app corresp="#punct #attenuation #syntax">
                <rdg wit="#R2M"><hi rend="i">!&susp;</hi></rdg>
-            </app> avant tout le monde, et contredit ceux qui <app corresp="#word-diff">
-               <lem wit="#F">préviennent</lem>
-               <rdg wit="#R2M">prédisent</rdg>
-            </app> son avis, était là, cherchant à s'attribuer les mots des gens d'esprit..<app
-               corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> Parmi ces convives, cinq avaient de l'avenir, une dizaine devait obtenir quelque
+            </app>
+            avant tout le monde, et contredit ceux qui <app corresp="#word-diff">
+            <lem wit="#F">préviennent</lem>
+            <rdg wit="#R2M">prédisent</rdg>
+         </app>
+            son avis, était là, cherchant à s'attribuer les mots des gens d'esprit..
+            <app corresp="#text-segmentation">
+               <rdg wit="#R2M">
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
+            </app>
+            Parmi ces convives, cinq avaient de l'avenir, une dizaine devait obtenir quelque
             gloire viagère <app corresp="#punct #syntax">
-               <lem wit="#F"> ;</lem>
-               <rdg wit="#R2M">, et,</rdg>
-            </app> quant aux autres, ils pouvaient <app corresp="#sentence-order">
-               <lem wit="#F">comme toutes les médiocrités se dire</lem>
-               <rdg wit="#R2M">se dire, comme toutes les médiocrités,</rdg>
-            </app> le fameux <app corresp="#word-diff">
-               <lem wit="#F">mensonge</lem>
-               <rdg wit="#R2M">mot</rdg>
-            </app> de <persName ref="#louisXVIII">Louis XVIII</persName> : <hi rend="i">Union et
-               oubli</hi>
+            <lem wit="#F"> ;</lem>
+            <rdg wit="#R2M">, et,</rdg>
+         </app>
+            quant aux autres, ils pouvaient <app corresp="#sentence-order">
+            <lem wit="#F">comme toutes les médiocrités se dire</lem>
+            <rdg wit="#R2M">se dire, comme toutes les médiocrités,</rdg>
+         </app>
+            le fameux <app corresp="#word-diff">
+            <lem wit="#F">mensonge</lem>
+            <rdg wit="#R2M">mot</rdg>
+         </app>
+            de <persName ref="#louisXVIII">Louis XVIII</persName> : <hi rend="i">Union et
+            oubli</hi>
             <app corresp="#punct #text-segmentation">
                <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp;<milestone unit="tei:p"/><lb/></rdg>
+               <rdg wit="#R2M">&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/></rdg>
             </app>
             <persName ref="#taillefer">L'amphitryon</persName> avait la <app corresp="#orth">
-               <lem wit="#F">gaieté</lem>
-               <rdg wit="#R2M">gaîté</rdg>
-            </app> soucieuse d'un &ho; qui dépense deux mille écus ; <app corresp="#add-words">
-               <rdg wit="#R2M">et, comme</rdg>
-            </app> de temps <app corresp="#word-diff">
-               <lem wit="#F">en temps</lem>
-               <rdg wit="#R2M">à autre</rdg>
-            </app> ses yeux se dirigeaient avec impatience vers la porte du salon, <app
-               corresp="#word-diff">
+            <lem wit="#F">gaieté</lem>
+            <rdg wit="#R2M">gaîté</rdg>
+         </app>
+            soucieuse d'un &ho; qui dépense deux mille écus ; <app corresp="#add-words">
+            <rdg wit="#R2M">et, comme</rdg>
+         </app>
+            de temps <app corresp="#word-diff">
+            <lem wit="#F">en temps</lem>
+            <rdg wit="#R2M">à autre</rdg>
+         </app>
+            ses yeux se dirigeaient avec impatience vers la porte du salon,
+            <app corresp="#word-diff">
                <lem wit="#F">en appelant celui des convives qui se faisait attendre.</lem>
                <rdg wit="#R2M">il était facile de voir que tous les convives se trouvaient réunis,
                   moins un&susp;</rdg>
@@ -1393,117 +1592,155 @@
             <app corresp="#word-diff">
                <lem wit="#F">Bientôt</lem>
                <rdg wit="#R2M">Alors</rdg>
-            </app> apparut un gros petit &ho; <app corresp="#word-diff">
-               <lem wit="#F">qui fut</lem>
-               <rdg wit="#R2M">vêtu de noir,</rdg>
-            </app> accueilli <app corresp="#add-words">
-               <rdg wit="#R2M">soudain</rdg>
-            </app> par une flatteuse rumeur <app corresp="#syntax #punct">
-               <lem wit="#F">, c</lem>
-               <rdg wit="#R2M">. C</rdg>
-            </app>'était <persName ref="#convive">le notaire</persName> qui, le matin même, avait
+            </app>
+            apparut un gros petit &ho; <app corresp="#word-diff">
+            <lem wit="#F">qui fut</lem>
+            <rdg wit="#R2M">vêtu de noir,</rdg>
+         </app>
+            accueilli <app corresp="#add-words">
+            <rdg wit="#R2M">soudain</rdg>
+         </app>
+            par une flatteuse rumeur <app corresp="#syntax #punct">
+            <lem wit="#F">, c</lem>
+            <rdg wit="#R2M">. C</rdg>
+         </app>'était <persName ref="#convive">le notaire</persName> qui, le matin même, avait
             achevé de créer le journal.<app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> Un <app corresp="#word-diff">
-               <lem wit="#F">valet de chambre vêtu de noir</lem>
-               <rdg wit="#R2M">domestique en grande livrée</rdg>
-            </app> vint ouvrir les portes d'une vaste salle à manger, où chacun alla<app
-               corresp="#punct">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Un <app corresp="#word-diff">
+            <lem wit="#F">valet de chambre vêtu de noir</lem>
+            <rdg wit="#R2M">domestique en grande livrée</rdg>
+         </app>
+            vint ouvrir les portes d'une vaste salle à manger, où chacun alla
+            <app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
-            </app> sans cérémonie<app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> reconnaître sa place autour d'une table immense.<app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/></rdg>
-            </app> Avant de quitter les salons, <persName ref="#raph">Raphaël</persName> y jeta un
+            </app>
+            sans cérémonie<app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            reconnaître sa place autour d'une table immense.<app corresp="#text-segmentation">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Avant de quitter les salons, <persName ref="#raph">Raphaël</persName> y jeta un
             dernier coup <app corresp="#punct">
-               <rdg wit="#R2M">&tiret;</rdg>
-            </app>d'œil. Son souhait était certes bien complètement réalisé<app
-               corresp="#syntax #punct">
+            <rdg wit="#R2M">&tiret;</rdg>
+         </app>d'œil. Son souhait était certes bien complètement réalisé
+            <app corresp="#syntax #punct">
                <lem wit="#F"> : la</lem>
                <rdg wit="#R2M">. La</rdg>
-            </app> soie et l'or tapissaient les <app corresp="#orth">
-               <lem wit="#F">appartements</lem>
-               <rdg wit="#R2M">appartemens</rdg>
             </app>
+            soie et l'or tapissaient les <app corresp="#orth">
+            <lem wit="#F">appartements</lem>
+            <rdg wit="#R2M">appartemens</rdg>
+         </app>
             <app corresp="#punct #syntax">
                <lem wit="#F">, de </lem>
                <rdg wit="#R2M">. De</rdg>
-            </app> riches <app corresp="#orth">
-               <lem wit="#F">candélabres</lem>
-               <rdg wit="#R2M">candelabres</rdg>
             </app>
+            riches <app corresp="#orth">
+            <lem wit="#F">candélabres</lem>
+            <rdg wit="#R2M">candelabres</rdg>
+         </app>
             <app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
-            </app> supportant d'innombrables bougies <app corresp="#punct">
-               <rdg wit="#R2M">,</rdg>
-            </app> faisaient briller les <app corresp="#word-diff">
-               <lem wit="#F">plus légers détails des</lem>
-               <rdg wit="#R2M">moindres</rdg>
-            </app> frises dorées, les <app corresp="#sentence-order">
-               <lem wit="#F">délicates ciselures du bronze</lem>
-               <rdg wit="#R2M">ciselures délicates des bronzes,</rdg>
-            </app> et les somptueuses couleurs de l'ameublement <app
-               corresp="#punct #word-diff #particulier">
+            </app>
+            supportant d'innombrables bougies <app corresp="#punct">
+            <rdg wit="#R2M">,</rdg>
+         </app>
+            faisaient briller les <app corresp="#word-diff">
+            <lem wit="#F">plus légers détails des</lem>
+            <rdg wit="#R2M">moindres</rdg>
+         </app>
+            frises dorées, les <app corresp="#sentence-order">
+            <lem wit="#F">délicates ciselures du bronze</lem>
+            <rdg wit="#R2M">ciselures délicates des bronzes,</rdg>
+         </app>
+            et les somptueuses couleurs de l'ameublement
+            <app corresp="#punct #word-diff #particulier">
                <lem wit="#F"> ; les</lem>
                <rdg wit="#R2M">. Des</rdg>
-            </app> fleurs rares <app corresp="#word-diff #particulier">
-               <lem wit="#F">de</lem>
-               <rdg wit="#R2M">, contenues dans</rdg>
-            </app> quelques jardinières artistement construites avec des bambous, répandaient de
+            </app>
+            fleurs rares <app corresp="#word-diff #particulier">
+            <lem wit="#F">de</lem>
+            <rdg wit="#R2M">, contenues dans</rdg>
+         </app>
+            quelques jardinières artistement construites avec des bambous, répandaient de
             doux parfums<app corresp="#punct">
-               <lem wit="#F">; les</lem>
-               <rdg wit="#R2M">. Les</rdg>
-            </app> draperies respiraient une élégance sans prétention <app corresp="#syntax #punct">
-               <lem wit="#F"> ;</lem>
-               <rdg wit="#R2M">, et</rdg>
-            </app> il y avait en tout je ne sais quelle grâce poétique dont le prestige devait agir
+            <lem wit="#F">; les</lem>
+            <rdg wit="#R2M">. Les</rdg>
+         </app>
+            draperies respiraient une élégance sans prétention <app corresp="#syntax #punct">
+            <lem wit="#F"> ;</lem>
+            <rdg wit="#R2M">, et</rdg>
+         </app>
+            il y avait en tout je ne sais quelle grâce poétique dont le prestige devait agir
             sur l'imagination d'un &ho; <app corresp="#word-diff">
-               <lem wit="#F">sans</lem>
-               <rdg wit="#R2M">dénué d'</rdg>
-            </app>argent.<milestone unit="tei:p"/><lb/> &tiret; Cent mille livres de rente sont un
-            bien joli commentaire du catéchisme, et nous aident merveilleusement à mettre la <hi
-               rend="i">morale en</hi>
+            <lem wit="#F">sans</lem>
+            <rdg wit="#R2M">dénué d'</rdg>
+         </app>argent.
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Cent mille livres de rente sont un
+            bien joli commentaire du catéchisme, et nous aident merveilleusement à mettre la
+            <hi rend="i">morale en</hi>
             <app corresp="#orth #punct">
                <lem wit="#F"><hi rend="i">actions !</hi></lem>
                <rdg wit="#R2M"><hi rend="i">action</hi> !&susp;</rdg>
-            </app> dit&tiret;il en soupirant. Oh ! oui, ma vertu ne va guère à pied <app
-               corresp="#punct">
+            </app>
+            dit&tiret;il en soupirant. Oh ! oui, ma vertu ne va guère à pied
+            <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
-            </app> Pour moi<app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> le vice <app corresp="#punct #attenuation">
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> c'est une mansarde, un habit râpé, un chapeau gris en hiver<app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> et des dettes chez le portier<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> Ah ! je veux vivre au sein de ce luxe un an, six mois, n'importe <app
-               corresp="#punct #expressif">
+            </app>
+            Pour moi<app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            le vice <app corresp="#punct #attenuation">
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            c'est une mansarde, un habit râpé, un chapeau gris en hiver<app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            et des dettes chez le portier<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            Ah ! je veux vivre au sein de ce luxe un an, six mois, n'importe
+            <app corresp="#punct #expressif">
                <lem wit="#F">! Et</lem>
                <rdg wit="#R2M">&susp; et</rdg>
-            </app> puis après <app corresp="#punct #attenuation">
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> mourir. J'aurai du moins épuisé, connu, dévoré mille existences.<milestone
-               unit="tei:p"/><lb/> &tiret; Oh ! <app corresp="#add-words">
-               <rdg wit="#R2M">oh !</rdg>
-            </app> lui dit <persName ref="#emile">Émile</persName>
+            </app>
+            puis après <app corresp="#punct #attenuation">
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            mourir. J'aurai du moins épuisé, connu, dévoré mille existences.
+
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Oh ! <app corresp="#add-words">
+            <rdg wit="#R2M">oh !</rdg>
+         </app>
+            lui dit <persName ref="#emile">Émile</persName>
             <app corresp="#punct">
                <rdg wit="#R2M">,</rdg>
-            </app> qui l'écoutait, tu prends le coupé d'un agent de change pour le bonheur <app
-               corresp="#punct #attenuation">
+            </app>
+            qui l'écoutait, tu prends le coupé d'un agent de change pour le bonheur
+            <app corresp="#punct #attenuation">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;.</rdg>
-            </app> Va, tu serais bientôt ennuyé de la fortune en t'apercevant qu'elle te ravirait la
-            chance d'être un &ho; supérieur<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> Entre les pauvretés de la richesse et les richesses de la pauvreté, l'artiste
-            a&tiret;t&tiret;il jamais <app corresp="#word-diff">
-               <lem wit="#F">balancé</lem>
-               <rdg wit="#R2M">hésité</rdg>
             </app>
+            Va, tu serais bientôt ennuyé de la fortune en t'apercevant qu'elle te ravirait la
+            chance d'être un &ho; supérieur<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            Entre les pauvretés de la richesse et les richesses de la pauvreté, l'artiste
+            a&tiret;t&tiret;il jamais <app corresp="#word-diff">
+            <lem wit="#F">balancé</lem>
+            <rdg wit="#R2M">hésité</rdg>
+         </app>
             <app corresp="#punct">
                <lem wit="#F">?</lem>
                <rdg wit="#R2M">!&susp;</rdg>
@@ -1511,82 +1748,102 @@
             <app corresp="#syntax">
                <lem wit="#F">Ne nous faut&tiret;il pas toujours</lem>
                <rdg wit="#R2M">Il nous faut</rdg>
-            </app> des luttes, à nous autres <app corresp="#punct">
-               <lem wit="#F">?</lem>
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> Aussi, prépare ton estomac <app corresp="#punct #attenuation">
-               <lem wit="#F">, vois,</lem>
-               <rdg wit="#R2M">!&susp; Vois !&susp;<milestone unit="tei:p"/><lb/></rdg>
             </app>
+            des luttes, à nous autres <app corresp="#punct">
+            <lem wit="#F">?</lem>
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            Aussi, prépare ton estomac <app corresp="#punct #attenuation">
+            <lem wit="#F">, vois,</lem>
+            <rdg wit="#R2M">!&susp; Vois !&susp;
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
             <app corresp="#syntax">
                <lem wit="#F">dit&tiret;il en lui montrant</lem>
                <rdg wit="#R2M">Et il lui montra</rdg>
-            </app>, par un geste héroïque, le majestueux, le trois fois saint, <app
-               corresp="#add-words">
+            </app>, par un geste héroïque, le majestueux, le trois fois saint,
+            <app corresp="#add-words">
                <lem wit="#F">l'</lem>
-            </app>évangélique et rassurant aspect que présentait la salle à manger du <persName
-               ref="#taillefer">benoît capitaliste</persName>. <app corresp="#text-segmentation">
-               <rdg wit="#R2M"><milestone unit="tei:p"/><lb/> &tiret; </rdg>
-            </app> Cet &ho;&tiret;là, reprit&tiret;il, ne s'est vraiment donné la peine d'amasser
+            </app>évangélique et rassurant aspect que présentait la salle à manger du
+            <persName ref="#taillefer">benoît capitaliste</persName>. <app corresp="#text-segmentation">
+            <rdg wit="#R2M">
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; </rdg>
+         </app>
+            Cet &ho;&tiret;là, reprit&tiret;il, ne s'est vraiment donné la peine d'amasser
             son argent que pour nous <app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> N'est&tiret;ce pas une espèce d'éponge oubliée par les naturalistes dans l'ordre
+            <lem wit="#F">.</lem>
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            N'est&tiret;ce pas une espèce d'éponge oubliée par les naturalistes dans l'ordre
             des <app corresp="#orth">
-               <lem wit="#F"><hi rend="i">Polypiers</hi></lem>
-               <rdg wit="#R2M">polypiers</rdg>
-            </app>, et qu'il s'agit de presser avec délicatesse, avant de la laisser sucer par des
+            <lem wit="#F"><hi rend="i">Polypiers</hi></lem>
+            <rdg wit="#R2M">polypiers</rdg>
+         </app>, et qu'il s'agit de presser avec délicatesse, avant de la laisser sucer par des
             héritiers ? Ne trouves&tiret;tu pas du style aux bas&tiret;reliefs qui décorent les murs
             ? Et les lustres, et les tableaux, quel luxe bien entendu ! S'il faut croire les envieux
             et ceux qui tiennent à voir les ressorts de la vie, cet &ho; aurait tué, pendant la
             révolution, <app corresp="#word-diff">
-               <lem wit="#F">un Allemand et quelques autres personnes qui seraient, dit&tiret;on,
-                  son meilleur ami et la mère de cet ami</lem>
-               <rdg wit="#R2M">je ne sais quelle vieille dame asthmatique, un petit orphelin
-                  scrofuleux et quelque autre personne</rdg>
-            </app>. Peux&tiret;tu donner place à des crimes sous les cheveux <app corresp="#orth">
-               <lem wit="#F">grisonnants</lem>
-               <rdg wit="#R2M">grisonnans</rdg>
-            </app> de <app corresp="#word-diff">
-               <lem wit="#F">ce</lem>
-               <rdg wit="#R2M">notre</rdg>
-            </app> vénérable <app corresp="#persname-diff #particulier">
-               <lem wit="#F"><persName ref="#taillefer">Taillefer</persName></lem>
-               <rdg wit="#R2M"><persName ref="#taillefer">amphitryon</persName></rdg>
-            </app>
+            <lem wit="#F">un Allemand et quelques autres personnes qui seraient, dit&tiret;on,
+               son meilleur ami et la mère de cet ami</lem>
+            <rdg wit="#R2M">je ne sais quelle vieille dame asthmatique, un petit orphelin
+               scrofuleux et quelque autre personne</rdg>
+         </app>. Peux&tiret;tu donner place à des crimes sous les cheveux <app corresp="#orth">
+            <lem wit="#F">grisonnants</lem>
+            <rdg wit="#R2M">grisonnans</rdg>
+         </app>
+            de <app corresp="#word-diff">
+            <lem wit="#F">ce</lem>
+            <rdg wit="#R2M">notre</rdg>
+         </app>
+            vénérable <app corresp="#persname-diff #particulier">
+            <lem wit="#F"><persName ref="#taillefer">Taillefer</persName></lem>
+            <rdg wit="#R2M"><persName ref="#taillefer">amphitryon</persName></rdg>
+         </app>
             <app corresp="#punct">
                <lem wit="#F">?</lem>
                <rdg wit="#R2M">?&susp;</rdg>
-            </app> Il a l'air d'un bien bon &ho;<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> Vois donc comme l'argenterie étincelle <app corresp="#punct #syntax">
-               <lem wit="#F">, et chacun</lem>
-               <rdg wit="#R2M">!&susp; Chacun</rdg>
-            </app> de ces rayons <app corresp="#orth">
-               <lem wit="#F">brillants</lem>
-               <rdg wit="#R2M">brillans</rdg>
-            </app> serait <app corresp="#add-words">
-               <lem wit="#F">pour lui</lem>
-            </app> un coup de poignard <app corresp="#punct">
-               <lem wit="#F">!</lem>
-               <rdg wit="#R2M">&susp;</rdg>
-            </app> Allons donc ! autant vaudrait croire en Mahomet. Si le public avait raison, voici
+            </app>
+            Il a l'air d'un bien bon &ho;<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            Vois donc comme l'argenterie étincelle <app corresp="#punct #syntax">
+            <lem wit="#F">, et chacun</lem>
+            <rdg wit="#R2M">!&susp; Chacun</rdg>
+         </app>
+            de ces rayons <app corresp="#orth">
+            <lem wit="#F">brillants</lem>
+            <rdg wit="#R2M">brillans</rdg>
+         </app>
+            serait <app corresp="#add-words">
+            <lem wit="#F">pour lui</lem>
+         </app>
+            un coup de poignard <app corresp="#punct">
+            <lem wit="#F">!</lem>
+            <rdg wit="#R2M">&susp;</rdg>
+         </app>
+            Allons donc ! autant vaudrait croire en Mahomet. Si le public avait raison, voici
             trente &ho;s de cœur et de talent qui s'apprêteraient à manger les entrailles, à boire
             le sang d'une famille<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#R2M"> !&susp;</rdg>
-            </app> Et nous deux, jeunes gens pleins de candeur <app corresp="#punct #syntax">
-               <lem wit="#F">,</lem>
-               <rdg wit="#R2M">et</rdg>
-            </app> d'enthousiasme, nous serions complices du forfait <app corresp="#punct">
-               <lem wit="#F">!</lem>
-               <rdg wit="#R2M">!&susp;</rdg>
-            </app> J'ai envie de demander à notre capitaliste s'il est honnête &ho; <app
-               corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#R2M"> !&susp;</rdg>
+         </app>
+            Et nous deux, jeunes gens pleins de candeur <app corresp="#punct #syntax">
+            <lem wit="#F">,</lem>
+            <rdg wit="#R2M">et</rdg>
+         </app>
+            d'enthousiasme, nous serions complices du forfait <app corresp="#punct">
+            <lem wit="#F">!</lem>
+            <rdg wit="#R2M">!&susp;</rdg>
+         </app>
+            J'ai envie de demander à notre capitaliste s'il est honnête &ho;
+            <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#R2M">&susp;</rdg>
-            </app> [&susp;] </ab>
+            </app>
+            [&susp;] </ab>
          <ab n="III" type="collation2to2" corresp="#F #C2">
             <title>La Consultation</title>
             <app corresp="#add-words">
@@ -1595,138 +1852,195 @@
                   s'ennuie. Puis, à la troisième attaque à larmes forcées, il sort sans aucune
                   tristesse. Enfin, il se blase sur ces plaintes éternelles, sur ces attitudes de
                   mourant, sur ces larmes de crocodile. Et il finit par dire : &tiret; Si tu es
-                  malade, &caro;, il faut voir un médecin&susp;<milestone unit="tei:p"/><lb/>
-                  &tiret; Comme tu voudras ! cela finira plus promptement ainsi, cela me va&susp;
-                  Mais alors, amène un <persName ref="#doc">fameux médecin</persName>.<milestone
-                     unit="tei:p"/><lb/> Au bout d'un mois, <persName ref="#mari"
-                  >Adolphe</persName>, fatigué d'entendre l'air funèbre que <persName ref="#femme"
-                     >Caroline</persName> lui joue sur tous les tons, amène un <persName ref="#doc"
-                     >grand médecin</persName>. À <placeName ref="#paris">Paris</placeName>, les
-                  médecins sont tous des gens d'esprit, et ils se connaissent admirablement en
-                  Nosographie conjugale.<milestone unit="tei:p"/><lb/> &tiret; Eh bien ! madame, dit
-                     <persName ref="#doc">le grand médecin</persName>, comment une si jolie &fe;
-                  s'avise&tiret;t&tiret;elle d'être malade ?<milestone unit="tei:p"/><lb/> &tiret;
-                  Oui, monsieur, de même que le nez du <persName ref="#pa">père Aubry</persName>,
-                  j'aspire à la tombe&susp;<milestone unit="tei:p"/><lb/>
-                  <persName ref="#femme">Caroline</persName>, par égard pour <persName ref="#mari"
-                     >Adolphe</persName>, essaie de sourire.</lem>
-               <rdg wit="#C2">(Un hôtel de la <placeName ref="#antin"
-                     >Chaussée&tiret;d'Antin</placeName>.)<milestone unit="tei:p"/><lb/>&tiret; <hi
-                     rend="sc">Plaisanterie</hi> à part , mon cher &doc;, je suis malade, et ce
-                  n'est pas sans raison que je vous ai fait venir&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#sentence-order #add-words">
-               <lem wit="#F">Bon ! cependant vous avez</lem>
-               <rdg wit="#C2">Vous avez cependant</rdg>
-            </app> les yeux vifs<app corresp="#add-words">
-               <lem wit="#F"> : ils souhaitent peu nos infernales drogues</lem>
-            </app>&susp;<milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff">
-               <lem wit="#F">Regardez&tiret;y bien, &doc;</lem>
-               <rdg wit="#C2">C'est</rdg>
-            </app> la fièvre <app corresp="#word-diff">
-               <lem wit="#F">me dévore, une petite fièvre imperceptible, lente&susp;<milestone
-                     unit="tei:p"/><lb/> Et elle arrête le plus malicieux de ses regards sur
-                  l'illustre <persName ref="#doc">docteur</persName>, qui se dit en lui&tiret;même :
-                  Quels yeux !&susp;</lem>
-               <rdg wit="#C2">; je l'ai eue pendant toute la nuit&susp; </rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app
-               corresp="#word-diff #punct #attenuation">
+                  malade, &caro;, il faut voir un médecin&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Comme tu voudras ! cela finira plus promptement ainsi, cela me va&susp;
+                  Mais alors, amène un <persName ref="#doc">fameux médecin</persName>.
+                  <milestone unit="tei:p"/>
+                  <lb/> Au bout d'un mois, <persName ref="#mari">Adolphe</persName>,
+                  fatigué d'entendre l'air funèbre que <persName ref="#femme">Caroline</persName> lui joue
+                  sur tous les tons, amène un <persName ref="#doc">grand médecin</persName>.
+                  À <placeName ref="#paris">Paris</placeName>, les médecins sont tous des gens d'esprit,
+                  et ils se connaissent admirablement en Nosographie conjugale.
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Eh bien ! madame, dit <persName ref="#doc">le grand médecin</persName>,
+                  comment une si jolie &fe; s'avise&tiret;t&tiret;elle d'être malade ?
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Oui, monsieur, de même que le nez du <persName ref="#pa">père Aubry</persName>,
+                  j'aspire à la tombe&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/><persName ref="#femme">Caroline</persName>, par égard pour <persName ref="#mari">Adolphe</persName>,
+                  essaie de sourire.</lem>
+               <rdg wit="#C2">(Un hôtel de la <placeName ref="#antin">Chaussée&tiret;d'Antin</placeName>.)
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; <hi rend="sc">Plaisanterie</hi> à part, mon cher &doc;,
+                  je suis malade, et ce n'est pas sans raison que je vous ai fait venir&susp;</rdg>
+            </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#sentence-order #add-words">
+            <lem wit="#F">Bon ! cependant vous avez</lem>
+            <rdg wit="#C2">Vous avez cependant</rdg>
+         </app>
+            les yeux vifs<app corresp="#add-words">
+            <lem wit="#F"> : ils souhaitent peu nos infernales drogues</lem>
+         </app>&susp;
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#word-diff">
+            <lem wit="#F">Regardez&tiret;y bien, &doc;</lem>
+            <rdg wit="#C2">C'est</rdg>
+         </app>
+            la fièvre <app corresp="#word-diff">
+            <lem wit="#F">me dévore, une petite fièvre imperceptible, lente&susp;<milestone
+                    unit="tei:p"/>
+               <lb/> Et elle arrête le plus malicieux de ses regards sur
+               l'illustre <persName ref="#doc">docteur</persName>, qui se dit en lui&tiret;même :
+               Quels yeux !&susp;</lem>
+            <rdg wit="#C2">; je l'ai eue pendant toute la nuit&susp; </rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret;
+            <app corresp="#word-diff #punct #attenuation">
                <lem wit="#F">Bien, voyons la</lem>
                <rdg wit="#C2">Ah ! Voyons votre</rdg>
-            </app> langue <app corresp="#parole #punct">
-               <lem wit="#F">? dit&tiret;il tout haut.</lem>
-               <rdg wit="#C2">?&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/>
-            <app corresp="#persname-diff #particulier">
-               <lem wit="#F"><persName ref="#femme">Caroline</persName></lem>
-               <rdg wit="#C2"><persName ref="#femme">La jeune dame</persName></rdg>
-            </app> montre <app corresp="#add-words">
-               <lem wit="#F">sa</lem>
-               <rdg wit="#C2">une petite</rdg>
-            </app> langue <app corresp="#word-diff">
-               <lem wit="#F">de chat</lem>
-               <rdg wit="#C2">rouge</rdg>
-            </app> entre deux rangées de dents blanches comme <app corresp="#word-diff">
-               <lem wit="#F">celles d'un chien</lem>
-               <rdg wit="#C2">de l'ivoire</rdg>
-            </app>.<milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Elle</lem>
-               <rdg wit="#C2">Oui, elle</rdg>
-            </app> est un peu chargée <app corresp="#punct">
-               <lem wit="#F">,</lem>
-            </app> au fond <app corresp="#punct #syntax">
-               <lem wit="#F">; mais</lem>
-               <rdg wit="#C2">&susp;. Mais</rdg>
-            </app> vous avez déjeuné<app corresp="#punct #text-segmentation">
-               <lem wit="#F">&susp;</lem>
-               <rdg wit="#C2"> ? <milestone unit="tei:p"/><lb/> &tiret; </rdg>
             </app>
+            langue <app corresp="#parole #punct">
+            <lem wit="#F">? dit&tiret;il tout haut.</lem>
+            <rdg wit="#C2">?&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/><app corresp="#persname-diff #particulier">
+            <lem wit="#F"><persName ref="#femme">Caroline</persName></lem>
+            <rdg wit="#C2"><persName ref="#femme">La jeune dame</persName></rdg>
+         </app>
+            montre <app corresp="#add-words">
+            <lem wit="#F">sa</lem>
+            <rdg wit="#C2">une petite</rdg>
+         </app>
+            langue <app corresp="#word-diff">
+            <lem wit="#F">de chat</lem>
+            <rdg wit="#C2">rouge</rdg>
+         </app>
+            entre deux rangées de dents blanches comme <app corresp="#word-diff">
+            <lem wit="#F">celles d'un chien</lem>
+            <rdg wit="#C2">de l'ivoire</rdg>
+         </app>.
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words">
+            <lem wit="#F">Elle</lem>
+            <rdg wit="#C2">Oui, elle</rdg>
+         </app>
+            est un peu chargée <app corresp="#punct">
+            <lem wit="#F">,</lem>
+         </app>
+            au fond <app corresp="#punct #syntax">
+            <lem wit="#F">; mais</lem>
+            <rdg wit="#C2">&susp;. Mais</rdg>
+         </app>
+            vous avez déjeuné<app corresp="#punct #text-segmentation">
+            <lem wit="#F">&susp;</lem>
+            <rdg wit="#C2"> ?
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; </rdg>
+         </app>
             <app corresp="#add-words">
                <lem wit="#F"> fait observer <persName ref="#doc">le grand médecin</persName> qui se
                   tourne vers <persName ref="#mari">Adolphe</persName>. <milestone unit="tei:p"
-                  /><lb/> &tiret;</lem>
+                  />
+                  <lb/>&tiret;</lem>
             </app>
             <app corresp="#word-diff #punct #attenuation">
                <lem wit="#F">Rien, répond <persName ref="#femme">Caroline</persName>, deux tasses de
                   thé</lem>
                <rdg wit="#C2">Oh ! rien du tout&susp; Une tasse de café</rdg>
-            </app>&susp; <milestone unit="tei:p"/><lb/>
-            <app corresp="#add-words #text-segmentation">
-               <lem wit="#F"><persName ref="#mari">Adolphe</persName> et l'illustre <persName
-                     ref="#doc">docteur</persName> se regardent, car <persName ref="#doc">le
-                     &doc;</persName> se demande qui, de madame ou de monsieur, se moque de lui.
-                     <milestone unit="tei:p"/><lb/> &tiret; Que </lem>
-               <rdg wit="#C2"> &tiret; Et que</rdg>
-            </app> sentez&tiret;vous <app corresp="#add-words #parole">
-               <lem wit="#F">? demande gravement le &doc; à &caro;.</lem>
-               <rdg wit="#C2"> ?&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Je ne dors pas.<milestone unit="tei:p"
-            /><lb/> &tiret; Bon<app corresp="#punct #expressif">
-               <lem wit="#F">!</lem>
-               <rdg wit="#C2"> .</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Je n'ai pas d'appétit&susp;<milestone
-               unit="tei:p"/><lb/> &tiret; Bien<app corresp="#punct #expressif">
-               <lem wit="#F"> !</lem>
-               <rdg wit="#C2">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; J'ai des douleurs <app corresp="#word-diff">
-               <lem wit="#F">là</lem>
-               <rdg wit="#C2">dans la poitrine comme ça</rdg>
-            </app>&susp;<milestone unit="tei:p"/><lb/>
-            <persName ref="#doc">Le médecin</persName> regarde l'endroit <app
-               corresp="#persname-diff #particulier #word-diff">
+            </app>&susp;
+            <milestone unit="tei:p"/>
+            <lb/><app corresp="#add-words #text-segmentation">
+            <lem wit="#F"><persName ref="#mari">Adolphe</persName> et l'illustre
+               <persName ref="#doc">docteur</persName> se regardent, car <persName ref="#doc">le
+                  &doc;</persName> se demande qui, de madame ou de monsieur, se moque de lui.
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Que </lem>
+            <rdg wit="#C2"> &tiret; Et que</rdg>
+         </app>
+            sentez&tiret;vous <app corresp="#add-words #parole">
+            <lem wit="#F">? demande gravement le &doc; à &caro;.</lem>
+            <rdg wit="#C2"> ?&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Je ne dors pas.
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Bon<app corresp="#punct #expressif">
+            <lem wit="#F">!</lem>
+            <rdg wit="#C2"> .</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Je n'ai pas d'appétit&susp;
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Bien<app corresp="#punct #expressif">
+            <lem wit="#F"> !</lem>
+            <rdg wit="#C2">&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; J'ai des douleurs <app corresp="#word-diff">
+            <lem wit="#F">là</lem>
+            <rdg wit="#C2">dans la poitrine comme ça</rdg>
+         </app>&susp;
+            <milestone unit="tei:p"/>
+            <lb/><persName ref="#doc">Le médecin</persName> regarde l'endroit
+            <app corresp="#persname-diff #particulier #word-diff">
                <lem wit="#F">indiqué par <persName ref="#femme">Caroline</persName>.</lem>
                <rdg wit="#C2">où <persName ref="#femme">madame de ***</persName> se pose la
                   main.</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Très&tiret;bien, nous</lem>
-               <rdg wit="#C2">Nous</rdg>
-            </app> verrons cela tout à l'heure&susp; <app corresp="#add-words">
-               <lem wit="#F">Après ?&susp; </lem>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Il</lem>
-               <rdg wit="#C2">Et puis, <persName ref="#doc">docteur</persName>, il</rdg>
-            </app> me passe des frissons par <app corresp="#orth">
-               <lem wit="#F">moments</lem>
-               <rdg wit="#C2">moment</rdg>
-            </app>&susp;<milestone unit="tei:p"/><lb/> &tiret; <app
-               corresp="#word-diff #punct #expressif">
+            </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words">
+            <lem wit="#F">Très&tiret;bien, nous</lem>
+            <rdg wit="#C2">Nous</rdg>
+         </app>
+            verrons cela tout à l'heure&susp; <app corresp="#add-words">
+            <lem wit="#F">Après ?&susp; </lem>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words">
+            <lem wit="#F">Il</lem>
+            <rdg wit="#C2">Et puis, <persName ref="#doc">docteur</persName>, il</rdg>
+         </app>
+            me passe des frissons par <app corresp="#orth">
+            <lem wit="#F">moments</lem>
+            <rdg wit="#C2">moment</rdg>
+         </app>&susp;
+            <milestone unit="tei:p"/>
+            <lb/>&tiret;
+            <app corresp="#word-diff #punct #expressif">
                <lem wit="#F">Bon !</lem>
                <rdg wit="#C2">Bien&susp; </rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; J'ai des tristesses<app
-               corresp="#punct #add-words">
+            </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; J'ai des tristesses
+            <app corresp="#punct #add-words">
                <lem wit="#F">,</lem>
                <rdg wit="#C2">&susp; Il y a des momens où</rdg>
-            </app> je pense <app corresp="#add-words">
-               <lem wit="#F">toujours</lem>
-            </app> à la mort<app corresp="#word-diff #add-words #text-segmentation">
-               <lem wit="#F">, j'ai des idées de suicide.</lem>
-               <rdg wit="#C2">.<milestone unit="tei:p"/><lb/> &tiret; Après&susp;<milestone
-                     unit="tei:p"/><lb/> &tiret; Mais je suis fatiguée aussitôt que j'ai fait la
-                  plus petite course&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff #punct #expressif">
-               <lem wit="#F">Ah ! vraiment ?</lem>
-               <rdg wit="#C2">Bon&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Il me monte des feux à la figure <app
-               corresp="#word-diff #attenuation #punct">
+            </app>
+            je pense <app corresp="#add-words">
+            <lem wit="#F">toujours</lem>
+         </app>
+            à la mort<app corresp="#word-diff #add-words #text-segmentation">
+            <lem wit="#F">, j'ai des idées de suicide.</lem>
+            <rdg wit="#C2">.
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Après&susp;
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Mais je suis fatiguée aussitôt que j'ai fait la
+               plus petite course&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#word-diff #punct #expressif">
+            <lem wit="#F">Ah ! vraiment ?</lem>
+            <rdg wit="#C2">Bon&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Il me monte des feux à la figure
+            <app corresp="#word-diff #attenuation #punct">
                <lem wit="#F"> ; tenez, j'ai constamment des </lem>
                <rdg wit="#C2">&susp; Ah ! ah ! j'oubliais !&susp; Les yeux me cuisent, et je ressens
                   des</rdg>
@@ -1738,134 +2052,204 @@
             <app corresp="#add-words">
                <lem wit="#F">dans la</lem>
                <rdg wit="#C2">dans les nerfs de</rdg>
-            </app> paupière <app corresp="#add-words #punct">
-               <lem wit="#F">&susp;</lem>
-               <rdg wit="#C2">de celui&tiret;là&susp; (Elle montre son oeil gauche.)</rdg>
             </app>
-            <milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff">
-               <lem wit="#F">Très&tiret;bien : nous nommons cela un</lem>
-               <rdg wit="#C2">Nous appelons cela un</rdg>
-            </app>
+            paupière <app corresp="#add-words #punct">
+            <lem wit="#F">&susp;</lem>
+            <rdg wit="#C2">de celui&tiret;là&susp; (Elle montre son oeil gauche.)</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#word-diff">
+            <lem wit="#F">Très&tiret;bien : nous nommons cela un</lem>
+            <rdg wit="#C2">Nous appelons cela un</rdg>
+         </app>
             <hi rend="i">trismus</hi>
             <app corresp="#punct #attenuation">
                <lem wit="#F">.</lem>
                <rdg wit="#C2">!&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/>
-            <app corresp="#add-words">
-               <lem wit="#F"><persName ref="#doc">Le &doc;</persName> explique pendant un quart
-                  d'heure, en employant les termes les plus scientifiques, la nature du <hi rend="i"
-                     >trismus</hi>, d'où il résulte que le <hi rend="i">trismus</hi> est le <hi
-                     rend="i">trismus</hi> ; mais il fait observer avec la plus grande modestie que,
-                  si la science sait que le <hi rend="i">trismus</hi> est le <hi rend="i"
-                     >trismus</hi>, elle ignore entièrement la cause de ce mouvement nerveux, qui
-                  va, vient, passe, reparaît&susp; Et, dit&tiret;il, nous avons reconnu que c'était
-                  purement nerveux. <milestone unit="tei:p"/><lb/> &tiret; Est&tiret;ce bien </lem>
-               <rdg wit="#C2">&tiret; Ah ! cela se nomme <hi rend="i">trismus</hi> !&susp;
-                  Est&tiret;ce</rdg>
-            </app> dangereux <app corresp="#punct #add-words #parole #persname-diff">
-               <lem wit="#F"> ? demanda <persName ref="#femme">Caroline</persName> inquiète.</lem>
-               <rdg wit="#C2"> !</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Nullement. <app corresp="#add-words">
-               <rdg wit="#C2"><milestone unit="tei:p"/><lb/> &tiret; Je tousse. Une petite toux
-                  sèche&susp; J'ai des inquiétudes dans les jambes&susp; Je suis sûre d'avoir
-                  anévrisme au coeur&susp; <milestone unit="tei:p"/><lb/></rdg>
-            </app> Comment vous couchez&tiret;vous <app corresp="#punct">
-               <lem wit="#F"> ?</lem>
-               <rdg wit="#C2"> ?&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; En rond<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C2">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Bien, sur quel côté ?<milestone
-               unit="tei:p"/><lb/> &tiret; <app corresp="#add-words #expressif">
-               <lem wit="#F">À</lem>
-               <rdg wit="#C2">Oh ! toujours à</rdg>
-            </app> gauche<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C2">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Bien<app corresp="#add-words">
-               <lem wit="#F"> ; combien</lem>
-               <rdg wit="#C2">&susp; Bon. Combien </rdg>
-            </app> avez&tiret;vous de matelas dans votre lit <app corresp="#punct">
-               <lem wit="#F">?</lem>
-               <rdg wit="#C2">?&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Trois<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C2">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#word-diff">
-               <lem wit="#F">Bien ; y a&tiret;t&tiret;il</lem>
-               <rdg wit="#C2">Avez&tiret;vous</rdg>
-            </app> un sommier ?<milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Mais, oui&susp;<milestone unit="tei:p"/><lb/> &tiret; Quelle est la
-                  substance du sommier ?<milestone unit="tei:p"/><lb/> &tiret; Le</lem>
-               <rdg wit="#C2">De</rdg>
-            </app> crin<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C2">&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; Bon<app corresp="#punct">
-               <lem wit="#F">.</lem>
-               <rdg wit="#C2">&susp;</rdg>
-            </app> Marchez un peu devant moi<app corresp="#add-words #persname-diff #particulier">
-               <lem wit="#F">!&susp; Oh ! mais naturellement, et comme si nous ne vous regardions
-                     pas&susp;<milestone unit="tei:p"/><lb/>
-                  <persName ref="#femme">Caroline</persName></lem>
-               <rdg wit="#C2">? (Elle</rdg>
-            </app> marche <app corresp="#word-diff">
-               <lem wit="#F">à la <persName ref="#doc">Elssler</persName>, en agitant <hi rend="i"
-                     >sa tournure</hi> de la façon la plus andalouse.<milestone unit="tei:p"/><lb/>
-                  &tiret; Vous ne sentez pas un peu de pesanteur dans les genoux ?<milestone
-                     unit="tei:p"/><lb/> &tiret; Mais&susp; non&susp; (Elle revient à sa place.) Mon
-                  Dieu, quand on s'examine&susp; il me semble maintenant que oui&susp;<milestone
-                     unit="tei:p"/><lb/> &tiret; Bon. Vous êtes restée à la maison depuis quelque
-                  temps ?<milestone unit="tei:p"/><lb/> &tiret; Oh ! oui, <persName ref="#mari"
-                     >monsieur</persName>, beaucoup trop&susp; et seule.<milestone unit="tei:p"
-                  /><lb/> &tiret; Bien, c'est cela. Comment vous coiffez&tiret;vous pour</lem>
-               <rdg wit="#C2">.)<milestone unit="tei:p"/><lb/> &tiret; Ne sentez&tiret;vous pas des
-                  pesanteurs dans la synovie de vos rotules ?&susp;<milestone unit="tei:p"/><lb/>
-                  &tiret; Qu'est&tiret;ce que c'est, <persName ref="#doc">docteur</persName>, que
-                  cette synovie ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Ce n'est rien. Tenez,
-                  c'est une espèce de liqueur, à l'aide de laquelle se meuvent les cartilages que
-                  vous avez au genou, là&susp;<milestone unit="tei:p"/><lb/> &tiret; Non, <persName
-                     ref="#doc">docteur</persName>, je n'y sens rien. Êtes&tiret;vous heureux de
-                  savoir toutes ces choses&tiret;là !&susp; Est&tiret;ce que si j'y avais des
-                  pesanteurs ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Que mettez&tiret;vous sur
-                  votre tête pendant </rdg>
-            </app> la nuit ?<milestone unit="tei:p"/><lb/> &tiret; Un bonnet<app
-               corresp="#add-words #text-segmentation">
-               <lem wit="#F"> brodé, puis</lem>
-               <rdg wit="#C2">. <milestone unit="tei:p"/><lb/>&tiret; Est&tiret;il en toile ou en
-                     coton?&susp;<milestone unit="tei:p"/><lb/> &tiret; En batiste&susp; Mais je
-                  mets</rdg>
-            </app> quelquefois par&tiret;dessus un foulard&susp;<milestone unit="tei:p"/><lb/>
-            &tiret; <app corresp="#add-words">
-               <lem wit="#F">Vous n'y sentez pas des chaleurs&susp; une petite sueur
-                     ?&susp;<milestone unit="tei:p"/><lb/> &tiret; En dormant, cela me semble
-                     difficile.<milestone unit="tei:p"/><lb/> &tiret; Vous pourriez trouver votre
-                  linge humide à l'endroit du front en vous réveillant ?<milestone unit="tei:p"
-                  /><lb/> &tiret; Quelquefois.<milestone unit="tei:p"/><lb/> &tiret; Bon.</lem>
-            </app>Donnez&tiret;moi votre main<app corresp="#punct">
+            </app>
+            <milestone unit="tei:p"/>
+            <lb/><app corresp="#add-words">
+            <lem wit="#F"><persName ref="#doc">Le &doc;</persName> explique pendant un quart
+               d'heure, en employant les termes les plus scientifiques, la nature du <hi rend="i">trismus</hi>,
+               d'où il résulte que le <hi rend="i">trismus</hi> est le <hi rend="i">trismus</hi> ; mais il fait
+               observer avec la plus grande modestie que, si la science sait que le <hi rend="i">trismus</hi> est
+               le <hi rend="i">trismus</hi>, elle ignore entièrement la cause de ce mouvement nerveux, qui
+               va, vient, passe, reparaît&susp; Et, dit&tiret;il, nous avons reconnu que c'était
+               purement nerveux.
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Est&tiret;ce bien </lem>
+            <rdg wit="#C2">&tiret; Ah ! cela se nomme <hi rend="i">trismus</hi> !&susp;
+               Est&tiret;ce</rdg>
+         </app>
+            dangereux <app corresp="#punct #add-words #parole #persname-diff">
+            <lem wit="#F"> ? demanda <persName ref="#femme">Caroline</persName> inquiète.</lem>
+            <rdg wit="#C2"> !</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Nullement. <app corresp="#add-words">
+            <rdg wit="#C2">
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Je tousse. Une petite toux
+               sèche&susp; J'ai des inquiétudes dans les jambes&susp; Je suis sûre d'avoir
+               anévrisme au coeur&susp;
+               <milestone unit="tei:p"/>
+               <lb/></rdg>
+         </app>
+            Comment vous couchez&tiret;vous <app corresp="#punct">
+            <lem wit="#F"> ?</lem>
+            <rdg wit="#C2"> ?&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; En rond<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C2">&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Bien, sur quel côté ?
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words #expressif">
+            <lem wit="#F">À</lem>
+            <rdg wit="#C2">Oh ! toujours à</rdg>
+         </app>
+            gauche<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C2">&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Bien<app corresp="#add-words"> <lem wit="#F"> ; combien</lem><rdg wit="#C2">&susp; Bon. Combien </rdg>
+         </app>
+            avez&tiret;vous de matelas dans votre lit
+            <app corresp="#punct"><lem wit="#F">?</lem><rdg wit="#C2">?&susp;</rdg></app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Trois<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C2">&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#word-diff">
+            <lem wit="#F">Bien ; y a&tiret;t&tiret;il</lem>
+            <rdg wit="#C2">Avez&tiret;vous</rdg>
+         </app>
+            un sommier ?
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words">
+            <lem wit="#F">Mais, oui&susp;
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Quelle est la
+               substance du sommier ?
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Le</lem>
+            <rdg wit="#C2">De</rdg>
+         </app>
+            crin
+            <app corresp="#punct">
                <lem wit="#F">.</lem>
                <rdg wit="#C2">&susp;</rdg>
             </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Bon<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C2">&susp;</rdg>
+         </app>
+            Marchez un peu devant moi<app corresp="#add-words #persname-diff #particulier">
+            <lem wit="#F">!&susp; Oh ! mais naturellement, et comme si nous ne vous regardions pas&susp;
+               <milestone unit="tei:p"/>
+               <lb/><persName ref="#femme">Caroline</persName></lem>
+            <rdg wit="#C2">? (Elle</rdg>
+         </app>
+            marche
+            <app corresp="#word-diff">
+               <lem wit="#F">
+                  à la <persName ref="#doc">Elssler</persName>, en agitant <hi rend="i">sa tournure</hi> de la façon la
+                  plus andalouse.
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Vous ne sentez pas un peu de pesanteur dans les genoux ?
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Mais&susp; non&susp; (Elle revient à sa place.) Mon Dieu, quand on s'examine&susp; il me
+                  semble maintenant que oui&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Bon. Vous êtes restée à la maison depuis quelque temps ?
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Oh ! oui, <persName ref="#mari">monsieur</persName>,
+                  beaucoup trop&susp; et seule.
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Bien, c'est cela. Comment vous coiffez&tiret;vous pour
+               </lem>
+               <rdg wit="#C2">.)
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Ne sentez&tiret;vous pas des pesanteurs dans la synovie de vos rotules ?&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Qu'est&tiret;ce que c'est, <persName ref="#doc">docteur</persName>, que cette synovie ?&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Ce n'est rien. Tenez, c'est une espèce de liqueur, à l'aide de laquelle se meuvent les cartilages que vous avez au genou, là&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Non, <persName ref="#doc">docteur</persName>, je n'y sens rien. Êtes&tiret;vous heureux de
+                  savoir toutes ces choses&tiret;là !&susp; Est&tiret;ce que si j'y avais des pesanteurs ?&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Que mettez&tiret;vous sur votre tête pendant
+               </rdg>
+            </app>
+            la nuit ?
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; Un bonnet
+            <app corresp="#add-words #text-segmentation">
+               <lem wit="#F"> brodé, puis</lem>
+               <rdg wit="#C2">.
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; Est&tiret;il en toile ou en coton?&susp;
+                  <milestone unit="tei:p"/>
+                  <lb/>&tiret; En batiste&susp; Mais je mets</rdg>
+            </app>
+            quelquefois par&tiret;dessus un foulard&susp;
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words">
+            <lem wit="#F">Vous n'y sentez pas des chaleurs&susp; une petite sueur ?&susp;
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; En dormant, cela me semble difficile.
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Vous pourriez trouver votre linge humide à l'endroit du front en vous réveillant ?
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Quelquefois.
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Bon.</lem>
+         </app>
+            Donnez&tiret;moi votre main<app corresp="#punct">
+            <lem wit="#F">.</lem>
+            <rdg wit="#C2">&susp;</rdg>
+         </app>
             <app corresp="#persname-diff #punct #text-segmentation">
-               <lem wit="#F"><milestone unit="tei:p"/><lb/><persName ref="#doc">Le &doc;</persName>
+               <lem wit="#F">
+                  <milestone unit="tei:p"/>
+                  <lb/><persName ref="#doc">Le &doc;</persName>
                   tire sa montre.</lem>
                <rdg wit="#C2">(Il tire sa montre.)</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Vous</lem>
-               <rdg wit="#C2">Ah! &doc;, je n'aime pas que vous comptiez les minutes&susp; ça me
-                  fait peur&susp; Ah ! vous</rdg>
-            </app> ai&tiret;je dit que j'avais des vertiges <app corresp="#punct">
-               <lem wit="#F"> ? dit &caro;.</lem>
-               <rdg wit="#C2"> ?&susp;</rdg>
-            </app><milestone unit="tei:p"/><lb/> &tiret; <app corresp="#add-words">
-               <lem wit="#F">Chut !&susp; fait <persName ref="#doc">le &doc;</persName> qui compte
-                  les pulsations. Est&tiret;ce le soir ?&susp;<milestone unit="tei:p"/><lb/> &tiret;
-                  Non, le matin</lem>
-               <rdg wit="#C2">Non.<milestone unit="tei:p"/><lb/> &tiret; Eh bien, j'ai manqué de
-                  tomber hier à la renverse&susp; Était&tiret;ce le matin ?&susp; Non, c'était le
-                  soir&susp; Mais était&tiret;ce bien le soir ?&susp; Oui. Oui, c'était le
-                     soir.<milestone unit="tei:p"/><lb/> &tiret; Bon&susp;</rdg>
             </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words">
+            <lem wit="#F">Vous</lem>
+            <rdg wit="#C2">Ah! &doc;, je n'aime pas que vous comptiez les minutes&susp; ça me
+               fait peur&susp; Ah ! vous</rdg>
+         </app>
+            ai&tiret;je dit que j'avais des vertiges <app corresp="#punct">
+            <lem wit="#F"> ? dit &caro;.</lem>
+            <rdg wit="#C2"> ?&susp;</rdg>
+         </app>
+            <milestone unit="tei:p"/>
+            <lb/>&tiret; <app corresp="#add-words">
+            <lem wit="#F">Chut !&susp; fait <persName ref="#doc">le &doc;</persName> qui compte
+               les pulsations. Est&tiret;ce le soir ?&susp;
+               <milestone unit="tei:p"/>
+               <lb/>&tiret;
+               Non, le matin</lem>
+            <rdg wit="#C2">Non.
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Eh bien, j'ai manqué de
+               tomber hier à la renverse&susp; Était&tiret;ce le matin ?&susp; Non, c'était le
+               soir&susp; Mais était&tiret;ce bien le soir ?&susp; Oui. Oui, c'était le
+               soir.
+               <milestone unit="tei:p"/>
+               <lb/>&tiret; Bon&susp;</rdg>
+         </app>
          </ab>
       </body>
    </text>
