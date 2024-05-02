@@ -6,8 +6,16 @@
     <!ENTITY fe "femme">
     <!ENTITY ho "homme">
     <!ENTITY doc "docteur">
-    <!ENTITY tiret "-">
+    <!ENTITY CH '<bibl rend="italic">La Comédie Humaine</bibl>'>
 ]>
+
+<!--
+COMMENTAIRE
+Excellent travail, modélisation adaptée au texte et règles d'encodage bien justifiés
+Documentation très agréable à lire avec une bonne explication des exploitations possibles
+Pourquoi faire des entités sur un tiret classique ou trois points de suspension (et pas "—" ou "…") ?
+Quelques découpages d'apparat critique parfois questionnables
+-->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
 
@@ -15,8 +23,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="short">odd balzac</title>
-                <title>ODD de l'édition critique numérique des extraits de la <hi rend="italic">Comédie Humaine</hi>
-                    en XML TEI</title>
+                <title>ODD de l'édition critique numérique des extraits de la &CH; en XML TEI</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -42,14 +49,13 @@
     <text>
         <body>
             <div1>
-                <head>Guide d'encodage de l'édition critique numérique des extraits de la <hi rend="italic">Comédie
-                    Humaine</hi> de Balzac en XML TEI : trois passages issus de la dernière version vérifiée par
-                    l'auteur comparés à leurs antécédents publiés dans la presse.</head>
+                <head>Guide d'encodage de l'édition critique numérique des extraits de la &CH; de Balzac en XML TEI :
+                    trois passages issus de la dernière version vérifiée par l'auteur comparés à leurs antécédents
+                    publiés dans la presse.</head>
                 <div2>
                     <head>Présentation du projet</head>
-                    <p>Ce projet est une proposition d'encodage numérique d'extraits de la <hi rend="italic"> Comédie
-                        Humaine</hi> de Balzac à l'aide de la <hi rend="italic"><ref target="https://www.tei-c.org">
-                        Text Encoding Initiative</ref></hi>.</p>
+                    <p>Ce projet est une proposition d'encodage numérique d'extraits de la &CH; de Balzac à l'aide de la
+                        <foreign xml:lang="en"><ref target="https://www.tei-c.org">Text Encoding Initiative</ref></foreign>.</p>
                     <p>Cette documentation a pour but d'expliquer comment a été encodée en XML-TEI cette édition critique
                         génétique, ainsi que les objectifs de ce schéma. Cette ODD présente des principes d'encodage dans
                         le but de produire un document exploitable scientifiquement.</p>
@@ -78,9 +84,8 @@
                         la liste de vocabulaire pour une catégorisation plus précise des variantes.</p>
                     <p>Le corpus se compose de :
                         <list>
-                            <item>trois extraits de la dernière version des romans de la <hi rend="italic">Comédie Humaine</hi>
-                                qui soit vérifiée par l'auteur, encodée en XML-TEI par le projet eBalzac et issue d'une
-                                rétroconversion.</item>
+                            <item>trois extraits de la dernière version des romans de la &CH; qui soit vérifiée par l'auteur,
+                                encodée en XML-TEI par le projet eBalzac et issue d'une rétroconversion.</item>
                             <item> trois témoins qui se présentent comme des ébauches de ses passages, issus des journaux
                                 <hi rend="italic">Le Constitutionnel</hi> et <hi rend="italic">La Revue des deux Mondes</hi>.</item>
                         </list>
@@ -93,14 +98,14 @@
                         de l'œuvre balzacienne dont on aurait trouvé des antécédents dans des textes non littéraires du
                         XIXe siècle. On identifie notamment des traités de médecine comme source et inspiration de Balzac.
                         Œuvre monde qui multiplie les connections et les liens (en son sein et vers son extérieur), la
-                        <hi rend="italic">Comédie Humaine</hi> se présente comme un texte privilégié pour l'édition
-                        numérique et comme un hypertexte avant la lettre. Cette édition, et celles qui pourront suivre
-                        éventuellement, ont pour objectif d'articuler le monde médiatique, le monde scientifique et le
-                        monde littéraire, matérialisant l'intertextualité foisonnante inhérente au texte.</p></div2>
+                        &CH; se présente comme un texte privilégié pour l'édition numérique et comme un hypertexte avant
+                        la lettre. Cette édition, et celles qui pourront suivre éventuellement, ont pour objectif
+                        d'articuler le monde médiatique, le monde scientifique et le monde littéraire, matérialisant
+                        l'intertextualité foisonnante inhérente au texte.</p></div2>
                 <div2>
                     <head>Présentation du corpus</head>
                     <div3>
-                        <head>Les extraits de la <hi rend="italic">Comédie Humaine</hi></head>
+                        <head>Les extraits de la &CH;</head>
 
                         <list>
                             <item>La Physiologie du Petit Mercier, préambule de l'histoire de <bibl xml:id="fyo">
@@ -120,37 +125,36 @@
                         <p>Le texte des trois témoins du Furne Corrigé a été établi et encodé en XML-TEI par
                             <ref target="https://www.ebalzac.com/">eBalzac</ref>. Ce site est issu d'un projet
                             inter-universitaire dirigé par Jean-Gabriel Ganascia, Andrea Del Lungo et Pierre Glaudes.</p>
-                        <p>eBalzac propose une nouvelle édition de <hi rend="italic">Comédie Humaine</hi> dans la version
-                            du « Furne corrigé ». Conforme à l’orthographe d’époque, respectueuse du dernier classement
-                            des œuvres voulu par Balzac, cette édition électronique corrige plusieurs erreurs des éditions
-                            « papier » du XXe siècle. Elle a pour ambition d’être aussi fidèle que possible au fac-similé
-                            de l’exemplaire de Balzac. Les corrections apportées par l'auteur ont pour cela été rajoutées
-                            manuellement à partir de l'édition de la <hi rend="italic">Comédie Humaine</hi> des
-                            <hi rend="italic">Bibliophiles de l'originale</hi> (1965-1976) : fac-similé de l'exemplaire
-                            corrigé par Balzac de l'édition Furne-Hetzel de 1842-1846 avec transcription des corrections.</p>
+                        <p>eBalzac propose une nouvelle édition de &CH; dans la version du « Furne corrigé ». Conforme à
+                            l’orthographe d’époque, respectueuse du dernier classement des œuvres voulu par Balzac, cette
+                            édition électronique corrige plusieurs erreurs des éditions « papier » du XXe siècle.
+                            Elle a pour ambition d’être aussi fidèle que possible au fac-similé de l’exemplaire de Balzac.
+                            Les corrections apportées par l'auteur ont pour cela été rajoutées manuellement à partir de
+                            l'édition de la &CH; des <hi rend="italic">Bibliophiles de l'originale</hi> (1965-1976) :
+                            fac-similé de l'exemplaire corrigé par Balzac de l'édition Furne-Hetzel de 1842-1846 avec
+                            transcription des corrections.</p>
                         <p>Pour ce projet, <ref target="https://github.com/ebalzac/FC">l'édition XML-TEI établie par eBalzac</ref>
                             a été rétroconvertie en .txt grâce à un <ref target="https://github.com/anisrfd/Convert-XML-to-PandasDataFrame-CSV-TextFile/blob/master/XMLtoTXT.ipynb">script Python</ref>
                             puis convertis en UTF-8 en ligne de commande.</p>
                     </div3>
                     <div3>
                         <head>Le Furne Corrigé</head>
-                        <p>L’ensemble de textes que l’on connaît aujourd’hui sous le nom de <hi rend="italic">Comédie
-                            Humaine</hi> a été rédigé et élaboré progressivement par Balzac de 1829 à 1850. Le titre du
-                            cycle balzacien fait son apparition en 1842, lors de la première publication de l’ensemble
-                            en 17 volumes par les éditeurs Furne, Dubochet, Hetzel et Paulin jusqu'en 1848. L'auteur a
-                            significativement annoté et corrigé son exemplaire personnel ; il est connu sous le nom de
-                            <hi rend="italic">Furne corrigé</hi>. Cette version n'a pas été publiée du vivant de Balzac
-                            et présente un nouvel agencement du cycle ainsi que de nouveaux titres pour plusieurs romans.</p>
-                        <p>Il faut ajouter à ces volumes des textes qui appartiennent de fait à La <hi rend="italic">Comédie
-                            humaine</hi> et qui n’ont pas pu être publiés dans l’édition originale : <hi rend="italic">La
-                            Dernière Incarnation de Vautrin</hi>, dernière partie de <hi rend="italic">Splendeurs et
-                            misères des courtisanes</hi> ; <hi rend="italic">L’Initié</hi>, dernière partie de
-                            <hi rend="italic">L’Envers de l’histoire contemporaine</hi> ; <hi rend="italic">Les Paysans</hi> ;
-                            <hi rend="italic">Le Député d’Arcis</hi> ; <hi rend="italic">Les Petits Bourgeois</hi> ;
-                            <hi rend="italic">Petites misères de la vie conjugale</hi> parues chez Chlendowski ;
-                            <hi rend="bold">Pathologie de la vie sociale</hi> qui comprend la <hi rend="italic">Théorie
-                            de la démarche</hi>, le <hi rend="italic">Traité de la vie élégante</hi> et le
-                            <hi rend="italic">Traité des excitants modernes</hi>.</p>
+                        <p>L’ensemble de textes que l’on connaît aujourd’hui sous le nom de &CH; a été rédigé et élaboré
+                            progressivement par Balzac de 1829 à 1850. Le titre du cycle balzacien fait son apparition
+                            en 1842, lors de la première publication de l’ensemble en 17 volumes par les éditeurs Furne,
+                            Dubochet, Hetzel et Paulin jusqu'en 1848. L'auteur a significativement annoté et corrigé son
+                            exemplaire personnel ; il est connu sous le nom de <hi rend="italic">Furne corrigé</hi>.
+                            Cette version n'a pas été publiée du vivant de Balzac et présente un nouvel agencement du
+                            cycle ainsi que de nouveaux titres pour plusieurs romans.</p>
+                        <p>Il faut ajouter à ces volumes des textes qui appartiennent de fait à La &CH; et qui n’ont pas
+                            pu être publiés dans l’édition originale : <hi rend="italic">La Dernière Incarnation de Vautrin</hi>,
+                            dernière partie de <hi rend="italic">Splendeurs et misères des courtisanes</hi> ;
+                            <hi rend="italic">L’Initié</hi>, dernière partie de <hi rend="italic">L’Envers de l’histoire
+                            contemporaine</hi> ; <hi rend="italic">Les Paysans</hi> ; <hi rend="italic">Le Député d’Arcis</hi> ;
+                            <hi rend="italic">Les Petits Bourgeois</hi> ; <hi rend="italic">Petites misères de la vie conjugale</hi>
+                            parues chez Chlendowski ; <hi rend="bold">Pathologie de la vie sociale</hi> qui comprend la
+                            <hi rend="italic">Théorie de la démarche</hi>, le <hi rend="italic">Traité de la vie élégante</hi>
+                            et le <hi rend="italic">Traité des excitants modernes</hi>.</p>
                         <p>Naturellement, c'est <hi rend="italic">Furne Corrigé</hi> qui fait référence au sein du corpus,
                             et il est donc encodé dans l'élément <gi>lem</gi>.</p>
                     </div3>
@@ -178,10 +182,10 @@
                         <p>Enfin, cette édition électronique pourrait à long terme permettre de recomposer une bibliothèque
                             virtuelle qui comprend l’ensemble des textes littéraires et non littéraires (textes scientifiques
                             et médicaux) dont on a repéré la trace dans l’œuvre de Balzac. Par son ampleur, mais aussi par
-                            le caractère hétérogène de ses sources, <hi rend="italic">La Comédie humaine</hi> constitue
-                            un objet idéal pour ce type d’édition expérimentale qui pourra prendre valeur de paradigme.
-                            En effet, le modèle ainsi constitué vise à être opératoire pour d’autres auteurs, de Chateaubriand
-                            à Apollinaire, chez qui l’usage d’une intertextualité abondante et éclectique est avéré.</p>
+                            le caractère hétérogène de ses sources, &CH; constitue un objet idéal pour ce type d’édition
+                            expérimentale qui pourra prendre valeur de paradigme. En effet, le modèle ainsi constitué
+                            vise à être opératoire pour d’autres auteurs, de Chateaubriand à Apollinaire, chez qui l’usage
+                            d’une intertextualité abondante et éclectique est avéré.</p>
                     </div3>
                 </div2>
                 <div2>
@@ -212,9 +216,9 @@
                                 <head>Les éléments <hi rend="italic">titleStmt</hi> et <hi rend="italic">publicationStmt</hi></head>
                                 <p><gi>titleStmt</gi> donne :
                                     <list>
-                                        <item>le titre  la présente édition</item>
+                                        <item>le titre de la présente édition</item>
                                         <item>des renseignements sur les documents sur lesquels se basent cette édition
-                                            (c'est-à-dire des extraits de la <hi rend="italic">Comédie Humaine</hi> de Balzac)</item>
+                                            (c'est-à-dire des extraits de la &CH; de Balzac)</item>
                                         <item>des renseignements sur la présente édition numérique : titre et nature
                                             (édition critique et génétique, extraits choisis) le contexte éditorial, ses
                                             responsables ainsi que les institutions partenaires, au sein de plusieurs
@@ -233,7 +237,7 @@
                                 <p>Comme le document encodé n'est pas une nouvelle édition du document source, mais une
                                     proposition éditoriale à part entière qui retrace la génétique de ce dit-document
                                     source, il n'est pas nécessaire de donner les informations de responsabilité dans un
-                                    <gi>editionStmt</gi>, elle peuvent se situer au niveau du <gi>titleStmt</gi>.</p>
+                                    <gi>editionStmt</gi>, elles peuvent se situer au niveau du <gi>titleStmt</gi>.</p>
                                 <p>Le <gi>publicationStmt</gi> fournit les informations touchant à la publication et à
                                     la diffusion du document. L'élément <gi>publisher</gi> se rapporte au contexte
                                     institutionnel de la publication. Les balises <gi>pubPlace</gi> et <gi>date</gi>
@@ -250,7 +254,7 @@
                                 <p>La déclaration d'un identifiant, grâce à l'attribut <att>xml:id</att> de l'élément
                                     <gi>witness</gi>, permet de se référer aux témoins encodés en couples.</p>
                                 <p>Le premier élément <gi>biblFull</gi> contient les informations relatives à l'édition
-                                    de la <hi rend="italic">Comédie Humaine</hi> de eBalzac rétroconvertie dans ce travail.</p>
+                                    de la &CH; de eBalzac rétroconvertie dans ce travail.</p>
                                 <p>L'intérêt du <gi>biblFull</gi> est d'autoriser la description d'une référence
                                     bibliographique à l'aide de tous les composants du fichier TEI (<gi>editionStmt</gi>
                                     <gi>extent</gi> <gi>fileDesc</gi> <gi>notesStmt</gi> <gi>profileDesc</gi>
@@ -271,11 +275,11 @@
                                                 <surname>Honoré de</surname>
                                             </persName>
                                         </author>
-                                        <publisher>Furne,rue Saint&tiret;André&tiret;des&tiret;Arts, 55 ; J.&tiret;J.
+                                        <publisher>Furne, rue Saint-André-des-Arts, 55 ; J.-J.
                                             Dubochet et cie, rue de Seine, 33 ; J. Hetzel, rue de Seine, 33.</publisher>
                                         <pubPlace>Paris</pubPlace>
                                         <date>1843</date>
-                                        <biblScope unit="page">239&tiret;240</biblScope>
+                                        <biblScope unit="page">239-240</biblScope>
                                     </bibl>
                                 </egXML>
                                 <p>Les <gi>title</gi> vont contenir les titres, dont le niveau est caractérisé par les
@@ -306,14 +310,15 @@
                                         <imprint>
                                             <date when="1830-11-11">11 novembre 1830</date>
                                         </imprint>
-                                        <biblScope unit="page">9&tiret;11</biblScope>
+                                        <biblScope unit="page">9-11</biblScope>
                                         <idno type="ark">ark:/12148/bpt6k10488349</idno>
                                         <ptr type="catBnf" target="https://catalogue.bnf.fr/ark:/12148/cb344523348"/>
                                     </monogr>
                                 </egXML>
 
                             </div5></div4>
-                        <div4> <head> Les références extérieures</head>
+                        <div4>
+                            <head>Les références extérieures</head>
                             <p>Une attention particulière aura été portée aux liens vers des notices d'autorité extérieures
                                 et vers la numérisation des documents sources. </p>
                             <p>Dans un souci de précision, il a été choisi de différencier la source physique du document
@@ -361,10 +366,10 @@
                             <item><gi>particDesc</gi></item>
                         </list>
                             <div5><head>Les éléments <hi rend="italic">creation</hi> et <hi rend="italic">abstract</hi> :</head>
-                                <p>Le <gi>creation</gi> contient des informations relatives à la genèse de la <hi rend="italic">Comédie Humaine</hi>.</p>
+                                <p>Le <gi>creation</gi> contient des informations relatives à la genèse de la &CH;.</p>
                                 <p>L'élément <gi>abstract</gi> spécifie, en prose, l'intérêt de la présente édition au
-                                    vu de la génétique de l'œuvre balzacienne. </p></div5>
-                            <div5> <head> Le <hi rend="italic">particDesc</hi> :</head>
+                                    vu de la génétique de l'œuvre balzacienne.</p></div5>
+                            <div5><head> Le <hi rend="italic">particDesc</hi> :</head>
                                 <p>Le <gi>particDesc</gi> contient des informations sur les personnages apparaissant dans
                                     l'encodage. Il a deux balises filles :
                                     <list>
@@ -398,7 +403,7 @@
                                                             <note source="wikipedia">François Rabelais est également connu
                                                                 sous deux anagrammes de son nom : Alcofribas Nasier ou bien
                                                                 Serafin Calobarsy. Il est un écrivain français humaniste
-                                                                de la Renaissance (1483 ou 1494&tiret;1553)</note>
+                                                                de la Renaissance (1483 ou 1494-1553)</note>
                                                         </person>
                                                     </egXML>
                                                     L'alignement se fera graĉe à un attribut <att>type</att> prenant comme
@@ -477,17 +482,16 @@
                                     </place>
                                 </egXML>
                             </div5>
-                            <div5><head>Intérêt génétique et critique de la présence de ces notices de lieux et de personnages : </head>
+                            <div5><head>Intérêt génétique et critique de la présence de ces notices de lieux et de personnages :</head>
                                 <p>Les notices du <gi>particDesc</gi> et du <gi>settingDesc</gi> permettent de relier les
                                     personnages et les lieux cités dans les textes avec le niveau supérieur de l'œuvre,
-                                    <bibl><hi rend="italique">La Comédie Humaine</hi></bibl>, et ce, afin d'observer la
-                                    création du réseau complexe des protagonistes et des intrigues revenant d'un roman à
-                                    l'autre. Elles témoignent des processus de construction narrative de Balzac, soulignant
-                                    la richesse de son univers littéraire. Elles permettent en outre de constater la manière
-                                    dont Balzac puise son inspiration dans le réel, multipliant les références à des lieux
-                                    où des personnes ayant réellement existé. Ces notices ne servent donc pas seulement
-                                    à la sémantisation de l'encodage, mais fonctionnent aussi comme des clés d'entrée dans
-                                    l'intrigue balzacienne.</p>
+                                    &CH;, et ce, afin d'observer la création du réseau complexe des protagonistes et des
+                                    intrigues revenant d'un roman à l'autre. Elles témoignent des processus de construction
+                                    narrative de Balzac, soulignant la richesse de son univers littéraire. Elles permettent
+                                    en outre de constater la manière dont Balzac puise son inspiration dans le réel, multipliant
+                                    les références à des lieux où des personnes ayant réellement existé. Ces notices ne
+                                    servent donc pas seulement à la sémantisation de l'encodage, mais fonctionnent aussi
+                                    comme des clés d'entrée dans l'intrigue balzacienne.</p>
                             </div5>
                         </div4>
                     </div3>
@@ -530,13 +534,13 @@
                         <p>Le processus créatif de Balzac est singulier car marqué par une récurrence constante dans la
                             reprise et la correction de ses textes à travers différentes éditions. Sa création s'inscrit
                             dans une dynamique génétique où l'imprimé ne constitue pas l'étape ultime de l'écriture. Non
-                            seulement les premières épreuves sont largement annotées, mais l'auteur relis et corrige aussi
+                            seulement les premières épreuves sont largement annotées, mais l'auteur relit et corrige aussi
                             son texte en vue de l'édition qui suivra. Même l'édition monumentale Furne est retravaillée
                             sur l'exemplaire personnel de l'auteur, et il envisage de réorganiser l'ordre des romans,
                             entreprise stoppée par son décès. Au fil des éditions successives, il lui arrive de revenir
-                            à un état du texte antérieur. L'histoire génétique complexe de <hi rend="italic">La Comédie Humaine</hi>
-                            déconstruit alors les illusions d'unité et de clôture de l'œuvre, elle apparaît fuyante,
-                            fragmentaire et dynamique. Néanmoins, il semble logique d'adopter le texte du
+                            à un état du texte antérieur. L'histoire génétique complexe de &CH; déconstruit alors les
+                            illusions d'unité et de clôture de l'œuvre, elle apparaît fuyante, fragmentaire et dynamique.
+                            Néanmoins, il semble logique d'adopter le texte du
                             <bibl corresp="#fc"><hi rend="italic">Furne corrigé</hi></bibl> comme version de référence.
                             Ainsi, c'est cette version qui sera encodée dans la balise <gi>lem</gi>. Les états antérieurs
                             issus des sources journalistiques sont encodés dans la balise <gi>rdg</gi>.</p>
@@ -547,7 +551,7 @@
                             <ref target="https://github.com/paulhectork/tnah2021_xsl_rendu.git">projet d'encodage similaire
                             portant sur l'édition critique des chroniques de Jean Froissard</ref>, en particulier en ce
                             qui concerne les valeurs de l'attribut <att>corresp</att>. Pour s'adapter aux besoins de cette
-                            édition et aux enjeux scientifique du projet, la liste des valeurs possibles a cependant été
+                            édition et aux enjeux scientifiques du projet, la liste des valeurs possibles a cependant été
                             élargie. En outre, les principes régissant l'alignement des témoins ont été adaptés en fonction
                             de la nature spécifique des textes. Le choix des balises demeurant pertinent, leur utilisation
                             est semblable.</p>
@@ -610,11 +614,11 @@
                                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                             <app corresp="#word-diff">
                                                 <lem wit="#F">Chut !&susp; fait <persName ref="doc">le &doc;</persName> qui compte les
-                                                    pulsations. Est&tiret;ce le soir ?&susp;<milestone unit="tei:p"/><lb/> &tiret; Non, le
+                                                    pulsations. Est-ce le soir ?&susp;<milestone unit="tei:p"/><lb/> - Non, le
                                                     matin</lem>
-                                                <rdg wit="#C2">Non.<milestone unit="tei:p"/><lb/> &tiret; Eh bien, j'ai manqué de tomber
-                                                    hier à la renverse&susp; Était&tiret;ce le matin ?&susp; Non, c'était le soir&susp; Mais était&tiret;ce
-                                                    bien le soir ?&susp; Oui. Oui, c'était le soir.<milestone unit="tei:p"/><lb/> &tiret;
+                                                <rdg wit="#C2">Non.<milestone unit="tei:p"/><lb/> - Eh bien, j'ai manqué de tomber
+                                                    hier à la renverse&susp; Était-ce le matin ?&susp; Non, c'était le soir&susp; Mais était-ce
+                                                    bien le soir ?&susp; Oui. Oui, c'était le soir.<milestone unit="tei:p"/><lb/> -
                                                     Bon&susp;</rdg>
                                             </app>
                                         </egXML>
@@ -684,7 +688,7 @@
                                                 <rdg wit="#C">A</rdg>
                                             </app> deux pas de <app corresp="#word-diff #general">
                                             <lem wit="#F">sa paroisse</lem>
-                                            <rdg wit="#C"><placeName ref="#st_sulp">Saint&tiret;Sulpice</placeName></rdg>
+                                            <rdg wit="#C"><placeName ref="#st_sulp">Saint-Sulpice</placeName></rdg>
                                         </app>, il peut, en cas d'une cérémonie importante, laisser sa place <app
                                                 corresp="#word-diff">
                                             <lem wit="#F">à un surnuméraire</lem>
@@ -716,8 +720,8 @@
                             <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                 <app corresp="#punct #text-segmentation">
                                     <lem wit="#F">.</lem>
-                                    <rdg wit="#R2M">&susp; <milestone unit="tei:p"/><lb/>&tiret;</rdg>
-                                </app> Ah çà ! reprit&tiret;il, j'espère que nous serons les vainqueurs
+                                    <rdg wit="#R2M">&susp; <milestone unit="tei:p"/><lb/>-</rdg>
+                                </app> Ah çà ! reprit-il, j'espère que nous serons les vainqueurs
                             </egXML>
                         </div4>
                     </div3>
@@ -798,7 +802,7 @@
                                 <lem wit="#F">. Voyant</lem>
                                 <rdg wit="#R2M">; et, voyant</rdg>
                             </app> ces êtres incomplets, <persName ref="#convives">un pauvre
-                            saint&tiret;simonien</persName>, assez naïf pour croire à sa doctrine, les accouplait avec
+                            saint-simonien</persName>, assez naïf pour croire à sa doctrine, les accouplait avec
                             charité, voulant sans doute les transformer en religieux de son ordre.
                         </egXML>
                         <p>quand il est mention d'un lieu, il est encodé dans la balise <gi>placeName</gi> ; comme avec
@@ -904,6 +908,7 @@
                     <moduleRef key="transcr" include="facsimile"/>
                     <moduleRef key="msdescription" include="msPart msName msItemStruct msItem msIdentifier msFrag msDesc msContents origDate origPlace"/>
                     <moduleRef key="corpus" include="particDesc settingDesc"/>
+                    <moduleRef key="analysis" include="pc"/>
 
                     <elementSpec ident="body" mode="change">
                         <classes mode="change">
@@ -915,9 +920,10 @@
                     <elementSpec ident="milestone" mode="change"> <!-- règle contraignant l'enchaînement des éléments -->
                         <constraintSpec scheme="schematron" ident="milestoneToLb" mode="add">
                             <constraint>
+                                <!-- OK -->
                                 <s:rule context="tei:TEI//tei:body//tei:*[./tei:milestone]">
                                     <s:assert test="./tei:milestone/following-sibling::tei:lb">
-                                        Un élément &lt;milestone&gt; doit être suivi par un &lt;lb/&gt;</s:assert>
+                                        Un élément &lt;milestone&gt; doit être suivi par un &lt;lb&gt;</s:assert>
                                 </s:rule>
                             </constraint>
                         </constraintSpec>
@@ -931,6 +937,7 @@
                                     ayant lieu</desc>
                                 <valList mode="replace" type="closed">
                                     <valItem ident="tei:p">
+                                        <!-- OK -->
                                         <desc>Cette valeur sert à indiquer un changement de paragraphe. On aura privilégié
                                             son utilisation à celle de &lt;p&gt;, qui complique l'alignement des témoins.</desc>
                                     </valItem>
@@ -949,15 +956,16 @@
                         <constraintSpec scheme="schematron" ident="abN" mode="add">
                             <constraint>
                                 <s:rule context="tei:TEI//tei:body//tei:ab">
+                                    <!-- OK -->
                                     <s:assert test="@n and matches(@n, '^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$')">
-                                        L'élément &lt;ab&gt; doit avoir un attribut @n
-                                        qui est un chiffre romain</s:assert>
+                                        L'élément &lt;ab&gt; doit avoir un attribut @n qui est un chiffre romain</s:assert>
                                 </s:rule>
                             </constraint>
                         </constraintSpec>
                         <constraintSpec scheme="schematron" ident="abCorresp" mode="add">
                             <constraint>
                                 <s:pattern>
+                                    <!-- OK -->
                                     <s:rule context="tei:TEI//tei:body//tei:ab/@corresp">
                                         <s:let name="corresp" value="@corresp"/>
                                         <s:let name="corresps" value="for $c in tokenize(., '\s+') return substring-after($c, '#')"/>
@@ -1016,7 +1024,8 @@
                                 </valList>
                             </attDef>
                             <attDef ident="corresp" mode="change">
-                                <desc xml:lang="fr"> L'attribut @corresp contient les références aux @xml:id des témoins encodés</desc>
+                                <desc xml:lang="fr">L'attribut @corresp contient les références aux @xml:id des témoins encodés</desc>
+                                <!-- OK -->
                                 <datatype minOccurs="1" maxOccurs="2">
                                     <dataRef key="teidata.pointer"/>
                                 </datatype>
@@ -1031,10 +1040,10 @@
                             <memberOf key="att.typed" mode="delete"/>
                         </classes>
                         <content>
+                            <!-- OK -->
                             <sequence>
                                 <elementRef key="lem" minOccurs="0" maxOccurs="1"/>
-                                <elementRef key="rdg" minOccurs="0"
-                                            maxOccurs="1"/>
+                                <elementRef key="rdg" minOccurs="0" maxOccurs="1"/>
                             </sequence>
                         </content>
 
@@ -1049,6 +1058,7 @@
                                     <dataRef name="string"/>
                                 </datatype>
                                 <valList type="closed">
+                                    <!-- OK -->
                                     <valItem ident="#orth">
                                         <desc>différence orthographique</desc>
                                     </valItem>
@@ -1121,6 +1131,7 @@
                                     <s:rule context="tei:TEI//tei:body//tei:lem">
                                         <s:let name="temoin" value="substring-after(@wit, '#')"/>
                                         <s:assert test="@wit and $temoin = //tei:TEI//tei:sourceDesc//tei:witness[1]/@xml:id">
+                                            <!-- OK -->
                                             L'attribut @wit de l'élément &lt;lem&gt; doit référencer le @xml:id du premier &lt;witness&gt; du &lt;sourceDesc&gt;
                                         </s:assert>
                                     </s:rule>
@@ -1151,6 +1162,7 @@
                             <attDef ident="change" mode="delete"/>
                             <attDef ident="corresp" mode="delete"/>
                             <attDef ident="wit" mode="change" usage="req">
+                                <!-- OK -->
                                 <desc>fait référence à l'identifiant du lem
                                     défini dans le &lt;sourceDesc&gt; du &lt;teiHeader&gt;.</desc>
                                 <datatype minOccurs="1" maxOccurs="1">
@@ -1166,6 +1178,7 @@
                         <constraintSpec scheme="schematron" ident="rdgWit" mode="add">
                             <constraint>
                                 <s:rule context="tei:TEI//tei:rdg">
+                                    <!-- OK -->
                                     <s:let name="temoin" value="substring-after(@wit, '#')"/>
                                     <s:assert test="./@wit and ./@wit[not(contains(., '#F'))] and $temoin = //tei:TEI//tei:sourceDesc//tei:witness/@xml:id">
                                         L'élément &lt;rdg&gt; doit contenir un @wit.
@@ -1177,6 +1190,7 @@
                         <attList>
                             <attDef ident="hand" mode="delete"/>
                             <attDef ident="wit" mode="change" usage="req">
+                                <!-- OK -->
                                 <desc>Contient un identifiant qui renvoie au témoin auquel correspond le texte encodé dans les balises
                                     &lt;rdg&gt;</desc>
                                 <datatype minOccurs="1" maxOccurs="unbounded">
@@ -1235,6 +1249,7 @@
                         <constraintSpec ident="witnessId" scheme="schematron" mode="add">
                             <constraint>
                                 <s:pattern>
+                                    <!-- OK -->
                                     <s:rule context="tei:TEI//tei:sourceDesc/tei:listWit/tei:witness">
                                         <s:assert test="./@xml:id"> l'élément &lt;wit&gt; doit avoir un @xml:id </s:assert>
                                         <s:assert test="matches(@xml:id, '^[A-Z0-9]{1,5}$')"> L'attribut @xml:id est une
@@ -1249,6 +1264,7 @@
                         <desc>Contient la dénomination référant à une entité nommée vivante. Il est possible de multiplier
                             les balises et de décomposer les parties de la dénomination en forename, surname, addName, honorific etc.</desc>
                         <classes mode="change">
+                            <!-- OK -->
                             <memberOf key="att.global.responsibility"/>
                             <memberOf key="att.datable" mode="delete"/>
                             <memberOf key="att.global" mode="delete"/>
@@ -1261,6 +1277,7 @@
                                     <s:rule context="tei:TEI//tei:body//tei:persName">
                                         <s:let name="ref" value="substring-after(@ref, '#')"/>
                                         <s:assert test="@ref and $ref = //tei:TEI//tei:particDesc//tei:listPerson//*/@xml:id">
+                                            <!-- OK -->
                                             la valeur @ref du &lt;persName&gt; doit être renseignée (dans le &lt;body&gt; seulement)
                                             et correspondre à un @xml:id d'un élément &lt;person&gt; déclaré dans le &lt;particDesc&gt;
                                         </s:assert>
@@ -1299,7 +1316,7 @@
                                 </datatype>
                                 <valList type="semi" mode="change">
                                     <valItem mode="add" ident="#cg">
-                                        <desc>L'encodeuse est responsable de l'alignement des dénomination dans la notice</desc>
+                                        <desc>L'encodeuse est responsable de l'alignement des dénominations dans la notice</desc>
                                     </valItem>
                                 </valList>
                             </attDef>
@@ -1324,7 +1341,7 @@
                             <attDef ident="change" mode="delete"/>
                             <attDef ident="ref" mode="change">
                                 <desc>Renvoie à l'identifiant de la notice du
-                                    pesonnage.</desc>
+                                    personnage.</desc>
                                 <datatype minOccurs="0" maxOccurs="1">
                                     <dataRef key="teidata.pointer"/>
                                 </datatype>
@@ -1346,8 +1363,9 @@
                                 <s:pattern>
                                     <s:rule context="tei:TEI//tei:body//tei:placeName">
                                         <s:let name="ref" value="substring-after(@ref, '#')"/>
+                                        <!-- OK -->
                                         <s:assert test="@ref and $ref = //tei:TEI//tei:settingDesc//tei:place/@xml:id">
-                                            la valeur @ref du &lt;placeName&gt; doit être renseignée
+                                            Dans le &lt;body&gt;, la valeur @ref du &lt;placeName&gt; doit être renseignée
                                             et correspondre à l'@xml:id d'un élément &lt;place&gt; déclaré dans le &lt;settingDesc&gt;
                                         </s:assert>
                                     </s:rule>
@@ -1442,6 +1460,7 @@
                             <constraint>
                                 <s:pattern>
                                     <s:rule context="@mutual">
+                                        <!-- OK -->
                                         <s:let name="mutual" value="@mutual"/>
                                         <s:let name="partics" value="for $p in tokenize(., '\s+') return substring-after($p, '#')"/>
                                         <s:assert test="every $mutual in $partics satisfies $mutual = //tei:TEI//tei:particDesc/tei:listPerson/tei:person/@xml:id">
@@ -1509,7 +1528,7 @@
                         </attList>
                     </elementSpec>
 
-                    <elementSpec ident="addName" mode="change"> <!-- contrainte sur les valeurs de l'@type -->
+                    <elementSpec ident="addName" mode="change"> <!-- contrainte sur les valeurs de l'attribut @type -->
                         <desc>sert à encoder un composant de nom additionnel, tel qu'un surnom, une épithète, ou un alias,
                             ou toute autre expression descriptive utilisée dans un nom.</desc>
                         <classes mode="change">
