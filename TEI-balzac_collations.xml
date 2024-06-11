@@ -733,6 +733,7 @@
                <lem wit="#F">son domicile</lem>
                <rdg wit="#C"><placeName ref="#rue_bar">la rue Barillerie</placeName></rdg>
             </app>
+
             de <placeName ref="#rue_mont">la rue Montmartre</placeName>
             <app corresp="#punct"><lem wit="#F">. Qu</lem><rdg wit="#C">; et, qu</rdg></app>'il vente
             <app corresp="#punct #syntax"><lem wit="#F">ou</lem><rdg wit="#C">,</rdg></app>
@@ -763,6 +764,7 @@
             <app corresp="#sentence-order"><lem wit="#F">jusqu'a quatre heures</lem></app>,
             sans leur donner une larme ou un sourire, les décès et les naissances
             <app corresp="#word-diff #general">
+
                <lem wit="#F">de <placeName ref="#cinq_arr">tout un</placeName></lem>
                <rdg wit="#C">du <placeName ref="#cinq_arr">5e</placeName></rdg>
             </app>
@@ -775,6 +777,7 @@
                <rdg wit="#C">de <persName ref="#jay">M.Jay</persName>, la polémique de <persName ref="#etienne">M. Etienne</persName>
                   et l'encre de <persName ref="#chaign">M. Chaignieau</persName> étaient</rdg>
             </app>
+
             naguère sur ses épaules <app corresp="#punct"><lem wit="#F">.</lem><rdg wit="#C">&susp;</rdg></app>
             Rien ne lui pèse ! Il va toujours <app corresp="#word-diff"><lem wit="#F">droit devant lui</lem><rdg wit="#C">chanteronnant</rdg></app>,
             prend son patriotisme tout fait dans le journal, ne contredit personne, crie ou
@@ -783,6 +786,7 @@
             <app corresp="#orth"><lem wit="#F">À</lem><rdg wit="#C">A</rdg></app>
             deux pas de
             <app corresp="#word-diff #general">
+
                <lem wit="#F">sa paroisse</lem>
                <rdg wit="#C"><placeName ref="#st_sulp">Saint-Sulpice</placeName></rdg>
             </app>, il peut, en cas d'une cérémonie importante, laisser sa place
